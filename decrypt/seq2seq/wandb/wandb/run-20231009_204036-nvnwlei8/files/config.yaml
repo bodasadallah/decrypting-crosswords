@@ -1,0 +1,143 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.15.12
+    framework: huggingface
+    huggingface_version: 4.34.0.dev0
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    start_time: 1696869636.151012
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      3:
+      - 13
+      - 23
+      4: 3.10.12
+      5: 0.15.12
+      6: 4.34.0.dev0
+      8:
+      - 2
+      - 5
+      13: linux-x86_64
+dev_run:
+  desc: null
+  value: false
+default_train:
+  desc: null
+  value: base
+default_val:
+  desc: null
+  value: null
+name:
+  desc: null
+  value: baseline_naive
+data_dir:
+  desc: null
+  value: ../data/clue_json/guardian/naive_random
+ckpt_path:
+  desc: null
+  value: null
+resume_train:
+  desc: null
+  value: null
+no_train:
+  desc: null
+  value: false
+test:
+  desc: null
+  value: false
+ada_constant:
+  desc: null
+  value: false
+multi_gpu:
+  desc: null
+  value: null
+project:
+  desc: null
+  value: baseline
+num_epochs:
+  desc: null
+  value: 15
+generation_beams:
+  desc: null
+  value: 5
+batch_size:
+  desc: null
+  value: 256
+model_name:
+  desc: null
+  value: t5-base
+wandb_dir:
+  desc: null
+  value: ./wandb
+do_save:
+  desc: null
+  value: true
+multitask:
+  desc: null
+  value: null
+num_train:
+  desc: null
+  value: -1
+num_val:
+  desc: null
+  value: -1
+multitask_num:
+  desc: null
+  value: -1
+num_workers:
+  desc: null
+  value: 4
+seed:
+  desc: null
+  value: 42
+val_freq:
+  desc: null
+  value: null
+early_stopping:
+  desc: null
+  value: null
+grad_accum_steps:
+  desc: null
+  value: 1
+comment:
+  desc: null
+  value: ''
+special:
+  desc: null
+  value: null
+hacky:
+  desc: null
+  value: false
+do_sample:
+  desc: null
+  value: true
+batched_dl:
+  desc: null
+  value: true
+fast_tokenizer:
+  desc: null
+  value: true
+ada:
+  desc: null
+  value: true
+add_special_tokens:
+  desc: null
+  value: false
+use_json:
+  desc: null
+  value: true

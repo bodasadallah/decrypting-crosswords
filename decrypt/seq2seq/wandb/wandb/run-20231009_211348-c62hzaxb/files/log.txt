@@ -1,0 +1,29 @@
+[10.09.23 21:13:49] train_clues.py --default_train=base --name=baseline_naive --project=baseline --wandb_dir=./wandb --data_dir=../data/clue_json/guardian/naive_random
+[10.09.23 21:13:49] Setting seed
+[10.09.23 21:13:49] Saver will track (metric, maximize?)
+ [('dev/num_match_top_sampled', True), ('epoch', True)]
+[10.09.23 21:13:49] Device: cuda:0	 GPU IDs: [0]	 machine: ws-l6-020
+
+[10.09.23 21:13:49] Starting new HTTPS connection (1): huggingface.co:443
+[10.09.23 21:13:50] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[10.09.23 21:13:50] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[10.09.23 21:13:52] https://huggingface.co:443 "HEAD /t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[10.09.23 21:13:52] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+[10.09.23 21:13:52] https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
+[10.09.23 21:13:53] Loading cluedatasetbatched of type train
+[10.09.23 21:13:53] For dataset, found readme: 
+[10.09.23 21:13:53] ['Guardian data. Split: naive_random\n', 'Total: 142380\n', 'splits: [85428, 28476, 28476]\n', '\n', "{'idx': -1,\n", " 'input': 'Suffering to grasp edge of plant (8)',\n", " 'target': 'agrimony'}\n", "{'idx': -1,\n", " 'input': 'Honour Ben and Noel with new order (7)',\n", " 'target': 'ennoble'}\n", "{'idx': -1, 'input': 'Bit the royal we love? Cheers! (4)', 'target': 'iota'}\n", '\n', '\n']
+[10.09.23 21:13:53] Dataset train loaded with size: 85428
+[10.09.23 21:13:53] Dataloader:
+	Try to convert Senegal? I've failed (10) => evangelise
+[10.09.23 21:13:54] Dataloader loaded from dataset
+[10.09.23 21:13:54] Loading cluedatasetbatched of type val
+[10.09.23 21:13:54] Dataset val loaded with size: 28476
+[10.09.23 21:13:54] Dataloader:
+	Desk register taken no further than Ozzie? (7) => rolltop
+[10.09.23 21:13:54] Dataloader loaded from dataset
+[10.09.23 21:13:54] Verifying that all metrics are OK. The outputs here are NOT from the model that was passed ifone was passed
+[10.09.23 21:13:54] Evaluating at all_step 0 (epoch=10)...
+[10.09.23 21:13:54] Primary eval; epoch: 10
+[10.09.23 21:14:04] Starting new HTTPS connection (1): o151352.ingest.sentry.io:443
+[10.09.23 21:14:04] https://o151352.ingest.sentry.io:443 "POST /api/4504800232407040/envelope/ HTTP/1.1" 200 0
