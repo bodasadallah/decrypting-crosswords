@@ -194,7 +194,8 @@ def get_args(extra_args_fn=None):
             # args.project = "cryptics_train"
             # ada_constant is False (i.e. we use relative step)
             args.generation_beams = 5
-            args.batch_size = 256       # alternatively can do 128 and accum_steps=2
+            ### CHANGED HERE ####
+            # args.batch_size = 256       # alternatively can do 128 and accum_steps=2
             # grad_accum_steps = 1
             # args.num_epochs = 15
             # default model is t5-base

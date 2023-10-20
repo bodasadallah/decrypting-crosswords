@@ -308,18 +308,27 @@ class Trainer(EnforceOverrides, metaclass=ABCMeta):
                 # todo: remove this after verifying that everything is okay
 
                 assert self.config.hacky
-                assert isinstance(k_hard_reset_warmup_iters_done, int) and k_hard_reset_warmup_iters_done > 0
+                ############################################## CHANGED HERE #######################
+                # assert isinstance(k_hard_reset_warmup_iters_done, int) and k_hard_reset_warmup_iters_done > 0
                 total_warmup_todo = self.multitask_manager.multitask_warmup
-                total_warmup_done = k_hard_reset_warmup_iters_done
+
+                # total_warmup_done = k_hard_reset_warmup_iters_done
+
+                total_warmup_done = 0
                 warmup_remaining = total_warmup_todo - total_warmup_done
-                assert warmup_remaining == self.state.warmup_remaining()
+
+                ############################################## CHANGED HERE #######################
+
+                # assert warmup_remaining == self.state.warmup_remaining()
 
                 # before fixing epoch
                 # self.state.epoch -= warmup_remaining      # will be incremented before running first epoch in run()
 
                 # trainloader is a multiloader
                 # reset its state correctly
-                self.train_loader.num_iters = k_hard_reset_warmup_iters_done
+
+                ############################################## CHANGED HERE #######################
+                # self.train_loader.num_iters = k_hard_reset_warmup_iters_done
 
                 # # josh hack 04/14/2021
                 # self.state.resume(epoch=0,                  # go back to epoch 0

@@ -1,0 +1,111 @@
+wandb: Currently logged in as: bodasadallah2. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.15.12
+wandb: Run data is saved locally in ../../wandb/wandb/run-20231011_104041-ijrukg0i
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run naive_random_Cirrucular
+wandb: ⭐️ View project at https://wandb.ai/bodasadallah2/baseline
+wandb: 🚀 View run at https://wandb.ai/bodasadallah2/baseline/runs/ijrukg0i
+WARNING:common_seq.util:Logger had handlers already set WTF
+..... CLEARING
+/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5_fast.py:158: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+Loading the tokenizer from the `special_tokens_map.json` and the `added_tokens.json` will be removed in `transformers 5`,  it is kept for forward compatibility, but it is recommended to update your `tokenizer_config.json` by uploading it again. You will see the new `added_tokens_decoder` attribute that will store the relevant information.
+Traceback (most recent call last):
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_clues.py", line 158, in <module>
+    local_trainer = ClueTrainer(wandb.config, local_rh, aux_config=aux_config)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_clues.py", line 26, in __init__
+    super().__init__(config, rh, **kwargs)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 751, in __init__
+    super().__init__(config, rh, **kwargs)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 255, in __init__
+    self.setup_model_and_device()       # populate 3 above; potentially add special tokens
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 390, in setup_model_and_device
+    self.model_to_device()
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 400, in model_to_device
+    self.model.to(self.device)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2175, in to
+    return super().to(*args, **kwargs)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1145, in to
+    return self._apply(convert)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 820, in _apply
+    param_applied = fn(param)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1143, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: 
+wandb: Run summary:
+wandb:   dev/num_match_in_sample best_in_sample
+wandb: dev/num_match_top_sampled best_top_sampled
+wandb: 
+wandb: 🚀 View run naive_random_Cirrucular at: https://wandb.ai/bodasadallah2/baseline/runs/ijrukg0i
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ../../wandb/wandb/run-20231011_104041-ijrukg0i/logs
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread IntMsgThr:
+Traceback (most recent call last):
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    self.run()
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/threading.py", line 953, in run
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 285, in check_stop_status
+    self._target(*self._args, **self._kwargs)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 299, in check_internal_messages
+    self._loop_check_status(
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 223, in _loop_check_status
+    self._loop_check_status(
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 223, in _loop_check_status
+    local_handle = request()
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 727, in deliver_stop_status
+    local_handle = request()
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 743, in deliver_internal_messages
+    return self._deliver_stop_status(status)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 459, in _deliver_stop_status
+    return self._deliver_internal_messages(internal_message)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 481, in _deliver_internal_messages
+    return self._deliver_record(record)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 428, in _deliver_record
+    return self._deliver_record(record)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 428, in _deliver_record
+    handle = mailbox._deliver_record(record, interface=self)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 455, in _deliver_record
+    handle = mailbox._deliver_record(record, interface=self)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 455, in _deliver_record
+    interface._publish(record)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    interface._publish(record)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self._sock_client.send_record_publish(record)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self.send_server_request(server_req)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._send_message(msg)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    self._sendall_with_error_handle(header + data)
+  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

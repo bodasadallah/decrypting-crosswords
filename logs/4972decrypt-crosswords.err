@@ -1,0 +1,43 @@
+wandb: Currently logged in as: bodasadallah2. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.15.12
+wandb: Run data is saved locally in ../../wandb/wandb/run-20231020_164320-m68l2yc0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run naive_random_Cirrucular
+wandb: ⭐️ View project at https://wandb.ai/bodasadallah2/baseline
+wandb: 🚀 View run at https://wandb.ai/bodasadallah2/baseline/runs/m68l2yc0
+WARNING:common_seq.util:Logger had handlers already set WTF
+..... CLEARING
+/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/transformers/models/t5/tokenization_t5_fast.py:158: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+Loading the tokenizer from the `special_tokens_map.json` and the `added_tokens.json` will be removed in `transformers 5`,  it is kept for forward compatibility, but it is recommended to update your `tokenizer_config.json` by uploading it again. You will see the new `added_tokens_decoder` attribute that will store the relevant information.
+/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+  0%|          | 0/28476 [00:00<?, ?it/s]/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py:1260: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+  0%|          | 128/28476 [01:18<4:51:28,  1.62it/s]  0%|          | 128/28476 [01:19<4:51:28,  1.62it/s, NLL=9.87]                                                                 0%|          | 128/28476 [01:19<4:51:28,  1.62it/s, NLL=9.87]  0%|          | 128/28476 [01:22<5:06:15,  1.54it/s, NLL=9.87]
+  0%|          | 0/22349 [00:00<?, ?it/s]  1%|          | 128/22349 [01:57<5:40:57,  1.09it/s]  1%|          | 128/22349 [01:57<5:40:57,  1.09it/s, NLL=10.2]  1%|          | 128/22349 [01:58<5:44:00,  1.08it/s, NLL=10.2]
+Traceback (most recent call last):
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_clues.py", line 158, in <module>
+    local_trainer = ClueTrainer(wandb.config, local_rh, aux_config=aux_config)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_clues.py", line 26, in __init__
+    super().__init__(config, rh, **kwargs)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 757, in __init__
+    super().__init__(config, rh, **kwargs)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 276, in __init__
+    self.load_from_ckpt(resume_train=self.config.resume_train)
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/decrypt/seq2seq/train_abc.py", line 319, in load_from_ckpt
+    assert warmup_remaining == self.state.warmup_remaining()
+AssertionError
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: 
+wandb: Run summary:
+wandb:   dev/num_match_in_sample best_in_sample
+wandb: dev/num_match_top_sampled best_top_sampled
+wandb: 
+wandb: 🚀 View run naive_random_Cirrucular at: https://wandb.ai/bodasadallah2/baseline/runs/m68l2yc0
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ../../wandb/wandb/run-20231020_164320-m68l2yc0/logs
