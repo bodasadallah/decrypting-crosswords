@@ -116,3 +116,16 @@ multitask:
 [10.20 16:57:40] [train_abc.py:338 - load_from_ckpt()]	 Set up at epoch 1, with 4 total warmup, and 0 already done, ie3 warmup todo
 [10.20 16:57:41] [train_abc.py:352 - run()]	 For actual train, epochs start at 11
 [10.20 16:57:41] [train_abc.py:957 - train_step()]	 Training warmup=2...
+[10.20 17:17:00] [utils.py:148 - _init_num_threads()]	 Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[10.20 17:17:00] [utils.py:160 - _init_num_threads()]	 NumExpr defaulting to 8 threads.
+[10.21 05:13:06] [train_abc.py:558 - val_step()]	 Evaluating at all_step 4425028 (epoch=2)...
+[10.21 05:13:07] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 2
+[10.21 05:13:07] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.21 05:17:06] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10313.00	 avg: 0.3622
+[10.21 05:17:06] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6569.00	 avg: 0.2307
+[10.21 05:17:06] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.50	 avg: 1.5009
+[10.21 05:17:06] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 2 at epoch=2
+[10.21 05:17:06] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=2 to ../../wandb/wandb/run-20231020_165134-8h995lsk/files/epoch_2.pth.tar
+[10.21 05:17:58] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 10313 at epoch=2
+[10.21 05:17:59] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 2 at epoch=2
+[10.21 05:17:59] [train_abc.py:957 - train_step()]	 Training warmup=3...
