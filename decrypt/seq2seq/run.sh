@@ -7,7 +7,7 @@
 #SBATCH --nodes=1  # 1 GPU node
 ## SBATCH --partition=gpu
 ## SBATCH --gres=gpu:4
-# SBATCH --nodelist=ws-l6-009
+# SBATCH --nodelist=ws-l6-002
 
 # srun python v2.py
 
@@ -28,16 +28,16 @@ echo "starting......................."
 
 python train_clues.py \
 --default_train=base \
---name=naive_random_Cirrucular \
+--name=word_initial_disjoint_Cirrucular \
 --project=baseline \
 --wandb_dir='../../wandb' \
 --data_dir='../data/clue_json/guardian/word_initial_disjoint' \
---num_epochs=15 \
+--num_epochs=30 \
 --multitask='ACW' \
---batch_size=128 
-# --ckpt_path='../../wandb/wandb/run-20231020_165134-8h995lsk/files/epoch_2.pth.tar' \
-# --resume_train \
-# --hacky
+--batch_size=128 \
+--ckpt_path='../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_25.pth.tar' \
+--resume_train \
+--hacky
 
 echo " ending "
 #srun python run_clm.py config.json

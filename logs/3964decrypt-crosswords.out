@@ -1,8 +1,0 @@
-starting.......................
-[10.11 10:40:42] [train_clues.py:132 - <module>()]	 train_clues.py --default_train=base --name=naive_random_Cirrucular --project=baseline --wandb_dir=../../wandb --data_dir=../data/clue_json/guardian/naive_random --num_epochs=25 --multitask=ACW_descramble --batch_size=64
-[10.11 10:40:42] [util.py:168 - set_seed()]	 Setting seed
-[10.11 10:40:42] [util_checkpoint.py:65 - __init__()]	 Saver will track (metric, maximize?)
- [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)]
-[10.11 10:40:42] [util.py:86 - get_available_devices()]	 Device: cuda:0	 GPU IDs: [0]	 machine: ws-l6-020
-
- ending 
