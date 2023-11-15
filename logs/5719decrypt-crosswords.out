@@ -1,0 +1,838 @@
+starting.......................
+[10.28 20:03:37] [train_clues.py:132 - <module>()]	 train_clues.py --default_train=base --name=naive_random_ACW --project=baseline --wandb_dir=../../wandb --data_dir=../data/clue_json/guardian/naive_random --num_epochs=30 --multitask=ACW --batch_size=128 --ckpt_path=../../wandb/wandb/run-20231026_140400-5sv7luib/files/epoch_3.pth.tar --resume_train --hacky
+[10.28 20:03:37] [util.py:168 - set_seed()]	 Setting seed
+[10.28 20:03:37] [util_checkpoint.py:65 - __init__()]	 Saver will track (metric, maximize?)
+ [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)]
+[10.28 20:03:37] [util.py:86 - get_available_devices()]	 Device: cuda:0	 GPU IDs: [0]	 machine: ws-l1-003
+
+[10.28 20:03:54] [train_abc.py:791 - setup_dataloaders_multi()]	 Setting up for multitask
+[10.28 20:03:54] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type train
+[10.28 20:03:54] [util_dataloader_batch.py:72 - __init__()]	 For dataset, found readme: 
+[10.28 20:03:54] [util_dataloader_batch.py:73 - __init__()]	 ['Guardian data. Split: naive_random\n', 'Total: 142380\n', 'splits: [85428, 28476, 28476]\n', '\n', "{'idx': -1,\n", " 'input': 'Suffering to grasp edge of plant (8)',\n", " 'target': 'agrimony'}\n", "{'idx': -1,\n", " 'input': 'Honour Ben and Noel with new order (7)',\n", " 'target': 'ennoble'}\n", "{'idx': -1, 'input': 'Bit the royal we love? Cheers! (4)', 'target': 'iota'}\n", '\n', '\n']
+[10.28 20:03:54] [util_dataloader_batch.py:197 - _get_dataloader_batched()]	 Dataset train loaded with size: 85428
+[10.28 20:03:55] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	Try to convert Senegal? I've failed (10) => evangelise
+[10.28 20:03:55] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.28 20:03:55] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type val
+[10.28 20:03:56] [util_dataloader_batch.py:197 - _get_dataloader_batched()]	 Dataset val loaded with size: 28476
+[10.28 20:03:56] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	Desk register taken no further than Ozzie? (7) => rolltop
+[10.28 20:03:57] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.28 20:03:57] [util_multiloader.py:110 - _prepare_dataloaders()]	 For task acw, using cfg-provided collate function
+[10.28 20:03:57] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type train
+[10.28 20:03:57] [util_dataloader_batch.py:72 - __init__()]	 For dataset, found readme: 
+[10.28 20:03:57] [util_dataloader_batch.py:73 - __init__()]	 ['ACW set; xd cw set, all\n', 'Total: 2234863\n', 'splits: [2234863]\n', '\n', '{\'idx\': 0, \'input\': "Litigator\'s group (3)", \'target\': \'aba\'}\n', "{'idx': 1, 'input': 'Arab garment (3)', 'target': 'aba'}\n", "{'idx': 2, 'input': 'Arabian garment (3)', 'target': 'aba'}\n", '\n', '\n']
+[10.28 20:04:02] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	phrase: Getting through a busy toll plaza, e.g (6) => hassle
+[10.28 20:04:02] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.28 20:04:03] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	phrase: Darks or whites (4) => load
+[10.28 20:04:03] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.28 20:04:03] [util_multiloader.py:214 - __init__()]	 Configuring multiloader with freqs [20, 6] batches
+[10.28 20:04:06] [util_multiloader.py:257 - _setup()]	 Finished setting up multiloader
+	 batch_sizes: [128, 128]
+	 freq: [20, 6]
+[10.28 20:04:06] [train_abc.py:448 - verify_and_log_trainer_info()]	 Verifying that all metrics are OK. The outputs here are NOT from the model that was passed ifone was passed
+[10.28 20:04:06] [train_abc.py:558 - val_step()]	 Evaluating at all_step 0 (epoch=0)...
+[10.28 20:04:06] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 0
+[10.28 20:04:10] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: Ozzie? (7) (7) (8) (8) (8) (8) (8) 
+
+[10.28 20:04:10] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 0
+[10.28 20:04:10] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.28 20:04:12] [train_abc.py:456 - verify_and_log_trainer_info()]	 Tracking metrics [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)] all verified
+[10.28 20:04:12] [train_abc.py:486 - verify_and_log_trainer_info()]	 
+total_train_steps (num_train_ex * epochs): 854280
+machine: ws-l1-003
+num_train: 85428
+num_val: 28476ada: True
+ada_constant: False
+add_special_tokens: False
+batch_size: 128
+batched_dl: True
+ckpt_path: ../../wandb/wandb/run-20231026_140400-5sv7luib/files/epoch_3.pth.tar
+comment: 
+data_dir: ../data/clue_json/guardian/naive_random
+default_train: base
+default_val: None
+dev_run: False
+do_sample: True
+do_save: True
+early_stopping: None
+fast_tokenizer: True
+generation_beams: 5
+grad_accum_steps: 1
+hacky: True
+model_name: t5-base
+multi_gpu: None
+multitask: ACW
+multitask_num: -1
+name: naive_random_ACW
+no_train: False
+num_epochs: 30
+num_train: 85428
+num_val: 28476
+num_workers: 4
+project: baseline
+resume_train: True
+seed: 42
+special: None
+test: False
+total_train: 854280
+use_json: True
+val_freq: None
+wandb_dir: ../../wandb
+multitask:
+{
+  "multitask_config": {
+    "freq_list": [
+      20,
+      6
+    ],
+    "multitask_dir": "../data/clue_json/curricular",
+    "num_warmup": 4,
+    "reset": true,
+    "tasks": [
+      {
+        "collate_fn": "coll_fn",
+        "dir": "ACW_data",
+        "name": "acw",
+        "val_fcn_list": [
+          "compute_metrics_sampled_primary"
+        ]
+      }
+    ],
+    "val_split_pct": 0.99
+  }
+}
+
+[10.28 20:04:12] [train_abc.py:289 - load_from_ckpt()]	 Loading checkpoint: ../../wandb/wandb/run-20231026_140400-5sv7luib/files/epoch_3.pth.tar
+[10.28 20:04:24] [util_checkpoint.py:36 - load_ckpt()]	 Loading model from ../../wandb/wandb/run-20231026_140400-5sv7luib/files/epoch_3.pth.tar:
+['{"multi/acw/num_match_in_sample": 11461, "multi/acw/num_match_top_sampled": 7577, "multi/acw/NLL": 1.4088444652224106, "multisave": 3, "epoch": 3, "name": "naive_random_Cirrucular"}']
+[10.28 20:04:24] [train_abc.py:226 - resume()]	 Train info resumed but did not set all_step_after_warmup
+[10.28 20:04:24] [train_abc.py:338 - load_from_ckpt()]	 Set up at epoch 3, with 4 total warmup, and 0 already done, ie1 warmup todo
+[10.28 20:04:24] [train_abc.py:352 - run()]	 For actual train, epochs start at 11
+[10.28 20:04:24] [train_abc.py:957 - train_step()]	 Training warmup=4...
+[10.28 20:10:03] [utils.py:148 - _init_num_threads()]	 Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[10.28 20:10:03] [utils.py:160 - _init_num_threads()]	 NumExpr defaulting to 8 threads.
+[10.28 21:42:37] [train_abc.py:558 - val_step()]	 Evaluating at all_step 8850056 (epoch=4)...
+[10.28 21:42:37] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 4
+[10.28 21:42:37] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.28 21:46:00] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12704.00	 avg: 0.4461
+[10.28 21:46:00] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8644.00	 avg: 0.3036
+[10.28 21:46:00] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.24	 avg: 1.2416
+[10.28 21:46:00] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 4 at epoch=4
+[10.28 21:46:00] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=4 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_4.pth.tar
+[10.28 21:46:02] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 12704 at epoch=4
+[10.28 21:46:02] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 4 at epoch=4
+[10.28 21:46:02] [train_abc.py:358 - run()]	 Final warmup epoch done. Resetting optimizer
+[10.28 21:46:02] [train_abc.py:959 - train_step()]	 Training epoch=11...
+[10.28 23:24:19] [train_abc.py:558 - val_step()]	 Evaluating at all_step 11062570 (epoch=11)...
+[10.28 23:24:19] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 11
+[10.28 23:24:21] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tintype
+
+[10.28 23:29:28] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 11
+[10.28 23:29:28] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 562.00	 avg: 0.0197
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1669.00	 avg: 0.0586
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 787.00	 avg: 0.0276
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1669.00	 avg: 0.0586
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 22660.20	 avg: 0.7958
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 23742.60	 avg: 0.8338
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.72	 avg: 3.7154
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10325.00	 avg: 0.3626
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6426.00	 avg: 0.2257
+[10.28 23:32:51] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.54	 avg: 1.5437
+[10.28 23:32:51] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 787 at epoch=11
+[10.28 23:32:51] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=11 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_11.pth.tar
+[10.28 23:32:53] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 11 at epoch=11
+[10.28 23:32:53] [train_abc.py:959 - train_step()]	 Training epoch=12...
+[10.29 01:16:22] [train_abc.py:558 - val_step()]	 Evaluating at all_step 13275084 (epoch=12)...
+[10.29 01:16:22] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 12
+[10.29 01:16:24] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: october
+
+[10.29 01:21:20] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 12
+[10.29 01:21:20] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 640.00	 avg: 0.0225
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1883.00	 avg: 0.0661
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 942.00	 avg: 0.0331
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1883.00	 avg: 0.0661
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 23116.20	 avg: 0.8118
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 23749.20	 avg: 0.8340
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.60	 avg: 3.6011
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11857.00	 avg: 0.4164
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7857.00	 avg: 0.2759
+[10.29 01:24:47] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.34	 avg: 1.3370
+[10.29 01:24:47] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 942 at epoch=12
+[10.29 01:24:47] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=12 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_12.pth.tar
+[10.29 01:24:50] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 12 at epoch=12
+[10.29 01:24:50] [train_abc.py:959 - train_step()]	 Training epoch=13...
+[10.29 03:03:02] [train_abc.py:558 - val_step()]	 Evaluating at all_step 15487598 (epoch=13)...
+[10.29 03:03:02] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 13
+[10.29 03:03:04] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: epstein
+
+[10.29 03:08:04] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 13
+[10.29 03:08:04] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 814.00	 avg: 0.0286
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 2280.00	 avg: 0.0801
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 1090.00	 avg: 0.0383
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 2280.00	 avg: 0.0801
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 23360.40	 avg: 0.8204
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 23745.00	 avg: 0.8339
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.58	 avg: 3.5803
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12986.00	 avg: 0.4560
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8778.00	 avg: 0.3083
+[10.29 03:11:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.22	 avg: 1.2233
+[10.29 03:11:28] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 1090 at epoch=13
+[10.29 03:11:28] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=13 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_13.pth.tar
+[10.29 03:11:30] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 12986 at epoch=13
+[10.29 03:11:30] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 13 at epoch=13
+[10.29 03:11:30] [train_abc.py:959 - train_step()]	 Training epoch=14...
+[10.29 03:16:38] [train_abc.py:558 - val_step()]	 Evaluating at all_step 15598370 (epoch=14)...
+[10.29 03:16:38] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 14
+[10.29 03:16:40] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: epstein
+
+[10.29 03:21:15] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 14
+[10.29 03:21:15] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 2726.00	 avg: 0.0957
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 6966.00	 avg: 0.2446
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 3712.00	 avg: 0.1304
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 6966.00	 avg: 0.2446
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25669.60	 avg: 0.9014
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27273.00	 avg: 0.9578
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.10	 avg: 2.1027
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12327.00	 avg: 0.4329
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8059.00	 avg: 0.2830
+[10.29 03:24:32] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.31	 avg: 1.3099
+[10.29 03:24:32] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 3712 at epoch=14
+[10.29 03:24:32] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=14 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_14.pth.tar
+[10.29 03:24:35] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 14 at epoch=14
+[10.29 03:24:35] [train_abc.py:959 - train_step()]	 Training epoch=15...
+[10.29 03:29:43] [train_abc.py:558 - val_step()]	 Evaluating at all_step 15709142 (epoch=15)...
+[10.29 03:29:43] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 15
+[10.29 03:29:45] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: erectus
+
+[10.29 03:34:14] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 15
+[10.29 03:34:14] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 3546.00	 avg: 0.1245
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7955.00	 avg: 0.2794
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4446.00	 avg: 0.1561
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7955.00	 avg: 0.2794
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26151.20	 avg: 0.9184
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27674.80	 avg: 0.9719
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.01	 avg: 2.0149
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12016.00	 avg: 0.4220
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7965.00	 avg: 0.2797
+[10.29 03:37:33] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.35	 avg: 1.3525
+[10.29 03:37:33] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 4446 at epoch=15
+[10.29 03:37:33] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=15 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_15.pth.tar
+[10.29 03:37:36] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 15 at epoch=15
+[10.29 03:37:36] [train_abc.py:959 - train_step()]	 Training epoch=16...
+[10.29 03:42:44] [train_abc.py:558 - val_step()]	 Evaluating at all_step 15819914 (epoch=16)...
+[10.29 03:42:44] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 16
+[10.29 03:42:46] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkers
+
+[10.29 03:47:08] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 16
+[10.29 03:47:08] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4107.00	 avg: 0.1442
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 8346.00	 avg: 0.2931
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4756.00	 avg: 0.1670
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 8346.00	 avg: 0.2931
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26503.40	 avg: 0.9307
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27788.80	 avg: 0.9759
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.06	 avg: 2.0584
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11679.00	 avg: 0.4101
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7686.00	 avg: 0.2699
+[10.29 03:50:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.39	 avg: 1.3868
+[10.29 03:50:28] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 4756 at epoch=16
+[10.29 03:50:28] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=16 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_16.pth.tar
+[10.29 03:50:30] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 16 at epoch=16
+[10.29 03:50:30] [train_abc.py:959 - train_step()]	 Training epoch=17...
+[10.29 03:55:39] [train_abc.py:558 - val_step()]	 Evaluating at all_step 15930686 (epoch=17)...
+[10.29 03:55:39] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 17
+[10.29 03:55:41] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: ragtime
+
+[10.29 03:59:59] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 17
+[10.29 03:59:59] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4264.00	 avg: 0.1497
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 8321.00	 avg: 0.2922
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4778.00	 avg: 0.1678
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 8321.00	 avg: 0.2922
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26399.80	 avg: 0.9271
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27822.00	 avg: 0.9770
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.23	 avg: 2.2325
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11529.00	 avg: 0.4049
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7471.00	 avg: 0.2624
+[10.29 04:03:16] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.42	 avg: 1.4225
+[10.29 04:03:16] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 4778 at epoch=17
+[10.29 04:03:16] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=17 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_17.pth.tar
+[10.29 04:03:18] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 17 at epoch=17
+[10.29 04:03:18] [train_abc.py:959 - train_step()]	 Training epoch=18...
+[10.29 04:08:26] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16041458 (epoch=18)...
+[10.29 04:08:26] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 18
+[10.29 04:08:29] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkery
+
+[10.29 04:12:46] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 18
+[10.29 04:12:46] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4321.00	 avg: 0.1517
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 8138.00	 avg: 0.2858
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4794.00	 avg: 0.1684
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 8138.00	 avg: 0.2858
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26184.00	 avg: 0.9195
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27715.40	 avg: 0.9733
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.44	 avg: 2.4411
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11311.00	 avg: 0.3972
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7320.00	 avg: 0.2571
+[10.29 04:16:10] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.44	 avg: 1.4440
+[10.29 04:16:10] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 4794 at epoch=18
+[10.29 04:16:10] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=18 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_18.pth.tar
+[10.29 04:16:12] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 18 at epoch=18
+[10.29 04:16:12] [train_abc.py:959 - train_step()]	 Training epoch=19...
+[10.29 04:21:21] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16152230 (epoch=19)...
+[10.29 04:21:21] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 19
+[10.29 04:21:23] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tintype
+
+[10.29 04:25:40] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 19
+[10.29 04:25:40] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4370.00	 avg: 0.1535
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 8125.00	 avg: 0.2853
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4774.00	 avg: 0.1676
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 8125.00	 avg: 0.2853
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26111.60	 avg: 0.9170
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27689.40	 avg: 0.9724
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.57	 avg: 2.5726
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11193.00	 avg: 0.3931
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7211.00	 avg: 0.2532
+[10.29 04:28:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4580
+[10.29 04:28:59] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 19 at epoch=19
+[10.29 04:28:59] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=19 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_19.pth.tar
+[10.29 04:29:01] [train_abc.py:959 - train_step()]	 Training epoch=20...
+[10.29 04:34:10] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16263002 (epoch=20)...
+[10.29 04:34:10] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 20
+[10.29 04:34:12] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinwork
+
+[10.29 04:38:32] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 20
+[10.29 04:38:32] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4351.00	 avg: 0.1528
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 8058.00	 avg: 0.2830
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4709.00	 avg: 0.1654
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 8058.00	 avg: 0.2830
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26006.80	 avg: 0.9133
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27580.80	 avg: 0.9686
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.67	 avg: 2.6699
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11105.00	 avg: 0.3900
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7078.00	 avg: 0.2486
+[10.29 04:41:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4662
+[10.29 04:41:50] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 20 at epoch=20
+[10.29 04:41:50] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=20 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_20.pth.tar
+[10.29 04:41:52] [train_abc.py:959 - train_step()]	 Training epoch=21...
+[10.29 04:47:01] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16373774 (epoch=21)...
+[10.29 04:47:01] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 21
+[10.29 04:47:03] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: empress
+
+[10.29 04:51:18] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 21
+[10.29 04:51:18] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4457.00	 avg: 0.1565
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7999.00	 avg: 0.2809
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4791.00	 avg: 0.1682
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7999.00	 avg: 0.2809
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26145.80	 avg: 0.9182
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27604.00	 avg: 0.9694
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.90	 avg: 2.8961
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11042.00	 avg: 0.3878
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7071.00	 avg: 0.2483
+[10.29 04:54:41] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4717
+[10.29 04:54:41] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 21 at epoch=21
+[10.29 04:54:41] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=21 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_21.pth.tar
+[10.29 04:54:44] [train_abc.py:959 - train_step()]	 Training epoch=22...
+[10.29 04:59:52] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16484546 (epoch=22)...
+[10.29 04:59:52] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 22
+[10.29 04:59:54] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkery
+
+[10.29 05:04:11] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 22
+[10.29 05:04:11] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4496.00	 avg: 0.1579
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7979.00	 avg: 0.2802
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4878.00	 avg: 0.1713
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7979.00	 avg: 0.2802
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26051.40	 avg: 0.9149
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27579.00	 avg: 0.9685
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.88	 avg: 2.8786
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10870.00	 avg: 0.3817
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7038.00	 avg: 0.2472
+[10.29 05:07:36] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4692
+[10.29 05:07:36] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 4878 at epoch=22
+[10.29 05:07:36] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=22 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_22.pth.tar
+[10.29 05:07:39] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 22 at epoch=22
+[10.29 05:07:39] [train_abc.py:959 - train_step()]	 Training epoch=23...
+[10.29 05:12:42] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16595318 (epoch=23)...
+[10.29 05:12:42] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 23
+[10.29 05:12:48] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tintype
+
+[10.29 05:17:06] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 23
+[10.29 05:17:06] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4433.00	 avg: 0.1557
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7820.00	 avg: 0.2746
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4767.00	 avg: 0.1674
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7820.00	 avg: 0.2746
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26016.60	 avg: 0.9136
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27644.40	 avg: 0.9708
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.95	 avg: 2.9483
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10869.00	 avg: 0.3817
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7033.00	 avg: 0.2470
+[10.29 05:20:25] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4633
+[10.29 05:20:25] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 23 at epoch=23
+[10.29 05:20:25] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=23 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_23.pth.tar
+[10.29 05:20:27] [train_abc.py:959 - train_step()]	 Training epoch=24...
+[10.29 05:25:35] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16706090 (epoch=24)...
+[10.29 05:25:35] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 24
+[10.29 05:25:37] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkers
+
+[10.29 05:30:01] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 24
+[10.29 05:30:01] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4426.00	 avg: 0.1554
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7785.00	 avg: 0.2734
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4781.00	 avg: 0.1679
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7785.00	 avg: 0.2734
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25788.60	 avg: 0.9056
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27450.40	 avg: 0.9640
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.04	 avg: 3.0360
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10908.00	 avg: 0.3831
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7056.00	 avg: 0.2478
+[10.29 05:33:24] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4581
+[10.29 05:33:24] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 24 at epoch=24
+[10.29 05:33:24] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=24 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_24.pth.tar
+[10.29 05:33:26] [train_abc.py:959 - train_step()]	 Training epoch=25...
+[10.29 05:38:35] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16816862 (epoch=25)...
+[10.29 05:38:35] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 25
+[10.29 05:38:37] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkery
+
+[10.29 05:43:01] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 25
+[10.29 05:43:01] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4412.00	 avg: 0.1549
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7698.00	 avg: 0.2703
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4757.00	 avg: 0.1671
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7698.00	 avg: 0.2703
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25790.20	 avg: 0.9057
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27420.80	 avg: 0.9629
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.10	 avg: 3.1029
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10908.00	 avg: 0.3831
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6989.00	 avg: 0.2454
+[10.29 05:46:24] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4677
+[10.29 05:46:24] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 25 at epoch=25
+[10.29 05:46:24] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=25 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_25.pth.tar
+[10.29 05:46:27] [train_abc.py:959 - train_step()]	 Training epoch=26...
+[10.29 05:51:34] [train_abc.py:558 - val_step()]	 Evaluating at all_step 16927634 (epoch=26)...
+[10.29 05:51:34] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 26
+[10.29 05:51:37] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkers
+
+[10.29 05:55:55] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 26
+[10.29 05:55:55] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4489.00	 avg: 0.1576
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7853.00	 avg: 0.2758
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4815.00	 avg: 0.1691
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7853.00	 avg: 0.2758
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26078.40	 avg: 0.9158
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27561.80	 avg: 0.9679
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.17	 avg: 3.1720
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10977.00	 avg: 0.3855
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7025.00	 avg: 0.2467
+[10.29 05:59:19] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4638
+[10.29 05:59:19] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 26 at epoch=26
+[10.29 05:59:19] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=26 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_26.pth.tar
+[10.29 05:59:22] [train_abc.py:959 - train_step()]	 Training epoch=27...
+[10.29 06:04:29] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17038406 (epoch=27)...
+[10.29 06:04:29] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 27
+[10.29 06:04:32] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinkery
+
+[10.29 06:08:51] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 27
+[10.29 06:08:51] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4477.00	 avg: 0.1572
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7678.00	 avg: 0.2696
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4829.00	 avg: 0.1696
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7678.00	 avg: 0.2696
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25938.00	 avg: 0.9109
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27499.00	 avg: 0.9657
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.22	 avg: 3.2184
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10980.00	 avg: 0.3856
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7050.00	 avg: 0.2476
+[10.29 06:12:14] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4705
+[10.29 06:12:14] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 27 at epoch=27
+[10.29 06:12:14] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=27 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_27.pth.tar
+[10.29 06:12:16] [train_abc.py:959 - train_step()]	 Training epoch=28...
+[10.29 06:17:25] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17149178 (epoch=28)...
+[10.29 06:17:25] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 28
+[10.29 06:17:27] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: entrain
+
+[10.29 06:21:50] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 28
+[10.29 06:21:50] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4417.00	 avg: 0.1551
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7643.00	 avg: 0.2684
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4764.00	 avg: 0.1673
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7643.00	 avg: 0.2684
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25923.40	 avg: 0.9104
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27553.40	 avg: 0.9676
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.25	 avg: 3.2465
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11023.00	 avg: 0.3871
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7032.00	 avg: 0.2469
+[10.29 06:25:12] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4655
+[10.29 06:25:12] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 28 at epoch=28
+[10.29 06:25:12] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=28 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_28.pth.tar
+[10.29 06:25:14] [train_abc.py:959 - train_step()]	 Training epoch=29...
+[10.29 06:30:22] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17259950 (epoch=29)...
+[10.29 06:30:22] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 29
+[10.29 06:30:24] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tsquare
+
+[10.29 06:34:44] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 29
+[10.29 06:34:44] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4470.00	 avg: 0.1570
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7753.00	 avg: 0.2723
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4841.00	 avg: 0.1700
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7753.00	 avg: 0.2723
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25740.80	 avg: 0.9039
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27529.80	 avg: 0.9668
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.20	 avg: 3.1983
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10868.00	 avg: 0.3817
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7018.00	 avg: 0.2465
+[10.29 06:38:12] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4642
+[10.29 06:38:12] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 29 at epoch=29
+[10.29 06:38:12] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=29 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_29.pth.tar
+[10.29 06:38:14] [train_abc.py:959 - train_step()]	 Training epoch=30...
+[10.29 06:43:22] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17370722 (epoch=30)...
+[10.29 06:43:22] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 30
+[10.29 06:43:25] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinhorns
+
+[10.29 06:47:39] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 30
+[10.29 06:47:39] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4562.00	 avg: 0.1602
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7876.00	 avg: 0.2766
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4822.00	 avg: 0.1693
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7876.00	 avg: 0.2766
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26083.40	 avg: 0.9160
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27631.80	 avg: 0.9704
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.24	 avg: 3.2443
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10968.00	 avg: 0.3852
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7049.00	 avg: 0.2475
+[10.29 06:51:00] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4582
+[10.29 06:51:00] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 30 at epoch=30
+[10.29 06:51:00] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=30 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_30.pth.tar
+[10.29 06:51:03] [train_abc.py:959 - train_step()]	 Training epoch=31...
+[10.29 06:56:11] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17481494 (epoch=31)...
+[10.29 06:56:11] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 31
+[10.29 06:56:13] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: trabant
+
+[10.29 07:00:34] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 31
+[10.29 07:00:34] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4488.00	 avg: 0.1576
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7737.00	 avg: 0.2717
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4798.00	 avg: 0.1685
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7737.00	 avg: 0.2717
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25933.20	 avg: 0.9107
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27556.40	 avg: 0.9677
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.31	 avg: 3.3083
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10938.00	 avg: 0.3841
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6988.00	 avg: 0.2454
+[10.29 07:03:56] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4632
+[10.29 07:03:56] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 31 at epoch=31
+[10.29 07:03:56] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=31 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_31.pth.tar
+[10.29 07:03:58] [train_abc.py:959 - train_step()]	 Training epoch=32...
+[10.29 07:09:07] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17592266 (epoch=32)...
+[10.29 07:09:07] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 32
+[10.29 07:09:09] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinroof
+
+[10.29 07:13:27] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 32
+[10.29 07:13:27] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4547.00	 avg: 0.1597
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7638.00	 avg: 0.2682
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4820.00	 avg: 0.1693
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7638.00	 avg: 0.2682
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25860.40	 avg: 0.9081
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27529.00	 avg: 0.9667
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.43	 avg: 3.4331
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11018.00	 avg: 0.3869
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7061.00	 avg: 0.2480
+[10.29 07:16:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4536
+[10.29 07:16:50] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 32 at epoch=32
+[10.29 07:16:50] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=32 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_32.pth.tar
+[10.29 07:16:53] [train_abc.py:959 - train_step()]	 Training epoch=33...
+[10.29 07:22:02] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17703038 (epoch=33)...
+[10.29 07:22:02] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 33
+[10.29 07:22:04] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tiniest
+
+[10.29 07:26:24] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 33
+[10.29 07:26:24] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4575.00	 avg: 0.1607
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7795.00	 avg: 0.2737
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4874.00	 avg: 0.1712
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7795.00	 avg: 0.2737
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25865.80	 avg: 0.9083
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27594.20	 avg: 0.9690
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.26	 avg: 3.2561
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10992.00	 avg: 0.3860
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7086.00	 avg: 0.2488
+[10.29 07:29:52] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4529
+[10.29 07:29:52] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 33 at epoch=33
+[10.29 07:29:52] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=33 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_33.pth.tar
+[10.29 07:29:54] [train_abc.py:959 - train_step()]	 Training epoch=34...
+[10.29 07:35:02] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17813810 (epoch=34)...
+[10.29 07:35:02] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 34
+[10.29 07:35:05] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: trainee
+
+[10.29 07:39:19] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 34
+[10.29 07:39:19] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4683.00	 avg: 0.1645
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7893.00	 avg: 0.2772
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4968.00	 avg: 0.1745
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7893.00	 avg: 0.2772
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26165.60	 avg: 0.9189
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27638.20	 avg: 0.9706
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.25	 avg: 3.2494
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11055.00	 avg: 0.3882
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7052.00	 avg: 0.2476
+[10.29 07:42:43] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4503
+[10.29 07:42:43] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 4968 at epoch=34
+[10.29 07:42:43] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=34 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_34.pth.tar
+[10.29 07:42:46] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 34 at epoch=34
+[10.29 07:42:46] [train_abc.py:959 - train_step()]	 Training epoch=35...
+[10.29 07:47:54] [train_abc.py:558 - val_step()]	 Evaluating at all_step 17924582 (epoch=35)...
+[10.29 07:47:54] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 35
+[10.29 07:47:56] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinroof
+
+[10.29 07:52:15] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 35
+[10.29 07:52:15] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4583.00	 avg: 0.1609
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7850.00	 avg: 0.2757
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4917.00	 avg: 0.1727
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7850.00	 avg: 0.2757
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25930.20	 avg: 0.9106
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27558.00	 avg: 0.9678
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.18	 avg: 3.1841
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10909.00	 avg: 0.3831
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7051.00	 avg: 0.2476
+[10.29 07:55:43] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4478
+[10.29 07:55:43] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 35 at epoch=35
+[10.29 07:55:43] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=35 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_35.pth.tar
+[10.29 07:55:45] [train_abc.py:959 - train_step()]	 Training epoch=36...
+[10.29 08:00:54] [train_abc.py:558 - val_step()]	 Evaluating at all_step 18035354 (epoch=36)...
+[10.29 08:00:54] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 36
+[10.29 08:00:55] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinhorn
+
+[10.29 08:05:09] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 36
+[10.29 08:05:09] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4664.00	 avg: 0.1638
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7900.00	 avg: 0.2774
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4928.00	 avg: 0.1731
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7900.00	 avg: 0.2774
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25900.40	 avg: 0.9096
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27512.60	 avg: 0.9662
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.39	 avg: 3.3919
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10998.00	 avg: 0.3862
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7071.00	 avg: 0.2483
+[10.29 08:08:30] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4538
+[10.29 08:08:30] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 36 at epoch=36
+[10.29 08:08:30] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=36 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_36.pth.tar
+[10.29 08:08:32] [train_abc.py:959 - train_step()]	 Training epoch=37...
+[10.29 08:13:40] [train_abc.py:558 - val_step()]	 Evaluating at all_step 18146126 (epoch=37)...
+[10.29 08:13:40] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 37
+[10.29 08:13:43] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinroof
+
+[10.29 08:18:05] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 37
+[10.29 08:18:05] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4619.00	 avg: 0.1622
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7751.00	 avg: 0.2722
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4898.00	 avg: 0.1720
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7751.00	 avg: 0.2722
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 25962.00	 avg: 0.9117
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27556.40	 avg: 0.9677
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.38	 avg: 3.3773
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10951.00	 avg: 0.3846
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7060.00	 avg: 0.2479
+[10.29 08:21:26] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4594
+[10.29 08:21:26] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 37 at epoch=37
+[10.29 08:21:26] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=37 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_37.pth.tar
+[10.29 08:21:29] [train_abc.py:959 - train_step()]	 Training epoch=38...
+[10.29 08:26:36] [train_abc.py:558 - val_step()]	 Evaluating at all_step 18256898 (epoch=38)...
+[10.29 08:26:36] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 38
+[10.29 08:26:38] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: enclose
+
+[10.29 08:30:55] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 38
+[10.29 08:30:55] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4633.00	 avg: 0.1627
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7907.00	 avg: 0.2777
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4926.00	 avg: 0.1730
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7907.00	 avg: 0.2777
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26163.00	 avg: 0.9188
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27555.00	 avg: 0.9677
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.20	 avg: 3.1975
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11077.00	 avg: 0.3890
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7196.00	 avg: 0.2527
+[10.29 08:34:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4505
+[10.29 08:34:21] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 38 at epoch=38
+[10.29 08:34:21] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=38 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_38.pth.tar
+[10.29 08:34:23] [train_abc.py:959 - train_step()]	 Training epoch=39...
+[10.29 08:39:32] [train_abc.py:558 - val_step()]	 Evaluating at all_step 18367670 (epoch=39)...
+[10.29 08:39:32] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 39
+[10.29 08:39:34] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: trainee
+
+[10.29 08:43:49] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 39
+[10.29 08:43:49] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4680.00	 avg: 0.1643
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7979.00	 avg: 0.2802
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4930.00	 avg: 0.1731
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7979.00	 avg: 0.2802
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26133.60	 avg: 0.9177
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27681.20	 avg: 0.9721
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.29	 avg: 3.2889
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10984.00	 avg: 0.3857
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7105.00	 avg: 0.2495
+[10.29 08:47:13] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4476
+[10.29 08:47:13] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 39 at epoch=39
+[10.29 08:47:13] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=39 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_39.pth.tar
+[10.29 08:47:16] [train_abc.py:959 - train_step()]	 Training epoch=40...
+[10.29 08:52:24] [train_abc.py:558 - val_step()]	 Evaluating at all_step 18478442 (epoch=40)...
+[10.29 08:52:24] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 40
+[10.29 08:52:26] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: tinhorn
+
+[10.29 08:56:42] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 40
+[10.29 08:56:42] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 4652.00	 avg: 0.1634
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 7935.00	 avg: 0.2787
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 4911.00	 avg: 0.1725
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 7935.00	 avg: 0.2787
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26204.60	 avg: 0.9202
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 27687.40	 avg: 0.9723
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.34	 avg: 3.3429
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10913.00	 avg: 0.3832
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7109.00	 avg: 0.2496
+[10.29 09:00:11] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.46	 avg: 1.4551
+[10.29 09:00:12] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 40 at epoch=40
+[10.29 09:00:12] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=40 to ../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_40.pth.tar
+[10.29 09:00:14] [train_clues.py:110 - post_run()]	 loading from
+	../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_34.pth.tar
+	../../wandb/wandb/run-20231028_200336-23m5kqq7/files/ckpt_dev_num_match_top_sampled_4968.00_34.pth.tar
+[10.29 09:00:14] [train_clues.py:113 - post_run()]	 for final validation:
+	../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_34.pth.tarpreds.json
+ ending 

@@ -1,4 +1,0 @@
-/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:147: UserWarning: /home/abdelrahman.sadallah/.conda/envs/nlp did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
-  warn(msg)
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/var/lib/slurm-llnl/slurmd/job05606/slurm_script: line 15: 1384376 Killed                  python evaluate_llm.py --model_name='mistralai/Mistral-7B-v0.1' --batch_size=64 --num_examples=0
-slurmstepd-ws-l5-009: error: Detected 1 oom_kill event in StepId=5606.batch. Some of the step tasks have been OOM Killed.

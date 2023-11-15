@@ -5,21 +5,24 @@
 #SBATCH --output=/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/logs/%j%x.out # output log file
 #SBATCH --time=24:00:00 # 10 hours of wall time
 #SBATCH --nodes=1  # 1 GPU node
-#SBATCH --nodelist=ws-l5-009
+#SBATCH --mem=46000 # 32 GB of RAM
+#SBATCH --nodelist=ws-l4-006
 
-# srun python v2.py
 
 echo "starting......................."
 ###################### RUN LLM Eval ######################
 
+# --model_name='mistralai/Mistral-7B-v0.1' \
+# --model_name='meta-llama/Llama-2-7b-hf' \
+
 python evaluate_llm.py \
 --model_name='mistralai/Mistral-7B-v0.1' \
---batch_size=64 \
+--batch_size=32 \
 --num_examples=0 \
+--n_shots=2 \
 --prompt='Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of charachters in the answer should be same as the number in the parenthesis. Just output the answer only. Do not output any explanitions, just the words in the answer.' \
---num_shots=1 \
 --dataset_path='../data/naive_random.json' \
---save_file='pred_output.txt' \
+--save_file='test_output_pred.txt' \
 
 
 echo " ending "

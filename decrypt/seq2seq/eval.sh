@@ -5,11 +5,12 @@
 #SBATCH --output=../../logs/%j%x.out # output log file
 #SBATCH --time=24:00:00 # 10 hours of wall time
 #SBATCH --nodes=1  # 1 GPU node
+#SBATCH --nodelist=ws-l4-009
 
 python train_clues.py \
 --default_val=base \
---name=naive_word_intial_disjoint_val \
+--name=naive_acw_val \
 --wandb_dir='../../wandb' \
 --project=baseline_naive \
---data_dir='../data/clue_json/guardian/word_initial_disjoint' \
---ckpt_path='../../wandb/wandb/run-20231011_211723-3sdgff0h/files/epoch_12.pth.tar'
+--data_dir='../data/clue_json/guardian/naive_random' \
+--ckpt_path='../../wandb/wandb/run-20231028_200336-23m5kqq7/files/epoch_34.pth.tar'

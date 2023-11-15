@@ -118,10 +118,10 @@ def map_prompt(ex, base_prompt, shots):
     p = f'### Instruction: {base_prompt}\n\n'
 
     for shot in shots:
-        p += f'### Input:\n{shot}\n### Output:\n\n'
+        p += f'### Input:\n{shot["clue"]}\n\n### Output:\n{shot["soln_with_spaces"]}\n\n'
 
 
-    p+= f'### Input:\n{ex["clue"]}\n### Output:\n\n'
+    p+= f'### Input:\n{ex["clue"]}'
 
 
     ex['prompt'] = p
@@ -157,6 +157,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     # MODEL_NAME = "mistralai/Mistral-7B-v0.1"
 
+    for arg in vars(args):
+        print(arg, getattr(args, arg))
 
     MODEL_NAME = args.model_name
     batch_size = args.batch_size
@@ -194,12 +196,17 @@ if __name__ == "__main__":
     print(f'Total number of unique types is: {len(unique_type)}')
     print(f' total number of examples: {len(val_dataset)},    number of unique answers: {len(unique_answers)}')
 
+    val_dataset = val_dataset.select_columns(['soln_with_spaces', 'clue' ])
 
     idx= np.random.randint(0,len(val_dataset),args.n_shots)
 
-    shots = val_dataset.select(idx)['clue']
+    shots = val_dataset.select(idx)
+
+    for shot in shots:
+        print(shot['clue'], shot['soln_with_spaces'])
+
+        
     val_dataset = val_dataset.map(map_prompt,fn_kwargs={"base_prompt": prompt,"shots":shots})
-    val_dataset = val_dataset.select_columns(['prompt', 'soln_with_spaces', 'clue' ])
 
 
 
@@ -230,6 +237,11 @@ if __name__ == "__main__":
     for batch in tqdm(val_dataloader):
 
         prompts = batch['prompt']
+
+        # for x in prompts:
+        #     print(x)   
+        # break
+
         labels.extend (batch['soln_with_spaces'])
         ans = []
 
@@ -244,6 +256,7 @@ if __name__ == "__main__":
                     predictions.append( lines[i+1].lower())
                     break
 
+    print(len(predictions), len(labels))
     assert (len(predictions) == len(labels))
 
 

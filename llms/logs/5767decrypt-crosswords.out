@@ -1,0 +1,30 @@
+starting.......................
+model_name meta-llama/Llama-2-7b-hf
+save_file test_output_pred.txt
+batch_size 32
+prompt Please help me solve the following cryptic crossword. I will provide you with some examples to help you. Your task is to solve this clue. The number of charachters in the answer should be same as the number in the parenthesis. Just output the answer only. Do not output any explanitions.
+n_shots 3
+num_examples 0
+dataset_path ../data/naive_random.json
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+CUDA SETUP: CUDA runtime path found: /home/abdelrahman.sadallah/local/cuda-11.7/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 7.5
+CUDA SETUP: Detected CUDA version 117
+CUDA SETUP: Loading binary /home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so...
+Total number of unique types is: 1
+ total number of examples: 28476,    number of unique answers: 20302
+Come out East and join up (6) emerge
+Many disturbed when people had a drunken party (8) caroused
+Approaches some seaside towns for football and rugby (7,6) contact sports
+28476 28476
+28476
+ACCURACY:  0.024511869644613007
+Length error:  0.8164419159994382
+ ending 
