@@ -16,6 +16,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import emoji
 import argparse
+from peft import PeftModel    
 
 
 
@@ -24,6 +25,9 @@ import argparse
 # MODEL_NAME = "meta-llama/Llama-2-7b-hf"
 
 def add_args(parser: argparse.ArgumentParser):
+
+    parser.add_argument('--checkpoint_dir',
+                            type=str,)
 
     parser.add_argument('--model_name',
                             type=str,
@@ -176,7 +180,11 @@ if __name__ == "__main__":
         torch_dtype=torch.float16,
         device_map="auto",
     )
-        
+
+    adapter_checkpoint  = args.checkpoint_dir
+    model = PeftModel.from_pretrained(model, adapter_checkpoint)
+
+    
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     acc_metric = load("accuracy")
 
@@ -242,18 +250,22 @@ if __name__ == "__main__":
         #     print(x)   
         # break
 
-        labels.extend (batch['soln_with_spaces'])
+        # labels.extend (batch['soln_with_spaces'])
         ans = []
 
         outputs = inference(prompts=prompts, tokenizer=tokenizer, generation_config=generation_config, model=model)
         output_text = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-        for i in output_text:
 
-            lines = i.split('\n')
-            for i,l in enumerate(lines):
-                if l=='### Output:':
-                    predictions.append( lines[i+1].lower())
+        # print(output_text)
+        # break
+        for i,t in enumerate(output_text):
+
+            lines = t.split('\n')
+            for j,l in enumerate(lines):
+                if l=='### Response:':
+                    labels.append( batch['soln_with_spaces'][i].lower())
+                    predictions.append( lines[j+1].lower())
                     break
 
     print(len(predictions), len(labels))

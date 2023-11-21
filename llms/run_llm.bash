@@ -16,13 +16,14 @@ echo "starting......................."
 # --model_name='meta-llama/Llama-2-7b-hf' \
 
 python evaluate_llm.py \
+--checkpoint_dir='experiments/Mistral-7B-v0.1/checkpoint-5000' \
 --model_name='mistralai/Mistral-7B-v0.1' \
---batch_size=32 \
+--batch_size=16 \
 --num_examples=0 \
---n_shots=2 \
---prompt='Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of charachters in the answer should be same as the number in the parenthesis. Just output the answer only. Do not output any explanitions, just the words in the answer.' \
+--n_shots=0 \
+--prompt='Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.' \
 --dataset_path='../data/naive_random.json' \
---save_file='test_output_pred.txt' \
+--save_file='mistral_5k_output_pred.txt' \
 
 
 echo " ending "

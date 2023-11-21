@@ -2,8 +2,7 @@ starting.......................
 model_name mistralai/Mistral-7B-v0.1
 save_file test_output_pred.txt
 batch_size 32
-prompt Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of charachters in the answer should be same as the number in the parenthesis. Just output the answer only. Do not output any explanitions, just the words in the answer.
-n_shots 2
+ n_shots 2
 num_examples 0
 dataset_path ../data/naive_random.json
 
