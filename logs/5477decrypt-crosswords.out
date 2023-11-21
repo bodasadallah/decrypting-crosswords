@@ -1,0 +1,514 @@
+starting.......................
+[10.26 18:56:10] [train_clues.py:132 - <module>()]	 train_clues.py --default_train=base --name=naive_random_Cirrucular --project=baseline --wandb_dir=../../wandb --data_dir=../data/clue_json/guardian/word_initial_disjoint --num_epochs=15 --multitask=ACW --batch_size=128
+[10.26 18:56:10] [util.py:168 - set_seed()]	 Setting seed
+[10.26 18:56:10] [util_checkpoint.py:65 - __init__()]	 Saver will track (metric, maximize?)
+ [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)]
+[10.26 18:56:10] [util.py:86 - get_available_devices()]	 Device: cuda:0	 GPU IDs: [0]	 machine: ws-l2-004
+
+[10.26 18:57:24] [train_abc.py:791 - setup_dataloaders_multi()]	 Setting up for multitask
+[10.26 18:57:24] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type train
+[10.26 18:57:24] [util_dataloader_batch.py:72 - __init__()]	 For dataset, found readme: 
+[10.26 18:57:24] [util_dataloader_batch.py:73 - __init__()]	 ['Guardian data. Split: word_init_disjoint\n', 'Total: 142380\n', 'splits: [75847, 32628, 33905]\n', '\n', "{'idx': -1, 'input': 'Sailor boy in his hammock (4)', 'target': 'abed'}\n", "{'idx': -1,\n", " 'input': 'With a degree, I leave this subject (5)',\n", " 'target': 'maths'}\n", "{'idx': -1,\n", " 'input': 'Burrow to cure limb and make sure one gets up (3,3,5)',\n", " 'target': 'set the alarm'}\n", '\n', '\n']
+[10.26 18:57:27] [util_dataloader_batch.py:197 - _get_dataloader_batched()]	 Dataset train loaded with size: 75847
+[10.26 18:57:29] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	"A thousand times no!" encapsulated in this Reformer (4) => knox
+[10.26 18:57:29] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.26 18:57:29] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type val
+[10.26 18:57:32] [util_dataloader_batch.py:197 - _get_dataloader_batched()]	 Dataset val loaded with size: 32628
+[10.26 18:57:36] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	Tension in an arm? Slightly (1,6) => a trifle
+[10.26 18:57:36] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.26 18:57:36] [util_multiloader.py:110 - _prepare_dataloaders()]	 For task acw, using cfg-provided collate function
+[10.26 18:57:36] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type train
+[10.26 18:57:36] [util_dataloader_batch.py:72 - __init__()]	 For dataset, found readme: 
+[10.26 18:57:36] [util_dataloader_batch.py:73 - __init__()]	 ['ACW set; xd cw set, all\n', 'Total: 2234863\n', 'splits: [2234863]\n', '\n', '{\'idx\': 0, \'input\': "Litigator\'s group (3)", \'target\': \'aba\'}\n', "{'idx': 1, 'input': 'Arab garment (3)', 'target': 'aba'}\n", "{'idx': 2, 'input': 'Arabian garment (3)', 'target': 'aba'}\n", '\n', '\n']
+[10.26 18:58:29] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	phrase: Getting through a busy toll plaza, e.g (6) => hassle
+[10.26 18:58:29] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.26 18:58:31] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	phrase: Darks or whites (4) => load
+[10.26 18:58:31] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.26 18:58:31] [util_multiloader.py:214 - __init__()]	 Configuring multiloader with freqs [20, 6] batches
+[10.26 18:58:34] [util_multiloader.py:257 - _setup()]	 Finished setting up multiloader
+	 batch_sizes: [128, 128]
+	 freq: [20, 6]
+[10.26 18:58:34] [train_abc.py:448 - verify_and_log_trainer_info()]	 Verifying that all metrics are OK. The outputs here are NOT from the model that was passed ifone was passed
+[10.26 18:58:34] [train_abc.py:558 - val_step()]	 Evaluating at all_step 0 (epoch=0)...
+[10.26 18:58:34] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 0
+[10.26 18:58:52] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: ? Slightly (1,6) (1,6) (1,6) (1,6) (1,
+
+[10.26 18:58:52] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 0
+[10.26 18:58:52] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.26 18:58:54] [train_abc.py:456 - verify_and_log_trainer_info()]	 Tracking metrics [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)] all verified
+[10.26 18:58:54] [train_abc.py:486 - verify_and_log_trainer_info()]	 
+total_train_steps (num_train_ex * epochs): 489420
+machine: ws-l2-004
+num_train: 75847
+num_val: 32628ada: True
+ada_constant: False
+add_special_tokens: False
+batch_size: 128
+batched_dl: True
+ckpt_path: None
+comment: 
+data_dir: ../data/clue_json/guardian/word_initial_disjoint
+default_train: base
+default_val: None
+dev_run: False
+do_sample: True
+do_save: True
+early_stopping: None
+fast_tokenizer: True
+generation_beams: 5
+grad_accum_steps: 1
+hacky: False
+model_name: t5-base
+multi_gpu: None
+multitask: ACW
+multitask_num: -1
+name: naive_random_Cirrucular
+no_train: False
+num_epochs: 15
+num_train: 75847
+num_val: 32628
+num_workers: 4
+project: baseline
+resume_train: None
+seed: 42
+special: None
+test: False
+total_train: 489420
+use_json: True
+val_freq: None
+wandb_dir: ../../wandb
+multitask:
+{
+  "multitask_config": {
+    "freq_list": [
+      20,
+      6
+    ],
+    "multitask_dir": "../data/clue_json/curricular",
+    "num_warmup": 4,
+    "reset": true,
+    "tasks": [
+      {
+        "collate_fn": "coll_fn",
+        "dir": "ACW_data",
+        "name": "acw",
+        "val_fcn_list": [
+          "compute_metrics_sampled_primary"
+        ]
+      }
+    ],
+    "val_split_pct": 0.99
+  }
+}
+
+[10.26 18:58:54] [train_abc.py:352 - run()]	 For actual train, epochs start at 11
+[10.26 18:58:54] [train_abc.py:957 - train_step()]	 Training warmup=1...
+[10.26 19:04:39] [utils.py:148 - _init_num_threads()]	 Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[10.26 19:04:39] [utils.py:160 - _init_num_threads()]	 NumExpr defaulting to 8 threads.
+[10.26 20:59:13] [train_abc.py:558 - val_step()]	 Evaluating at all_step 2212514 (epoch=1)...
+[10.26 20:59:13] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 1
+[10.26 20:59:13] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.26 21:02:51] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 7282.00	 avg: 0.2232
+[10.26 21:02:51] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 4313.00	 avg: 0.1322
+[10.26 21:02:51] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.85	 avg: 1.8518
+[10.26 21:02:51] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 1 at epoch=1
+[10.26 21:02:51] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=1 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_1.pth.tar
+[10.26 21:03:15] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 7282 at epoch=1
+[10.26 21:03:15] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 1 at epoch=1
+[10.26 21:03:15] [train_abc.py:957 - train_step()]	 Training warmup=2...
+[10.26 23:01:32] [train_abc.py:558 - val_step()]	 Evaluating at all_step 4425028 (epoch=2)...
+[10.26 23:01:32] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 2
+[10.26 23:01:32] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.26 23:04:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10565.00	 avg: 0.3238
+[10.26 23:04:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6592.00	 avg: 0.2020
+[10.26 23:04:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.47	 avg: 1.4700
+[10.26 23:04:59] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 2 at epoch=2
+[10.26 23:04:59] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=2 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_2.pth.tar
+[10.26 23:05:15] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 10565 at epoch=2
+[10.26 23:05:15] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 2 at epoch=2
+[10.26 23:05:15] [util_checkpoint.py:184 - save_if_best()]	 Failed to remove checkpoint ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_1.pth.tar
+[10.26 23:05:15] [train_abc.py:957 - train_step()]	 Training warmup=3...
+[10.27 01:04:56] [train_abc.py:558 - val_step()]	 Evaluating at all_step 6637542 (epoch=3)...
+[10.27 01:04:56] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 3
+[10.27 01:04:56] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 01:08:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12021.00	 avg: 0.3684
+[10.27 01:08:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8043.00	 avg: 0.2465
+[10.27 01:08:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.29	 avg: 1.2947
+[10.27 01:08:21] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 3 at epoch=3
+[10.27 01:08:21] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=3 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_3.pth.tar
+[10.27 01:08:58] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 12021 at epoch=3
+[10.27 01:08:58] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 3 at epoch=3
+[10.27 01:08:58] [util_checkpoint.py:184 - save_if_best()]	 Failed to remove checkpoint ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_2.pth.tar
+[10.27 01:08:58] [train_abc.py:957 - train_step()]	 Training warmup=4...
+[10.27 03:07:30] [train_abc.py:558 - val_step()]	 Evaluating at all_step 8850056 (epoch=4)...
+[10.27 03:07:30] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 4
+[10.27 03:07:30] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 03:10:57] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12828.00	 avg: 0.3932
+[10.27 03:10:57] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8745.00	 avg: 0.2680
+[10.27 03:10:57] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.20	 avg: 1.2040
+[10.27 03:10:57] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 4 at epoch=4
+[10.27 03:10:57] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=4 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_4.pth.tar
+[10.27 03:11:07] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 12828 at epoch=4
+[10.27 03:11:07] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 4 at epoch=4
+[10.27 03:11:07] [util_checkpoint.py:184 - save_if_best()]	 Failed to remove checkpoint ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_3.pth.tar
+[10.27 03:11:08] [train_abc.py:358 - run()]	 Final warmup epoch done. Resetting optimizer
+[10.27 03:11:08] [train_abc.py:959 - train_step()]	 Training epoch=11...
+[10.27 03:16:12] [train_abc.py:558 - val_step()]	 Evaluating at all_step 8948175 (epoch=11)...
+[10.27 03:16:12] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 11
+[10.27 03:16:14] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: asymmetric
+
+[10.27 03:22:51] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 11
+[10.27 03:22:51] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 961.00	 avg: 0.0295
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 3306.00	 avg: 0.1013
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 1467.00	 avg: 0.0450
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 3306.00	 avg: 0.1013
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 26236.00	 avg: 0.8041
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 28392.60	 avg: 0.8702
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.80	 avg: 2.7966
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12754.00	 avg: 0.3909
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8555.00	 avg: 0.2622
+[10.27 03:27:28] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.22	 avg: 1.2220
+[10.27 03:27:28] [util_checkpoint.py:142 - save_if_best()]	 Best metric for dev/num_match_top_sampled = 1467 at epoch=11
+[10.27 03:27:28] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=11 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_11.pth.tar
+[10.27 03:27:37] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 11 at epoch=11
+[10.27 03:27:37] [train_abc.py:959 - train_step()]	 Training epoch=12...
+[10.27 03:32:34] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9046294 (epoch=12)...
+[10.27 03:32:34] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 12
+[10.27 03:32:37] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: a stumbling s
+
+[10.27 03:38:22] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 12
+[10.27 03:38:22] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 861.00	 avg: 0.0264
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 2776.00	 avg: 0.0851
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 1146.00	 avg: 0.0351
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 2776.00	 avg: 0.0851
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28360.00	 avg: 0.8692
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 30587.80	 avg: 0.9375
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.78	 avg: 2.7831
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12758.00	 avg: 0.3910
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8634.00	 avg: 0.2646
+[10.27 03:42:22] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.24	 avg: 1.2419
+[10.27 03:42:22] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 12 at epoch=12
+[10.27 03:42:22] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=12 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_12.pth.tar
+[10.27 03:42:34] [train_abc.py:959 - train_step()]	 Training epoch=13...
+[10.27 03:47:27] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9144413 (epoch=13)...
+[10.27 03:47:27] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 13
+[10.27 03:47:29] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: a second
+
+[10.27 03:53:10] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 13
+[10.27 03:53:10] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 772.00	 avg: 0.0237
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 2582.00	 avg: 0.0791
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 986.00	 avg: 0.0302
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 2582.00	 avg: 0.0791
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29520.60	 avg: 0.9048
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31380.40	 avg: 0.9618
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 02.89	 avg: 2.8886
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12667.00	 avg: 0.3882
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8570.00	 avg: 0.2627
+[10.27 03:56:53] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.26	 avg: 1.2615
+[10.27 03:56:53] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 13 at epoch=13
+[10.27 03:56:53] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=13 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_13.pth.tar
+[10.27 03:57:01] [train_abc.py:959 - train_step()]	 Training epoch=14...
+[10.27 04:03:42] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9242532 (epoch=14)...
+[10.27 04:03:42] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 14
+[10.27 04:03:44] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: a stitch
+
+[10.27 04:08:59] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 14
+[10.27 04:08:59] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 716.00	 avg: 0.0219
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 2349.00	 avg: 0.0720
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 853.00	 avg: 0.0261
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 2349.00	 avg: 0.0720
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29661.00	 avg: 0.9091
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31639.20	 avg: 0.9697
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.07	 avg: 3.0714
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12462.00	 avg: 0.3819
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8392.00	 avg: 0.2572
+[10.27 04:13:01] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.30	 avg: 1.2981
+[10.27 04:13:01] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 14 at epoch=14
+[10.27 04:13:01] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=14 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_14.pth.tar
+[10.27 04:13:32] [train_abc.py:959 - train_step()]	 Training epoch=15...
+[10.27 04:18:21] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9340651 (epoch=15)...
+[10.27 04:18:21] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 15
+[10.27 04:18:24] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: a stitch
+
+[10.27 04:23:57] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 15
+[10.27 04:23:57] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 700.00	 avg: 0.0215
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 2213.00	 avg: 0.0678
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 819.00	 avg: 0.0251
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 2213.00	 avg: 0.0678
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29781.60	 avg: 0.9128
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31660.20	 avg: 0.9703
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.35	 avg: 3.3531
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 12009.00	 avg: 0.3681
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 8038.00	 avg: 0.2464
+[10.27 04:27:37] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.35	 avg: 1.3479
+[10.27 04:27:38] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 15 at epoch=15
+[10.27 04:27:38] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=15 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_15.pth.tar
+[10.27 04:27:46] [train_abc.py:959 - train_step()]	 Training epoch=16...
+[10.27 04:32:22] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9438770 (epoch=16)...
+[10.27 04:32:22] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 16
+[10.27 04:32:25] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: a stitch in
+
+[10.27 04:37:27] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 16
+[10.27 04:37:27] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 04:41:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 630.00	 avg: 0.0193
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 2038.00	 avg: 0.0625
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 753.00	 avg: 0.0231
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 2038.00	 avg: 0.0625
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29597.00	 avg: 0.9071
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31618.60	 avg: 0.9691
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.56	 avg: 3.5614
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11631.00	 avg: 0.3565
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7604.00	 avg: 0.2331
+[10.27 04:41:38] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.39	 avg: 1.3893
+[10.27 04:41:38] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 16 at epoch=16
+[10.27 04:41:38] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=16 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_16.pth.tar
+[10.27 04:41:49] [train_abc.py:959 - train_step()]	 Training epoch=17...
+[10.27 04:46:44] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9536889 (epoch=17)...
+[10.27 04:46:44] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 17
+[10.27 04:46:46] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: a change
+
+[10.27 04:52:29] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 17
+[10.27 04:52:29] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 521.00	 avg: 0.0160
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1750.00	 avg: 0.0536
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 589.00	 avg: 0.0181
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1750.00	 avg: 0.0536
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29635.60	 avg: 0.9083
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31668.40	 avg: 0.9706
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.92	 avg: 3.9164
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 11097.00	 avg: 0.3401
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 7140.00	 avg: 0.2188
+[10.27 04:56:05] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.45	 avg: 1.4479
+[10.27 04:56:06] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 17 at epoch=17
+[10.27 04:56:06] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=17 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_17.pth.tar
+[10.27 04:56:18] [train_abc.py:959 - train_step()]	 Training epoch=18...
+[10.27 05:01:10] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9635008 (epoch=18)...
+[10.27 05:01:10] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 18
+[10.27 05:01:13] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: g string
+
+[10.27 05:06:51] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 18
+[10.27 05:06:51] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 509.00	 avg: 0.0156
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1625.00	 avg: 0.0498
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 600.00	 avg: 0.0184
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1625.00	 avg: 0.0498
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28949.40	 avg: 0.8873
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31373.60	 avg: 0.9616
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 03.99	 avg: 3.9928
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10607.00	 avg: 0.3251
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6696.00	 avg: 0.2052
+[10.27 05:10:34] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.51	 avg: 1.5098
+[10.27 05:10:34] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 18 at epoch=18
+[10.27 05:10:34] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=18 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_18.pth.tar
+[10.27 05:10:43] [train_abc.py:959 - train_step()]	 Training epoch=19...
+[10.27 05:15:58] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9733127 (epoch=19)...
+[10.27 05:15:58] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 19
+[10.27 05:16:00] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: sleetling
+
+[10.27 05:22:18] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 19
+[10.27 05:22:18] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 439.00	 avg: 0.0135
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1394.00	 avg: 0.0427
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 510.00	 avg: 0.0156
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1394.00	 avg: 0.0427
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29012.20	 avg: 0.8892
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31391.40	 avg: 0.9621
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.15	 avg: 4.1548
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 9841.00	 avg: 0.3016
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6049.00	 avg: 0.1854
+[10.27 05:25:59] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.60	 avg: 1.5973
+[10.27 05:25:59] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 19 at epoch=19
+[10.27 05:25:59] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=19 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_19.pth.tar
+[10.27 05:26:44] [train_abc.py:959 - train_step()]	 Training epoch=20...
+[10.27 05:31:27] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9831246 (epoch=20)...
+[10.27 05:31:27] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 20
+[10.27 05:31:30] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: g string
+
+[10.27 05:36:18] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 20
+[10.27 05:36:18] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 410.00	 avg: 0.0126
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1270.00	 avg: 0.0389
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 465.00	 avg: 0.0143
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1270.00	 avg: 0.0389
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 29102.60	 avg: 0.8920
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31462.20	 avg: 0.9643
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.42	 avg: 4.4225
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 9241.00	 avg: 0.2832
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 5520.00	 avg: 0.1692
+[10.27 05:40:32] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.70	 avg: 1.7016
+[10.27 05:40:33] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 20 at epoch=20
+[10.27 05:40:33] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=20 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_20.pth.tar
+[10.27 05:41:06] [train_abc.py:959 - train_step()]	 Training epoch=21...
+[10.27 05:45:54] [train_abc.py:558 - val_step()]	 Evaluating at all_step 9929365 (epoch=21)...
+[10.27 05:45:54] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 21
+[10.27 05:45:56] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: u arm a armour
+
+[10.27 05:51:27] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 21
+[10.27 05:51:27] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 380.00	 avg: 0.0116
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 1278.00	 avg: 0.0392
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 444.00	 avg: 0.0136
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 1278.00	 avg: 0.0392
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28958.00	 avg: 0.8875
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31524.20	 avg: 0.9662
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.24	 avg: 4.2440
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 8565.00	 avg: 0.2625
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 4942.00	 avg: 0.1515
+[10.27 05:55:01] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.78	 avg: 1.7834
+[10.27 05:55:02] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 21 at epoch=21
+[10.27 05:55:02] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=21 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_21.pth.tar
+[10.27 05:55:10] [train_abc.py:959 - train_step()]	 Training epoch=22...
+[10.27 06:00:10] [train_abc.py:558 - val_step()]	 Evaluating at all_step 10027484 (epoch=22)...
+[10.27 06:00:10] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 22
+[10.27 06:00:13] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: t arm finial
+
+[10.27 06:05:48] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 22
+[10.27 06:05:48] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 268.00	 avg: 0.0082
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 933.00	 avg: 0.0286
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 325.00	 avg: 0.0100
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 933.00	 avg: 0.0286
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28588.20	 avg: 0.8762
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31326.00	 avg: 0.9601
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.43	 avg: 4.4278
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 7748.00	 avg: 0.2375
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 4473.00	 avg: 0.1371
+[10.27 06:09:21] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.90	 avg: 1.8956
+[10.27 06:09:21] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 22 at epoch=22
+[10.27 06:09:21] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=22 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_22.pth.tar
+[10.27 06:09:31] [train_abc.py:959 - train_step()]	 Training epoch=23...
+[10.27 06:14:58] [train_abc.py:558 - val_step()]	 Evaluating at all_step 10125603 (epoch=23)...
+[10.27 06:14:58] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 23
+[10.27 06:15:01] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: i ampere
+
+[10.27 06:20:58] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 23
+[10.27 06:20:58] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 244.00	 avg: 0.0075
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 886.00	 avg: 0.0272
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 285.00	 avg: 0.0087
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 886.00	 avg: 0.0272
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28324.80	 avg: 0.8681
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31451.60	 avg: 0.9639
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.38	 avg: 4.3845
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 7041.00	 avg: 0.2158
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 3935.00	 avg: 0.1206
+[10.27 06:25:50] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.97	 avg: 1.9720
+[10.27 06:25:50] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 23 at epoch=23
+[10.27 06:25:50] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=23 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_23.pth.tar
+[10.27 06:26:01] [train_abc.py:959 - train_step()]	 Training epoch=24...
+[10.27 06:30:56] [train_abc.py:558 - val_step()]	 Evaluating at all_step 10223722 (epoch=24)...
+[10.27 06:30:56] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 24
+[10.27 06:30:59] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: l l l r l
+
+[10.27 06:36:40] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 24
+[10.27 06:36:40] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 239.00	 avg: 0.0073
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 834.00	 avg: 0.0256
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 305.00	 avg: 0.0093
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 834.00	 avg: 0.0256
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28560.00	 avg: 0.8753
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31458.80	 avg: 0.9642
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.43	 avg: 4.4317
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 6524.00	 avg: 0.2000
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 3731.00	 avg: 0.1143
+[10.27 06:40:26] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 02.02	 avg: 2.0160
+[10.27 06:40:27] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 24 at epoch=24
+[10.27 06:40:27] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=24 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_24.pth.tar
+[10.27 06:40:39] [train_abc.py:959 - train_step()]	 Training epoch=25...
+[10.27 06:45:48] [train_abc.py:558 - val_step()]	 Evaluating at all_step 10321841 (epoch=25)...
+[10.27 06:45:48] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 25
+[10.27 06:45:50] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Tension in an arm? Slightly (1,6)
+ 	Target: a trifle
+	 Actual: iambuster
+
+[10.27 06:51:52] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 25
+[10.27 06:51:52] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_exact_match_char_2: 229.00	 avg: 0.0070
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_in_sample: 748.00	 avg: 0.0229
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_sampled: 266.00	 avg: 0.0082
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/num_match_top_5_sampled: 748.00	 avg: 0.0229
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_length: 28517.60	 avg: 0.8740
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/pct_correct_wordct: 31495.60	 avg: 0.9653
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 dev/NLL: 04.79	 avg: 4.7923
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 6744.00	 avg: 0.2067
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 3700.00	 avg: 0.1134
+[10.27 06:55:37] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 02.02	 avg: 2.0200
+[10.27 06:55:37] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 25 at epoch=25
+[10.27 06:55:37] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=25 to ../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_25.pth.tar
+[10.27 06:55:57] [train_clues.py:110 - post_run()]	 loading from
+	../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_11.pth.tar
+	../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/ckpt_dev_num_match_top_sampled_1467.00_11.pth.tar
+[10.27 06:55:57] [train_clues.py:113 - post_run()]	 for final validation:
+	../../wandb/wandb/run-20231026_185609-8lm7lbh1/files/epoch_11.pth.tarpreds.json
+ ending 

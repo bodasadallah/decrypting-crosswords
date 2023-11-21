@@ -1,0 +1,131 @@
+starting.......................
+[10.20 16:51:35] [train_clues.py:132 - <module>()]	 train_clues.py --default_train=base --name=naive_random_Cirrucular --project=baseline --wandb_dir=../../wandb --data_dir=../data/clue_json/guardian/naive_random --num_epochs=15 --multitask=ACW --batch_size=128 --ckpt_path=../../wandb/wandb/run-20231011_114626-xef8hbvo/files/epoch_1.pth.tar --resume_train --hacky
+[10.20 16:51:35] [util.py:168 - set_seed()]	 Setting seed
+[10.20 16:51:35] [util_checkpoint.py:65 - __init__()]	 Saver will track (metric, maximize?)
+ [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)]
+[10.20 16:51:35] [util.py:86 - get_available_devices()]	 Device: cuda:0	 GPU IDs: [0]	 machine: ws-l6-020
+
+[10.20 16:53:08] [train_abc.py:791 - setup_dataloaders_multi()]	 Setting up for multitask
+[10.20 16:53:09] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type train
+[10.20 16:53:09] [util_dataloader_batch.py:72 - __init__()]	 For dataset, found readme: 
+[10.20 16:53:09] [util_dataloader_batch.py:73 - __init__()]	 ['Guardian data. Split: naive_random\n', 'Total: 142380\n', 'splits: [85428, 28476, 28476]\n', '\n', "{'idx': -1,\n", " 'input': 'Suffering to grasp edge of plant (8)',\n", " 'target': 'agrimony'}\n", "{'idx': -1,\n", " 'input': 'Honour Ben and Noel with new order (7)',\n", " 'target': 'ennoble'}\n", "{'idx': -1, 'input': 'Bit the royal we love? Cheers! (4)', 'target': 'iota'}\n", '\n', '\n']
+[10.20 16:53:10] [util_dataloader_batch.py:197 - _get_dataloader_batched()]	 Dataset train loaded with size: 85428
+[10.20 16:53:17] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	Try to convert Senegal? I've failed (10) => evangelise
+[10.20 16:53:18] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.20 16:53:18] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type val
+[10.20 16:53:28] [util_dataloader_batch.py:197 - _get_dataloader_batched()]	 Dataset val loaded with size: 28476
+[10.20 16:53:28] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	Desk register taken no further than Ozzie? (7) => rolltop
+[10.20 16:53:29] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.20 16:53:29] [util_multiloader.py:110 - _prepare_dataloaders()]	 For task acw, using cfg-provided collate function
+[10.20 16:53:29] [util_dataloader_batch.py:56 - __init__()]	 Loading cluedatasetbatched of type train
+[10.20 16:53:29] [util_dataloader_batch.py:72 - __init__()]	 For dataset, found readme: 
+[10.20 16:53:29] [util_dataloader_batch.py:73 - __init__()]	 ['ACW set; xd cw set, all\n', 'Total: 2234863\n', 'splits: [2234863]\n', '\n', '{\'idx\': 0, \'input\': "Litigator\'s group (3)", \'target\': \'aba\'}\n', "{'idx': 1, 'input': 'Arab garment (3)', 'target': 'aba'}\n", "{'idx': 2, 'input': 'Arabian garment (3)', 'target': 'aba'}\n", '\n', '\n']
+[10.20 16:54:27] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	phrase: Getting through a busy toll plaza, e.g (6) => hassle
+[10.20 16:54:32] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.20 16:54:38] [util_dataloader_batch.py:34 - __post_init_check()]	 Dataloader:
+	phrase: Darks or whites (4) => load
+[10.20 16:54:39] [util_dataloader_batch.py:174 - _get_dataloader_from_dataset()]	 Dataloader loaded from dataset
+[10.20 16:54:39] [util_multiloader.py:214 - __init__()]	 Configuring multiloader with freqs [20, 6] batches
+[10.20 16:54:50] [util_multiloader.py:257 - _setup()]	 Finished setting up multiloader
+	 batch_sizes: [128, 128]
+	 freq: [20, 6]
+[10.20 16:54:51] [train_abc.py:448 - verify_and_log_trainer_info()]	 Verifying that all metrics are OK. The outputs here are NOT from the model that was passed ifone was passed
+[10.20 16:54:51] [train_abc.py:558 - val_step()]	 Evaluating at all_step 0 (epoch=0)...
+[10.20 16:54:51] [train_abc.py:567 - val_step()]	 Primary eval; epoch: 0
+[10.20 16:56:32] [train_abc.py:629 - validate_val_loader()]	 
+ idx: -1
+Source: Desk register taken no further than Ozzie? (7)
+ 	Target: rolltop
+	 Actual: Ozzie? (7) (7) (8) (8) (8) (8) (8) 
+
+[10.20 16:56:35] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 0
+[10.20 16:56:35] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.20 16:57:20] [train_abc.py:456 - verify_and_log_trainer_info()]	 Tracking metrics [('dev/num_match_top_sampled', True), ('multisave', True), ('multi/acw/num_match_in_sample', True), ('epoch', True)] all verified
+[10.20 16:57:20] [train_abc.py:486 - verify_and_log_trainer_info()]	 
+total_train_steps (num_train_ex * epochs): 427140
+machine: ws-l6-020
+num_train: 85428
+num_val: 28476ada: True
+ada_constant: False
+add_special_tokens: False
+batch_size: 128
+batched_dl: True
+ckpt_path: ../../wandb/wandb/run-20231011_114626-xef8hbvo/files/epoch_1.pth.tar
+comment: 
+data_dir: ../data/clue_json/guardian/naive_random
+default_train: base
+default_val: None
+dev_run: False
+do_sample: True
+do_save: True
+early_stopping: None
+fast_tokenizer: True
+generation_beams: 5
+grad_accum_steps: 1
+hacky: True
+model_name: t5-base
+multi_gpu: None
+multitask: ACW
+multitask_num: -1
+name: naive_random_Cirrucular
+no_train: False
+num_epochs: 15
+num_train: 85428
+num_val: 28476
+num_workers: 4
+project: baseline
+resume_train: True
+seed: 42
+special: None
+test: False
+total_train: 427140
+use_json: True
+val_freq: None
+wandb_dir: ../../wandb
+multitask:
+{
+  "multitask_config": {
+    "freq_list": [
+      20,
+      6
+    ],
+    "multitask_dir": "../data/clue_json/curricular",
+    "num_warmup": 4,
+    "reset": true,
+    "tasks": [
+      {
+        "collate_fn": "coll_fn",
+        "dir": "ACW_data",
+        "name": "acw",
+        "val_fcn_list": [
+          "compute_metrics_sampled_primary"
+        ]
+      }
+    ],
+    "val_split_pct": 0.99
+  }
+}
+
+[10.20 16:57:20] [train_abc.py:289 - load_from_ckpt()]	 Loading checkpoint: ../../wandb/wandb/run-20231011_114626-xef8hbvo/files/epoch_1.pth.tar
+[10.20 16:57:38] [util_checkpoint.py:36 - load_ckpt()]	 Loading model from ../../wandb/wandb/run-20231011_114626-xef8hbvo/files/epoch_1.pth.tar:
+['{"multi/acw/num_match_in_sample": 7296, "multi/acw/num_match_top_sampled": 4297, "multi/acw/NLL": 1.851295933637466, "multisave": 1, "epoch": 1, "name": "naive_random_Cirrucular"}']
+[10.20 16:57:40] [train_abc.py:226 - resume()]	 Train info resumed but did not set all_step_after_warmup
+[10.20 16:57:40] [train_abc.py:338 - load_from_ckpt()]	 Set up at epoch 1, with 4 total warmup, and 0 already done, ie3 warmup todo
+[10.20 16:57:41] [train_abc.py:352 - run()]	 For actual train, epochs start at 11
+[10.20 16:57:41] [train_abc.py:957 - train_step()]	 Training warmup=2...
+[10.20 17:17:00] [utils.py:148 - _init_num_threads()]	 Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[10.20 17:17:00] [utils.py:160 - _init_num_threads()]	 NumExpr defaulting to 8 threads.
+[10.21 05:13:06] [train_abc.py:558 - val_step()]	 Evaluating at all_step 4425028 (epoch=2)...
+[10.21 05:13:07] [train_abc.py:577 - val_step()]	 Multitask eval; epoch: 2
+[10.21 05:13:07] [train_abc.py:579 - val_step()]	 Validating DL acw
+[10.21 05:17:06] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_in_sample: 10313.00	 avg: 0.3622
+[10.21 05:17:06] [train_abc.py:502 - val_end_epoch()]	 multi/acw/num_match_top_sampled: 6569.00	 avg: 0.2307
+[10.21 05:17:06] [train_abc.py:502 - val_end_epoch()]	 multi/acw/NLL: 01.50	 avg: 1.5009
+[10.21 05:17:06] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multisave = 2 at epoch=2
+[10.21 05:17:06] [util_checkpoint.py:113 - save_most_recent()]	 Saving most recent model at epoch=2 to ../../wandb/wandb/run-20231020_165134-8h995lsk/files/epoch_2.pth.tar
+[10.21 05:17:58] [util_checkpoint.py:142 - save_if_best()]	 Best metric for multi/acw/num_match_in_sample = 10313 at epoch=2
+[10.21 05:17:59] [util_checkpoint.py:142 - save_if_best()]	 Best metric for epoch = 2 at epoch=2
+[10.21 05:17:59] [train_abc.py:957 - train_step()]	 Training warmup=3...
