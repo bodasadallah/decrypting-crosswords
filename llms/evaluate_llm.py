@@ -16,7 +16,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import emoji
 import argparse
-from peft import PeftModel    
+from peft import PeftModel
 
 
 
@@ -152,6 +152,18 @@ def inference(prompts, tokenizer, generation_config, model):
     return answer_tokens
         
 
+def clean_output(output, label):
+    correct_words = label.split(" ")
+    output_words = output.split(" ")[:len(correct_words)]
+
+    for w in output_words:
+        w = ''.join(filter(str.isalpha, w))
+
+    clean_output = " ".join(output_words)
+
+    return clean_output
+
+
 if __name__ == "__main__":
 
 
@@ -272,28 +284,35 @@ if __name__ == "__main__":
     assert (len(predictions) == len(labels))
 
 
-    correct = 0
-    length_error =0
+    correct_not_cleaned = 0
+    correct_cleaned = 0
+    length_error = 0
 
 
     with open(save_file, 'w') as f:
-        for pred,label in zip(predictions,labels):
+        for pred, label in zip(predictions,labels):
 
             correctly_predicted = False
             if pred == label:
-                correct +=1
+                correct_not_cleaned += 1
+                correctly_predicted = True
+
+            cleaned_pred = clean_output(pred, label)
+            if cleaned_pred == label:
+                correct_not_cleaned += 1
                 correctly_predicted = True
 
             if len(pred) == len(label):
                 length_error +=1
 
             if correctly_predicted:
-                f.write(emoji.emojize(f'{pred} | {label}  :check_mark_button: \n'))
+                f.write(emoji.emojize(f'{pred} | {cleaned_pred} | {label}  :check_mark_button: \n'))
             else:
-                f.write(emoji.emojize(f'{pred} | {label}  :cross_mark: \n'))
+                f.write(emoji.emojize(f'{pred} | {cleaned_pred} | {label}  :cross_mark: \n'))
 
 
     print(num_examples)
-    print(f'ACCURACY:  { float (correct / num_examples)}')
+    print(f'ACCURACY not cleaned:  { float (correct_not_cleaned / num_examples)}')
+    print(f'ACCURACY cleaned:  { float (correct_cleaned / num_examples)}')
     print(f'Length error:  { float (1 - (length_error / num_examples) )}')
 
