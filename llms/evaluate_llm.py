@@ -7,7 +7,7 @@ from huggingface_hub import notebook_login
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
 import datasets
 import transformers
-from datasets import load_dataset
+from datasets import load_dataset,load_from_disk
 from evaluate import load
 import matplotlib.pyplot as plt
 import numpy as np
@@ -16,121 +16,9 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import emoji
 import argparse
-from peft import PeftModel
-
-
-
-
-# 
-# MODEL_NAME = "meta-llama/Llama-2-7b-hf"
-
-def add_args(parser: argparse.ArgumentParser):
-
-    parser.add_argument('--checkpoint_dir',
-                            type=str,)
-
-    parser.add_argument('--model_name',
-                            type=str,
-                            default='meta-llama/Llama-2-7b-hf')
-
-    parser.add_argument('--save_file',
-                                type=str,
-                                default='pred_output.txt')
-    
-    parser.add_argument('--batch_size',
-                            type=int,
-                            default=32)
-    
-    parser.add_argument('--prompt',
-                            type=str,
-                            default="""
-Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of charachters in the answer should be same as the number in the parenthesis. Just output the answer only. Do not output any explanitions, just the words in the answer.
- 
-### Input:
-Desk register taken no further than Ozzie? (7)
-
-### Output:
-rolltop
-
-### Input:
-Henry has books stolen (3)
-
-### Output:
-hot
-""")
-    
-    parser.add_argument('--n_shots',
-                            type=int,
-                            default=0)
-    
-    parser.add_argument('--num_examples',
-                            type=int,
-                            default=0)
-    parser.add_argument('--dataset_path',
-                            type=str,
-                            default='../data/naive_random.json')
-    
-
-
-
-def concat_length(example):
-
-    example["clue"] = f'{example["clue"]} ({example["orig_lengths"]})'
-
-    return example
-
-
-# DEFAULT_SYSTEM_PROMPT = """
-# Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of charachters in the answer should be same as the number in the parenthesis. Just output the answer only. Do not output any explanitions, just the words in the answer.
- 
-# ### Input:
-# Desk register taken no further than Ozzie? (7)
-
-# ### Output:
-# rolltop
-
-# ### Input:
-# Henry has books stolen (3)
-
-# ### Output:
-# hot
-# """.strip()
-
-
-# def generate_training_prompt(
-#     clue: str, prompt: str = DEFAULT_SYSTEM_PROMPT
-# ) -> str:
-    
-
-#     return f"""### Instruction: {prompt}
-
-# ### Input:
-# {clue.strip()}
-
-# """.strip()
-     
-
-
-
-
-def map_prompt(ex, base_prompt, shots):
-
-
-    p = ''
-
-    #add base prompt
-    p = f'### Instruction: {base_prompt}\n\n'
-
-    for shot in shots:
-        p += f'### Input:\n{shot["clue"]}\n\n### Output:\n{shot["soln_with_spaces"]}\n\n'
-
-
-    p+= f'### Input:\n{ex["clue"]}'
-
-
-    ex['prompt'] = p
-    return ex
-
+from peft import PeftModel    
+from args_parser import get_args
+from utils import get_dataset
 
 
 
@@ -139,51 +27,66 @@ def inference(prompts, tokenizer, generation_config, model):
    
     encoding = tokenizer(prompts, return_tensors="pt", padding=True).to(model.device)
 
+
+    answer_lengthes = []
+
+    for t in prompts:
+        l = t.split('\n')[-1]
+        answer_lengthes. append( l[l.rfind("(")+1:l.rfind(")")].split(',')) 
+
+    answer_lengthes =  [ list(map(int, answer_lengthes[i]))  for i in range(len(answer_lengthes))] 
+
+    # print(answer_lengthes)
+
     with torch.no_grad():
         outputs = model.generate(
             **encoding,
             max_new_tokens=64,
+            do_sample=True,
             temperature=0.00001,
             pad_token_id=tokenizer.eos_token_id,
             generation_config=generation_config,
         )  
 
     answer_tokens = outputs[:, encoding.input_ids.shape[1] :]
-    return answer_tokens
+    output_text = tokenizer.batch_decode(answer_tokens, skip_special_tokens=True)
+
+    
+
+    return output_text, answer_lengthes
         
-
-def clean_output(output, label):
-    correct_words = label.split(" ")
-    output_words = output.split(" ")[:len(correct_words)]
-
-    for w in output_words:
-        w = ''.join(filter(str.isalpha, w))
-
-    clean_output = " ".join(output_words)
-
-    return clean_output
-
 
 if __name__ == "__main__":
 
-
-    parser = argparse.ArgumentParser('Eval LLMs on crossword solving')
-
-    add_args(parser)
-    args = parser.parse_args()
-    # MODEL_NAME = "mistralai/Mistral-7B-v0.1"
+    args = get_args()
 
     for arg in vars(args):
         print(arg, getattr(args, arg))
 
+
+
     MODEL_NAME = args.model_name
-    batch_size = args.batch_size
-    prompt = args.prompt
+    batch_size = args.per_device_train_batch_size
+    prompt = args.base_prompt
     num_examples = args.num_examples
     save_file = args.save_file
 
-    dataset_path = args.dataset_path
     
+
+
+    val_dataset = get_dataset(args.test_dataset_path, split='test', field='prompt', prompt_head = prompt, old_dataset = args.old_dataset, shots=args.n_shots)
+
+
+        
+    unique_answers = np.unique(val_dataset['labels'])
+    print(f' total number of examples: {len(val_dataset)},    number of unique answers: {len(unique_answers)}')
+
+
+    if num_examples == 0:
+        num_examples = len(val_dataset)
+
+    val_dataloader = DataLoader(val_dataset.select(range(num_examples)),batch_size = batch_size)
+
 
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
@@ -193,8 +96,9 @@ if __name__ == "__main__":
         device_map="auto",
     )
 
-    adapter_checkpoint  = args.checkpoint_dir
-    model = PeftModel.from_pretrained(model, adapter_checkpoint)
+    if args.checkpoint_path:
+        adapter_checkpoint  = args.checkpoint_path
+        model = PeftModel.from_pretrained(model, adapter_checkpoint)
 
     
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -204,46 +108,6 @@ if __name__ == "__main__":
     model = model.eval()
     generation_config = GenerationConfig.from_pretrained(MODEL_NAME)
 
-
-
-    val_dataset = load_dataset('json', data_files=dataset_path, field="val",split="train")
-
-
-    val_dataset = val_dataset.map(concat_length)
-
-    unique_answers = np.unique(val_dataset['soln'])
-    unique_type = np.unique(val_dataset['type'])
-    print(f'Total number of unique types is: {len(unique_type)}')
-    print(f' total number of examples: {len(val_dataset)},    number of unique answers: {len(unique_answers)}')
-
-    val_dataset = val_dataset.select_columns(['soln_with_spaces', 'clue' ])
-
-    idx= np.random.randint(0,len(val_dataset),args.n_shots)
-
-    shots = val_dataset.select(idx)
-
-    for shot in shots:
-        print(shot['clue'], shot['soln_with_spaces'])
-
-        
-    val_dataset = val_dataset.map(map_prompt,fn_kwargs={"base_prompt": prompt,"shots":shots})
-
-
-
-
-
-    if num_examples == 0:
-        num_examples = len(val_dataset)
-
-
-
-    val_dataloader = DataLoader(val_dataset.select(range(num_examples)),batch_size = batch_size)
-
-
-
-    type(val_dataset.select(range(100)))
-
-
     # Define PAD Token = BOS Token
     tokenizer.pad_token = tokenizer.bos_token
     model.config.pad_token_id = model.config.bos_token_id
@@ -251,68 +115,105 @@ if __name__ == "__main__":
 
     predictions = []
     labels = []
+    original_predictions = []
 
     torch.cuda.empty_cache()
 
+ 
     for batch in tqdm(val_dataloader):
 
         prompts = batch['prompt']
-
-        # for x in prompts:
-        #     print(x)   
-        # break
-
-        # labels.extend (batch['soln_with_spaces'])
         ans = []
 
-        outputs = inference(prompts=prompts, tokenizer=tokenizer, generation_config=generation_config, model=model)
-        output_text = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+        output_text, answer_lengths = inference(prompts=prompts, tokenizer=tokenizer, generation_config=generation_config, model=model)
+        
 
-
-        # print(output_text)
-        # break
         for i,t in enumerate(output_text):
 
             lines = t.split('\n')
             for j,l in enumerate(lines):
-                if l=='### Response:':
-                    labels.append( batch['soln_with_spaces'][i].lower())
-                    predictions.append( lines[j+1].lower())
-                    break
+                if l=='### Response:' or l=='### Output:':
+                    labels.append( batch['labels'][i].lower())
 
-    print(len(predictions), len(labels))
+                    ## Cut the answer to the length of the answer given in the clue
+                    answer = []
+                    original_words = lines[j+1].lower().split(' ')
+                    if len(original_words) >= len(answer_lengths[i]):
+                        for idx, length in enumerate(answer_lengths[i]):
+
+                            answer.append(original_words[idx][:length])
+
+
+                        predictions.append(' '.join(answer))
+                    else:
+                        predictions.append(lines[j+1].lower())
+
+                    original_predictions.append(lines[j+1].lower())
+                    break
+            # print( answer_lengths[i])
+            
+            # print(output_text)
+            # break
+
+    print(len(predictions), len(labels), len(original_predictions))
     assert (len(predictions) == len(labels))
 
 
-    correct_not_cleaned = 0
-    correct_cleaned = 0
-    length_error = 0
+    cleaned_correct = 0
+    original_correct = 0
+    cleaned_length_error =0
+    original_length_error =0
 
 
+    save_file = 'outputs/' + args.save_file
     with open(save_file, 'w') as f:
-        for pred, label in zip(predictions,labels):
+        for original,pred,label in zip(original_predictions,predictions,labels):
+        # for pred,label in zip(predictions,labels):
+
+            pred  = " ".join(pred.split())
+            label = " ".join(label.split())
 
             correctly_predicted = False
+
+            if original == label:
+                original_correct +=1
+            if len(original) != len(label):
+                original_length_error +=1
+
             if pred == label:
-                correct_not_cleaned += 1
+                cleaned_correct +=1
                 correctly_predicted = True
 
-            cleaned_pred = clean_output(pred, label)
-            if cleaned_pred == label:
-                correct_not_cleaned += 1
-                correctly_predicted = True
+            if len(pred) != len(label):
+                cleaned_length_error +=1
 
-            if len(pred) == len(label):
-                length_error +=1
-
+            f.write(f'Original output: {original}\n')
             if correctly_predicted:
-                f.write(emoji.emojize(f'{pred} | {cleaned_pred} | {label}  :check_mark_button: \n'))
+                f.write(emoji.emojize(f'{pred} | {label}  :check_mark_button: \n'))
             else:
-                f.write(emoji.emojize(f'{pred} | {cleaned_pred} | {label}  :cross_mark: \n'))
+                f.write(emoji.emojize(f'{pred} | {label}  :cross_mark: \n'))
+
+            f.write('---------------------------------------------------------------------------------- \n\n')
 
 
-    print(num_examples)
-    print(f'ACCURACY not cleaned:  { float (correct_not_cleaned / num_examples)}')
-    print(f'ACCURACY cleaned:  { float (correct_cleaned / num_examples)}')
-    print(f'Length error:  { float (1 - (length_error / num_examples) )}')
 
+        f.seek(0)
+        f.write(f'Dataset: {args.test_dataset_path}\n')
+
+        f.write(f'Number of Examples {num_examples}\n')
+        print(f'Number of Examples {num_examples}\n')
+
+        f.write(f' Cleaned ACCURACY:  { float (cleaned_correct / num_examples)}\n')
+        print(f' Cleaned ACCURACY:  { float (cleaned_correct / num_examples)}\n')
+
+        f.write(f'Orginal ACCURACY:  { float (original_correct / num_examples)}\n')
+        print(f'Orginal ACCURACY:  { float (original_correct / num_examples)}\n')
+
+        f.write(f'Length error:  { float ((cleaned_length_error / num_examples) )}\n')
+        print(f'Length error:  { float ((cleaned_length_error / num_examples) )}\n')
+
+        f.write(f'Original Length error:  { float ((original_length_error / num_examples) )}\n')
+        print(f'Original Length error:  { float ((original_length_error / num_examples) )}\n')
+        
+
+        f.write('----------------------------------------------------- \n\n')
