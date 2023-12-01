@@ -11,22 +11,6 @@ def get_args():
 
 def add_args(parser: argparse.ArgumentParser):
 
-    parser.add_argument('--save_dir',
-                            type=str,
-                            default="./experiments")
-    parser.add_argument('--n_shots',
-                            type=int,
-                            default=0)
-    parser.add_argument('--save_file',
-                            type=str,
-                            default="outputs.txt")
-    parser.add_argument('--num_examples',
-                            type=int,
-                            default=0)
-    parser.add_argument('--old_dataset',
-                            type=int,
-                            default=0)
-    
     parser.add_argument('--logging_dir',
                             type=str,
                             default="./logs")
@@ -84,16 +68,9 @@ def add_args(parser: argparse.ArgumentParser):
                             type=str,
                             default="""Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.""")
     
-    parser.add_argument('--train_dataset_path',
+    parser.add_argument('--dataset_path',
                             type=str,
-                            default='data/clue_json/guardian/naive_random/train.json')
-
-    parser.add_argument('--test_dataset_path',
-                            type=str,
-                            default='data/clue_json/guardian/naive_random/test.json')    
-    
-
-  
+                            default='../data/disjoint_word_init.json')
     parser.add_argument('--field',
                             type=str,
                             default='prompt')

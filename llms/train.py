@@ -12,8 +12,7 @@ from pathlib import Path
 from utils import *
 import numpy as np
 from peft import PeftModel    
-import logging
-import os
+
 
 def compute_metrics(eval_pred):
     predictions, labels, inputs = eval_pred
@@ -45,9 +44,6 @@ if __name__ == "__main__":
 
 
 
-    ## Setup logging
-    logging_path = os.path.join(args.save_dir,'logs.log') 
-    logging.basicConfig(filename= logging_path, encoding='utf-8', level=logging.DEBUG)
 
 
     model_name = args.model_name
@@ -101,8 +97,8 @@ if __name__ == "__main__":
 
 
     print("Loading the datasets")
-    train_dataset = get_dataset(dataset_path=args.train_dataset_path, field = args.field, split = 'train', old_dataset = args.old_dataset)
-    val_dataset   = get_dataset(dataset_path=args.test_dataset_path, field = args.field, split = 'test', old_dataset = args.old_dataset)
+    train_dataset   = get_dataset(dataset_path=args.dataset_path,tokenizer=tokenizer, field = args.field, split = 'train')
+    val_dataset     = get_dataset(dataset_path=args.dataset_path,tokenizer=tokenizer, field = args.field, split = 'val')
 
 
     # val_dataset = val_dataset.select(range(10))  
@@ -122,7 +118,7 @@ if __name__ == "__main__":
     print(f"logging_steps: {logging_steps}")
 
 
-    # max_steps = epoch_steps * 10
+    max_steps = epoch_steps * 10
 
     warmup_ratio = args.warmup_ratio
     lr_scheduler_type = args.lr_scheduler_type
@@ -132,14 +128,11 @@ if __name__ == "__main__":
     loggig_dir = args.logging_dir + f"/{model_name.split('/')[-1]}" + f"/logs"
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     Path(loggig_dir).mkdir(parents=True, exist_ok=True)
-
-    Path(args.save_dir).mkdir(parents=True, exist_ok=True)
-    print(f"Saving the model to {args.save_dir}")
+    print(f"Saving the model to {output_dir}")
 
 
     training_arguments = TrainingArguments(
-        output_dir=args.save_dir,
-        logging_dir=args.save_dir,
+        output_dir=output_dir,
         per_device_train_batch_size=per_device_train_batch_size,
         gradient_accumulation_steps=gradient_accumulation_steps,
         optim=optim,
@@ -152,13 +145,14 @@ if __name__ == "__main__":
         learning_rate=learning_rate,
         fp16=True,
         max_grad_norm=max_grad_norm,
-        max_steps=args. max_steps,
+        max_steps=max_steps,
         warmup_ratio=warmup_ratio,
         group_by_length=True,
         lr_scheduler_type=lr_scheduler_type,
         report_to=args.report_to,
         gradient_checkpointing=args.gradient_checkpointing,
         neftune_noise_alpha=0.1,
+        logging_dir=loggig_dir,
         eval_accumulation_steps=args.eval_accumulation_steps,
         include_inputs_for_metrics=True
     )
@@ -170,6 +164,15 @@ if __name__ == "__main__":
 
 
     lora_target_modules = args.lora_target_modules
+    # [
+    #     "q_proj",
+    #     "up_proj",
+    #     "o_proj",
+    #     "k_proj",
+    #     "down_proj",
+    #     "gate_proj",
+    #     "v_proj",
+    # ]
 
     peft_config = LoraConfig(
         lora_alpha=lora_alpha,
