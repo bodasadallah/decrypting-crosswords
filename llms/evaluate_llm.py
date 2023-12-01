@@ -56,18 +56,6 @@ def inference(prompts, tokenizer, generation_config, model):
     return output_text, answer_lengthes
         
 
-def clean_output(output, label):
-    correct_words = label.split(" ")
-    output_words = output.split(" ")[:len(correct_words)]
-
-    for w in output_words:
-        w = ''.join(filter(str.isalpha, w))
-
-    clean_output = " ".join(output_words)
-
-    return clean_output
-
-
 if __name__ == "__main__":
 
     args = get_args()
@@ -201,9 +189,9 @@ if __name__ == "__main__":
 
             f.write(f'Original output: {original}\n')
             if correctly_predicted:
-                f.write(emoji.emojize(f'{pred} | {cleaned_pred} | {label}  :check_mark_button: \n'))
+                f.write(emoji.emojize(f'{pred} | {label}  :check_mark_button: \n'))
             else:
-                f.write(emoji.emojize(f'{pred} | {cleaned_pred} | {label}  :cross_mark: \n'))
+                f.write(emoji.emojize(f'{pred} | {label}  :cross_mark: \n'))
 
             f.write('---------------------------------------------------------------------------------- \n\n')
 
