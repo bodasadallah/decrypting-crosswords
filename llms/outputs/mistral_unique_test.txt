@@ -1,0 +1,2340 @@
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at food after running around? (3
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+screech at Spooner's n
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey way they'll remember after I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey way they say, running into one
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey way they say, running into another
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey? (3,4,2
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at food after running around? Give up
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey? (3,4)
+
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at food after running around? (4
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at international event? (7,3
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey? (3,4)
+
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+screech at Spooner? Is it
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey? (3,4)
+
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoffe? No, that's wrong
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at food after running around? (4
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoffe? I'm not sure about
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoffe? I can't believe it
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at runner "Bring back saus
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at food after running? (3,
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slidey? (3,4,2
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoff at international attempts to limit arms trading (
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoffe dints? I'm
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+scoffe? No, that's absurd
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slightly less than five, say (4
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slighty? Run slightly! Don't
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+
+
+### Response:
+slighty? Run up hill with care,
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Run downhill (5)
+--------------------
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my editor!
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with an eye on future growth
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Mate entertaining a judge without taking risks (9)
+--------------------
+
+
+### Response:
+prudently, with thanks to my wife I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Maybe you'll stick with this paper (8,4)
+--------------------
+
+
+### Response:
+financial times ft weekend supplement - both sides good
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Maybe you'll stick with this paper (8,4)
+--------------------
+
+
+### Response:
+financial timesftse indexes published here (
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Maybe you'll stick with this paper (8,4)
+--------------------
+
+
+### Response:
+financial times ft foe? No FT set
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Maybe you'll stick with this paper (8,4)
+--------------------
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Father Christmas say, genuine, about to adopt the fourth strategy? (9)
+--------------------
+
+
+### Response:
+paterfamilias, good man switching
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Father Christmas say, genuine, about to adopt the fourth strategy? (9)
+--------------------
+
+
+### Response:
+paterfamilias, authentic at first
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+Father Christmas say, genuine, about to adopt the fourth strategy? (9)
+--------------------
+
+
+### Response:
+paterfamilias, authentic at first
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+The principle of variable thickness (5)
+--------------------
+
+
+### Response:
+waisty? That's wrong! I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+The principle of variable thickness (5)
+--------------------
+
+
+### Response:
+tacitly, accepting name that's
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+The principle of variable thickness (5)
+--------------------
+
+
+### Response:
+tacitly, accepting name that's
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+The principle of variable thickness (5)
+--------------------
+
+
+### Response:
+waisty? That's wrong! I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+The principle of variable thickness (5)
+--------------------
+
+
+### Response:
+waisty? That's wrong! I
+==============================
+==============================
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+
+I will give you a cryptic crossword which is a crossword puzzle in which each clue is a word puzzle. Your task is to solve this clue. The number of charachters in the answer should be same as the numbers in the parenthesis in the clue.
+
+### Input:
+The principle of variable thickness (5)
+--------------------
+
+
+### Response:
+waisty? That's wrong! I
+==============================
