@@ -1,6 +1,6 @@
 import re
-from datasets import load_dataset
-
+from datasets import load_dataset , load_from_disk
+import numpy as np
 
 
 def clean_text(text):
@@ -31,23 +31,11 @@ DEFAULT_SYSTEM_PROMPT = """
 Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.
 """.strip()
 
-
-# tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-# tokenizer.pad_token = tokenizer.eos_token
-# tokenizer.padding_side = 'right'
-
-DEFAULT_SYSTEM_PROMPT = """
-Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.
-""".strip()
-
-def generate_prompt(example, prompt_head, is_train, field='prompt'):
+def generate_prompt(example, prompt_head, is_train, field='prompt', shots=[]):
 
 
-    augmented_clue= f'{example["clue"]} ({example["orig_lengths"]})'
-
-    example['clue'] = augmented_clue
-    solution = example['soln_with_spaces']
-
+    augmented_clue = example['clue']
+    solution = example['labels']
     
     ## For training, we need to provide the system prompt, the idea and the story
     if is_train:
@@ -63,31 +51,52 @@ def generate_prompt(example, prompt_head, is_train, field='prompt'):
     
     ## For validation and testing, we only need to provide the idea
     else:
-        example[field] = f"""
-### Instruction: {prompt_head}
 
-### Input:
-{augmented_clue.strip()}
-""".strip()
+        p = ''
+        #add base prompt
+        p = f'### Instruction: {prompt_head}\n\n'
+        for shot in shots:
+            p += f'### Input:\n{shot["clue"]}\n\n### Output:\n{shot["labels"]}\n\n'
+
+        p+= f'### Input:\n{augmented_clue.strip()}'  
+
+        example[field] = p.strip()
         
     return example
 
-def get_dataset(dataset_path,tokenizer,split = 'train', field='prompt', prompt_head = DEFAULT_SYSTEM_PROMPT):
+def get_dataset(dataset_path,split = 'train', field='prompt', prompt_head = DEFAULT_SYSTEM_PROMPT, old_dataset = False, shots=0):
 
-    dataset = load_dataset('json', data_files=dataset_path, field=split , split='train')
 
-    if split == 'train':
-        dataset = dataset.map(generate_prompt , fn_kwargs={"field": field, "prompt_head": prompt_head, "is_train": True})
-    
+    if old_dataset:
+        dataset = load_dataset('json', data_files=dataset_path , split='train')
+        dataset = dataset.remove_columns(['idx'])
+        dataset = dataset.rename_column('target', 'labels')
+        dataset = dataset.rename_column('input', 'clue')
+
+
     else:
-        dataset = dataset.map(generate_prompt , fn_kwargs={"field": field, "prompt_head": prompt_head, "is_train": True})
+        dataset = load_from_disk(dataset_path)
+
+        assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
+
+        dataset = dataset[split]
+        print('------------------ TRAINING ON UNIQUE CLUES ------------------')
+
+
+    
+    idx= np.random.randint(0,len(dataset),shots)
+    shots = dataset.select(idx)
+    for shot in shots:
+        print(shot['clue'], shot['labels'])
+
+
+
+    dataset = dataset.map(generate_prompt ,
+                            fn_kwargs={"field": field, "prompt_head": prompt_head, "is_train": split == 'train', 'shots': shots})
+
+
+
         
-    dataset = dataset.select_columns([field,'clue', 'soln_with_spaces'])
-
-
-    # dataset = dataset.map(lambda x: tokenizer(x[field], padding=True, truncation=True), batched=True)
-    dataset = dataset.rename_column('soln_with_spaces', 'labels')
-
     return dataset
 
 
