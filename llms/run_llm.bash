@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=decrypt-crosswords
-#SBATCH --error=/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/logs/%j%x.err # error file
-#SBATCH --output=/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/logs/%j%x.out # output log file
+#SBATCH --error=/home/daria.kotova/mbzuai/decrypting-crosswords/llms/logs/%j%x.err # error file
+#SBATCH --output=/home/daria.kotova/mbzuai/decrypting-crosswords/llms/logs/%j%x.out # output log file
 #SBATCH --time=24:00:00 # 10 hours of wall time
 #SBATCH --nodes=1  # 1 GPU node
 #SBATCH --mem=46000 # 32 GB of RAM
