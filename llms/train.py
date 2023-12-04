@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
     ## Setup logging
     logging_path = os.path.join(args.save_dir,'logs.log') 
-    logging.basicConfig(filename= logging_path, encoding='utf-8', level=logging.DEBUG)
+    logging.basicConfig(filename=logging_path, encoding='utf-8', level=logging.DEBUG)
 
 
     model_name = args.model_name
@@ -101,8 +101,12 @@ if __name__ == "__main__":
 
 
     print("Loading the datasets")
-    train_dataset = get_dataset(dataset_path=args.train_dataset_path, field = args.field, split = 'train', old_dataset = args.old_dataset)
-    val_dataset   = get_dataset(dataset_path=args.test_dataset_path, field = args.field, split = 'test', old_dataset = args.old_dataset)
+    train_dataset = get_dataset(
+        dataset_path=args.train_dataset_path, field=args.field, split='train',\
+        old_dataset=args.old_dataset, spaces=args.spaces, hints=args.hints)
+    val_dataset = get_dataset(
+        dataset_path=args.test_dataset_path, field=args.field, split='test', \
+        old_dataset=args.old_dataset, spaces=args.spaces, hints=args.hints)
 
 
     # val_dataset = val_dataset.select(range(10))  
@@ -152,7 +156,7 @@ if __name__ == "__main__":
         learning_rate=learning_rate,
         fp16=True,
         max_grad_norm=max_grad_norm,
-        max_steps=args. max_steps,
+        max_steps=args.max_steps,
         warmup_ratio=warmup_ratio,
         group_by_length=True,
         lr_scheduler_type=lr_scheduler_type,

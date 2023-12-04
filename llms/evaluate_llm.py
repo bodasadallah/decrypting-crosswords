@@ -31,7 +31,7 @@ def inference(prompts, tokenizer, generation_config, model):
     answer_lengthes = []
 
     for t in prompts:
-        l = t.split('\n')[-1]
+        l = t.split('\n')[3]
         answer_lengthes. append( l[l.rfind("(")+1:l.rfind(")")].split(',')) 
 
     answer_lengthes =  [ list(map(int, answer_lengthes[i]))  for i in range(len(answer_lengthes))] 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     if num_examples == 0:
         num_examples = len(val_dataset)
 
-    val_dataloader = DataLoader(val_dataset.select(range(num_examples)),batch_size = batch_size)
+    val_dataloader = DataLoader(val_dataset.select(range(num_examples)), batch_size=batch_size)
 
 
     model = AutoModelForCausalLM.from_pretrained(
