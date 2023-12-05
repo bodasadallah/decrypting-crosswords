@@ -16,14 +16,14 @@ echo "starting......................."
 # --checkpoint_dir='experiments/Mistral-7B-v0.1/checkpoint-3000' \
 
 python evaluate_llm.py \
---checkpoint_path='experiments/mistral-7b-v0.1_spaces/checkpoint-1000' \
+--checkpoint_path='experiments/mistral-7b-v0.1_spaces/checkpoint-2000' \
 --model_name='mistralai/Mistral-7B-v0.1' \
 --per_device_train_batch_size=32 \
 --per_device_val_batch_size=64 \
 --num_examples=0 \
 --n_shots=0 \
 --base_prompt='Below is a clue for a cryptic crossword. Replace underscores _ with letters of the answer to the clue.' \
---save_file='mistral_spaces_1k_test_disjoint.txt' \
+--save_file='mistral_spaces_hints_2k_test_disjoint.txt' \
 --test_dataset_path='/home/daria.kotova/boda_code/decrypting-crosswords/decrypt/data/clue_json/guardian/word_initial_disjoint/test.json' \
 --old_dataset=1 \
 --spaces=1

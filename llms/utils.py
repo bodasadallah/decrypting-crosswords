@@ -103,7 +103,7 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, hints=False, \
 
             p += f'### Response:\n{shot["labels"]}\n\n'
 
-        p += f'### Input:\n{augmented_clue}\n\n### Response:\n'  
+        p += f'### Input:\n{augmented_clue}\n'  
 
         example[field] = p.strip()
         

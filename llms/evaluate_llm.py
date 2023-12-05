@@ -74,7 +74,9 @@ if __name__ == "__main__":
     
 
 
-    val_dataset = get_dataset(args.test_dataset_path, split='test', field='prompt', prompt_head = prompt, old_dataset = args.old_dataset, shots=args.n_shots)
+    val_dataset = get_dataset(args.test_dataset_path, split='test', \
+        field='prompt', prompt_head=prompt, old_dataset = args.old_dataset,\
+        shots=args.n_shots, spaces=args.spaces, hints=args.hints)
 
 
         
@@ -132,12 +134,12 @@ if __name__ == "__main__":
 
             lines = t.split('\n')
             for j,l in enumerate(lines):
-                if l=='### Response:' or l=='### Output:':
+                if (l=='### Response:' or l=='### Output:') and j < len(lines) - 1:
                     labels.append( batch['labels'][i].lower())
 
                     ## Cut the answer to the length of the answer given in the clue
                     answer = []
-                    original_words = lines[j+1].lower().split(' ')
+                    original_words = lines[j + 1].lower().split(' ')
                     if len(original_words) >= len(answer_lengths[i]):
                         for idx, length in enumerate(answer_lengths[i]):
 
@@ -146,9 +148,9 @@ if __name__ == "__main__":
 
                         predictions.append(' '.join(answer))
                     else:
-                        predictions.append(lines[j+1].lower())
+                        predictions.append(lines[j + 1].lower())
 
-                    original_predictions.append(lines[j+1].lower())
+                    original_predictions.append(lines[j + 1].lower())
                     break
             # print( answer_lengths[i])
             
