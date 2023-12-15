@@ -71,7 +71,7 @@ def augment_clue(clue, solution, spaces=True, hints=False):
         for word in words:
             for type in type_to_indicator:
                 if index(type_to_indicator[type], word) != -1:
-                    clue += word + " -> " + type + "\n"
+                    clue += word + " might indicate this word operation: " + type + "\n"
 
     if clue[-1] != "\n":
         clue += "\n"
