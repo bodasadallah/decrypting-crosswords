@@ -5,6 +5,7 @@ data/
 experiment_runs/
 *.zip
 wandb/
+.vscode/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
