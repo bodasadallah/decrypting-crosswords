@@ -20,7 +20,7 @@ echo "starting......................."
 MODEL_NAME="mistralai/Mistral-7B-v0.1"
 
 # --do_train \
-WANDB_PROJECT=decrypting-crosswords_msitral_disjoint_half_targets
+WANDB_PROJECT=decrypting-crosswords_mistral_disjoint_half_targets_2
 
 echo $WANDB_PROJECT
 python train.py \
@@ -36,10 +36,10 @@ python train.py \
 --gradient_accumulation_steps=2 \
 --gradient_checkpointing=1 \
 --eval_accumulation_steps=2 \
+--save_dir='experiments/mistral_disjoint_half_targets_2' \
+--train_dataset_path='data/disjoint_half_targets' \
+--test_dataset_path='data/disjoint_half_targets' \
 --use_flash_attention_2=1 \
---save_dir='experiments/mistral-7b-v0.1_disjoint_2' \
---train_dataset_path='data/disjoint_half_taergets' \
---test_dataset_path='data/disjoint_half_taergets' \
 --old_dataset=0 \
 # --checkpoint_path="experiments/mistral-7b-v0.1_disjoint_2/checkpoint-1500"
 # --checkpoint_path="experiments/Mistral-7B-v0.1/checkpoint-24000" 

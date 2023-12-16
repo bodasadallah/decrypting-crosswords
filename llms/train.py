@@ -47,6 +47,7 @@ if __name__ == "__main__":
 
     ## Setup logging
     logging_path = os.path.join(args.save_dir,'logs.log') 
+    Path(logging_path).parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(filename= logging_path, encoding='utf-8', level=logging.DEBUG)
 
 
@@ -160,7 +161,8 @@ if __name__ == "__main__":
         gradient_checkpointing=args.gradient_checkpointing,
         neftune_noise_alpha=0.1,
         eval_accumulation_steps=args.eval_accumulation_steps,
-        include_inputs_for_metrics=True
+        include_inputs_for_metrics=True,
+        logging_first_step=True,
     )
 
 
