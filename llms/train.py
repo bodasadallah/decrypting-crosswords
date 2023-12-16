@@ -102,8 +102,14 @@ if __name__ == "__main__":
 
 
     print("Loading the datasets")
-    train_dataset = get_dataset(dataset_path=args.train_dataset_path, field = args.field, split = 'train', old_dataset = args.old_dataset)
-    val_dataset   = get_dataset(dataset_path=args.test_dataset_path, field = args.field, split = 'test', old_dataset = args.old_dataset)
+    train_dataset = get_dataset(
+        dataset_path=args.train_dataset_path, field=args.field, split='train',\
+        old_dataset=args.old_dataset, spaces=args.spaces, hints=args.hints,\
+        prompt_head=args.base_prompt)
+    val_dataset = get_dataset(
+        dataset_path=args.test_dataset_path, field=args.field, split='test', \
+        old_dataset=args.old_dataset, spaces=args.spaces, hints=args.hints,\
+        prompt_head=args.base_prompt)
 
 
     # val_dataset = val_dataset.select(range(10))  
@@ -153,7 +159,7 @@ if __name__ == "__main__":
         learning_rate=learning_rate,
         fp16=True,
         max_grad_norm=max_grad_norm,
-        max_steps=args. max_steps,
+        max_steps=args.max_steps,
         warmup_ratio=warmup_ratio,
         group_by_length=True,
         lr_scheduler_type=lr_scheduler_type,

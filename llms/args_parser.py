@@ -26,13 +26,19 @@ def add_args(parser: argparse.ArgumentParser):
     parser.add_argument('--old_dataset',
                             type=int,
                             default=0)
+    parser.add_argument('--spaces',
+                            type=int,
+                            default=0)
+    parser.add_argument('--hints',
+                            type=int,
+                            default=0)
     
     parser.add_argument('--logging_dir',
                             type=str,
                             default="./logs")
     parser.add_argument('--use_flash_attention_2',
-                            type=bool,
-                            default=False)
+                            type=int,
+                            default=0)
     parser.add_argument('--report_to',
                             type=str,
                             default="tensorboard")

@@ -19,6 +19,7 @@ python evaluate_llm.py \
 --checkpoint_path='experiments/mistral_disjoint_half_targets_2/checkpoint-1500' \
 --model_name='mistralai/Mistral-7B-v0.1' \
 --per_device_train_batch_size=32 \
+--per_device_val_batch_size=64 \
 --num_examples=0 \
 --n_shots=0 \
 --base_prompt='Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.' \
