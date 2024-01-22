@@ -88,7 +88,7 @@ def add_args(parser: argparse.ArgumentParser):
  
     parser.add_argument('--base_prompt',
                             type=str,
-                            default="""Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.""")
+                            default="""The next line is a clue for a cryptic crossword. Solve this clue. The number in the parenthesis in the clue represent the number of charchters of the answer. Output only the answer.""")
     
     parser.add_argument('--train_dataset_path',
                             type=str,

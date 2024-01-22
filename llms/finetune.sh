@@ -21,9 +21,9 @@ WANDB_PROJECT=cryptic_crosswords_mistral_stars_only_disjoint
 
 echo $WANDB_PROJECT
 python train.py \
---max_steps=3000 \
---save_steps=500 \
---eval_steps=500 \
+--max_steps=10000 \
+--save_steps=1000 \
+--eval_steps=1000 \
 --logging_steps=500 \
 --report_to="all" \
 --model_name=$MODEL_NAME \
@@ -32,7 +32,7 @@ python train.py \
 --per_device_val_batch_size=32 \
 --gradient_accumulation_steps=2 \
 --gradient_checkpointing=1 \
---use_flash_attention_2=0 \
+--use_flash_attention_2=1 \
 --eval_accumulation_steps=2 \
 --save_dir='experiments/mistral-7b-v0.1_stars_only_disjoint' \
 --train_dataset_path='/home/daria.kotova/boda_code/decrypting-crosswords/decrypt/data/clue_json/guardian/word_initial_disjoint/train.json' \
@@ -44,10 +44,9 @@ python train.py \
 # --checkpoint_path="experiments/mistral-7b-v0.1_disjoint_2/checkpoint-1500"
 # --checkpoint_path="experiments/Mistral-7B-v0.1/checkpoint-24000" 
 
+# --base_prompt="Below is a clue for a cryptic crossword. Replace underscores _ with letters of the answer to the clue." \
 
 # --checkpoint_path="experiments/Mistral-7B-v0.1/checkpoint-24000" 
-
-
 
 
 echo " ending "

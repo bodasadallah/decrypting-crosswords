@@ -1,4 +1,7 @@
 bs4
 scikit-learn
 tqdm
+transformers
+torch
+datasets
 

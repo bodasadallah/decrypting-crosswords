@@ -1,0 +1,40 @@
+Dataset: data/clue_json/guardian/word_initial_disjoint/val.json
+Number of Examples 10
+ Cleaned ACCURACY:  0.0
+Orginal ACCURACY:  0.0
+Length error:  0.2
+Original Length error:  0.5
+---------------------------------- 
+
+Original output: magnet
+magne | tower  ❌ 
+----------------------------------------------------- 
+
+Original output: soap
+soap | down  ❌ 
+----------------------------------------------------- 
+
+Original output: conserving
+conserving | greenpeace  ❌ 
+----------------------------------------------------- 
+
+Original output: eye
+eye | ooh  ❌ 
+----------------------------------------------------- 
+
+Original output: sagaal
+sagaal | lissome  ❌ 
+----------------------------------------------------- 
+
+Original output: silhouette
+silhouet | televise  ❌ 
+----------------------------------------------------- 
+
+Original output: safeguard (9)
+safeguard | patroller  ❌ 
+----------------------------------------------------- 
+
+Original output: city wall
+city wall | holy city  ❌ 
+----------------------------------------------------- 
+
