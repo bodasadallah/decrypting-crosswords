@@ -30,7 +30,7 @@ def add_args(parser: argparse.ArgumentParser):
                             type=int,
                             default=0)
     parser.add_argument('--hints',
-                            type=int,
+                            type=float,
                             default=0)
     
     parser.add_argument('--logging_dir',
