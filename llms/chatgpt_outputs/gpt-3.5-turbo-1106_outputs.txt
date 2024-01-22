@@ -1,0 +1,928 @@
+0|muscles|a trifle
+1|marseille|jerusalem
+2|magnet|tower
+3|sour|down
+4|conservant|greenpeace
+5|eye|ooh
+6|elastic|lissome
+7|backdrop|televise
+8|porsche|patroller
+9|tour de france|holy city
+10|eco-friend|enervate
+11|dead beat|hangers on
+12|kick back|tory party
+13|damascene|damascene
+14|drovea|speedy
+15|dictator|cincture
+16|ennui|ennui
+17|new era|pax romana
+18|cloist (6)|sitcom
+19|alle|dame
+20|rumour|titbit
+21|boys|acne
+22|halo ring|half moon
+23|graphic design|titus andronicus
+24|finalize|testament
+25|side road|side street
+26|hillbilly|singapore
+27|melissa|weeknight
+28|cocktail|doloroso
+29|headphone|entertain
+30|no i didn|at no time
+31|advance|headway
+32|premature|hastiest
+33|sudden|shadow
+34|morrissey|helmsley
+35|tees|tees
+36|races|spirit
+37|end up|end up
+38|strive|tempt
+39|scalpel|sidearm
+40|seafarer|orating
+41|ottawa|acadia
+42|drumsy|errant
+43|abhorrent|citronella
+44|rosebay|syringa
+45|lather|flake
+46|warbler|titular
+47|thinking|cambrian
+48|leaderes|jacobite
+49|correspondence|camaraderie
+50|used|used
+51|topknot|hemline
+52|fault|fluff
+53|debutantte|cinderella
+54|soulful (7)|orchestral
+55|top dog first|first of all
+56|statute|active
+57|mustache|hercules
+58|garage|gigolo
+59|linen|erica
+60|jadeite|lissome
+61|lemon juice|shake well
+62|overdoe|accidie
+63|epistle|ultimate
+64|pendant|ortolan
+65|x-rayed|torpedo
+66|wardro|tempts
+67|impish|callow
+68|erewhile|erenow
+69|paragr|parrot
+70|clean sweep|house proud
+71|forward|wedlock
+72|swallower|tearaway
+73|release|entitle
+74|apple|acorn
+75|dive|lido
+76|yuan|lima
+77|the big dipper|end to end
+78|peaceable sets|entente cordiale
+79|toil away|at work
+80|crisis|shiner
+81|rerain|endure
+82|grantham|grantham
+83|tense|tense
+84|skegness|weymouth
+85|cotedazur|finistere
+86|cross|grail
+87|solution: soloing|athlone
+88|timetable|calendar
+89|overlook|floodlit
+90|prepuce|gelatin
+91|heap|heep
+92|tragic|geddit
+93|retained|parallax
+94|side road|half hitch
+95|kittens|tomcats
+96|overcom|capstan
+97|grabbing|together
+98|gamble|tennis
+99|check mate|at rest
+100|eyestrains|entomology
+101|vegetarian|government
+102|glen's|dabble
+103|vinyl|hepcat
+104|cactus|acanthus
+105|hate|fill
+106|pate|wool
+107|canopy|canopy
+108|ruth|hera
+109|rubble|tetris
+110|tap|well
+111|recruits|shearers
+112|hate|heel
+113|shed|shed
+114|angel|ensue
+115|itching|frankly
+116|jibboom|catboat
+117|interweave|spillikins
+118|struck|kummel
+119|sympathy|symptoms
+120|communications network|tightrope walker
+121|nova scoti|at risk
+122|platea|grater
+123|beehive|catacomb
+124|chaucer|tenison
+125|dear lord|home made
+126|salt pork|tv dinner
+127|isle of|en regle
+128|expand|ornate
+129|marigold|herbal
+130|panty raid|quatre bras
+131|monastic trap|liqueur glass
+132|tee off|dog leg
+133|syllabus|parallel
+134|debunk|sigma
+135|economist.|accountants
+136|mature|gemini
+137|shelters|enshrine
+138|white line|speed limit
+139|tunicle|hepatic
+140|delivery|enlisted
+141|chickens|paperhangers
+142|liquor, wiselychosen|health conscious
+143|leased leaning|listed building
+144|groused|ginseng
+145|justice|geisha
+146|oranges|sparrow
+147|handcuff (8)|telethon
+148|rugby|shrug
+149|thrusters|firework
+150|dismissed|totalled
+151|squeal, snitch|canary seed
+152|raptor|linnet
+153|denial|parry
+154|yes it is|tip off
+155|flare pants|oxford bags
+156|epilogue|tolstoy
+157|top hat|pay for
+158|no ah|lit up
+159|perspectives|kaleidoscope
+160|soft ball|golf club
+161|black tie|wedding car
+162|distress|accident
+163|sneer|spit
+164|treks|speed
+165|beetle|flabby
+166|staircases|sidesaddle
+167|indicts|accuser
+168|ambulance|paralytic
+169|earl grey|has been
+170|fascinate|endearing
+171|gallant|pawnee
+172|coo!|dada
+173|kron (4)|ogre
+174|enter|enter
+175|autonomy|autonomy
+176|atatü (5)|pasha
+177|black royal|henry tudor
+178|hard up|have not
+179|tiger|tigon
+180|roast|tongue
+181|cardboard|gingham
+182|unite|autumn
+183|baron|grimm
+184|sunbath|whitsun
+185|nobel prize, tchaikovsky|total abstainer
+186|paperclip|enclosure
+187|thanasis agnosto|frying pan
+188|basil (5)|torquay
+189|gazelle|capstan
+190|piston|energy
+191|purge|usurp
+192|bach's old love by a number gripped (8) 
+
+answer: eighties|telemann
+193|rugged|limber
+194|piglet|shadow
+195|minuet|gigues
+196|income taxes|capital gains
+197|i am (2,3,3)|to die for
+198|garnet|encore
+199|rescuer|spectral
+200|aubergine|aubergine
+201|alteration|catatonia
+202|insulate (7)|tempest
+203|custom|hearts
+204|minute|grotto
+205|endlessly|limitless
+206|shroudess|horseshoe
+207|shuffle|sports
+208|mosquito|flyswat
+209|snitch|teacher
+210|german|auberge
+211|bare hands|sparring partner
+212|harangue|flagrant
+213|thirsted|splendid
+214|thread|temper
+215|unknown|likeness
+216|lost|shoe
+217|odes|geodes
+218|bowler|attest
+219|alaska|dakota
+220|creep|heavy
+221|captive|caesar
+222|caste|caste
+223|fancy (5,1)|henry i
+224|drop of ale|half a pint
+225|buffoonery|syndrome
+226|apologies|atonement
+227|conspire|entombed
+228|gripes|pallor
+229|plant|testa
+230|clerk|line
+231|lemony|acetic
+232|errors|errata
+233|linoleum|linoleum
+234|mentor|harrow
+235|snide comment|parthian shot
+236|vigilant (9)|attentive
+237|queequeg|fish meal
+238|step|sped
+239|cupboard|teapoy
+240|shepherd's pie|german shepherd
+241|elfen|sybil
+242|backstroke|terrapin
+243|deathbed|paillasse
+244|split|pause
+245|library|library
+246|orate|orate
+247|academia|academia
+248|swatch book|at liberty
+249|strain|phrase
+250|exams|audit
+251|flimsy (6,3)|frangible
+252|black hats|black magic
+253|hamsters|dormouse
+254|gulpit|accept
+255|châlet|patent
+256|toilet|bladder
+257|up set|go out
+258|outcome|ordered
+259|orderly|orderly
+260|shane warne|circumnavigator
+261|decompose (10)|calculator
+262|hate|hate
+263|shack|hamlet
+264|watermelon|oriflamme
+265|swiss|groat
+266|guacamole|downturns
+267|blueprint|speckle
+268|hall|tomb
+269|grit|grit
+270|let loose|lighten up
+271|feeble|flabby
+272|venus |website
+273|sectar|carafe
+274|glossed|howlers
+275|hourglass|weighty
+276|beep out|tee up
+277|an old possum|to the lighthouse
+278|antitoxin|atropine
+279|pony|gong
+280|great yarmouth|great yarmouth
+281|and then there|day of judgement
+282|conquer|spartan
+283|swordsmith|downstream
+284|stan laurel|double act
+285|saturday songs|wedding march
+286|first mate|first mates
+287|top notch|top end
+288|dock|dory
+289|dealt|passed
+290|beatle|encore
+291|seem|hall
+292|canter|carboy
+293|berlin|athens
+294|dak|dak
+295|goan|goya
+296|blind|attic
+297|shear (6)|torpid
+298|time sheet|time sheet
+299|precaria|gradient
+300|limits|orange
+301|procedure|orchestra
+302|tyne|eros
+303|marvin|siskin
+304|chancel|temple
+305|relief|shiatsu
+306|just|fine
+307|marlisa|liaison
+308|cashmere|silencer
+309|black and white|little and large
+310|grieving|carditis
+311|umbria|accusal
+312|up bus route|go by bus
+313|traduced|blenheim
+314|cereal|carafe
+315|courtier|parakeet
+316|jeopardy|endanger
+317|syrup|fillip
+318|achilles|hellenic
+319|tenantly|licensee
+320|quite (5,2)|heigh ho
+321|neural|lintel
+322|send around rsa|work a room
+323|diet|flab
+324|threaten|endanger
+325|standard operating|general practice
+326|refugee|heretic
+327|machine|hardtop
+328|uncle|auntie
+329|upward|across
+330|christie|acrostic
+331|latin|cajun
+332|reimaged|download
+333|tincture|pastille
+334|naval|atlas
+335|breakup|oxymoron
+336|dread (5)|hater
+337|parent|parole
+338|naughty step|to boot
+339|sponsor|sponsor
+340|fibula|fibulae
+341|top secret|top secret
+342|teaching|teaching
+343|gore|ergo
+344|english|citadel
+345|misbegot (8)|actually
+346|dry runs|passed out
+347|pagan|pagan
+348|desk calendar|firm favourite
+349|answer: answer|dogged
+350|tranquil|telegram
+351|raincoat|kangaroo
+352|topspin|terrain
+353|boston|dallas
+354|overbed|toccata
+355|spoil (5)|harry
+356|transit|capital
+357|gospel|accept
+358|lay it on|show a leg
+359|repaired|synapse
+360|fiends|fiends
+361|scenery|spondee
+362|rare|greer
+363|parody|carrot
+364|pancakes|tenderise
+365|martyrdom|blossomy
+366|snare|users
+367|diplomat|headrest
+368|wrinkle|enfolds
+369|red hot|simply red
+370|hosel|tongs
+371|samoa|palau
+372|bu sh f ir e|fire bucket
+373|white whale's_magnificence|carpet sweeper
+374|harvested|sparingly
+375|sterling|tenderise
+376|blanket|fleeced
+377|hedgehog|parapets
+378|playwright|sheridan
+379|go to|at a pinch
+380|trick|dodge
+381|solution: nothing|toenail
+382|hometown|damnation
+383|almsot|doddle
+384|applause|cafeteria
+385|congratulated|quarterdeck
+386|knots|blink
+387|disinflame|fraternise
+388|immunity|firewall
+389|overseas|cinerama
+390|hotel|hotel
+391|blushers|lipstick
+392|snap|pans
+393|pineapple|quebracho
+394|manuscript|silhouette
+395|victory|goodyears
+396|prodigy|panache
+397|in the buff|camera shy
+398|illuminate|fluoresces
+399|psychoactive|pharmaceutical
+400|rye|ore
+401|file in a lute|have a lie in
+402|lured|canoe
+403|correctly|canister
+404|paternity|parentage
+405|tradescar|paintwork
+406|imperfect|wherefore
+407|leg meat|hen house
+408|imitate|hammock
+409|gossip|ornate
+410|nightjar|bluebird
+411|rabbi's|hasidic
+412|cubicle key|downing street
+413|groggy|siphon
+414|vote|toil
+415|office party|working party
+416|overcoat|greatcoat
+417|strawberry|greengage
+418|petrified|attracted
+419|attend|attend
+420|dickens|jellyby
+421|tut-tutted|harrumph
+422|pleasure|sidekick
+423|tabletennis|fishwives
+424|wait game|card game
+425|garden|homage
+426|crawford cranberry|green woodpecker
+427|casting|spangle
+428|double step|ginger rogers
+429|restrict.|attainder
+430|autumn|splice
+431|secret|athens
+432|athlete|payable
+433|carrot|tomato
+434|bluejean|televise
+435|toughen|granite
+436|frosty|freeze
+437|dada|dada
+438|rewarding|orientate
+439|astute|spiffy
+440|alto saxophone|david bowie
+441|overdraft|liquidate
+442|thyme.|oregano
+443|coal|wore
+444|bob hope|doris day
+445|japanese|testudo
+446|cheating|finagle
+447|apple|citrus
+448|outside|welcome
+449|lethal.|terminal
+450|henrietta|fiendish
+451|tried|tired
+452|alive|sisal
+453|florida|siberia
+454|milehigh|hangover
+455|toughie|attaboy
+456|clip|hasp
+457|blue|blue
+458|frugal|frugal
+459|potash|jagger
+460|dragon|oracle
+461|the answer is "asterix the gaul"|a christmas carol
+462|smart move|space age
+463|syllabify|governess
+464|evidence|testify
+465|patchy|patchy
+466|matching|whodunit
+467|a refuge|camper
+468|left foot|sick list
+469|qatar|qatar
+470|plunge pool|sponge bags
+471|applaud|ulanova
+472|racing brief|sports car
+473|the roundhouse|cambridge circus
+474|tire|greg
+475|rumble|splash
+476|almondst|handmade
+477|hard and fast|sine die
+478|cub|tote
+479|undercut|entryism
+480|tidalway|werewolf
+481|pusillanimous|hostility
+482|big bang|great uncle
+483|cashable|cashmere
+484|housed|blotto
+485|eyeful|sights
+486|string quartet|across the street
+487|performance|endeavour
+488|paradox|atypical
+489|grassington|giggleswick
+490|civil service|civil service
+491|spurs|hopes
+492|emilio estevez|spirit gum
+493|red bull|top flight
+494|relentless sedan|sinister street
+495|charlton|caligula
+496|fried food|double chin
+497|catapult|frogmarch
+498|scene|sight
+499|headache|heartache
+500|middle|teacup
+501|shelley|shelley
+502|trabeam (7)|grafter
+503|journey|goodbye
+504|brexit|aussie
+505|inch tape|half inch
+506|panic attack|spoilt brat
+507|homelessly|hobgoblins
+508|get through|get at able
+509|suffering|healthily
+510|ganbatte!|weasel
+511|fibber + joker = ribber
+ribber (almost) = ribbe
+admits gravity of heartburn = gerd
+
+answer: ribberngerd|cardialgia
+512|decorated|orchestrated
+513|pomegranate|quicklime
+514|mother|shaver
+515|dog day afternoon|go out with
+516|envious|jealous
+517|leaning|eileen
+518|roadrun|phoenix
+519|gratitude|tipstaff
+520|buffoons|passable
+521|virtual|hashtag
+522|catchphrase|catchwords
+523|black hole|sink in
+524|bell boated|blarney stone
+525|grenad (6)|tobago
+526|surviving|heartbeat
+527|anchorage|ernestine
+528|alexander|home brew
+529|dapper|bloody
+530|jesse|lifer
+531|checkmate|castling
+532|team up|packing up
+533|europop|cadence
+534|smoke ring|split off
+535|goad|town
+536|plastic film|tissue paper
+537|static|wooden
+538|dissatisfy|grievances
+539|supper|attack
+540|president|territory
+541|weatherproofing|weatherproofing
+542|chessplay|blackjack
+543|spacecraft|endeavour
+544|double-dealers|fiddlesticks
+545|tophat|topper
+546|frank|tokyo
+547|private stock|general store
+548|burrow|cavity
+549|unsold|single
+550|reprimand|termagant
+551|stetson|textile
+552|russian|groomer
+553|repass|passim
+554|skirt|jeans
+555|career|career
+556|spur|dabs
+557|rehearse|enthalpy
+558|english|endorse
+559|promenade|haymaking
+560|insight|wheeze
+561|no, no|lit up
+562|penny wise|house martin
+563|bluejay|caracara
+564|shhh|shoe
+565|portsmouth|sidepath
+566|behind|siskin
+567|upgrade|fillip
+568|sorry|wedded
+569|sandwich|spinster
+570|rodents|ermines
+571|rectory|accurate
+572|troutfit|lingerie
+573|monet|camera
+574|aircraft carrier|orange tip
+575|raw deal|short measure
+576|palace|palace
+577|catch unawares|catch unawares
+578|hurry|career
+579|damper|damper
+580|pass over|jump leads
+581|ballad|lieder
+582|trump|blair
+583|overcoat|greatcoat
+584|pashto|pathan
+585|enhance|enhance
+586|pretense|tendency
+587|unwind|ligate
+588|suits|access
+589|ein (german for 'one')|teuton
+590|fate|toss
+591|ash tree|tiger cat
+592|hotline|hashish
+593|sleek|flatus
+594|heavy|flava
+595|switcheroo|healthier
+596|finale|entity
+597|regard|helped
+598|ripe|list
+599|hypocrisy|synthetic
+600|naked|erred
+601|botheration|shillelagh
+602|gullible|janitor
+603|vets|dabs
+604|shepherdess|carthorse
+605|holding|grimace
+606|soot trap|hearth rug
+607|usurp|spree
+608|january|japan
+609|charmen|enchant
+610|league|hooker
+611|signs|lined
+612|long face|blue peter
+613|tone|fifa
+614|cocaine|hashish
+615|combativ|dogfight
+616|clock|heart
+617|tune|herd
+618|rotator|attract
+619|big mac|tea leaf
+620|groan|orphan
+621|furies|erinyes
+622|sherlock|hercule
+623|stickers|shortage
+624|marie|godiva
+625|rough|hole
+626|coat.|fleece
+627|black-and-white|achromatic
+628|steel wool|sheet iron
+629|blackbeard|whitstable
+630|fried chicken wings|shepherds pie
+631|ingot|cage
+632|get in a flap|get the wind up
+633|hectares|hectares
+634|pacifists|pacifists
+635|tempe|tempeh
+636|upward|tobacco
+637|dreaming|spyglass
+638|achilles|achillean
+639|afternoon|hastiness
+640|mauritan (8)|filipino
+641|womanisation|whittington
+642|carcasso|tearless
+643|eighty|hobnob
+644|mirrors|eidetic
+645|pelican|tintern
+646|soft|lisp
+647|monastery|heinously
+648|selene|phoebe
+649|rene|orff
+650|vote|camp
+651|chaos|splodge
+652|tip off|at a stop
+653|rigid (5)|godly
+654|mitred|temple
+655|light blue|great idea
+656|toe the line|at a pinch
+657|reap|spun
+658|queue|carol
+659|cauldron's heat|to autumn
+660|goodbye|blessing
+661|tulips|atkins
+662|laser, dot|field gun
+663|justice|parvenu
+664|flax|sisal
+665|yeomen|geese
+666|divorce|fiances
+667|browned|titanic
+668|ancestry|tiptree
+669|shrugs|atheism
+670|granite|granite
+671|con man|carry on
+672|unconscious|endeavour
+673|return of innocent child effectively starts (6)  
+
+answer: recite|fiance
+674|no job|to let
+675|russell|spinoza
+676|lies|dour
+677|cutlery|gelatin
+678|fold|tote
+679|lead-free|palladium
+680|white flag|paint brush
+681|lily|gorse
+682|step up|cash up
+683|enterprising|enterprise
+684|private|orderly
+685|line up|shop floor
+686|braggier|telltale
+687|brace clock|black watch
+688|blem|doom
+689|safeguard, tan|teachers pet
+690|hat tip officials|like the clappers
+691|atom|papa
+692|stethoscope|haemostat
+693|snobup|gentry
+694|sorcer|shaman
+695|digital|erector
+696|beer gut|spare tyre
+697|customer|douanier
+698|pique|speak
+699|gershwin|sibelius
+700|panda|panda
+701|dear me|tees off
+702|subtracts|passenger
+703|mastodonic|enigmatist
+704|renew|sight
+705|attire|shifts
+706|law abiders|ordnance survey
+707|lettuce|endive
+708|regret|worthy
+709|callimachus|carpenter
+710|get over it|go the whole hog
+711|go between|go between
+712|dampen|paddle
+713|cupid|endows
+714|enthralls|entrances
+715|confused|endorsed
+716|ringtone|doorbell
+717|habit|habit
+718|shrine|tonsure
+719|napoleon bonaparte|haile selassie
+720|backpedals|encyclical
+721|tie up|end off
+722|homer|homers
+723|flavor|spring
+724|hera|hera
+725|girbi|shrew
+726|snail pattern|block letters
+727|urinal|jakes
+728|spear|whale
+729|twerp|cadet
+730|reaped|parole
+731|devon|woman
+732|lair|acre
+733|eave|flee
+734|act i.|toy story
+735|epics|fiche
+736|imagine|sideman
+737|crewing|sinuses
+738|discipline|touchstone
+739|elastic|springy
+740|oops|oops
+741|grown|enrol
+742|radio|genre
+743|deer park|well kept
+744|grass|oxeye
+745|landings|heathrow
+746|trigger|hookier
+747|pumpkinseed|dartboard
+748|hedge|shrub
+749|the vicar|dog collar
+750|les trois violes|sil vous plait
+751|rescue|fleece
+752|verse|ensew
+753|spearhead|sidearm
+754|test|oral
+755|bridle|blinker
+756|tree|torso
+757|heather|heather
+758|clue: repeatedly try to express approval (4,4) 
+answer: keep clapping|hear hear
+759|scar|site
+760|mischievous|carthusian
+761|ox eye|ox eye
+762|anxiety|whirlpool
+763|superstitious|shipwreck
+764|thai green curry|tie in knots
+765|old|used
+766|eleanor|hecuba
+767|playpen|fruitlet
+768|n, s, e|a to z
+769|go near|at last
+770|hare|wolf
+771|tom hanks|tom hanks
+772|pension|tontine
+773|osprey bird|fruit bat
+774|traffic|calamity
+775|roman|canon
+776|rach (4)|ivan
+777|chorizo|enrol
+778|eagle|usage
+779|safe|cagy
+780|nestled|cameron
+781|dussled|torpedo
+782|legal tender|flood tide
+783|man|tom
+784|validator|heretical
+785|cocainebash|woodpecker
+786|deuce|tools
+787|infant|limited
+788|colosseum|oriflamme
+789|syllabus list|original sin
+790|odour|jumbo
+791|april fools day|past a joke
+792|discount|acquaint
+793|adjective (9)|enouncing
+794|handicraft|catamaran
+795|punch up|catch up
+796|viola|sitar
+797|accompany|fraternise
+798|twitty|teaser
+799|journal|organ
+800|bicepses|specific
+801|dancer|pavlov
+802|glutton|spoiler
+803|vest|wear
+804|cat, hat, in the (blank) - on (blank) (6,2,3,4)|tom the pipers son
+805|quality|flagpole
+806|dough (5)|dough
+807|sharp tongue|telling off
+808|power|heart
+809|honk|shoo
+810|evil doctor|door knob
+811|ranger|heyday
+812|trends (5) = tends|tides
+813|face value|goldfish bowl
+814|agree|happy
+815|sherlock holmes|spotted dick
+816|on time|at home
+817|sender|orated
+818|catastrophe|cinderella
+819|missal|ordinal
+820|defect|hearse
+821|spock|enter
+822|aristotle|eratosthenes
+823|nurture|teacher
+824|neoliths|wesleyan
+825|determined|enameller
+826|fijian|jersey
+827|nietzsche|hegel
+828|boycott|shunter
+829|black, as coal!|hammer and sickle
+830|miami|dodge
+831|object|syzygy
+832|first aid|first aid
+833|abstaining|spiritless
+834|cleanse|dottrel
+835|top|atop
+836|breakneck|horsewoman
+837|goethe's faust|door fastener
+838|mongolia|enclave
+839|charlotte's web|tim berners lee
+840|chestnut|organist
+841|hat pin|hot seat
+842|augustin|erasmus
+843|sailor's (9)|handshake
+844|wild westerners|well acquainted
+845|understudy|tinseltown
+846|solution: brackish|fluoride
+847|we can|fixed up
+848|misery|bluebird
+849|athletic|sidereal
+850|decomposed|terracotta
+851|cold war|test act
+852|inadvisable|catamaran
+853|pride and prejudice|speed of light
+854|usury|douse
+855|teal|down
+856|ventriloquism|hootenannies
+857|sucker|tissue
+858|papa.|patter
+859|secret agent|tear gas
+860|varnish|tempera
+861|arch|heel
+862|furnaces|hausfrau
+863|gold|path
+864|orgasmic|orgastic
+865|revels|pander
+866|nia|use
+867|staircases|greyhounds
+868|green|green
+869|grouching|phlebitis
+870|ticket|lioness
+871|carmen (2,5)|to scale
+872|partridge|cassowary
+873|roughage|goliath
+874|open wide|page three
+875|go in|fly at
+876|godparent|godparent
+877|live wire|live wire
+878|publican house|capital letter
+879|fluctuate|fluctuate
+880|triangle|syllable
+881|kashmir|cachet
+882|go in)paren.|can do
+883|what's the time, mr wolf|what is the time
+884|polymers|cashless
+885|detention|castigate
+886|dahlias|doeskin
+887|salsa|cigar
+888|viol (4)|harp
+889|goa|tow
+890|packed in|carried out
+891|actual|actual
+892|dawns|hours
+893|end it|end it
+894|mad dog|great dane
+895|sky |down
+896|dressing up (12)|hairdressing
+897|park|paid
+898|jungle|canopy
+899|taxed|tithe
+900|define terms|spell out
+901|spark up|heres to
+902|gin and tonic|ginger ale
+903|pardon|pardon
+904|pence|panic
+905|palm|palm
+906|desman|dolmen
+907|eagle|parrot
+908|capsize|across
+909|tofu pups|fish finger
+910|rectangular|lighterman
+911|show|host
+912|come to grief|go by the board
+913|bear|lion
+914|lobelia|danube
+915|japan|tonga
+916|swipe|usual
+917|doormat|catflap
+918|gambit|godiva

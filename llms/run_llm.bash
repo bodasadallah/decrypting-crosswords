@@ -16,18 +16,19 @@ echo "starting......................."
 # --model_name='meta-llama/Llama-2-7b-hf' \
 
 python evaluate_llm.py \
---checkpoint_path='experiments/mistral_disjoint_half_targets_2/checkpoint-1500' \
+--checkpoint_path='experiments/mistral-7b-v0.1_disjoint_excessive_training/checkpoint-10000' \
 --model_name='mistralai/Mistral-7B-v0.1' \
 --per_device_train_batch_size=32 \
 --per_device_val_batch_size=64 \
 --num_examples=0 \
 --n_shots=0 \
---base_prompt='Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.' \
---save_file='mistral_disjoint_half_targets_2_new_2k_output_test_disjoint_half_targets.txt' \
---test_dataset_path='data/disjoint_half_targets' \
---old_dataset=0 \
+--base_prompt='The next line is a clue for a cryptic crossword. Solve this clue. The number in the parenthesis in the clue represent the number of charchters of the answer. Output only the answer.' \
+--save_file='mistral_disjoint_10k_steps.txt' \
+--test_dataset_path='data/clue_json/guardian/word_initial_disjoint/test.json' \
+--old_dataset=1 \
 
-# --test_dataset_path='data/clue_json/guardian/word_initial_disjoint/test.json' \
+# --base_prompt='Below is a clue for a decrypting crossword. Your task is to solve this clue. The number of characters in the answer should be same as the number in the parenthesis. Just output the answer only.' \
+# --test_dataset_path='data/disjoint_half_targets' \
 # --test_dataset_path='data/unique_targets' \
 # --test_dataset_path='data/unique_targets' \
 
