@@ -104,11 +104,11 @@ if __name__ == "__main__":
     print("Loading the datasets")
     train_dataset = get_dataset(
         dataset_path=args.train_dataset_path, field=args.field, split='train',\
-        old_dataset=args.old_dataset, spaces=args.spaces, hints=args.hints,\
+        old_dataset=args.old_dataset, spaces=args.spaces, percentage=args.percentage,\
         prompt_head=args.base_prompt)
     val_dataset = get_dataset(
         dataset_path=args.test_dataset_path, field=args.field, split='test', \
-        old_dataset=args.old_dataset, spaces=args.spaces, hints=args.hints,\
+        old_dataset=args.old_dataset, spaces=args.spaces, percentage=args.percentage,\
         prompt_head=args.base_prompt)
 
 

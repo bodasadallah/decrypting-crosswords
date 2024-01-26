@@ -4,6 +4,7 @@ from bisect import bisect_left
 from collections import defaultdict
 
 import numpy as np
+import math
 from datasets import load_dataset, load_from_disk
 
 
@@ -46,32 +47,37 @@ def index(a, x):
     return -1
 
 
-def augment_clue(clue, solution, spaces=True, hints=False):
+def augment_clue(clue, solution, spaces=True, percentage=0.):
     answer_lengths = []
     answers = solution.split(" ")
     for a in answers:
         answer_lengths.append(len(a))
 
+    open_indexes = []
+    if percentage > 0. and spaces:
+        total_length = sum(answer_lengths)
+        n_open_letters = math.ceil(total_length * percentage)
+        sampling_distribution = np.ones(len(solution))
+        pos = 0
+        for l in answer_lengths:
+            if pos + l < len(solution):
+                sampling_distribution[pos + l] = 0
+            pos = pos + l + 1
+        sampling_distribution /= sampling_distribution.sum()
+
+        open_indexes = list(np.random.choice(range(0, len(solution)), \
+                            n_open_letters, p=sampling_distribution))
+
     if spaces:
         clue += "\n"
+        masked_clue = ""
         for l in answer_lengths:
-            clue += "".join(["_"] * l) + " "
-        clue += "\n"
-
-    if hints:
-        clue += "\n### Hints:\n"
-        words = clue.split(" ")
-
-        type_to_indicator = defaultdict(lambda: [])
-
-        for type in os.listdir('./indicators/'):
-            type_to_indicator[type] = \
-                [s.strip() for s in open('indicators/' + type, 'r').readlines()]
-
-        for word in words:
-            for type in type_to_indicator:
-                if index(type_to_indicator[type], word) != -1:
-                    clue += word + " might indicate this word operation: " + type + "\n"
+            masked_clue += "".join(["*"] * l) + " "
+        for index in open_indexes:
+            masked_clue = masked_clue[:index] + solution[index] + masked_clue[index + 1:]
+            # masked_clue[index] = solution[index]
+        
+        clue += masked_clue + "\n"
 
     if clue[-1] != "\n":
         clue += "\n"
@@ -79,12 +85,12 @@ def augment_clue(clue, solution, spaces=True, hints=False):
     return clue.strip()
 
 
-def generate_prompt(example, prompt_head, is_train, spaces=False, hints=False, \
+def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0., \
                     field='prompt', shots=[]):
     clue = example['clue']
     solution = example['labels']
 
-    augmented_clue = augment_clue(clue, solution, spaces, hints)
+    augmented_clue = augment_clue(clue, solution, spaces, percentage)
 
     ## For training, we need to provide the instruction, the clue and the answer
     if is_train:
@@ -98,7 +104,7 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, hints=False, \
         #add base prompt
         p = f'### Instruction: {prompt_head}\n\n'
         for shot in shots:
-            augmented_shot = augment_clue(shot["clue"], shot["labels"], spaces, hints)
+            augmented_shot = augment_clue(shot["clue"], shot["labels"], spaces, percentage)
             p += f'### Input:\n{augmented_shot}\n\n'
 
             p += f'### Response:\n{shot["labels"]}\n\n'
@@ -111,7 +117,7 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, hints=False, \
 
 
 def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
-                hints=False, prompt_head=DEFAULT_SYSTEM_PROMPT, \
+                percentage=0., prompt_head=DEFAULT_SYSTEM_PROMPT, \
                 old_dataset=False, shots=0):
     if old_dataset:
         dataset = load_dataset('json', data_files=dataset_path, split='train')
@@ -133,7 +139,7 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
 
     dataset = dataset.map(generate_prompt, fn_kwargs={"field": field, \
         "prompt_head": prompt_head, "is_train": split == 'train', \
-        "spaces": spaces, "hints": hints, 'shots': shots})
+        "spaces": spaces, "percentage": percentage, 'shots': shots})
         
     return dataset
 

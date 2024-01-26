@@ -29,7 +29,7 @@ def add_args(parser: argparse.ArgumentParser):
     parser.add_argument('--spaces',
                             type=int,
                             default=0)
-    parser.add_argument('--hints',
+    parser.add_argument('--percentage',
                             type=float,
                             default=0)
     

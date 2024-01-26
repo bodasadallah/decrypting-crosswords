@@ -17,12 +17,12 @@ echo "starting......................."
 MODEL_NAME="mistralai/Mistral-7B-v0.1"
 
 # --do_train \
-WANDB_PROJECT=cryptic_crosswords_mistral_stars_only_disjoint
+WANDB_PROJECT=cryptic_crosswords_mistral_stars_part_filled_02_disjoint
 
 echo $WANDB_PROJECT
 python train.py \
---max_steps=10000 \
---save_steps=1000 \
+--max_steps=3000 \
+--save_steps=500 \
 --eval_steps=1000 \
 --logging_steps=500 \
 --report_to="all" \
@@ -32,9 +32,9 @@ python train.py \
 --per_device_val_batch_size=32 \
 --gradient_accumulation_steps=2 \
 --gradient_checkpointing=1 \
---use_flash_attention_2=1 \
+--use_flash_attention_2=0 \
 --eval_accumulation_steps=2 \
---save_dir='experiments/mistral-7b-v0.1_stars_only_disjoint' \
+--save_dir='experiments/mistral-7b-v0.1_stars_part_filled_02_disjoint' \
 --train_dataset_path='/home/daria.kotova/boda_code/decrypting-crosswords/decrypt/data/clue_json/guardian/word_initial_disjoint/train.json' \
 --test_dataset_path='/home/daria.kotova/boda_code/decrypting-crosswords/decrypt/data/clue_json/guardian/word_initial_disjoint/test.json' \
 --old_dataset=1 \
