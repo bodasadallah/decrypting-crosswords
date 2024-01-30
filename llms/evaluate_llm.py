@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
     val_dataset = get_dataset(args.test_dataset_path, split='test', \
         field='prompt', prompt_head=prompt, old_dataset = args.old_dataset,\
-        shots=args.n_shots, spaces=args.spaces, hints=args.hints)
+        shots=args.n_shots, spaces=args.spaces, percentage=args.percentage)
 
 
         
@@ -118,6 +118,7 @@ if __name__ == "__main__":
     predictions = []
     labels = []
     original_predictions = []
+    masked_words = []
 
     torch.cuda.empty_cache()
 
@@ -128,14 +129,16 @@ if __name__ == "__main__":
         ans = []
 
         output_text, answer_lengths = inference(prompts=prompts, tokenizer=tokenizer, generation_config=generation_config, model=model)
-        
 
-        for i,t in enumerate(output_text):
+        if args.spaces:
+            for i, text in enumerate(prompts):
+                masked_words.append(text.split("\n")[4])
 
+        for i, t in enumerate(output_text):
             lines = t.split('\n')
-            for j,l in enumerate(lines):
+            for j, l in enumerate(lines):
                 if (l=='### Response:' or l=='### Output:') and j < len(lines) - 1:
-                    labels.append( batch['labels'][i].lower())
+                    labels.append(batch['labels'][i].lower())
 
                     ## Cut the answer to the length of the answer given in the clue
                     answer = []
@@ -169,8 +172,10 @@ if __name__ == "__main__":
 
     save_file = 'outputs/' + args.save_file
     with open(save_file, 'w') as f:
-        for original,pred,label in zip(original_predictions,predictions,labels):
+        # for i, original, pred, label in enumerate(zip(original_predictions, predictions, labels)):
         # for pred,label in zip(predictions,labels):
+        for i in range(len(original_predictions)):
+            original, pred, label = original_predictions[i], predictions[i], labels[i]
 
             pred  = " ".join(pred.split())
             label = " ".join(label.split())
@@ -188,6 +193,9 @@ if __name__ == "__main__":
 
             if len(pred) != len(label):
                 cleaned_length_error +=1
+
+            if args.spaces:
+                f.write(f'Input: {masked_words[i]}\n')
 
             f.write(f'Original output: {original}\n')
             if correctly_predicted:
