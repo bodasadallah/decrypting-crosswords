@@ -209,8 +209,17 @@ if __name__ == "__main__":
             module = module.to(torch.float32)
 
 
+    print("Starting training")
+    logging.info("Starting training")
+
+    print(f"checkpoint_path: {args.checkpoint_path}")
+
     if args.checkpoint_path:
+        logging.info(f"Resuming from checkpoint: {args.checkpoint_path}")
+        print(f"Resuming from checkpoint: {args.checkpoint_path}")
         trainer.train(resume_from_checkpoint=args.checkpoint_path)
+        # trainer.train(resume_from_checkpoint=True)
+
     else:
         trainer.train()
 

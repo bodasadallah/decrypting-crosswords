@@ -17,6 +17,12 @@ def add_args(parser: argparse.ArgumentParser):
     parser.add_argument('--n_shots',
                             type=int,
                             default=0)
+    parser.add_argument('--indicator_type_shots',
+                        type=int,
+                        default=0)
+    parser.add_argument('--indicators_dict_path',
+                        type=str,
+                        default='data/indicators_examples.json')
     parser.add_argument('--save_file',
                             type=str,
                             default="outputs.txt")

@@ -6,8 +6,8 @@ from collections import defaultdict
 import numpy as np
 import math
 from datasets import load_dataset, load_from_disk
-
-
+import json
+import random
 DEFAULT_SYSTEM_PROMPT = """Below is a clue for a cryptic crossword. Your task \
 is to solve this clue. The number of characters in the answer should be \
 same as the number in the parenthesis. Just output the answer only.\n\
@@ -86,7 +86,7 @@ def augment_clue(clue, solution, spaces=True, percentage=0.):
 
 
 def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0., \
-                    field='prompt', shots=[]):
+                    field='prompt', shots=[], indicator_type_shots= 0, indicators_dict = None):
     clue = example['clue']
     solution = example['labels']
 
@@ -100,6 +100,25 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0.,
     
     ## For validation and testing, we only need to provide the instruction and the clue
     else:
+
+        ## Check if we are using indicator examples
+        candidate_shots = None
+        if indicator_type_shots:
+            for indicator_type in indicators_dict.keys():
+                for indicator in indicators_dict[indicator_type]['indicators']:
+                    if indicator in clue:
+                        candidate_shots = indicators_dict[indicator_type]['examples']
+                        
+                        break
+                if candidate_shots:
+                    break
+        
+        if candidate_shots:
+            shots = random.sample(candidate_shots, len(shots))
+
+
+
+
         p = ''
         #add base prompt
         p = f'### Instruction: {prompt_head}\n\n'
@@ -118,28 +137,51 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0.,
 
 def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
                 percentage=0., prompt_head=DEFAULT_SYSTEM_PROMPT, \
-                old_dataset=False, shots=0):
+                old_dataset=False, shots=0, indicator_type_shots = 0, indicators_dict_path=None):
     if old_dataset:
         dataset = load_dataset('json', data_files=dataset_path, split='train')
         dataset = dataset.remove_columns(['idx'])
         dataset = dataset.rename_column('target', 'labels')
         dataset = dataset.rename_column('input', 'clue')
+
+        print('------------------ Using Old Datast ------------------')
+
     else:
-        dataset = load_from_disk(dataset_path)
+
+
+        # dataset = load_from_disk(dataset_path)
+        dataset = load_dataset(dataset_path)
 
         assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
 
         dataset = dataset[split]
-        print('------------------ TRAINING ON UNIQUE CLUES ------------------')
+        print('------------------ Using New Datast ------------------')
     
-    idx= np.random.randint(0,len(dataset),shots)
-    shots = dataset.select(idx)
-    for shot in shots:
-        print(shot['clue'], shot['labels'])
+
+
+    # Normal random few-shot learning
+    if shots > 0:
+
+        idx= np.random.randint(0,len(dataset),shots)
+        shots = dataset.select(idx)
+        for shot in shots:
+            print(shot['clue'], shot['labels'])
+
+    indicators_dict = None
+    # Load indictor dictionary
+    if indicator_type_shots:
+        with open(indicators_dict_path) as f:
+            indicators_dict = json.load(f)
+        print('------------------ Evaluating Using INDICATOR EXAMPLES ------------------')
+
+
+    ## Just to make sure we are passing a list
+    if type(shots) == int:
+        shots = []
 
     dataset = dataset.map(generate_prompt, fn_kwargs={"field": field, \
         "prompt_head": prompt_head, "is_train": split == 'train', \
-        "spaces": spaces, "percentage": percentage, 'shots': shots})
+        "spaces": spaces, "percentage": percentage, 'shots': shots, 'indicator_type_shots': indicator_type_shots, 'indicators_dict': indicators_dict})
         
     return dataset
 

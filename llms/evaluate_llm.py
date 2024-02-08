@@ -31,7 +31,10 @@ def inference(prompts, tokenizer, generation_config, model):
     answer_lengthes = []
 
     for t in prompts:
-        l = t.split('\n')[3]
+        ## Error here, we want to take the last line, which is the current clue
+        l = t.split('\n')[-1]
+
+        # l = t.split('\n')[3]
         answer_lengthes. append( l[l.rfind("(")+1:l.rfind(")")].split(',')) 
 
     answer_lengthes =  [ list(map(int, answer_lengthes[i]))  for i in range(len(answer_lengthes))] 
@@ -76,7 +79,7 @@ if __name__ == "__main__":
 
     val_dataset = get_dataset(args.test_dataset_path, split='test', \
         field='prompt', prompt_head=prompt, old_dataset = args.old_dataset,\
-        shots=args.n_shots, spaces=args.spaces, percentage=args.percentage)
+        shots=args.n_shots,indicator_type_shots = args.indicator_type_shots, spaces=args.spaces, percentage=args.percentage, indicators_dict_path=args.indicators_dict_path)
 
 
         
@@ -86,6 +89,7 @@ if __name__ == "__main__":
 
     if num_examples == 0:
         num_examples = len(val_dataset)
+
 
     val_dataloader = DataLoader(val_dataset.select(range(num_examples)), batch_size=batch_size)
 

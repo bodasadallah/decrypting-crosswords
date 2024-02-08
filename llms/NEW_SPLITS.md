@@ -66,3 +66,13 @@ DatasetDict({
 ## Notes
 * we concat the train, and val splits together, as we don't do any hyperparameters tuning, so we can utilize the extra examples in the dev set
 * the intuition about creating `word_init_disjoint_unique` is to keep targets that share the same first two letters, in the same splits.
+
+
+# Relevant Few-shot evaluation
+
+
+* For Naive_random DS: we have 142380 examples, we could classify 130586 of them according to the indicators dictionary. this is %91
+
+* We then extracted examples from the train split of the dataset, to augment them into few-shots
+
+
