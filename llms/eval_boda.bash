@@ -13,14 +13,14 @@ echo "starting......................."
 ###################### RUN LLM Eval ######################
 
 # --checkpoint_dir='experiments/Mistral-7B-v0.1/checkpoint-3000' \
---model_name='meta-llama/Llama-2-7b-hf' \
+--model_name='mistralai/Mistral-7B-v0.1' \
 
 python evaluate_llm.py \
---model_name='mistralai/Mistral-7B-v0.1' \
+--model_name='meta-llama/Llama-2-7b-hf' \
 --per_device_train_batch_size=32 \
 --num_examples=0 \
---n_shots=10 \
---save_file='mistral_indicator_10_few_shot.txt' \
+--n_shots=3 \
+--save_file='llama_indicator_3_few_shot.txt' \
 --test_dataset_path='data/clue_json/guardian/naive_random/test.json' \
 --old_dataset=1 \
 --indicator_type_shots=1 \
