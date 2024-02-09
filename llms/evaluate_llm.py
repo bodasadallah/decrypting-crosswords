@@ -78,8 +78,8 @@ if __name__ == "__main__":
 
 
     val_dataset = get_dataset(args.test_dataset_path, split='test', \
-        field='prompt', prompt_head=prompt, old_dataset = args.old_dataset,\
-        shots=args.n_shots,indicator_type_shots = args.indicator_type_shots, spaces=args.spaces, percentage=args.percentage, indicators_dict_path=args.indicators_dict_path)
+        field='prompt', prompt_head=prompt, dataset_type = args.dataset_type,\
+        shots=args.n_shots,indicator_type_shots = args.indicator_type_shots, spaces=args.spaces, percentage=args.percentage, indicators_dict_path=args.indicators_dict_path, cryptonite_quick=args.cryptonite_quick)
 
 
         

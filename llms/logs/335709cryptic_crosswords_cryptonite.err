@@ -1,0 +1,41 @@
+2024-02-09 09:38:56.539241: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-02-09 09:38:56.595538: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-02-09 09:38:56.595636: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-02-09 09:38:56.597305: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-02-09 09:38:56.606861: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-09 09:38:57.818314: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Map:   0%|          | 0/14589 [00:00<?, ? examples/s]Map:   7%|▋         | 1000/14589 [00:00<00:01, 8620.61 examples/s]Map:  14%|█▎        | 2000/14589 [00:00<00:01, 9345.10 examples/s]Map:  21%|██        | 3000/14589 [00:00<00:01, 9081.03 examples/s]Map:  28%|██▊       | 4053/14589 [00:00<00:01, 9615.04 examples/s]Map:  38%|███▊      | 5535/14589 [00:00<00:00, 9335.49 examples/s]Map:  46%|████▌     | 6638/14589 [00:00<00:00, 9504.70 examples/s]Map:  55%|█████▍    | 8000/14589 [00:00<00:00, 8229.83 examples/s]Map:  62%|██████▏   | 9006/14589 [00:01<00:00, 8664.17 examples/s]Map:  69%|██████▊   | 10000/14589 [00:01<00:00, 6015.56 examples/s]Map:  75%|███████▌  | 11000/14589 [00:01<00:00, 6629.87 examples/s]Map:  82%|████████▏ | 12000/14589 [00:01<00:00, 7316.35 examples/s]Map:  89%|████████▉ | 13000/14589 [00:01<00:00, 7525.92 examples/s]Map:  96%|█████████▌| 14000/14589 [00:01<00:00, 7985.57 examples/s]Map: 100%|██████████| 14589/14589 [00:01<00:00, 7921.57 examples/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  2.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.15s/it]
+  0%|          | 0/456 [00:00<?, ?it/s]  0%|          | 0/456 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 127, in collate
+    return elem_type({key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem})
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 127, in <dictcomp>
+    return elem_type({key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem})
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 150, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'pandas._libs.tslibs.timestamps.Timestamp'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/evaluate_llm.py", line 130, in <module>
+    for batch in tqdm(val_dataloader):
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/tqdm/std.py", line 1182, in __iter__
+    for obj in iterable:
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 130, in collate
+    return {key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem}
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 130, in <dictcomp>
+    return {key: collate([d[key] for d in batch], collate_fn_map=collate_fn_map) for key in elem}
+  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 150, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'pandas._libs.tslibs.timestamps.Timestamp'>

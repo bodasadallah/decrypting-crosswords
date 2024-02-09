@@ -2,7 +2,7 @@ import os
 import re
 from bisect import bisect_left
 from collections import defaultdict
-
+import pandas as pd
 import numpy as np
 import math
 from datasets import load_dataset, load_from_disk
@@ -137,8 +137,8 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0.,
 
 def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
                 percentage=0., prompt_head=DEFAULT_SYSTEM_PROMPT, \
-                old_dataset=False, shots=0, indicator_type_shots = 0, indicators_dict_path=None):
-    if old_dataset:
+                dataset_type=False, shots=0, indicator_type_shots = 0, indicators_dict_path=None, cryptonite_quick = 0):
+    if dataset_type == 'old':
         dataset = load_dataset('json', data_files=dataset_path, split='train')
         dataset = dataset.remove_columns(['idx'])
         dataset = dataset.rename_column('target', 'labels')
@@ -146,8 +146,8 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
 
         print('------------------ Using Old Datast ------------------')
 
-    else:
-
+    elif dataset_type == 'new':
+        print('------------------ Using New Datast ------------------')
 
         # dataset = load_from_disk(dataset_path)
         dataset = load_dataset(dataset_path)
@@ -155,9 +155,32 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
         assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
 
         dataset = dataset[split]
-        print('------------------ Using New Datast ------------------')
     
+    elif dataset_type == 'cryptonite':
+        print('------------------ Using Cryptonite Datast ------------------')
+        dataset = load_dataset(dataset_path)
+        assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
+        dataset = dataset[split]
+        dataset = dataset.rename_column('answer', 'labels')
+        if dataset['date']:
+            dataset = dataset.remove_columns(['date'])
 
+    elif dataset_type == 'cryptonite_filtered':
+        print('------------------ Using Cryptonite Filtered Datast ------------------')
+        dataset = load_dataset(dataset_path)
+        assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
+        dataset = dataset[split]
+
+        if dataset['date']:
+            dataset = dataset.remove_columns(['date'])
+            
+        if cryptonite_quick:
+            dataset = dataset.filter(lambda x: x['quick'] == 1)
+            
+            print(f'------------------ length after taking only the quick examples: {len(dataset)}---------------------------')
+
+    else:
+        dataset = load_dataset(dataset_path)
 
     # Normal random few-shot learning
     if shots > 0:
