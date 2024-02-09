@@ -17,6 +17,9 @@ def add_args(parser: argparse.ArgumentParser):
     parser.add_argument('--n_shots',
                             type=int,
                             default=0)
+    parser.add_argument('--cryptonite_quick',
+                            type=int,
+                            default=0)
     parser.add_argument('--indicator_type_shots',
                         type=int,
                         default=0)
@@ -29,9 +32,9 @@ def add_args(parser: argparse.ArgumentParser):
     parser.add_argument('--num_examples',
                             type=int,
                             default=0)
-    parser.add_argument('--old_dataset',
-                            type=int,
-                            default=0)
+    parser.add_argument('--dataset_type',
+                            type=str,
+                            default='old')
     parser.add_argument('--spaces',
                             type=int,
                             default=0)

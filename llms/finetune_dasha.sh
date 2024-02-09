@@ -37,7 +37,7 @@ python train.py \
 --save_dir='experiments/mistral-7b-v0.1_stars_part_filled_02_disjoint' \
 --train_dataset_path='/home/daria.kotova/boda_code/decrypting-crosswords/decrypt/data/clue_json/guardian/word_initial_disjoint/train.json' \
 --test_dataset_path='/home/daria.kotova/boda_code/decrypting-crosswords/decrypt/data/clue_json/guardian/word_initial_disjoint/test.json' \
---old_dataset=1 \
+--dataset_type=1 \
 --base_prompt="The next line is a clue for a cryptic crossword. Solve this clue. The number in the parenthesis in the clue represents the number of characters of the answer. After the clue, there is a template for the answer, where each * symbol represents a letter. Some letters are already filled in. Replace the * symbols with the correct letters of the answer. Output only the answer." \
 --spaces=1 \
 --percentage=0.2

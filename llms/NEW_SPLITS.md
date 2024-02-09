@@ -55,6 +55,9 @@ DatasetDict({
     })
 })
 ```
+# cryptonite_filtered_testset  (boda/cryptonite_filtered_testset)
+* this is the test set of cryptonite, but filtered from it the targets of the train of disjoint
+* test set size before and after filtering (26157 ->  14589)
 
 
 
