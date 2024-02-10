@@ -18,7 +18,7 @@
 # echo "starting Evaluation......................."
 # ###################### RUN LLM Eval ######################
 # # --checkpoint_dir='experiments/Mistral-7B-v0.1/checkpoint-3000' \
-# --model_name='meta-llama/Llama-2-7b-hf' \
+# # --model_name='meta-llama/Llama-2-7b-hf' \
 
 # python evaluate_llm.py \
 # --model_name='mistralai/Mistral-7B-v0.1' \
@@ -26,11 +26,9 @@
 # --num_examples=0 \
 # --n_shots=0 \
 # --test_dataset_path='boda/cryptonite' \
-# --save_file='mistral_cryptonite_2k_cryptonite_test.txt' \
+# --save_file='mistral_cryptonite_1.5_cryptonite_test.txt' \
 # --dataset_type='cryptonite' \
-# --indicator_type_shots=0 \
-# --indicators_dict_path='data/indicators_examples.json' \
-# --checkpoint_path='experiments/mistral-7b-v0.1_mistral_cryptonite_fulle/checkpoint-1500' \
+# --checkpoint_path='experiments/mistral_cryptonite_1.5k' \
 
 
 # # --test_dataset_path='data/clue_json/guardian/naive_random/test.json' \
@@ -41,21 +39,24 @@
 
 ################################ Save File Naming Convention:  MODELNAME_TRAIN-DATASET_TRAIN-STEPS_TEST-DATASET.txt
 
+
+
 echo "starting Evaluation......................."
 ###################### RUN LLM Eval ######################
 # --checkpoint_dir='experiments/Mistral-7B-v0.1/checkpoint-3000' \
 
+# --model_name='meta-llama/Llama-2-7b-hf' \
+
 python evaluate_llm.py \
---model_name='meta-llama/Llama-2-7b-hf' \
+--model_name='mistralai/Mistral-7B-v0.1' \
 --per_device_train_batch_size=32 \
 --num_examples=0 \
 --n_shots=0 \
 --test_dataset_path='boda/cryptonite_filtered_testset' \
---save_file='mistral_disjoint_1k_cryptonite_filtered_testset.txt' \
+--save_file='mistral_disjoint_1k_cryptonite_filtered_quick_testset.txt' \
 --dataset_type='cryptonite_filtered' \
---cryptonite_quick=0 \
---indicator_type_shots=0 \
---checkpoint_path='experiments/mistral_disjoint_1k' \
+--cryptonite_quick=1 \
+--checkpoint_path='experiments/Mistral-7B-v0.1.disjoint/checkpoint-1000' \
 
 
 # --test_dataset_path='data/clue_json/guardian/naive_random/test.json' \

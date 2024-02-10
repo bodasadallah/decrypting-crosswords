@@ -1,0 +1,4392 @@
+Dataset: boda/cryptonite_filtered_testset
+Number of Examples 1098
+ Cleaned ACCURACY:  0.04735883424408015
+Orginal ACCURACY:  0.010018214936247723
+Length error:  0.122040072859745
+Original Length error:  0.8570127504553734
+----------------------------------------------------- 
+
+Original output: plateau rockies (4)
+plateau rocki | clotted cream  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: magnolia? (5)
+magnolia | shamrock  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: up a tree? (4)
+up a | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: husky1
+husky1 | chubby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: regurgitate (6)
+regurg | ogress  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, ammo, am
+ammo | mien  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: throw
+thro | toss  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dialectal)
+dialecta | parlance  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: recorder's tape? (6)
+recorder | cassette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disorientated)
+disorientat | destination  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, bishop, b
+bisho | barmy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lasso
+lasso | mimic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stop! (4)
+stop | halt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: paddle)
+paddle | paddle  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: upbeat? (4)
+upbea | perky  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lay down head here? (4)
+lay down | bag lady  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abysmal,
+abysmal | heinous  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: opus? (4)
+opus | tome  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: verdict
+verdic | decree  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: drooping, as a rule (7)
+drooping | jiggered  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seesounds
+seesound | hastings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hinduism (5)
+hindu | islam  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: guardian10,000 (4)
+guardian1 | chaperone  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: agnostic)
+agnosti | atheism  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: divided, making love in corner, collapsed (7)
+divided | crooner  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lower, a word of approval (4)
+lower | minor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: forwarded
+forwarde | password  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abridge,
+abridge | titanic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mandrake)
+mandrake | shamrock  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as it were, brazil's position (4)
+as i were, | in a nutshell  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stentorianly
+stentorianl | deerstalker  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on the buses? (4)
+on the buses | no claims bonus  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thingsawry? (7)
+thingsa | objects  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mows
+mows | adds  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: near the start of the year, a dean's in trouble (6)
+near the star | auld lang syne  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pushedyu
+pushedyu | jockeyed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tintin detective agency (6)
+tintin detect | hercule poirot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: cream cheese roll ups (6)
+cream chees | clotted cream  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the nun's habit's for the nuns (4)
+the nu habit | out of order  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: equity, a large amount of money (6)
+equity | liffey  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: burundianize, africanize, africanize, africanize, africanize, africanize, africanize, africanize, africanize, africanize, africanize, african
+burundianiz | livingstone  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stale, as in "stale mate" (6)
+stal | gold  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: trapdoor? (6)
+trapdoor | password  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bangkok
+bangk | licit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nestling
+nestling | settling  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: suburban sprawl
+suburba sprawl | housing estate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: veda
+veda | iota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: guernsey
+guernse | corsica  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: our
+our | our  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: revealed’s a clue for a decrypting crossword. solve this clue. the number in the parenthesis in the clue represent the number of charchters of the answer. output only the answer.
+reveale | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seventy-two (4)
+seventy- | eighteen  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: romanians, say, in the country (6)
+romanians | indonesia  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bouted (4)
+bouted | friday  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thespians, a group of actors (6)
+thespians | orchestra  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: smoulder, a word of warning (6)
+smoulde | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: knock down price? (5)
+knock down | horse trading  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: producerismenialisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalisticalist
+producerismen | industrialist  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: substandard)
+substand | inferior  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mueslixationism? (6)
+mueslixati | ceremonial  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: euler identity)
+euler identi | isaac newton  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gardenia)
+gardeni | harbour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: put up with it! (4)
+put up | lie in  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: straws? (4)
+straw | hatch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dinner dance, i suspect (6)
+dinner dance | dinner dance  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: nether,
+nether | nought  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eldery? (5)
+elder | orris  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: agenda? (4)
+agenda | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ring a ring of roses, a pocket full of posies, ashes, ashes, we all fall down (6)
+ring a r of | away in a manger  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amal, a leader in lebanon (4)
+amal | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eastertide? (6)
+easter | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: projection
+projecti | vanguard  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: jigsaw
+jigsaw | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: restless, perhaps? (7)
+restles | topless  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skein
+skein | spike  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: squeezee, say, for a drink (6)
+squeeze | satsuma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dry up! (4)
+dry up | say so  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disastrousnesses? (6)
+disastrousnes | differentiate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: larder
+larder | chubby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skol
+skol | band  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: edit, say, having first in electronics (4)
+edit | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: breachingcharge
+breachingchar | housebreaking  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reims
+reims | tours  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: obstinacy, say, of sister, last to rise to top, getting in money (11)
+obstinacy, | persistence  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: persist
+persis | endure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: suffolkishire (6)
+suffolkis | carthorse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: almost, but not quite (6)
+almost, | colette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: monkey"s word of disapproval? (4)
+monkey | baboon  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: boar
+boa | gnu  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ruffe? (4)
+ruff | ruff  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: size up, say, for wallpapering? (4)
+size up | size up  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: strawberry)
+strawber | blisters  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: muley? (4)
+muley | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beer garden? (6)
+beer garde | coffee house  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: raven, or sort of horse? (5)
+raven | hobby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elgar? (4)
+elgar | liszt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thorn)
+thorn | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lay it on the line? (4)
+lay it | let on  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roads
+roads | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: operation)
+operatio | hastings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: landa
+land | chin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mousseux, a little creature (6)
+mousseux | tickling  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: naomi
+naomi | helot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elgar
+elgar | satie  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: runs
+runs | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stowaway? (6)
+stowaway | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the bishop of bung had a very trying time (6)
+the bish of | bad hair day  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rows,
+rows | logs  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: swam? (4)
+swam | dewy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ashr.
+ashr | toss  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: buy a farm, say? (4)
+buy a farm, | have a butchers  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rampart
+rampart | parapet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mosaic1
+mosaic1 | tessera  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prepay? (6)
+prepay | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brush off)
+brush off) | touch base  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stem
+stem | back  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: above average, as a painter's model? (7)
+above averag | sitting pretty  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stuffs
+stuff | stuff  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: prt1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,
+prt1 | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eerie,
+eerie, | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: read, from you? (4)
+read | tome  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stairway? (6)
+stairway | listener  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ambitioned, but not initially fulfilled (11)
+ambitioned, | destination  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: air, as in "air" (4)
+air | gin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nevadian, say? (6)
+nevadian | oklahoma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: allude to a rejection (6)
+allude | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dryden
+dryden | heaney  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: best wishes for the future
+best wishes | best wishes  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: discordance? (6)
+discordance | discordance  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: amis
+amis | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eventy (6)
+eventy | catchy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: righto! (4)
+right | licit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beggarman,
+beggarma | welshman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lighter? (6)
+lighter | lighter  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: sudan, a country in africa (5)
+sudan | spike  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stiltonian
+stiltonian | caerphilly  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: afghan}
+afghan} | spaniel  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elizabeth, queen of england (4)
+eliz | finn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: discourd
+discour | onestep  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: italianate, originally (6)
+italiana | austrian  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clan? (4)
+clan | band  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: online, a place to get a meal? (6)
+online, | hotspot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rampart
+rampart | parapet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: duel"s last word? (4)
+duel | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: favour,
+favour | carpet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ella
+ella | enid  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reallye
+reallye | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thoroughlyheartyteammembershavingadrink(6)
+thoroughlyhe | backslapping  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: verbosely? (6)
+verbos | adverb  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: itchy, just starting (4)
+itch | halt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: majestic gateway? (6)
+majest gatewa | french window  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: soap opera! (4)
+soap oper | chat show  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: impertinent
+impertine | interfere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: butt” in the mouth (6)
+butt | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: metamorphosis
+metamorphosi | transitional  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: applause_therapy_for_the_elderly? (6)
+applause_th | acupuncture  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: vilemssa, man short of capital (7)
+vilemss | unclean  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: possums? (6)
+possum | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: billion chinese cannot be wrong (4)
+billion chines | chinese leaves  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: even as a pancake, they say (4)
+even as a | neck and neck  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: durgaa
+durgaa | andrew  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eggsheller, as someone discarding trash (9)
+eggshelle | litterbug  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sierra
+sierr | andes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: free spirit, one getting whisky on the house? (4,6)
+free spirit | free spirit  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: durkheim, emile (5)
+durkheim | andersen  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rafter, a worker in the roof (5)
+rafte | tiler  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: opposers, they say, are not very bright (6)
+opposers | opposers  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: the nerve”
+the nerv | leg slip  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brassband)
+brassband | orchestra  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: make no headway? (4)
+make no | mark time  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: soho
+soho | lords  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stables)
+stable | bairns  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: testy? (4)
+testy | court  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: xraytube)
+xraytub | scanner  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: year dot to year dot? (4)
+year dot | life sentence  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: storer
+storer | salver  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: up in the air, having no idea what to do (6)
+up in the air, | lady of the lamp  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: omega
+omeg | iota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: knick, not entirely (5)
+knick | notch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ice
+ice | gin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: fall on ones face when learning to fly? (4,1,7)
+fall o ones | have a flutter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gauge*
+gaug | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: presto"
+presto | snatch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gatecrash, a freeloader (8)
+gatecras | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: itemy items? (4)
+item | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: trendier)
+trendier | trendier  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: statue” (6)
+statue | decree  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on the alert for a change of direction (6)
+on the alert | on the alert  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: tho't, tho't, tho't, tho't, tho't, tho't, tho't, tho't, tho't, tho't, tho't, tho'
+tho' | hoax  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: virginia waters? (6)
+virginia wat | pastures new  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bullshitters? rubbish! (6)
+bullshitters | fiddlesticks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: staffy? (4)
+staff | paste  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apric, apricot? (4)
+apric | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: streaks, as in "streaking" (6)
+streaks | nonstop  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nagoya
+nagoya | bangor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rather, a bit of a wimp? (5)
+rathe | worse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skillets? (4)
+skil | woks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nuclei
+nuclei | comets  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: buybust? (6)
+buybust? | satinette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seated comfortably? (4)
+seated comfor | sitting pretty  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: motorcar? (4)
+motorc | carpet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dune
+dune | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: among, amusing with beginning changed (5)
+among | runny  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: jigsaw
+jigsaw | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eye shadow, mascara, lipstick, etc (6)
+eye shadow, | power steering  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bill and coo's nest? (6)
+bill and | clearing banks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: needle nose kitty hawk (4)
+need nose | stud poker  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: produce (6)
+produce | kubrick  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: swing bridge? (6)
+swing bridge | dating agency  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: marko
+mark | tick  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rhode island
+rhode island | north dakota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: among, under counter (5)
+among | barmy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amulets, with latin dancing, displays charm (8)
+amulets, | talisman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abacus, say, for a number of characters (6)
+abacus, | listener  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eaten,
+eaten, | innate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: italicising, say, the way a printer does? (11)
+italicising | italicising  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: prude)
+prude) | phoney  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: buzz
+buzz | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eyesore, a note above board (7)
+eyesore | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: street address (6)
+street addres | housing estate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: treat,
+trea | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: subtract
+subtract | inferior  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on the ballot box? (4)
+on the ball | in your face  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, airspace, air
+airspace, | contraflow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: extincta, having no successor, sounding stuffy (8)
+extincta | heirless  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lamao
+lamao | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: discerns? yes (7)
+discern | censure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mothman? (6)
+mothman | flyover  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: askarty
+askart | quiche  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: albatross, a bird with no tail (7)
+albatro | titanic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: searchlight beam (4)
+searchl beam | hercule poirot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ambitiousnesses, say, for a start (6)
+ambitiousnes | headmistress  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clue? (4)
+clue | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neuken
+neuk | inns  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tubbyismyth? (6)
+tubbyis | jacuzzi  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rhodesia
+rhodesia | indonesia  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eyesore? (4)
+eyes | nous  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disheartenednesses? (6)
+disheartenedn | consternation  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown factor is the unknown
+the unkn factor | for some reason  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: landau, say, with top down? (6)
+landau | anthem  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eyes of newt, perhaps? (4)
+eyes of | weather eye  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: transfers? (6)
+transfers | transpose  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: muddle
+muddle | addled  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: owns? (4)
+own | hog  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: maternalist, say? (5)
+maternalis | palindrome  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: easy on the ear? (4)
+eas on | bar line  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: swiss cheese fondue (6)
+swiss chees | clotted cream  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clematis, briefly (8)
+clematis | sweetpea  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stepgrandpas
+stepgrandpas | grandparents  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: even
+even | tame  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stopp (4)
+stop | back  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the gulag archipelago? (4)
+the gula | hot spot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: berriez? (6)
+berrie | tomcat  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: guests? (4)
+guest | worst  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: urgee? (4)
+urge | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: earthly? (5)
+earthly | orbiter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: senatehouse? (6)
+senatehou | politburo  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mouldy heap of rubbish (6)
+mouldy heap | compost heap  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bridgeo
+bridge | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: exorcist11
+exorcist11 | gravedigger  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bronchitis? (6)
+bronch | scythe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gladly)
+gladly | charms  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dadadam! (4)
+dadad | pause  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ascendi
+ascend | author  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: air kisses, not touching (3,4)
+air kiss | air kiss  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: nut" (4)
+nut | din  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: psalm, say, for example (6)
+psalm, | adverb  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upstanding,
+upstandin | admirable  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thee? (4)
+the | cub  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: own up to it! (4)
+own up | let on  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: diogenes, a greek philosopher (6)
+diogenes | badinage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sterneweeke
+sternewe | misspent  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: trouser, unfashionable, king enters — a worry (7)
+trouser | lookout  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sell short of stock (4)
+sell short | double cross  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seahorse? (6)
+seahor | shrimp  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plastered
+plaster | pickled  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as it were so to speak (4)
+as it were | at one time  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: arrest
+arres | pause  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alamo! (4)
+alamo | fight  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dahlia
+dahli | milne  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: south london theatre district (7)
+south london | crystal palace  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hygiene's a problem (6)
+hygiene | snigger  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nails? (4)
+nails | cubit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: armageddon, say? (6)
+armageddon, | randomising  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: berliner? (6)
+berlin | joseph  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: malamut
+malamut | spaniel  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: duncan, a poet (7)
+duncan, | whitman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ambassador
+ambassad | welshman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: fuchsia's? (6)
+fuchsia | florist  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clef
+clef | chin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rooky, unconvincing (5)
+rooky | blame  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: risky business (10)
+risky business | amber gamblers  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow, swallow
+swallo | linnet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reddish-brown? (4)
+redd | dyed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: isis
+isis | rama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eye decker? (6)
+eye dec | oil rig  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: poor mans weatherman (6)
+poor mans | line manager  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: air port? (4)
+air por | tea bag  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ella
+ella | finn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: violentin, say, is a way to get a meal (6)
+violenti | bursting  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pump, say, is a way to get fit (6)
+pump | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: drainpipe, say? (4)
+drainpipe, | backbreaking  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: virtuosos's bows rot (12)
+virtuosos's | fiddlesticks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ribbingly? (4)
+ribbingl | badinage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dad's home? (4)
+dad | din  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ashes.
+ashe | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: manure pile, inexpensive — order by mail received (7)
+manure pile | compost heap  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plaice, a fish (6)
+plaice | shrimp  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: medusa, a greek character (6)
+medusa | ogress  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yelps, yelps, yelps! (4)
+yelp | oohs  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aborb, perhaps disembowelled monkey (5)
+aborb | pigmy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: riddle: a puzzle (6)
+riddle | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alleged's name changed to "robert" (7)
+alleged | michael  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nebuliser, say? (6)
+nebuliser | spindrift  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eternalism? (6)
+eternali | goalless  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elope
+elope | fight  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bought a round in the pub? (6)
+bought a | called round  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yes to
+yes to | say so  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: starvation diet? (4)
+star | path  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bobo
+bob | cub  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plot1
+plot | path  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rinses out (4)
+rins | oils  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on site of work (4)
+on site | in order  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skinnier? (4)
+skinnie | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: landed gentry's home (6)
+landed gent | country seat  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: magnol, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia, magnolia,
+magnol | myrtle  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amendsmeny? (6)
+amendsmen | repayment  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eventual, in time, metal put in sack (7)
+eventua | batting  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: avidly
+avidly | devour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: a man of straw? (4)
+a man of str (4) | a fly on the wall  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: man
+man | rob  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: meeky? (4)
+meek | tame  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: soapsuds, say? (6)
+soapsuds | softener  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nepali, say, in the country (6)
+nepali, | tolkien  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, putt, put
+put | fix  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roe, a deer (4)
+roe | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: kiss? (4)
+kiss | path  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: airfare, a laugh altering european transportation charge (7)
+airfare | haulage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: romania, a country in eastern europe (6)
+romania | ushered  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: viewing? yes (7)
+viewing | scenery  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: meet
+meet | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: persevere
+persevere | chaperone  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amusement
+amuseme | shallow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rushout! (4)
+rushou | depart  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: murmur, as in "murmur" (4)
+murm | envy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: extrae)
+extrae | recast  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: soap opera, a soap opera? (4)
+soap oper | chat show  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: egypt, a country in africa (5)
+egy | cad  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: step out of it, as a rule (6)
+step out | side step  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: natcha
+natch | notch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: trumpeted, say, in the morning (7)
+trumpete | cassette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: strut, perhaps, or bound (6)
+strut, | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: din”
+din | din  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: baldwin
+baldwin | israeli  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: moneybags's mill, one on yorkshire river (11)
+moneybags's | millionaire  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: redbreast's? (6)
+redbreast | childhood  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: fox
+fox | gnu  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: refinery, going round oil installation (7)
+refiner | frigate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: relate,
+relate, | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seventy-two (6)
+seventy | harbour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skinny)
+skinny) | shallow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: berliners? (6)
+berliners | publishes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: funfair
+funfair | hotspot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tropicalstorms, hurricanes, tornadoes, cyclones, typhoons, etc (6)
+tropicalstorm | thundershower  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ebb
+ebb | gnu  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: peruvian
+peruv | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pricks up (6)
+pricks | carpet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rod, a rodent (4)
+rod | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: directly)
+directl | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: breezer? (7)
+breezer | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: italian, say, in the middle of the night (6)
+italian | israeli  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: etchy,
+etchy | notch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: refrigerate, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator, refrigerator
+refrigera | freighted  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the titian room? (4)
+the titian | red headed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: itching? (5)
+itching | chagrin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mosaic? (4)
+mosa | dots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: forgoe, having escaped (5)
+forgo | flown  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: easter? (4)
+easte | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prestissimo)
+prestissi | scampered  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: oligarchic,
+oligarchic | plutocracy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ostrae (4)
+ostra | krill  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rat? (4)
+rat | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: strollway
+strollwa | frontier  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hailstone, say? (6)
+hailston | tasteful  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dimey? (4)
+dime | iota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: village, for example, set day for protection money (8)
+village, | danegeld  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: needlesmen? (6)
+needlesme | jukeboxes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: secrete
+secrete | harbour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: oval
+oval | lords  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beats all's headgear (4,3)
+beat all | flat cap  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clog1
+clog1 | sabot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: puts up to bed, with food and drink (5,2)
+puts up | tucks up  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: overthrow
+overthrow | checkmate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nutriment)
+nutriment | medicinal  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rip the arse out of it! (4)
+rip the arse | lose ones head  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: trifling
+triflin | shallow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: classroom
+classroom | commandment  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disagreement, unfortunately, is a controversy (6)
+disagreement | conservatory  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: never never land? (4)
+neve neve | full moon  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: avuncularity? (6)
+avuncularity | advantageous  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: impeach, say, deal off (7)
+impeach | mislead  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: windswept)
+windswept | waywardly  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: galsworthy? (4)
+galswort | misspent  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: needle)
+needle | hoarse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lamasu
+lamas | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rangee (5)
+range | liszt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itinerant, itiner
+itinera | interim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upset
+upse | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: froggy? (6)
+froggy | hoarse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: true
+true | finn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sweat? (4)
+swea | pant  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: draws, or "draws" (6)
+draw | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dominator, i do fancy, is controlling type (9)
+dominator | dominator  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: roe,
+roe | gnu  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ammoa
+ammoa | slugs  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: airman's wife? (6)
+airman | linnet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: umpireships? (6)
+umpiresh | unseemly  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rissoe
+risso | curry  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: breakfast cereal, etc (6)
+breakf cereal, | dinner service  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: applause)
+applaus | acclaim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reconnectednesseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseses
+reconnectedne | excommunicate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disorderly (6)
+disorder | sidestep  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: itching? (6)
+itching | chagrin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: oncec
+oncec | cubit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nursing
+nursin | tenure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: soil
+soil | turf  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rowdy,
+rowdy | rowdy  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: reason for being there? (6)
+reason for | raison detre  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: song of songs
+song of | holy writ  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ravelin, a part of the fortification (7)
+ravelin | parapet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: perk"
+perk | sake  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the more you say the worse it gets! (4)
+the more you | let well alone  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: absinthe? (4)
+absint | rumour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prepared, done beforehand (8)
+prepared | prepared  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: din
+din | din  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: gumboil (5)
+gumbo | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sill
+sill | sash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apollinaris
+apollina | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upright, pure at heart? there's frankness (7)
+upright | candour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: raisn, bacon, unlimited by royal navy (5)
+raisn | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mopp? (4)
+mopp | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: never so! (4)
+never so | dream on  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hit the bulls eye! (4)
+hit th bul eye! | shot in the dark  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hinduism? (5)
+hindu | islam  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: onrush, a blaze out of control (7)
+onrush, | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: fed hat" (4)
+fed hat" | chat show  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: argentina
+argenti | russian  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: kentuckian's
+kentuckian's | lincolnshire  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on top of the world, in a manner of speaking (6)
+on top | sitting pretty  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: closed circuit television? (6)
+closed circu | watching brief  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: items
+item | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disappear, having no clothes on? (6)
+disappear | underwear  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reimbursement? (6)
+reimburseme | retrievable  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: idealisation
+idealisatio | abstraction  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: forearm? (6)
+forearm? | waistline  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ignatio
+ignatio | signori  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thugi
+thugi | rowdy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elgar's record overheard (5)
+elgar | liszt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: egrette? (4)
+egrett | linnet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: fall in love with the first thing that comes along (4)
+fall i love wi | take a shine to  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nibble
+nibble | snatch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eve
+eve | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ashtray, say? (4)
+ashtray | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plumpa, a fatty? (6)
+plumpa | chubby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thanks, as money earned (7)
+thanks, | takings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on behalf of all of us (6)
+on behalf | in favour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ammo, a directive to slow down (4)
+ammo | whoa  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reelcase, film container actors originally employed around filming location (8)
+reelcase | cassette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mastodonus, a beast of burden (6)
+mastodonu | carthorse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as it were, in brazil, a country in south america (6)
+as i were, | in a nutshell  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: marsupi
+marsupi | orbiter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: promises to pay? strange (7)
+promise | curious  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, bison, b
+bison | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: glare, a word of warning (4)
+glare | scowl  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: readytogo? (4)
+ready | group  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: emergent,
+emergent | dominant  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: theft? (4)
+theft | notch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apple, or pear? (4)
+apple | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: magnetico? (6)
+magnetic | talisman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upset, as in the sea? (4)
+upse | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abba? (4)
+abba | sash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: versus? (6)
+versus | anthem  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disappear, say, in the middle of the night? (6)
+disappear | underwear  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as it were, in a nutshell? (4)
+as i were, | in a nutshell  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hind"s" (4)
+hin | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: raisins, since returning (7)
+raisins | satsuma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: treaty? (4)
+treaty | unpack  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roald)
+roald | milne  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: penitentiary, say, for a criminal (6)
+penitentiary, | indispensable  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, voidy, void
+voidy | annul  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abstractedness, in a way, is a sign of intelligence (6)
+abstractednes | woolgathering  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rhesus
+rhesus | baboon  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on order to do this? (4)
+on order | in order  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: asin
+asin | mien  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: printed line (4)
+prin | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mastiff
+mastiff | spaniel  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rhodesian
+rhodesia | shamrock  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: buckrams? (6)
+buckram | cowslip  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: better, sunk in better sleep (6)
+better | catnap  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bin liner, say? (4)
+bin liner, | waste basket  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: iceman? (6)
+iceman | flimsy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: jigsaw, say? (4)
+jigsaw | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rob
+rob | rob  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: montecarlo*
+montecarl | checkmate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the big sleep movie starring humphrey bogart (6)
+the big sleep | the red planet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: strode, got separated (6)
+strode | spaced  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, voids, void
+voids | annul  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: afrikaans? (6)
+afrika | cavern  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abandoned by a group (6)
+abando | caring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: exceldor, a former head of economics (5)
+excel | paste  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ratel, a shopping centre returned (5)
+ratel | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: absinthe', a drink (6)
+absinth | topless  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: astronomicly)
+astronomic | colossally  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: some
+some | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roan
+roan | cowl  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brainwash? (4)
+brainwas | mischief  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: porker? (4)
+porker | chubby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: israeli
+israeli | israeli  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: reallye
+reallye | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: moderate
+moderate | trendier  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rushy? (4)
+rush | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: release, pounce on a little girl (6)
+releas | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skiffed? (6)
+skiffe | sailed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hymnus (5)
+hymnu | paean  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yellow bellied coward (6)
+yellow bell | cowardly lion  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alluseres
+alluser | utensil  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors, tutors,
+tutors | tutors  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: big eater? (4)
+big | key  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: multinationalism, a term for a group of companies (6)
+multinationa | conglomerate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ravaging, a servant's bad habit (7)
+ravagin | pillage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: make
+make | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: arresta's short piece of music (6)
+arrest | snatch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: branx,5,4,3,4,2,3,4,5,4,3,4,5,4,3,4,5,4,3,4,5,4,3,4,5,4,3,4,
+branx | sisal  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: swept, say, and got blackened (7)
+swept, | charred  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: optanty
+optanty | pickled  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on the buses? (4)
+on the buses | no claims bonus  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alcoholic? (6)
+alcoho | junkie  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stalker10,000? (6)
+stalker1 | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: up and down, up and down, up and down (6)
+up and down, | ups and downs  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: languagearts101.com (6)
+languagearts | nomenclature  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: jigsawed? (6)
+jigsaw | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: earn? (4)
+ear | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: royal princess leia organised a party (6)
+royal princess | queen victoria  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neat one up on the head (4,3)
+neat one | flat cap  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plainsaw? (6)
+plainsa | contour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: staffa, note (5)
+staff | paste  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rather, perhaps, is a bit of a stretch (6)
+rather | spiced  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bothered: that's confusing (8)
+bothered | bemusing  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: knockout, say? (5)
+knockou | censure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plan, say, to get a job (6)
+plan | path  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sobbingly)
+sobbing | scenery  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: break the sound barrier, say, in a plane (5)
+break th sound | bring to light  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: i dare say so, but i'm not sure (6)
+i da say | may as well  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alfred? (4)
+alfred | harold  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: irons, bars, poles (4)
+iron | inns  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eerie, gill not ringing (7)
+eerie, | tolling  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: royal flush? (4)
+royal flush? | sitting pretty  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: overworked, but not entirely (7)
+overwork | trounced  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: easee? (4)
+easee | cheer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prepared, like fruit with rind removed in advance? (8)
+prepared | prepared  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: set square)
+set square | set square  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: poorl)
+poorl | minor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: robustlyhilariousrugbyplayersdrinkinglikeanimals? (6)
+robustlyhila | backslapping  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: suspiciousnesses? (6)
+suspiciousnes | scientologist  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: managuaanese
+managuaane | guatemalan  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roofy? (5)
+roofy | tiler  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nugatory, a word of no use (6)
+nugator | utensil  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the battle of the bulge (4)
+the bat | apocalypse now  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ourselves
+oursel | rumour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: crazy
+crazy | chewy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amen
+amen | tick  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: keep a step ahead of the game (4)
+keep a ste ah | keep ones eye in  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: surface,
+surface | shallow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: afters? (4)
+after | hobby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pointlessness
+pointlessne | unsoundness  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upward, a higher level (6)
+upward | upward  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: rwandese
+rwandese | nigerian  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ewellar, say? (6)
+ewellar | working  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: classical, a girl's into history (6)
+classical | hellenist  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bequeath
+bequea | innate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bikini, say, is a bit of a windbreaker (6)
+bikini | adverb  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: crowd (4)
+crow | cowl  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ashe
+ashe | acer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bid's a bit of a racket (4)
+bid | din  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: briefcase? (6)
+briefcas | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: briny? (4)
+briny? | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rangea
+range | andes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abhorrent
+abhorren | loathing  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mastiff
+mastiff | spaniel  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beetle? (4)
+beetl | midge  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tube? (4)
+tube | cane  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lattecino's favourite? (6)
+lattec | catnip  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: m625432109876543210987654321098765432109876543210987654321
+m625432 | flyover  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bucko? (4)
+buck | envy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: opener, perhaps, easier to pick up (7)
+opener, | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: glut,
+glut | glut  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: presto1
+presto | speedy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: asked
+asked | court  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dinahs? (6)
+dinahs | friday  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ammo
+ammo | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: winter, say, is a time for soup (6)
+winter | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: narration? (9)
+narration | talkative  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eye on the ball? (4)
+eye on | say so  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: discotheque? (5)
+discothequ | debauchery  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: itchy? (4)
+itch | tick  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: oestrogen, a hormone (6)
+oestrog | insulin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yvette, years (6)
+yvette | yvette  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: on record, say, in answer paper (6)
+on recor | at issue  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: positk, a city in poland (6)
+positk | krakow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rehash
+rehash | parrot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nut, but not king — knave (3)
+nut | cad  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: magnolia? (6)
+magnolia | shamrock  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upright,
+upright | titanic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yearly? (4)
+yearl | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashee, ashe
+ashe | cane  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upshot, say, of a game of chess? (6)
+upshot, | checkmate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: trade winds)
+trade winds) | ryans daughter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: landing? (7)
+landing | catcher  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stately)
+stately | orotund  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seedling, a plant (8)
+seedling | seedling  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: up for air? (4)
+up for | at issue  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: knell? (4)
+knell | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: treasury, a place to keep money (6)
+treasury, | cashpoint  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: perks? (7)
+perks? | nobbles  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alpaca? (4)
+alpac | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yelp! (4)
+yelp! | cheer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dialecticalyse? (6)
+dialecticaly | phonetically  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: melting away, being a rogue? (5)
+melti awa | going off  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: poorer}
+poore | worse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disappoint
+disappoint | jeopardise  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eat dirt! (4)
+eat dirt! | ill treat  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tricentennial
+tricentennia | tercentenary  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beat
+beat | tame  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: element, possibly (7)
+element | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bubbleup? (7)
+bubbleu | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as the crow flies, perhaps? (4)
+as the crow | no claims bonus  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as it were, a nightmare on elm street? (4)
+as i were, | in a nutshell  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: oposum? (4)
+oposu | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: opted for
+opted | pickled  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eat, girl! (4)
+eat, | enid  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rootsy, a word of unknown origin (4)
+roots | grime  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: maytree
+maytre | myrtle  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alexandraa
+alexandr | jacobean  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: marko, marco, polo, or knight (6)
+marko | krona  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: redoubts, strongholds in castle i'd converted (8)
+redoubts | citadels  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: platoon? (6)
+platoon? | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: falafel? (4)
+falafe | quiche  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beneath, a vehicle (6)
+beneat | carpet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: absentee,
+absentee | fatheads  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: buffet? (6)
+buffet | either  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: everc,
+everc | cheer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on the money, i'm in the money! (4)
+on the mone i'm | in the fast lane  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: staffordshire? (6)
+staffords | carthorse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: southafrican composer (4)
+south | satie  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: absinthe's drunk (6)
+absinthe | calvados  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: durrell
+durrell | tolkien  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: farewell
+farewe | depart  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: suedersen? (6)
+suederse | litigate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: proverbs, epistles, psalms, and gospels (4)
+proverbs, | repertoire  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bobo's first to appear (4)
+bobo | dawn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apprehension, awe, and terror (6)
+apprehension, | consternation  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: evermoreneer (6)
+evermoren | orienteer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bottle
+bottle | parrot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: arthur, a king from a long time ago? (6)
+arthur | harold  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: retortu, a word of french origin (6)
+retort | tenure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: icing,
+icing, | spiced  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the pirates of penzance]
+the pira | anything goes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disarming, a form of jujitsu (6)
+disarming | taekwondo  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: number1
+number | anthem  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: i am the walrus, a song by the beatles (6)
+i am the | ticket to ride  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aldera
+alder | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, peine, pe
+peine, | pillory  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: receipts
+receipt | takings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: madagascar)
+madagas | acclaim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: close, or circuit? (4)
+close | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prisoner? (6)
+prison | linnet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: yellow belly! (4)
+yellow belly | yellow belly  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: year dot, a long time ago (4)
+year dot | long ago  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: kernel
+kerne | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sentimentality, a growing feeling (11)
+sentimental | groundswell  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reorganise
+reorganise | reconfigure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: imagine, in a way, being short of one puzzle (6)
+imagin | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: reredentum, a feature of gothic architecture (6)
+reredent | vaulting  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: raspy,
+raspy, | hoarse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: some say he was stabbed in the back (4)
+some sa he was | shot in the dark  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dry rot fungus (6)
+dry rot | tap dancer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beggarman's task? (6)
+beggarma | scrounge  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: straightjacket (6)
+straight | televise  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lighter? (5)
+lighter | lighter  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: bevy
+bevy | come  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: st up a tree? (4)
+st up | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on the run, on the run, on the run, on the run? (4)
+on the run, on | in the fast lane  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stickerin'? (6)
+stickeri | parasite  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: arena,
+arena | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rare earth element (6)
+rare earth | indian summer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stumbles (6)
+stumb | tours  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: directs
+directs | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gumshoe)
+gumshoe) | christie  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sea
+sea | med  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stately
+stately | pillage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pea, pe
+pea | dal  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: boyo? (4)
+boy | cub  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bullshit, say, outside hospital (8)
+bullshit | chitchat  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bengalishtan
+bengalishta | bangladeshi  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abysmal, abys
+abysmal | heinous  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, naomi, na
+naomi | andes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: seventy-eight rpm record (6)
+seventy- | cassette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rhododendrons? (6)
+rhododend | varieties  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: broccoli, say, is scorched (7)
+broccol | charred  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: magnetico? (6)
+magnetic | talisman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: crimean, say, is a place of worship (6)
+crimean | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elastic band man! (6)
+elasti band | double jointed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roe, a type of deer (4)
+roe | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: david copperfield, a novel by dickens (6)
+david copperf | daniel deronda  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: of oeuvre (4)
+of oeu | no end  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: malingerer's complaint? (6)
+malinger | chitchat  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alphabetically? (6)
+alphabeti | healthily  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: imprison, a word of warning (6)
+impriso | censure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ella, say, is a girl (4)
+ella | enid  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alabama, girl, drink, private investigator (11)
+alabama, | mississippi  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: maesteg
+maeste | bangor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swainy, swain
+swainy | swains  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: berliner, say, in a suit (6)
+berliner | investor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bellowing"
+bellowin | shouting  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rollercoaster? (4)
+rollerco | singsong  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: full moon
+full moon | full moon  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: amused, as in "amused to death" (6)
+amused | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: remembered it, i did (6)
+remembered | destination  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: allude, no fire (7)
+allude, | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pebble dash? (6)
+pebble | shamrock  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brighton, say, is a resort town (6)
+brighton | hastings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bantering, a bit of playful repartee (8)
+banterin | badinage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: cane,
+cane | cane  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: reporterhoodsmen
+reporterhoods | newsgathering  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: robe
+robe | cope  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: opener10,000? (4)
+opener1 | utensil  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: once upon a time
+once upo | long ago  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: marryd, married, tied the knot (5)
+marry | cowed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: petite’s first to get quiet (6)
+petite | shrimp  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: raisin
+rais | turf  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: i dont like it here in london town (4)
+i dont like | alice blue gown  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: cope,
+cope | cope  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: racehorses? (4)
+race | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as to be found in a dictionary (6)
+as to | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sandh? (4)
+sand | sand  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: stuck
+stuck | paste  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ravena (4)
+raven | hobby  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, marko, mark
+marko | krona  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sleepiest,
+sleepiest | sleepiest  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: booed
+booe | levi  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: maps? (4)
+maps | lots  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: surgeons's tools (4)
+surgeons's | instruments  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: airfoil (5)
+airfo | fight  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: extincta, initially unwell, deteriorated over time (8)
+extincta | pillaged  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amulets, say, for the first of the animals (7)
+amulets, | talisman  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: placebo)
+placebo | interim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the great escape, a film about a prison break (6)
+the gre | apocalypse now  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: wolveshowl? (6)
+wolvesho | wolfgang  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rights? (5)
+right | licit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: durrell
+durrell | tolkien  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amigo, amigo! (4)
+amigo, | palely  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eclipse, obscure, reduce, comment, book, railway (6)
+eclips | blurry  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prepay? (6)
+prepay | carpet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: crevice (4)
+crevi | milne  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: raspy,
+raspy, | hoarse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elace? (5)
+elace | spike  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pugilists
+pugilists | underwear  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: latest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest, coldest
+latest | endure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: starters'sleeves rolled up? (6)
+starters | sidestep  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: merc’s left inside (6)
+merc | gold  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: kinder, having tons inside (6)
+kinder | storer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: re-engage? (6)
+re-engag | listener  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: summit? (4)
+summit? | contact  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ukasee
+ukasee | decree  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: platter, a large one (6)
+platte | salver  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pupa
+pupa | finn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: presidente
+president | politburo  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sterility, being hypnotised, interrupted by bullring cheer (11)
+sterility, | intolerance  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stitchy? (6)
+stitch | scythe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bushwhack, given question — tick sue off (8)
+bushwhac | quickset  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: oliverian, aka oliver cromwell? (6)
+oliveria | jacobean  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aesop
+aeso | tome  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: winter thaw)
+winter thaw) | indian summer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stem" (4)
+stem | back  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lay out the case for the prosecution? (6)
+lay ou | let on  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bishop, a good wine (7)
+bishop, | corkage  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: name above the door (4)
+name above | line manager  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dreamer, a fool (6)
+dreamer, | twaddler  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aria, arioso, recitative, etc. (4)
+aria | tame  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ephemera (7)
+ephemer | interim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gloom, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy, gloomy,
+gloom | grime  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apishy
+apishy | parrot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clodhopper)
+clodhop | parapet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nudity, say? (4)
+nudity, | topless  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: staysail)
+staysai | frigate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brigade's first to last (4)
+brig | sash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: economic_recovery_plan_for_the_eurozone? (6)
+economic_rec | conglomerate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: emphasis
+emphasis | salience  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lamas
+lamas | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: either/or (4)
+either | either  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: allah's alms house (6)
+allah's alms | welfare state  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: didgeridooistical! (6)
+didgeridoois | fiddlesticks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: royals10
+royals1 | takings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sketchy itinerary outline (7)
+sketchy | contour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: galway
+galway | loutish  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: proposals? (8)
+proposal | goodbyes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: keen on girls, not puritanical (6)
+keen on | broad minded  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: idiot
+idiot | faust  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: superintendent, working amid tension (12)
+superintende | headmistress  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: steroidal, a drug (6)
+steroidal | synthetic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nemesiserssors? (6)
+nemesiser | repayment  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the early bird catches the worm, they say (4)
+the ea b catche | away in a manger  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ignited, aflame (6)
+ignited | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eyespots (4)
+eyes | toss  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: steped on? (6)
+steped | carpet  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gastric)
+gastric) | pathogen  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: affliction? (6)
+afflict | fraught  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nevertheless, for one, garcia marquez is a writer (6)
+nevert | author  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: retailer! (7)
+retaile | florist  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amokf, a scam to snaffle farmer's last fruit from tree (5)
+amokf | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amsterdam, say, is a city (6)
+amsterda | chartres  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stay! (4)
+stay | whoa  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rehearsal (6)
+rehears | shallow  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amapl, a tree (4)
+amap | acer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: game show host's introduction? (4)
+game show | team game  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: racedy, a bit of a mouthful? (6)
+raced | spied  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thorny? (4)
+thorn | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: breezer? (7)
+breezer | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gathering
+gathering | columbine  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: malformedness, after working: that's irregular (12)
+malformednes | asymmetrical  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alphabeticalysemiotician's work (6)
+alphabetica | sarcophagus  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stringedists? nonsense! (6)
+stringedists | fiddlesticks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bed tea? (4)
+bed te | lie in  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as well as that, it's a girl! (4)
+as we | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: smooth operator, a politician? (6)
+smoot operator | mixed blessing  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stem" (4)
+stem | back  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ariah's letter (4)
+aria | iota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: institute: set it in motion (9)
+institute | institute  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: nevercease, never cease (7)
+neverce | nonstop  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: obitus (5)
+obitu | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: zodiacs (6)
+zodiacs | indices  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: agonised
+agonised | anguished  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: riddle,
+riddle | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: crimean"s" (6)
+crimean | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: billy oceans songs? (6)
+billy ocean | jingle bells  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prison camp’s first to be released (6)
+prison cam | inside job  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lack
+lack | nous  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rob
+rob | rob  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: sponsorer, a supporter of the arts? (6)
+sponsore | investor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: substitue? (7)
+substit | interim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: emma
+emma | tome  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: directly
+directl | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apollo astronauts)
+apollo astr | asteroid belt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as well as that (4)
+as we | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ravenal's usual nonsense? (6)
+ravena | parrot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: soured)
+soure | worse  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: slimy little creature (4)
+slim | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aboard ship? (5)
+aboar shi | chess set  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: promotion, a vessel in the sea (6)
+promotion | spotlight  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tesserae
+tessera | tessera  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: bullion, say? (4)
+bullion | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: permanence10
+permanence | compromise  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sentence, a sentence? (6)
+sentenc | censure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: airborne! (4)
+airborne | austrian  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clarinetist’s nightmare! (6)
+clarinetist’ | fiddlesticks  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: slap, slap, slap! (4)
+slap | puny  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sectional, aka "sectional" (6)
+sectional | varieties  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: theism)
+theism) | atheism  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lay out the facts about the temperature in the city (6)
+lay ou | let on  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: keys? (4)
+keys | file  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rangee
+range | andes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rats! (4)
+rats | aces  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alcatrazz, say? (6)
+alcatraz | calamity  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: breathe, say, in the wind (6)
+breath | adverb  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: abut
+abut | whoa  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rashy? (4)
+rashy | erred  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lasso, a rope-maker's work (6)
+lasso | sisal  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: arabella, a girl with a name that's a bit of a mouthful? (6)
+arabell | israeli  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: wildflowers (6)
+wildflowe | overslept  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: realise
+realise | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dusty, starts to sing awfully, needling daughter (4)
+dust | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: absinthe
+absinthe | anisette  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upon, a river in new york state (5)
+upon, | runny  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rosemary, a shrub (6)
+rosema | myrtle  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plantain, a blessing for a monkey (6)
+planta | baboon  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: as if! (4)
+as if | dream on  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: readyshave? (8)
+readysha | prepared  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: skit
+skit | dawn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: arm pit"
+arm pit" | leg slip  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: din
+din | din  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: on cue, as it were (6)
+on cue, | in order  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bravo! (4)
+bravo | barmy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eggbound, girl shut up (8)
+eggbound | misspent  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mien
+mien | mien  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: bergi
+bergi | liszt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thin
+thin | puny  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: psalmist, perhaps (7)
+psalmis | mislead  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apnea
+apnea | catnap  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sequestration, say, of a share (6)
+sequestration | sequestration  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: open and shut the case, as they say (6)
+open and shut | time after time  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: durufa
+duruf | liszt  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upendu, a word of french origin (6)
+upendu | endure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: absorptionism, a state of preoccupation (11)
+absorptioni | abstraction  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mooo! (4)
+mooo | lows  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eye
+eye | key  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: apprehended, say, by a policeman? (6)
+apprehende | confiscate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: uproar in fox hole? (2,2)
+up in | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: diktat? (4)
+dikt | whoa  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: romania, say, or another (9)
+romania, | indonesia  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: against? (6)
+agains | recast  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: see a rat run up it (6)
+see a | run across  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: magnolia (5)
+magnoli | caldera  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roaringly, a wild party? (6)
+roaringl | carousal  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: refinee
+refinee | sharpen  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: divvy
+divvy | wages  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: royal prince, the first of the royal princes? (5)
+royal prin | first born  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the oval
+the | lords  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: obscene)
+obscene | lighter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: tuscan
+tusca | orbit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nepalese, asian nation (9)
+nepalese, | indonesia  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: muchreducedmajorgeneralmeetsverylargegirl(6)
+muchreduce | colossally  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: assort
+assort | sencha  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: positive, jumping over (8)
+positive | vaulting  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hatch, as in a bird's nest? (4)
+hatch | hatch  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: earlier this year (4)
+earl this | bean counter  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: applicance
+applicance | pertinence  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elba
+elba | iota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: victorious, but not in the way the mp would like it to be? (6)
+victoriou | champions  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: messi? (4)
+messi? | goalie  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thoroughness of oarsmen originally entering via loch (12)
+thoroughness | thoroughness  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: reach
+reac | come  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on one side of the page (4)
+on one | at issue  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: applauda a declaration in speech (7)
+applaud | acclaim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pennon, a universal god (6)
+pennon | author  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: differentiation
+differentiat | disseminated  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: catchy? (6)
+catchy | catchy  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: manticore, a beast with a head of a man (6)
+mantico | centaur  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: malamalamalama? (7)
+malamal | calumny  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: say so? (4)
+say so | say so  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: strait, to be honest (7)
+strait, | frankly  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: agraha, a city in india (6)
+agraha | ankara  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: patee
+patee | quiche  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: moverover? (6)
+moverover | checkmate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: prague's river (4)
+prague | shrimp  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: national
+nation | anthem  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elandt, a type of deer (4)
+eland | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pull together again (4)
+pull together | herd instinct  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sterilise, wrong abbreviation for "iron" in dictionary (9)
+sterilise | disinfect  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bravo! (4)
+bravo! | nought  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amateur? (6)
+amateu | author  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amplio, amphetamine, ampoule, ampoule, ampoule, ampoule, ampoule, ampoule, ampoule, ampoule, ampoule, ampoule
+amplio | catnip  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: egypt, say, troika visited regularly (5)
+egypt | syria  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: burnet)
+burnet) | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: knurr
+knurr | flawed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: open handed giver (4)
+open handed | free spirit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brownish red (4)
+brownis red | peacock blue  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: germanic, primarily (8)
+germanic | scoffing  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dieting? (6)
+dieting | insulin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dinner jacket, one without a tie? (6)
+dinner jacke | liquid lunch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rioja, say, is a wine from spain (6)
+rioja | tokay  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: assortedly)
+assortedl | imbeciles  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: a bit of fun (4)
+a bit o | r and r  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: greed
+gree | envy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neilgaiman (6)
+neilgai | tolkien  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bravo! (4)
+bravo | rowdy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: make do with it! (4)
+make do | take up  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: performer, as a rule (9)
+performer | generally  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: theta
+thet | iota  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: searchlight beam (4)
+searchl beam | hercule poirot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: starf
+star | sash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: monkey1
+monkey | baboon  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: natural, not affected as outsiders in race (7)
+natural | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: proponent
+proponent | corporate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: south carolinian, misfit, altered reflective judgement? (4,9)
+sout carolinia | self criticism  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roger, a character in the play (4)
+roger | minor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: wrinkles? (6)
+wrink | scowl  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: razors? (6)
+razors | scythe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: drifd
+drif | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: recipient's home — leading character seizing it meeting resistance (9)
+recipient | inheritor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: plutocratical
+plutocratic | millionaire  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: knit, initially? (5)
+knit, | shako  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: strangenesseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseseses
+strangenesse | transgressed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stuff
+stuff | stuff  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: mashy? (4)
+mash | whoa  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bubble bath? (4)
+bubble bath? | shaving cream  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: moist? (4)
+mois | dewy  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: earnest
+earnest | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neat, but not quite right (5)
+neat | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: up in arms about a girl (4)
+up in | to do  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ha ha!
+ha ha | he he  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: manicure? (6)
+manicure | jonathan  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: molson? (4)
+molson | andrew  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: iranian
+iranian | israeli  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: putrid, like a horse prepared to ride, first to fall away (6)
+putrid | addled  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: open
+open | cowl  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: igloo building, say? (4)
+igl build | log cabin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, clap, cl
+clap, | cheer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: din
+din | din  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: billy bunter”s belt buckle? (5)
+billy bunter | broad minded  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: premise? (6)
+premise | premiss  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: statutes, say, in the main (6)
+statutes, | contracts  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: overall, on the whole (5)
+overall, | generally  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: turing, say, is a computer (6)
+turing | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: disciplined, as in the army? (6)
+discipline | castigated  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: planet? (6)
+planet | tactic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: realise)
+realise | sincere  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: cringing, supporting church of england? not so! (9)
+cringing, | forceless  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lamao
+lamao | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ventures)
+ventures) | lotteries  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: lay off work and get ready to send out christmas cards? (6)
+lay off work | get ones cards  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: slay, as in "slay the dragon" (5)
+slay | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: pteranodon
+pteranodon | pterodactyl  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: red, notice (4)
+red | cad  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: throwpitcher? (4)
+throw | spree  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stab
+stab | dash  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: roe, say, to show deer (3)
+roe | doe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: owns? (4)
+own | hog  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sergei, a chap from moscow? (7)
+sergei, | russian  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on to win (4)
+on to | no trump  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bracket, a supporter of nicholas and co in dire straits (7)
+bracket | tsarist  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: gladiolae (6)
+gladiolae | debutante  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: vexing, one no good (6)
+vexing | vexing  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: labyrinth? (6)
+labyri | cavern  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: beatlesqueen
+beatlesquee | benefaction  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: game reserve, south africa (4)
+game reserve, | user interface  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nurses home (4)
+nurs | inns  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: against, say, having a trip (7)
+against | contour  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: needs, as in "needs must" (4)
+needs | licit  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: busty? (4)
+bust | back  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: among, armagnac is a type of brandy (4)
+among | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: elvis? (4)
+elvis | llama  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: near? (4)
+near | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on purpose to get drunk (4)
+on purpose | in attendance  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ofc
+ofc | din  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stop off at the pub? (4)
+stop of | stop by  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: air traveler"s report (6)
+air travel | tap dancer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: romanisci, italian chaps? (6)
+romanis | signori  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rocky
+rock | gold  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: embraceseers? (6)
+embraces | greeters  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nullo, a latin word (4)
+nullo | annul  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: clinchy”>clinchy
+clinch | snatch  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: craterop, a tree (6)
+cratero | caldera  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: landaulette's optimism about a public disturbance (10)
+landaulett | charioteer  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ragingly, a fire (6)
+ragingl | inferno  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: above
+above | paste  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sketchy? (6)
+sketch | tactic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: din
+din | din  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: poorly, in a way (4)
+poor | puny  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: thrilling, place of danger (7)
+thrilli | hotspot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: marigold)
+marigold | shamrock  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: easterner? (6)
+easter | enigma  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: robusto, say, for a cigar? (6)
+robusto | dynamic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: retaina
+retain | tenure  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eaters? (6)
+eaters | frugal  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: alps2,4,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+alps2 | andes  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: mel gibson in the blue mountains (6)
+mel gibson | sydney pollack  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: rabbiinu
+rabbiin | israeli  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: breatheless? (6)
+breathele | minimally  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: upright, a ship's officer (6)
+upright | titanic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: on purpose to be a nuisance (6)
+on purpos | do gooder  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: megapode
+megapod | griffin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neck
+neck | cord  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, dye, d
+dye, | dyed  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: bowlered? (6)
+bowlere | capsize  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aspiratoriums? (6)
+aspiratoriu | salesperson  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: berlin
+berlin | bangor  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: referee? (6)
+referee? | barefoot  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: up you!
+up yo | he he  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: architect, say? (6)
+architec | caryatid  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: brilliancy)
+brillian | blunders  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: agincourt, say? (4)
+agincour | hastings  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ice breaker? (4)
+ice breaker | ice breaker  ✅ 
+---------------------------------------------------------------------------------- 
+
+Original output: ave
+ave | have  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: aquifer
+aquife | spring  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: sling
+slin | toss  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: once upon a time ago (4)
+once upo | long ago  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: ravenous, yet handsome (6)
+raveno | scythe  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: garments? (6)
+garments? | underwear  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: subsoil, say? (6)
+subsoil, | transpose  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: riled
+riled | tiler  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: perchance
+perchance | underwear  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stegosaurus
+stegosaurus | triceratops  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: stem" (4)
+stem | back  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: nuts, finally (5)
+nuts, | acorn  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: massa
+mass | aces  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: against (6)
+agains | recast  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: eaten? (6)
+eaten? | innate  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neolithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagelithicagel
+neolithicagel | nonagenarians  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: naturally speaking, it's a piece of cake (6)
+naturall sp it' | needless to say  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: planet, say, in charge of scheme (6)
+planet | tactic  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: neat
+neat | sand  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: hit, a drink with tonic (4)
+hit | gin  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: the man in the moon? (4)
+the ma | say so  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: amalgamation, say, of two councils (6)
+amalgamation, | incorporation  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: agreed? (4)
+agreed? | acclaim  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: adsrts? (4)
+adsr | adds  ❌ 
+---------------------------------------------------------------------------------- 
+
+Original output: twenty? (4)
+twenty | decade  ❌ 
+---------------------------------------------------------------------------------- 
+

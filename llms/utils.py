@@ -162,8 +162,14 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
         assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
         dataset = dataset[split]
         dataset = dataset.rename_column('answer', 'labels')
-        if dataset['date']:
-            dataset = dataset.remove_columns(['date'])
+
+
+        # if dataset['date']:
+        #     dataset = dataset.remove_columns(['date'])
+
+
+        dataset = dataset.select_columns(['clue', 'labels', 'quick'])
+        
 
     elif dataset_type == 'cryptonite_filtered':
         print('------------------ Using Cryptonite Filtered Datast ------------------')
@@ -171,8 +177,11 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
         assert split in dataset.keys(), f"Split {split} not found in dataset {dataset_path}"
         dataset = dataset[split]
 
-        if dataset['date']:
-            dataset = dataset.remove_columns(['date'])
+        ## Only take the wanted columns
+        dataset = dataset.select_columns(['clue', 'labels', 'quick'])
+
+        # if dataset['date']:
+        #     dataset = dataset.remove_columns(['date'])
             
         if cryptonite_quick:
             dataset = dataset.filter(lambda x: x['quick'] == 1)
