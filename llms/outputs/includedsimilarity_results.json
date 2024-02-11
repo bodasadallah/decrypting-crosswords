@@ -1,86 +1,94 @@
 [
     {
         "filename": "chatgpt_eval_results_32627_3shots_learning.txt",
-        "similarity": 0.33077642226581655
+        "similarity": 0.26035912872548106
     },
     {
         "filename": "mistral_normal_3_few_shot.txt",
-        "similarity": 0.2875641987035964
+        "similarity": 0.2563265511580269
     },
     {
         "filename": "mistral_cryptonite_1.5_cryptonite_test.txt",
-        "similarity": 0.3811923508889314
+        "similarity": 0.27961570198791563
     },
     {
         "filename": "mistral_indicator_0_few_shot.txt",
-        "similarity": 0.2593704885660021
+        "similarity": 0.253681175298915
     },
     {
         "filename": "mistral_disjoint_2_new_2k_output_test_disjoint.txt",
-        "similarity": 0.26024830375446123
+        "similarity": 0.25217527353184543
     },
     {
         "filename": "mistral_disjoint_2k_test_output_disjoint.txt",
-        "similarity": 0.26105373810024185
+        "similarity": 0.2521862395432226
     },
     {
         "filename": "llama_normal_3_few_shot.txt",
-        "similarity": 0.2812141244556246
+        "similarity": 0.26083533621289007
     },
     {
         "filename": "llama_naive_1.5k_output_test_naive.txt",
-        "similarity": 0.343307856913565
+        "similarity": 0.26286855555130506
     },
     {
         "filename": "chatgpt_eval_results_32619.txt",
-        "similarity": 0.3055509745504507
+        "similarity": 0.2564453541758995
     },
     {
         "filename": "llama_disjoint_1.5k_output_test_disjoint.txt",
-        "similarity": 0.2592230742492171
+        "similarity": 0.2531108857905633
     },
     {
         "filename": "mistral_indicator_3_few_shot.txt",
-        "similarity": 0.28440751092592104
+        "similarity": 0.25562388615076537
     },
     {
         "filename": "mistral_normal_10_few_shot.txt",
-        "similarity": 0.2875818449441137
+        "similarity": 0.2565082272786625
+    },
+    {
+        "filename": "mistral_disjoint_1k_cryptonite_filtered_full_testset_with_clue.txt",
+        "similarity": 0.2621494959151122
     },
     {
         "filename": "mistral_word_init_disjoint_unique_3k.txt",
-        "similarity": 0.26313528310976064
+        "similarity": 0.2503568506488916
     },
     {
         "filename": "mistral_disjoint_half_targets_2_new_2k_output_test_disjoint_half_targets.txt",
-        "similarity": 0.26776790342087076
+        "similarity": 0.25642820643655845
     },
     {
         "filename": "mistral_naive_random_unique_3k.txt",
-        "similarity": 0.30847387758935974
+        "similarity": 0.2614045548535552
     },
     {
         "filename": "mistral_disjoint_1k_cryptonite_filtered_quick_testset.txt",
-        "similarity": 0.3009685043000827
+        "similarity": 0.26615078513192947
     },
     {
         "filename": "llama_indicator_0_few_shot.txt",
-        "similarity": 0.2580926400048296
+        "similarity": 0.256002023985118
     },
     {
         "filename": "llama_disjoint_2_new_1.5k_output_test_disjoint.txt",
-        "similarity": 0.2597940873071477
+        "similarity": 0.253784332157408
     },
     {
         "filename": "llama_normal_10_few_shot.txt",
-        "similarity": 0.28432205784866366
+        "similarity": 0.2633395994505097
     },
     {
         "filename": "llama_indicator_10_few_shot.txt",
-        "similarity": 0.2825425424814291
+        "similarity": 0.26102648684228374
+    },
+    {
+        "filename": "mistral_disjoint_1k_cryptonite_filtered_quick_testset_with_clue.txt",
+        "similarity": 0.26615078513192947
     },
     {
         "filename": "llama_indicator_3_few_shot.txt",
-        "similarity": 0.27935332925051803
+        "similarity": 0.2608438541291426
     }
 ]
