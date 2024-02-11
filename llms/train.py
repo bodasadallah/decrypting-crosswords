@@ -169,6 +169,8 @@ if __name__ == "__main__":
         eval_accumulation_steps=args.eval_accumulation_steps,
         include_inputs_for_metrics=True,
         logging_first_step=True,
+        save_total_limit=2,
+        load_best_model_at_end=True,
     )
 
 

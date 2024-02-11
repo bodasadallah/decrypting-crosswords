@@ -49,18 +49,18 @@ echo "starting Evaluation......................."
 
 python evaluate_llm.py \
 --model_name='mistralai/Mistral-7B-v0.1' \
---per_device_train_batch_size=32 \
+--per_device_train_batch_size=128 \
 --num_examples=0 \
 --n_shots=0 \
---test_dataset_path='boda/cryptonite_filtered_testset' \
---save_file='mistral_disjoint_1k_cryptonite_filtered_quick_testset.txt' \
---dataset_type='cryptonite_filtered' \
---cryptonite_quick=1 \
---checkpoint_path='experiments/Mistral-7B-v0.1.disjoint/checkpoint-1000' \
+--save_file='mistral_disjoint_1k_disjoint_explicit_prompt.txt' \
+--test_dataset_path='data/clue_json/guardian/word_initial_disjoint/test.json' \
+--checkpoint_path='experiments/mistral-7b-v0.1_word_init_disjoint_new_prompt/checkpoint-1000' \
 
 
+# --test_dataset_path='boda/cryptonite_filtered_testset' \
+# --cryptonite_quick=1 \
+# --dataset_type='cryptonite_filtered' \
 # --test_dataset_path='data/clue_json/guardian/naive_random/test.json' \
-# --test_dataset_path='data/clue_json/guardian/word_initial_disjoint/test.json' \
 
 
 echo " ending " 

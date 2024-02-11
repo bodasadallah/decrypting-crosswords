@@ -18,47 +18,31 @@
 
 
 
-
-echo "starting......................."
 ###################### RUN LLM Finetune ######################
 
-
-# MODEL_NAME="meta-llama/Llama-2-7b-hf"
-MODEL_NAME="mistralai/Mistral-7B-v0.1"
-
-# --do_train \
-WANDB_PROJECT=decrypting-crosswords_mistral_cryptonite_full
+WANDB_PROJECT=decrypting-crosswords
+# FULL_MODEL_NAME="meta-llama/Llama-2-7b-hf"
+FULL_MODEL_NAME="mistralai/Mistral-7B-v0.1"
+TRAIN_DATASET="data/clue_json/guardian/word_initial_disjoint/train.json"
+TEST_DATASET="data/clue_json/guardian/word_initial_disjoint/val.json"
+DATASET_NAME="word_initial_disjoint"
+DATASET_TYPE="old"
+MODEL_NAME=$(echo $FULL_MODEL_NAME | cut -d "/" -f 2 | cut -d "-" -f 1)
+SAVE_DIR='/l/users/abdelrahman.sadallah/' + $MODEL_NAME + '/' + $DATASET_NAME
 
 echo $WANDB_PROJECT
 python train.py \
 --max_steps=3000 \
 --save_steps=500 \
---eval_steps=1000 \
+--eval_steps=500 \
 --logging_steps=500 \
 --report_to="all" \
---model_name=$MODEL_NAME \
---run_name=$MODEL_NAME \
+--model_name=$FULL_MODEL_NAME \
+--run_name=$FULL_MODEL_NAME \
 --per_device_train_batch_size=64 \
 --per_device_val_batch_size=32 \
---gradient_accumulation_steps=2 \
---gradient_checkpointing=1 \
---use_flash_attention_2=1 \
---eval_accumulation_steps=2 \
---save_dir='experiments/mistral-7b-v0.1_mistral_cryptonite_fulle' \
---train_dataset_path='boda/cryptonite' \
---test_dataset_path='boda/cryptonite' \
---dataset_type='cryptonite' \
---spaces=0 \
---hints=0 
-# --checkpoint_path="experiments/mistral-7b-v0.1_naive_random_unique/checkpoint-1000"
-# --checkpoint_path="experiments/Mistral-7B-v0.1/checkpoint-24000" 
-
-
-# 'boda/naive_random_unique'
-# --base_prompt="Below is a clue for a cryptic crossword. Replace underscores _ with letters of the answer to the clue." \
-
-# --checkpoint_path="experiments/Mistral-7B-v0.1/checkpoint-24000" 
-
-
+--save_dir=$SAVE_DIR \
+--train_dataset_path=$TRAIN_DATASET \
+--test_dataset_path=$TEST_DATASET \
+--dataset_type=$DATASET_TYPE \
 echo " ending "
-#srun python run_clm.py config.json

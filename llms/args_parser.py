@@ -47,7 +47,7 @@ def add_args(parser: argparse.ArgumentParser):
                             default="./logs")
     parser.add_argument('--use_flash_attention_2',
                             type=int,
-                            default=0)
+                            default=1)
     parser.add_argument('--report_to',
                             type=str,
                             default="tensorboard")
@@ -97,8 +97,7 @@ def add_args(parser: argparse.ArgumentParser):
  
     parser.add_argument('--base_prompt',
                             type=str,
-                            default="""The next line is a clue for a cryptic crossword. Solve this clue. The number in the parenthesis in the clue represent the number of charchters of the answer. Output only the answer.""")
-    
+                            default="""The next line is a clue for a cryptic crossword. The clue consists of a definition part and a wordplay part. The answer consists of {n_words} words, and the number of characters in the answer is {n_chars}. Output only the answer.""")
     parser.add_argument('--train_dataset_path',
                             type=str,
                             default='data/clue_json/guardian/naive_random/train.json')
@@ -164,7 +163,7 @@ def add_args(parser: argparse.ArgumentParser):
                             default=True)
     parser.add_argument('--gradient_checkpointing',
                             type=bool,
-                            default=False)
+                            default=True)
     
     
 

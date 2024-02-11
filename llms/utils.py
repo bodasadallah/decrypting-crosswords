@@ -8,6 +8,8 @@ import math
 from datasets import load_dataset, load_from_disk
 import json
 import random
+import re
+
 DEFAULT_SYSTEM_PROMPT = """Below is a clue for a cryptic crossword. Your task \
 is to solve this clue. The number of characters in the answer should be \
 same as the number in the parenthesis. Just output the answer only.\n\
@@ -47,6 +49,16 @@ def index(a, x):
     return -1
 
 
+def get_ans_words_chard(clue):
+    # Regular expression to match strings inside parentheses
+    pattern = r'\((.*?)\)'
+    # Find all matches
+    matches = re.findall(pattern, clue)[-1]
+
+    numbers = matches.split(',')
+
+    return len(numbers), matches
+
 def augment_clue(clue, solution, spaces=True, percentage=0.):
     answer_lengths = []
     answers = solution.split(" ")
@@ -74,9 +86,7 @@ def augment_clue(clue, solution, spaces=True, percentage=0.):
         for l in answer_lengths:
             masked_clue += "".join(["*"] * l) + " "
         for index in open_indexes:
-            masked_clue = masked_clue[:index] + solution[index] + masked_clue[index + 1:]
-            # masked_clue[index] = solution[index]
-        
+            masked_clue = masked_clue[:index] + solution[index] + masked_clue[index + 1:]        
         clue += masked_clue + "\n"
 
     if clue[-1] != "\n":
@@ -91,6 +101,12 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0.,
     solution = example['labels']
 
     augmented_clue = augment_clue(clue, solution, spaces, percentage)
+
+
+    ### Explicilty tell the model the number of words and characters in the answer
+    n_words, n_chars = get_ans_words_chard(clue)
+    prompt_head = prompt_head.format(n_words=n_words, n_chars= n_chars)
+
 
     ## For training, we need to provide the instruction, the clue and the answer
     if is_train:
