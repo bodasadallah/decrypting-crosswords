@@ -10,10 +10,7 @@ import json
 import random
 import re
 
-DEFAULT_SYSTEM_PROMPT = """Below is a clue for a cryptic crossword. Your task \
-is to solve this clue. The number of characters in the answer should be \
-same as the number in the parenthesis. Just output the answer only.\n\
-""".strip()
+DEFAULT_SYSTEM_PROMPT = """The next line is a clue for a cryptic crossword. The clue consists of a definition part and a wordplay part. The answer consists of {n_words} words, and the number of characters in the answer is {n_chars}. Output only the answer.""".strip()
 
 SYSTEM_PROMPT_W_SPACES = """Below is a clue for a cryptic crossword. Replace \
 underscores _ with letters of the answer to the clue.\n""".strip()
@@ -96,7 +93,7 @@ def augment_clue(clue, solution, spaces=True, percentage=0.):
 
 
 def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0., \
-                    field='prompt', shots=[], indicator_type_shots= 0, indicators_dict = None):
+                    field='prompt', num_shots=0,dataset=None, indicator_type_shots= 0, indicators_dict = None):
     clue = example['clue']
     solution = example['labels']
 
@@ -117,21 +114,29 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0.,
     ## For validation and testing, we only need to provide the instruction and the clue
     else:
 
-        ## Check if we are using indicator examples
-        candidate_shots = None
-        if indicator_type_shots:
-            for indicator_type in indicators_dict.keys():
-                for indicator in indicators_dict[indicator_type]['indicators']:
-                    if indicator in clue:
-                        candidate_shots = indicators_dict[indicator_type]['examples']
-                        
-                        break
-                if candidate_shots:
-                    break
-        
-        if candidate_shots:
-            shots = random.sample(candidate_shots, len(shots))
+       
+        shots = []
+            # Normal random few-shot learning
+        if num_shots > 0:
 
+            ## Check if we are using indicator examples
+            candidate_shots = None
+            if indicator_type_shots:
+                for indicator_type in indicators_dict.keys():
+                    for indicator in indicators_dict[indicator_type]['indicators']:
+                        if indicator in clue:
+                            candidate_shots = indicators_dict[indicator_type]['examples']
+                            
+                            break
+                    if candidate_shots:
+                        break
+            ## If we found candidate shots         
+            if candidate_shots:
+                shots = random.sample(candidate_shots,num_shots)
+            ## If we didn't find candidate shots, or we don't want candidate shots
+            if not shots:
+                idx= np.random.randint(0,len(dataset),num_shots)
+                shots = dataset.select(idx)
 
 
 
@@ -153,7 +158,7 @@ def generate_prompt(example, prompt_head, is_train, spaces=False, percentage=0.,
 
 def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
                 percentage=0., prompt_head=DEFAULT_SYSTEM_PROMPT, \
-                dataset_type=False, shots=0, indicator_type_shots = 0, indicators_dict_path=None, cryptonite_quick = 0):
+                dataset_type='old', shots=0, indicator_type_shots = 0, indicators_dict_path=None, cryptonite_quick = 0):
     if dataset_type == 'old':
         dataset = load_dataset('json', data_files=dataset_path, split='train')
         dataset = dataset.remove_columns(['idx'])
@@ -207,13 +212,7 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
     else:
         dataset = load_dataset(dataset_path)
 
-    # Normal random few-shot learning
-    if shots > 0:
 
-        idx= np.random.randint(0,len(dataset),shots)
-        shots = dataset.select(idx)
-        for shot in shots:
-            print(shot['clue'], shot['labels'])
 
     indicators_dict = None
     # Load indictor dictionary
@@ -223,13 +222,10 @@ def get_dataset(dataset_path, split='train', field='prompt', spaces=False, \
         print('------------------ Evaluating Using INDICATOR EXAMPLES ------------------')
 
 
-    ## Just to make sure we are passing a list
-    if type(shots) == int:
-        shots = []
 
     dataset = dataset.map(generate_prompt, fn_kwargs={"field": field, \
         "prompt_head": prompt_head, "is_train": split == 'train', \
-        "spaces": spaces, "percentage": percentage, 'shots': shots, 'indicator_type_shots': indicator_type_shots, 'indicators_dict': indicators_dict})
+        "spaces": spaces, "percentage": percentage, 'num_shots': shots,'dataset':dataset, 'indicator_type_shots': indicator_type_shots, 'indicators_dict': indicators_dict})
         
     return dataset
 

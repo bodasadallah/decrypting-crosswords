@@ -90,7 +90,7 @@ def add_args(parser: argparse.ArgumentParser):
                             default="steps")
     parser.add_argument('--save_total_limit',
                             type=int,
-                            default=10)
+                            default=2)
     parser.add_argument('--run_name',
                             type=str,
                             default="LLama2")

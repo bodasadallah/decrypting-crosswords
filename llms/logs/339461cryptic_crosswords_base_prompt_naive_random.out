@@ -1,0 +1,197 @@
+The next line is a clue for a cryptic crossword. Solve this clue. The number in the parentheses in the clue represents the number of characters of the answer. Output only the answer.
+/l/users/abdelrahman.sadallah/base_prompt/Mistral/naive_random
+decrypting-crosswords_base_prompt
+Base prompt: The next line is a clue for a cryptic crossword. Solve this clue. The number in the parentheses in the clue represents the number of characters of the answer. Output only the answer.
+save_dir /l/users/abdelrahman.sadallah/base_prompt/Mistral/naive_random
+n_shots 0
+cryptonite_quick 0
+indicator_type_shots 0
+indicators_dict_path data/indicators_examples.json
+save_file outputs.txt
+num_examples 0
+dataset_type old
+spaces 0
+percentage 0
+logging_dir ./logs
+use_flash_attention_2 1
+report_to all
+max_steps 2000
+save_steps 500
+logging_steps 500
+max_seq_length 256
+checkpoint_path None
+do_eval False
+do_train False
+eval_accumulation_steps 1
+evaluation_strategy steps
+eval_steps 500
+log_level info
+logging_strategy steps
+save_total_limit 2
+run_name mistralai/Mistral-7B-v0.1
+base_prompt The next line is a clue for a cryptic crossword. Solve this clue. The number in the parentheses in the clue represents the number of characters of the answer. Output only the answer.
+train_dataset_path data/clue_json/guardian/naive_random/train.json
+test_dataset_path data/clue_json/guardian/naive_random/val.json
+field prompt
+model_name mistralai/Mistral-7B-v0.1
+output_dir ./experiments
+per_device_train_batch_size 128
+per_device_val_batch_size 64
+gradient_accumulation_steps 2
+optim paged_adamw_32bit
+learning_rate 0.0002
+max_grad_norm 0.3
+warmup_ratio 0.03
+lr_scheduler_type constant
+group_by_length True
+bnb_4bit_quant_type nf4
+bnb_4bit_compute_dtype bfloat16
+bnb_4bit_use_double_quant True
+gradient_checkpointing True
+lora_alpha 16
+lora_dropout 0.1
+lora_r 64
+bias none
+task_type CAUSAL_LM
+lora_target_modules ['q_proj', 'up_proj', 'o_proj', 'k_proj', 'down_proj', 'gate_proj', 'v_proj']
+trainable params: 262410240 || all params: 3752071168 || trainable%: 6.993743675173274
+Loading the datasets
+------------------ Using Old Datast ------------------
+------------------ Using Old Datast ------------------
+save_steps: 500
+logging_steps: 500
+Saving the model to /l/users/abdelrahman.sadallah/base_prompt/Mistral/naive_random
+Starting training
+checkpoint_path: None
+{'loss': 3.0538, 'learning_rate': 0.0002, 'epoch': 0.0}
+{'loss': 0.7345, 'learning_rate': 0.0002, 'epoch': 1.5}
+{'eval_loss': 0.7220247983932495, 'eval_runtime': 339.8923, 'eval_samples_per_second': 83.779, 'eval_steps_per_second': 1.309, 'epoch': 1.5}
+{'loss': 0.6566, 'learning_rate': 0.0002, 'epoch': 2.99}
+{'eval_loss': 0.7625588774681091, 'eval_runtime': 340.3436, 'eval_samples_per_second': 83.668, 'eval_steps_per_second': 1.308, 'epoch': 2.99}
+{'loss': 0.5447, 'learning_rate': 0.0002, 'epoch': 4.49}
+{'eval_loss': 0.7905972599983215, 'eval_runtime': 340.5752, 'eval_samples_per_second': 83.611, 'eval_steps_per_second': 1.307, 'epoch': 4.49}
+{'loss': 0.4265, 'learning_rate': 0.0002, 'epoch': 5.99}
+{'eval_loss': 0.8821556568145752, 'eval_runtime': 340.5532, 'eval_samples_per_second': 83.617, 'eval_steps_per_second': 1.307, 'epoch': 5.99}
+{'train_runtime': 19129.5677, 'train_samples_per_second': 26.765, 'train_steps_per_second': 0.105, 'train_loss': 0.5917477688789368, 'epoch': 5.99}
+Done training
+PeftModelForCausalLM(
+  (base_model): LoraModel(
+    (model): MistralForCausalLM(
+      (model): MistralModel(
+        (embed_tokens): Embedding(32000, 4096)
+        (layers): ModuleList(
+          (0-31): 32 x MistralDecoderLayer(
+            (self_attn): MistralFlashAttention2(
+              (q_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=4096, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+              )
+              (k_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=1024, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+              )
+              (v_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=1024, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=4096, out_features=1024, bias=False)
+              )
+              (o_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=4096, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=4096, out_features=4096, bias=False)
+              )
+              (rotary_emb): MistralRotaryEmbedding()
+            )
+            (mlp): MistralMLP(
+              (gate_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=14336, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              )
+              (up_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=4096, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=14336, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=4096, out_features=14336, bias=False)
+              )
+              (down_proj): Linear4bit(
+                (lora_dropout): ModuleDict(
+                  (default): Dropout(p=0.1, inplace=False)
+                )
+                (lora_A): ModuleDict(
+                  (default): Linear(in_features=14336, out_features=64, bias=False)
+                )
+                (lora_B): ModuleDict(
+                  (default): Linear(in_features=64, out_features=4096, bias=False)
+                )
+                (lora_embedding_A): ParameterDict()
+                (lora_embedding_B): ParameterDict()
+                (base_layer): Linear4bit(in_features=14336, out_features=4096, bias=False)
+              )
+              (act_fn): SiLUActivation()
+            )
+            (input_layernorm): MistralRMSNorm()
+            (post_attention_layernorm): MistralRMSNorm()
+          )
+        )
+        (norm): MistralRMSNorm()
+      )
+      (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+    )
+  )
+)

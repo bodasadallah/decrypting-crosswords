@@ -38,7 +38,10 @@ def compute_metrics(eval_pred):
 
 
 if __name__ == "__main__":
+    
+
     args = get_args()
+    print(f'Base prompt: {args.base_prompt}')
 
     for arg in vars(args):
         print(arg, getattr(args, arg))
@@ -226,7 +229,7 @@ if __name__ == "__main__":
         trainer.train()
 
 
-    # trainer.save_model()
+    trainer.save_model(args.save_dir+'/best')
 
 
     print("Done training")
