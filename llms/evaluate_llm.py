@@ -201,6 +201,8 @@ if __name__ == "__main__":
             if args.spaces:
                 f.write(f'Input: {masked_words[i]}\n')
 
+
+            f.write(f"clue: {val_dataset[i]['clue']}\n")
             f.write(f'Original output: {original}\n')
             if correctly_predicted:
                 f.write(emoji.emojize(f'{pred} | {label}  :check_mark_button: \n'))
