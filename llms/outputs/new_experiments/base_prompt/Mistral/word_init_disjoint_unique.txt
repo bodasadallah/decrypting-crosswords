@@ -6,10 +6,6 @@ Length error:  0.1517599110781771
 Original Length error:  0.9193034457206373
 ----------------------------------------------------- 
 
-output: monetary (6)
-monetary | leverage  ❌ 
----------------------------------------------------------------------------------- 
-
 clue: Stop filming with a single light out (3,3,3)
 Original output: cut the shot off'
 cut the sho | cut and run  ❌ 

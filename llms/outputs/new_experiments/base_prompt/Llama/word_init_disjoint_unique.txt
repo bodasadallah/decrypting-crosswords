@@ -6,10 +6,6 @@ Length error:  0.24505372360133382
 Original Length error:  0.8825490922563912
 ----------------------------------------------------- 
 
-put: downpayment
-downpaym | leverage  ❌ 
----------------------------------------------------------------------------------- 
-
 clue: Stop filming with a single light out (3,3,3)
 Original output: pull over, it's at an end (3,3,3)
 pul ove it' | cut and run  ❌ 

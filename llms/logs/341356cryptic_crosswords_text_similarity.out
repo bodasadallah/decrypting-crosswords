@@ -1,0 +1,7 @@
+outputs/new_experiments/base_prompt/Llama/naive_random_10_shot_random.txt
+outputs/new_experiments/base_prompt/Llama/word_init_disjoint_half.txt
+outputs/new_experiments/base_prompt/Llama/naive_random_unique.txt
+outputs/new_experiments/base_prompt/Llama/naive_random.txt
+outputs/new_experiments/base_prompt/Llama/word_init_disjoint_unique.txt
+outputs/new_experiments/base_prompt/Llama/naive_random_3_shot_random.txt
+outputs/new_experiments/base_prompt/Llama/naive_random_0_shot.txt

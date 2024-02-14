@@ -6,10 +6,6 @@ Length error:  0.24489795918367346
 Original Length error:  0.6838347076979776
 ----------------------------------------------------- 
 
-est
-wickedest | antichrist  ❌ 
----------------------------------------------------------------------------------- 
-
 clue: Player went to assist (4,4)
 Original output: cast aside*
 cast asid | left back  ❌ 

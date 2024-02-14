@@ -6,10 +6,6 @@ Length error:  0.19126006631927997
 Original Length error:  0.9298910468972051
 ----------------------------------------------------- 
 
-al output: rough idea of a commander (7)
-rough idea | general outline  ❌ 
----------------------------------------------------------------------------------- 
-
 clue: Locals dunking bishop in flipping drink (4)
 Original output: nipsu (4)
 nips | pubs  ❌ 
