@@ -1,0 +1,202 @@
+[
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_10_shot_random.txt",
+        "similarity": 0.2601388281901018
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/word_init_disjoint_half.txt",
+        "similarity": 0.24732232557858042
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_unique.txt",
+        "similarity": 0.2571488420291765
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random.txt",
+        "similarity": 0.256443550293838
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/word_init_disjoint_unique.txt",
+        "similarity": 0.24564508395188905
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_3_shot_random.txt",
+        "similarity": 0.2610065911642042
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_0_shot.txt",
+        "similarity": 0.2559530622666761
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_3_indicator.txt",
+        "similarity": 0.26114352250472717
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/word_initial_disjoint.txt",
+        "similarity": 0.24824427488017622
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_10_indicator.txt",
+        "similarity": 0.2607837692727544
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_3_indicator.txt",
+        "similarity": 0.25641275209618963
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_initial_disjoint.txt",
+        "similarity": 0.2538010871147644
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_initial_disjoint_10_shot_random.txt",
+        "similarity": 0.2578894229839957
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random.txt",
+        "similarity": 0.26493499752164307
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_0_shot.txt",
+        "similarity": 0.2548385868843019
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_init_disjoint_unique.txt",
+        "similarity": 0.2552509853311514
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/disjoint_1k_cryptonite_filtered_quick_testset_with_clue.txt",
+        "similarity": 0.2661508435947228
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_initial_disjoint_3_shot_random.txt",
+        "similarity": 0.2584902998193975
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_10_shot_random.txt",
+        "similarity": 0.2551355827282205
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_init_disjoint_half.txt",
+        "similarity": 0.262168315837905
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_unique.txt",
+        "similarity": 0.2659166543401436
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_10_indicator.txt",
+        "similarity": 0.25589716966565335
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/disjoint_1k_cryptonite_filtered_full_testset_with_clue.txt",
+        "similarity": 0.26214951319818064
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/cryptonite_1.5_cryptonite_test.txt",
+        "similarity": 0.27961570198791563
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_3_random.txt",
+        "similarity": 0.25607462535381664
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/chatgpt/0-shot_base_prompt.txt",
+        "similarity": 0.2564453702050916
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/chatgpt/3-shot_base_prompt.txt",
+        "similarity": 0.2603591783509215
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/word_init_disjoint_unique.txt",
+        "similarity": 0.25446178848135637
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random_0-shots.txt",
+        "similarity": 0.2554786301321336
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random.txt",
+        "similarity": 0.2646619073275862
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/word_init_disjoint_cryptonite_full.txt",
+        "similarity": 0.2614430165348185
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random_10_shots_indicator.txt",
+        "similarity": 0.2562739507142267
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random_unique.txt",
+        "similarity": 0.26743978493973963
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random_3_shots_indicator.txt",
+        "similarity": 0.25680152080704305
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/word_init_disjoint_half.txt",
+        "similarity": 0.2584030031038772
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random_3_shots_random.txt",
+        "similarity": 0.2570445458375964
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/cryptonite.txt",
+        "similarity": 0.27924482651331306
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Mistral/naive_random_10_shots_random.txt",
+        "similarity": 0.2555685804483476
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/word_init_disjoint_cryptonite_full.txt",
+        "similarity": 0.2598195053683324
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/cryptonite.txt",
+        "similarity": 0.27434823082666654
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/word_init_disjoint_half.txt",
+        "similarity": 0.2555164050156257
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/naive_random_10_shots_indicator.txt",
+        "similarity": 0.25893279500090316
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/word_init_disjoint_unique.txt",
+        "similarity": 0.2511564584755311
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/naive_random_3_shots_random.txt",
+        "similarity": 0.259792436105051
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/naive_random_0-shots.txt",
+        "similarity": 0.25324566250308034
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/naive_random.txt",
+        "similarity": 0.26129825475719215
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/naive_random_3_shots_indicator.txt",
+        "similarity": 0.25798511053796785
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/Llama/naive_random_10_shots_random.txt",
+        "similarity": 0.2580901840378185
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/chatpt/gpt-3.5-turbo_0-shot_extensive_prompt.txt",
+        "similarity": 0.2569225505246954
+    },
+    {
+        "filename": "outputs/new_experiments/extensive_prompt/chatpt/gpt-3.5-turbo_3-shot_extensive_prompt.txt",
+        "similarity": 0.26038387464168716
+    }
+]
