@@ -1,0 +1,110 @@
+[
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_10_shot_random.txt",
+        "similarity": 0.2601388281901018
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/word_init_disjoint_half.txt",
+        "similarity": 0.24732232557858042
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_unique.txt",
+        "similarity": 0.2571488420291765
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random.txt",
+        "similarity": 0.256443550293838
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/word_init_disjoint_unique.txt",
+        "similarity": 0.24564508395188905
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_3_shot_random.txt",
+        "similarity": 0.2610065911642042
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_0_shot.txt",
+        "similarity": 0.2559530622666761
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_3_indicator.txt",
+        "similarity": 0.26114352250472717
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/word_initial_disjoint.txt",
+        "similarity": 0.24824427488017622
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Llama/naive_random_10_indicator.txt",
+        "similarity": 0.2607837692727544
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_3_indicator.txt",
+        "similarity": 0.25641275209618963
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_initial_disjoint.txt",
+        "similarity": 0.2538010871147644
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_initial_disjoint_10_shot_random.txt",
+        "similarity": 0.2578894229839957
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random.txt",
+        "similarity": 0.26493499752164307
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_0_shot.txt",
+        "similarity": 0.2548385868843019
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_init_disjoint_unique.txt",
+        "similarity": 0.2552509853311514
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/disjoint_1k_cryptonite_filtered_quick_testset_with_clue.txt",
+        "similarity": 0.2661508435947228
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_initial_disjoint_3_shot_random.txt",
+        "similarity": 0.2584902998193975
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_10_shot_random.txt",
+        "similarity": 0.2551355827282205
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/word_init_disjoint_half.txt",
+        "similarity": 0.262168315837905
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_unique.txt",
+        "similarity": 0.2659166543401436
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_10_indicator.txt",
+        "similarity": 0.25589716966565335
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/disjoint_1k_cryptonite_filtered_full_testset_with_clue.txt",
+        "similarity": 0.26214951319818064
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/cryptonite_1.5_cryptonite_test.txt",
+        "similarity": 0.27961570198791563
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/Mistral/naive_random_3_random.txt",
+        "similarity": 0.25607462535381664
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/chatgpt/0-shot_base_prompt.txt",
+        "similarity": 0.2564453702050916
+    },
+    {
+        "filename": "outputs/new_experiments/base_prompt/chatgpt/3-shot_base_prompt.txt",
+        "similarity": 0.2603591783509215
+    }
+]
