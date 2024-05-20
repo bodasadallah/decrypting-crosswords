@@ -24,6 +24,7 @@ def calc_and_save_acc(original_predictions,
     for i in range(len(original_predictions)):
         original, label = original_predictions[i].lower().strip(), labels[i].lower().strip()
         correctly_predicted = False
+        correct_after_clean = False
 
         if original == label:
             original_correct +=1
@@ -37,14 +38,18 @@ def calc_and_save_acc(original_predictions,
             if cleaned == label:
                 cleaned_correct +=1
                 correctly_predicted = True
+
+                if original != label:
+                    correct_after_clean = True
             if len(cleaned) != len(label):
                 cleaned_length_error +=1
 
+    
         if write_outputs:
             if correctly_predicted:
-                x = emoji.emojize(f'{original} | {label}  :check_mark_button: \n')
+                x = emoji.emojize(f'Raw: {original} | Cleaned: {cleaned} | Label: {label} | correct after cleaning: {correct_after_clean} :check_mark_button: \n')
             else:
-                x = emoji.emojize(f'{original} | {label}  :cross_mark: \n')
+                x = emoji.emojize(f'Raw: {original} | Cleaned: {cleaned} | Label: {label}    :cross_mark: \n')
 
             to_write_lines.append(x)
             to_write_lines.append('---------------------------------------------------------------------------------- \n\n')

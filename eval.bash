@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=cryptic_crosswords_EVAL_llama3_naive-random # Job name
+#SBATCH --job-name=cryptic_crosswords_EVAL_llama3_word_init_no_samle # Job name
 #SBATCH --error=logs/%j%x.err # error file
 #SBATCH --output=logs/%j%x.out # output log file
 #SBATCH --nodes=1                   # Run all processes on a single node    
@@ -20,7 +20,8 @@ echo "starting Evaluation......................."
 
     # --results_save_file "results/llama3-${DATASET}_results.txt" \
 
-DATASET="guardian_naive_random"
+# DATASET="guardian_naive_random"
+DATASET="guardian_word_initial_disjoint"
 # MODEL="Meta-Llama-3-8B-Instruct"
 MODEL="Meta-Llama-3-8B"
 ###################### RUN LLM Eval ######################
@@ -34,7 +35,7 @@ python evaluate.py \
     --save_folder "results/${MODEL}-${DATASET}-no-sample" \
     --quantize False \
     --do_sample False \
-    --per_device_eval_batch_size 16 \
+    --per_device_eval_batch_size 8 \
     --num_examples 0 \
     --wandb_project "cryptic_crosswords" \
     --checkpoint_path "" \
