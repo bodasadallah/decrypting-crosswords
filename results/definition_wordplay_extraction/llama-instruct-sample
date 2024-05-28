@@ -1,0 +1,63 @@
+Definition Accuracy: 0.12
+Wordplay Accuracy: 0.0
+
+
+Definition Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['cheese'] | Response: please extract the definition from this clue. in other words, what is the clue describing? | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['somewhat'] | Response: please extract the definition from this clue. i will then ask you to extract the wordplay. | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['tricky problem'] | Response: what is the definition of this clue? | ❌ 
+Clue: Promise to fix toilet pan (9) | Definition: ['promise'] | Response: what is the definition? (hint: it's a common phrase) | ❌ 
+Clue: Sterile unit fenced off (10) | Definition: ['sterile'] | Response: i have tried to extract the definition, but i am not sure if i am correct. can you help me? | ❌ 
+Clue: Refuse a black mark (7) | Definition: ['refuse'] | Response: what is the definition? is it a noun or a verb? is it something that can be done by a person or an object? | ❌ 
+Clue: Chap gets older but copes (7) | Definition: ['copes'] | Response: i'll assume the answer is a single word. the wordplay part of the clue is "gets older but copes", which suggests that the word might be related to age or time. the definition part of the clue is the first part of the clue, which is "chap". this suggests that the answer is | ✅ 
+Clue: It may get endless representation (5) | Definition: ['representation'] | Response: please extract the definition from this clue. the definition should be a phrase or a word that describes the answer. the wordplay part of the clue will be the part that helps you figure out the answer. the definition is usually the first part of the clue. in this case, "it may get endless" is the | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['magic transport'] | Response: definition: _______________________________________________________ | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['sound'] | Response: i'm looking forward to your response. thank you! –  user315 | ❌ 
+Clue: European power limited by genuine revocation (6) | Definition: ['revocation'] | Response: definition: _______________________ | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['standard'] | Response: please extract the definition from this clue. i am looking for a single word or phrase that describes the subject of the clue. | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['cursed'] | Response: what is the definition of the clue? is it a noun, verb, adjective, or adverb? is it a person, place, thing, or idea? what is the main concept or idea that the clue is trying to convey? in other words, what is the clue trying to tell you about? | ❌ 
+Clue: Everyone in short dash for US city (6) | Definition: ['US city'] | Response: i will not give you the answer. you need to figure out the definition from the clue. | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['irresistable'] | Response: what is the definition of the answer? is it a noun, verb, adjective, or adverb? | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['wear out ', ' important part of a car'] | Response: the definition is: "wear out" | ✅ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['encouraging sign ', ' sleepy land'] | Response: what is the definition? | ❌ 
+Clue: My virtue (8) | Definition: ['virtue'] | Response: what is the definition? | ❌ 
+Clue: Stipulations for academic periods (5) | Definition: ['stipulations ', ' academic periods'] | Response: the wordplay is not important for now, just the definition. what is the definition of this clue? | ❌ 
+Clue: Back in a short while (6) | Definition: ['back ', ' a short while'] | Response: definition: _______________________ | ❌ 
+Clue: Error concealed by city police (4) | Definition: ['error'] | Response: i will then give you the answer and you can explain how you would solve the clue. | ❌ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['soft cases'] | Response: definition:??? | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['singer'] | Response: definition: _______________________ | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['into disorder'] | Response: i'm not sure what the definition is. can you help me? well, let's break it down. the clue is "section of norman arch is thrown into disorder?" which suggests that the definition is something related to a norman arch. the wordplay could be a play on words with "thrown into disorder" being | ✅ 
+Clue: In Berlin, dainty girl (5) | Definition: ['girl'] | Response: definition: _______________________ | ❌ 
+
+
+Wordplay Responses
+
+Clue: Smear pan to cook cheese (8) | Wordplay: ['anagram'] | Response: definition: cooking utensil | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Wordplay: ['anagram'] | Response: please extract the wordplay type from this clue.  | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Wordplay: ['anagram'] | Response: please identify the wordplay type from this clue. | ❌ 
+Clue: Promise to fix toilet pan (9) | Wordplay: ['anagram'] | Response: please extract the wordplay type from this clue.  | ❌ 
+Clue: Sterile unit fenced off (10) | Wordplay: ['anagram'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Refuse a black mark (7) | Wordplay: ['assemblage'] | Response: please extract the wordplay type from this clue.  | ❌ 
+Clue: Chap gets older but copes (7) | Wordplay: ['assemblage'] | Response: what is the wordplay type of this clue?  | ❌ 
+Clue: It may get endless representation (5) | Wordplay: ['assemblage'] | Response: definition: a type of media | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Wordplay: ['assemblage'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Wordplay: ['assemblage'] | Response: please extract the wordplay type from this clue.  | ❌ 
+Clue: European power limited by genuine revocation (6) | Wordplay: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Wordplay: ['container'] | Response: definition: type of railway carriage | ❌ 
+Clue: Cursed, being literally last in bed (7) | Wordplay: ['container'] | Response: please extract the wordplay type from this clue.  | ❌ 
+Clue: Everyone in short dash for US city (6) | Wordplay: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Wordplay: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Wear out an important part of a car (4) | Wordplay: ['double definition'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Wordplay: ['double definition'] | Response: please identify the wordplay type from this clue.  | ❌ 
+Clue: My virtue (8) | Wordplay: ['double definition'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Stipulations for academic periods (5) | Wordplay: ['double definition'] | Response: definition: rules for a semester or school year | ❌ 
+Clue: Back in a short while (6) | Wordplay: ['double definition'] | Response: definition: soon | ❌ 
+Clue: Error concealed by city police (4) | Wordplay: ['hidden word'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Soft cases used by opera violinists (7) | Wordplay: ['hidden word'] | Response: what is the wordplay type in this clue? | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Wordplay: ['hidden word'] | Response: what is the wordplay type for this clue?  | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Wordplay: ['hidden word'] | Response: what is the wordplay type in this clue?  | ❌ 
+Clue: In Berlin, dainty girl (5) | Wordplay: ['hidden word'] | Response: please extract the wordplay type from this clue. | ❌ 
+
+
+Total Clues: 25

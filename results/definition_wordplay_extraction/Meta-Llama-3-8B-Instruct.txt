@@ -1,0 +1,63 @@
+Definition Accuracy: 0.0
+Wordplay Accuracy: 0.0
+
+
+Definition Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['cheese'] | Response: what is the definition of this clue? is it a type of food, a cooking technique, a kitchen tool, etc.? please provide the answer.  | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['somewhat'] | Response: definition: _______________________ | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['tricky problem'] | Response: please extract the definition from this clue. the definition is the part that describes the answer without using wordplay. it's usually the first part of the clue. in this case, the definition is: _______________________ | ❌ 
+Clue: Promise to fix toilet pan (9) | Definition: ['promise'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, an action, a feeling, or an idea? is it something that can be seen, heard, tasted, smelled, or felt? is it a living thing, a non-living | ❌ 
+Clue: Sterile unit fenced off (10) | Definition: ['sterile'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, a concept, a location, or an action? what is the general idea or meaning of the clue? please provide a concise and clear definition. thank you! | ❌ 
+Clue: Refuse a black mark (7) | Definition: ['refuse'] | Response: definition: _______________________________________ | ❌ 
+Clue: Chap gets older but copes (7) | Definition: ['copes'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a living thing, a place, an object, an event, or an abstract concept? is it a person, a thing, or an idea? what is the general category of the definition? (e | ❌ 
+Clue: It may get endless representation (5) | Definition: ['representation'] | Response: what is the definition? is it a noun, verb, adjective, or adverb? is it a living thing, a place, an object, an event, or an idea? is it abstract or concrete? any other relevant details you can infer from the clue? go ahead and share your thoughts! 😊 | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['magic transport'] | Response: what is the definition part of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, an abstract concept, or a process? please provide your answer in the form of a question. what is the definition of this clue? is it a type of vehicle? is it | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['sound'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, an abstract concept, a living thing, a place, etc.? please provide the answer in a concise and clear manner. thank you! –  user | ❌ 
+Clue: European power limited by genuine revocation (6) | Definition: ['revocation'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, a concept, a location, or an event? please provide the definition without any hint about the wordplay. i will then ask you to explain the wordplay. go ahead! show | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['standard'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or something else? is it a concrete object, an abstract concept, a place, a person, or something else? is it a general term or a specific one? is it a common word or a specialized term? is it a | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['cursed'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a person, place, thing, or idea? is it a concrete object or an abstract concept? what is the general meaning of the clue? please provide a brief summary of the definition.  | ❌ 
+Clue: Everyone in short dash for US city (6) | Definition: ['US city'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a person, place, thing, or idea? is it abstract or concrete? is it a general concept or a specific instance? is it a living thing or an inanimate object? is it a singular | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['irresistable'] | Response: what is the definition of the answer? (note: i will give you the answer later, so you don't need to worry about solving it.) jul 24 '20 at 14:45 | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['wear out ', ' important part of a car'] | Response: definition: _______________________________________ | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['encouraging sign ', ' sleepy land'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, a concept, or an action? please provide the definition without any wordplay or hints. just the plain definition. go! show me your expertise!  | ❌ 
+Clue: My virtue (8) | Definition: ['virtue'] | Response: please extract the definition from this clue. the definition is the part that tells you what the answer is describing. in this case, the definition is likely a noun or a quality. it's not the wordplay part, which is the clever or indirect way the clue is written. can you extract the definition from this clue | ❌ 
+Clue: Stipulations for academic periods (5) | Definition: ['stipulations ', ' academic periods'] | Response: definition: _______________________________________ | ❌ 
+Clue: Back in a short while (6) | Definition: ['back ', ' a short while'] | Response: please extract the definition from this clue. the definition is the part that tells you what the answer is describing. in this case, the definition is likely to be a phrase or a sentence that describes the answer. the wordplay is the clever bit that leads you to the answer. the definition is usually the first part of | ❌ 
+Clue: Error concealed by city police (4) | Definition: ['error'] | Response: definition: _______________________ | ❌ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['soft cases'] | Response: what is the definition part of this clue? is it a noun, verb, adjective, or adverb? is it a specific thing, a concept, or a quality? is it related to music, opera, or violin? what is the general idea or meaning of the definition part of this clue? please provide a | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['singer'] | Response: definition: _______________________ | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['into disorder'] | Response: what is the definition of this clue? is it a noun, verb, adjective, or adverb? is it a concrete object, an abstract concept, a place, a person, or an event? please provide the definition without any hint of the wordplay. just the definition. go! show me your expertise! | ❌ 
+Clue: In Berlin, dainty girl (5) | Definition: ['girl'] | Response: what is the definition of this clue? is it a person, a place, a thing, an event, etc.? please provide the answer.  | ❌ 
+
+
+Wordplay Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['anagram'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['anagram'] | Response: definition: a type of foot deformity | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['anagram'] | Response: definition: a puzzle or a beer | ❌ 
+Clue: Promise to fix toilet pan (9) | Definition: ['anagram'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Sterile unit fenced off (10) | Definition: ['anagram'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Refuse a black mark (7) | Definition: ['assemblage'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Chap gets older but copes (7) | Definition: ['assemblage'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: It may get endless representation (5) | Definition: ['assemblage'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['assemblage'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['assemblage'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: European power limited by genuine revocation (6) | Definition: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Everyone in short dash for US city (6) | Definition: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['container'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['double definition'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['double definition'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: My virtue (8) | Definition: ['double definition'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Stipulations for academic periods (5) | Definition: ['double definition'] | Response: definition: time limits | ❌ 
+Clue: Back in a short while (6) | Definition: ['double definition'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Error concealed by city police (4) | Definition: ['hidden word'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['hidden word'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['hidden word'] | Response: definition: italian tenor | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['hidden word'] | Response: please extract the wordplay type from this clue. | ❌ 
+Clue: In Berlin, dainty girl (5) | Definition: ['hidden word'] | Response: please extract the wordplay type from this clue. | ❌ 
+
+
+Total Clues: 25

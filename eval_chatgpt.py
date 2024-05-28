@@ -40,8 +40,8 @@ model_name = 'gpt-3.5-turbo'
 dataset_name = 'boda/guardian_naive_random'
 # dataset_name = 'boda/guardian_word_initial_disjoint'
 
-chatgpt_outputs_file = f"results/chatgpt_outputs/{model_name}_{dataset_name.split('/')[-1]}_no-sampling_temp-zero.json"
-base_prompt ='LLAMA3_BASE_PROMPT'
+chatgpt_outputs_file = f"results/chatgpt_outputs/{model_name}_{dataset_name.split('/')[-1]}_no-sampling_with_definition.json"
+base_prompt ='BASE_PROMPT_WITH_DEFINITION'
 shots = 0
 temperature = 0
 dataset = get_dataset(dataset_name,
@@ -160,7 +160,7 @@ calc_and_save_acc(
                 chatgpt_outputs, 
                 correct_answers, 
                 cleaned_predictions= cleaned_outputs, 
-                save_file = f"results/chatgpt_results_{dataset_name.split('/')[-1]}_no-sampling_temp-zero.txt", 
+                save_file = f"results/chatgpt_results_{dataset_name.split('/')[-1]}_no-sampling_with-definition.txt", 
                 write_outputs = True,
                 model_args = model_args,
                 data_args= data_args,)

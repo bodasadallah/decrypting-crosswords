@@ -1,0 +1,63 @@
+Definition Accuracy: 0.72
+Wordplay Accuracy: 0.36
+
+
+Definition Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['cheese'] | Response: definition: cook | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['somewhat'] | Response: definition: agreed | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['tricky problem'] | Response: definition: tricky problem | ✅ 
+Clue: Promise to fix toilet pan (9) | Definition: ['promise'] | Response: definition: promise | ✅ 
+Clue: Sterile unit fenced off (10) | Definition: ['sterile'] | Response: definition: sterile unit | ✅ 
+Clue: Refuse a black mark (7) | Definition: ['refuse'] | Response: definition: refuse | ✅ 
+Clue: Chap gets older but copes (7) | Definition: ['copes'] | Response: definition: copes | ✅ 
+Clue: It may get endless representation (5) | Definition: ['representation'] | Response: definition: representation | ✅ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['magic transport'] | Response: definition: magic transport | ✅ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['sound'] | Response: definition: sound | ✅ 
+Clue: European power limited by genuine revocation (6) | Definition: ['revocation'] | Response: definition: european power | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['standard'] | Response: definition: offer of a choice of ends | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['cursed'] | Response: definition: cursed | ✅ 
+Clue: Everyone in short dash for US city (6) | Definition: ['US city'] | Response: definition: us city | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['irresistable'] | Response: definition: irresistible | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['wear out ', ' important part of a car'] | Response: definition: wear out | ✅ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['encouraging sign ', ' sleepy land'] | Response: definition: encouraging sign | ✅ 
+Clue: My virtue (8) | Definition: ['virtue'] | Response: definition: virtue | ✅ 
+Clue: Stipulations for academic periods (5) | Definition: ['stipulations ', ' academic periods'] | Response: definition: stipulations | ✅ 
+Clue: Back in a short while (6) | Definition: ['back ', ' a short while'] | Response: definition: back | ✅ 
+Clue: Error concealed by city police (4) | Definition: ['error'] | Response: definition: error | ✅ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['soft cases'] | Response: definition: soft cases | ✅ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['singer'] | Response: definition: singer | ✅ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['into disorder'] | Response: definition: section of norman arch | ❌ 
+Clue: In Berlin, dainty girl (5) | Definition: ['girl'] | Response: definition: girl | ✅ 
+
+
+Wordplay Responses
+
+Clue: Smear pan to cook cheese (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Wordplay: ['anagram'] | Response: the wordplay type in this clue is anagram. | ✅ 
+Clue: Promise to fix toilet pan (9) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Sterile unit fenced off (10) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Refuse a black mark (7) | Wordplay: ['assemblage'] | Response: the wordplay type in this clue is a double definition. | ❌ 
+Clue: Chap gets older but copes (7) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: It may get endless representation (5) | Wordplay: ['assemblage'] | Response: the wordplay type in this clue is "double definition." | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Wordplay: ['assemblage'] | Response: the wordplay type in this clue is a container, where one part of the answer is embedded within another. | ❌ 
+Clue: European power limited by genuine revocation (6) | Wordplay: ['container'] | Response: the wordplay type in this clue is anagram. | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Cursed, being literally last in bed (7) | Wordplay: ['container'] | Response: the wordplay type in this clue is a container, where one part of the answer is embedded within another. | ✅ 
+Clue: Everyone in short dash for US city (6) | Wordplay: ['container'] | Response: the wordplay type in this clue is a container, where one part of the answer is embedded within another. | ✅ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Wear out an important part of a car (4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Wordplay: ['double definition'] | Response: the wordplay type for this clue is a hidden word. | ❌ 
+Clue: My virtue (8) | Wordplay: ['double definition'] | Response: this clue is a double definition type of wordplay. | ✅ 
+Clue: Stipulations for academic periods (5) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Back in a short while (6) | Wordplay: ['double definition'] | Response: the wordplay type in this clue is a double definition. | ✅ 
+Clue: Error concealed by city police (4) | Wordplay: ['hidden word'] | Response: the wordplay type in this clue is "hidden word." | ✅ 
+Clue: Soft cases used by opera violinists (7) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Wordplay: ['hidden word'] | Response: the wordplay type in this clue is a container, where one part of the answer is embedded within another. | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Wordplay: ['hidden word'] | Response: anagram | ❌ 
+Clue: In Berlin, dainty girl (5) | Wordplay: ['hidden word'] | Response: the wordplay type for this clue is a double definition. | ❌ 
+
+
+Total Clues: 25

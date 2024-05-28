@@ -1,0 +1,63 @@
+Definition Accuracy: 0.28
+Wordplay Accuracy: 0.0
+
+
+Definition Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['cheese'] | Response: definition: "a person who is very good at something" | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['somewhat'] | Response: definition:? | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['tricky problem'] | Response: clue: tricky problem, brewing artisan beer (5-6) | ✅ 
+Clue: Promise to fix toilet pan (9) | Definition: ['promise'] | Response: definition: "promise to fix toilet pan" (9) | ✅ 
+Clue: Sterile unit fenced off (10) | Definition: ['sterile'] | Response: definition: a cryptic crossword expert | ❌ 
+Clue: Refuse a black mark (7) | Definition: ['refuse'] | Response: definition: "refuse" is a verb meaning "to reject". "a black mark" is a phrase meaning "a negative mark". the definition is "a negative mark". | ✅ 
+Clue: Chap gets older but copes (7) | Definition: ['copes'] | Response: definition: ____ | ❌ 
+Clue: It may get endless representation (5) | Definition: ['representation'] | Response: clue: it may get endless representation (5) | ✅ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['magic transport'] | Response: definition: ____ | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['sound'] | Response: definition: __ __ __ __ __ | ❌ 
+Clue: European power limited by genuine revocation (6) | Definition: ['revocation'] | Response: definition: ____ | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['standard'] | Response: definition: __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['cursed'] | Response: definition: (7) | ❌ 
+Clue: Everyone in short dash for US city (6) | Definition: ['US city'] | Response: definition: a cryptic crossword expert | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['irresistable'] | Response: definition: __________ | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['wear out ', ' important part of a car'] | Response: definition: wear out an important part of a car (4) | ✅ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['encouraging sign ', ' sleepy land'] | Response: definition:? | ❌ 
+Clue: My virtue (8) | Definition: ['virtue'] | Response: definition: __________ | ❌ 
+Clue: Stipulations for academic periods (5) | Definition: ['stipulations ', ' academic periods'] | Response: definition: ____ | ❌ 
+Clue: Back in a short while (6) | Definition: ['back ', ' a short while'] | Response: definition: ____ | ❌ 
+Clue: Error concealed by city police (4) | Definition: ['error'] | Response: definition: ? | ❌ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['soft cases'] | Response: definition: cases | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['singer'] | Response: definition: "singer in first eno rigoletto (5)" | ✅ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['into disorder'] | Response: definition: __________ | ❌ 
+Clue: In Berlin, dainty girl (5) | Definition: ['girl'] | Response: definition: "dainty girl" is a synonym for "delicate" | ✅ 
+
+
+Wordplay Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['anagram'] | Response:  | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['anagram'] | Response:  | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['anagram'] | Response:  | ❌ 
+Clue: Promise to fix toilet pan (9) | Definition: ['anagram'] | Response: wordplay type:  | ❌ 
+Clue: Sterile unit fenced off (10) | Definition: ['anagram'] | Response:  | ❌ 
+Clue: Refuse a black mark (7) | Definition: ['assemblage'] | Response: wordplay type:  | ❌ 
+Clue: Chap gets older but copes (7) | Definition: ['assemblage'] | Response: wordplay type:  | ❌ 
+Clue: It may get endless representation (5) | Definition: ['assemblage'] | Response: wordplay type:  | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['assemblage'] | Response:  | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['assemblage'] | Response: wordplay type:  | ❌ 
+Clue: European power limited by genuine revocation (6) | Definition: ['container'] | Response: wordplay type:  | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['container'] | Response: wordplay type:  | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['container'] | Response:  | ❌ 
+Clue: Everyone in short dash for US city (6) | Definition: ['container'] | Response: wordplay type:  | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['container'] | Response:  | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['double definition'] | Response: wordplay type:  | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['double definition'] | Response:  | ❌ 
+Clue: My virtue (8) | Definition: ['double definition'] | Response:  | ❌ 
+Clue: Stipulations for academic periods (5) | Definition: ['double definition'] | Response: wordplay type:  | ❌ 
+Clue: Back in a short while (6) | Definition: ['double definition'] | Response: wordplay type:  | ❌ 
+Clue: Error concealed by city police (4) | Definition: ['hidden word'] | Response:  | ❌ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['hidden word'] | Response: wordplay type:  | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['hidden word'] | Response:  | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['hidden word'] | Response:  | ❌ 
+Clue: In Berlin, dainty girl (5) | Definition: ['hidden word'] | Response:  | ❌ 
+
+
+Total Clues: 25

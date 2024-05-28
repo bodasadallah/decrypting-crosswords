@@ -23,6 +23,11 @@ def calc_and_save_acc(original_predictions,
     to_write_lines = []
     for i in range(len(original_predictions)):
         original, label = original_predictions[i].lower().strip(), labels[i].lower().strip()
+
+        original = original.replace('.','').replace(',','').replace('!','')
+        if 'the answer is' in original:
+            original = original.split('the answer is')[-1].strip()
+
         correctly_predicted = False
         correct_after_clean = False
 
