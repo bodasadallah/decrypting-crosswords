@@ -1,0 +1,1032 @@
+Evaluation of gpt-3.5-turbo
+
+Prompts: 
+ Definition_prompt: You are a cryptic crossword expert. I will give you a cryptic clue. Every clue has two parts: a definition and a wordplay. The definition is a synonym of the clue's answer.  Extract the definition word/s from this clue. Only output the definition.
+Clue: {clue}
+Definition:
+ 
+ Wordplay_prompt:You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram:  certain words or letters must be jumbled to form an entirely new term.
+- hidden word: the answer will be hidden within one or multiple words within the provided phrase.
+- double definition: a word with two definitions.
+- container: the answer is broken down into different parts, with one part embedded within another.
+- assemblage: the answer is broken into its component parts and the hint makes references to these in a sequence.
+Only output the wordplay type.
+Clue: {clue}
+Output:
+
+
+Definition Accuracy: 0.412
+Wordplay Accuracy: 0.0
+
+
+Definition Responses
+
+Clue: Swinging inspector might ask to do this at a wood mill (9) | Definition: ['swinging', 'inspector might ask to do this at a wood mill'] | Response: swinging | ✅ 
+Clue: Disturb American soldier in a gallery (7) | Definition: ['disturb'] | Response: disturb | ✅ 
+Clue: One checking food grabs old kitchen equipment (7) | Definition: ['kitchen equipment'] | Response: kitchen equipment | ✅ 
+Clue: Duke to look round, dropping Times in censure (7) | Definition: ['censure'] | Response: censure | ✅ 
+Clue: Male leading Queen, an experienced performer (6) | Definition: ['experienced performer'] | Response: experienced performer | ✅ 
+Clue: Mysterious Vern comes, not married, with ring on the other hand (1,8) | Definition: ['on the other hand'] | Response: mysterious | ❌ 
+Clue: Decent time obtained in pursuit (6) | Definition: ['decent'] | Response: decent | ✅ 
+Clue: Expected large tables for pair facing each other? (9) | Definition: ['pair facing each other'] | Response: expected | ❌ 
+Clue: Sow’s first once was called a slip (5) | Definition: ['sow’s first once was called a slip'] | Response: sow's first = s | ❌ 
+Clue: Valet in husband's tavern, drunk (10) | Definition: ['valet'] | Response: valet | ✅ 
+Clue: Some music, a feature in place of refreshment (4) | Definition: ['place of refreshment'] | Response: refreshment | ❌ 
+Clue: Resolve to prevent note reaching people (13) | Definition: ['resolve'] | Response: resolve | ✅ 
+Clue: Unfinished novel, Hemingway's last, gets award (4) | Definition: ['nan'] | Response: award | ❌ 
+Clue: Busy with facial hair — mostly getting stick (6) | Definition: ['stick'] | Response: busy | ❌ 
+Clue: Part of prison: a cell extended for engine casing (7) | Definition: ['engine casing'] | Response: part of prison | ❌ 
+Clue: Bush having tip of spine inside to pierce (5) | Definition: ['bush'] | Response: pierce | ❌ 
+Clue: Chasing minister in Corsica about island railway (8) | Definition: ['chasing'] | Response: railway | ❌ 
+Clue: Final points in remit resolved (7) | Definition: ['final points'] | Response: final | ❌ 
+Clue: Firefly Leo and I manoeuvred, making excellent time (4,2,5) | Definition: ['excellent time'] | Response: making excellent time | ✅ 
+Clue: Meeting of two halves is unusually quorate (7) | Definition: ['meeting of two halves'] | Response: meeting | ❌ 
+Clue: Fuel that is partly undervalued (4) | Definition: ['fuel'] | Response: fuel | ✅ 
+Clue: Identification of woman, ’orrible one, no relation (9) | Definition: ['identification'] | Response: identification | ✅ 
+Clue: Air-arm, at manoeuvres, having the last word in medical equipment (12) | Definition: ['medical equipment'] | Response: medical equipment | ✅ 
+Clue: An old artilleryman’s casing initially too wide for one (5) | Definition: ['wide for one'] | Response: an old artilleryman's casing | ❌ 
+Clue: Soldier must take queen back, one feels (7) | Definition: ['one feels'] | Response: one feels | ✅ 
+Clue: Lady's petition (3) | Definition: ['lady', 'petition'] | Response: petition | ✅ 
+Clue: Most loyal employee originally recruited by hospital group (6) | Definition: ['most loyal'] | Response: most loyal | ✅ 
+Clue: One taking a slug, but only a little one? (13) | Definition: ['one taking a slug, but only a little one?'] | Response: one taking a slug | ❌ 
+Clue: Trick expected to take in chump finally (4) | Definition: ['trick'] | Response: trick | ✅ 
+Clue: Peel having something false about Liberal (5) | Definition: ['peel'] | Response: peel | ✅ 
+Clue: Speculator backed by mysterious millionaire (6) | Definition: ['mysterious millionaire'] | Response: speculator | ❌ 
+Clue: One on The Post recording undercover encounters? (5) | Definition: ['one on the post recording undercover encounters'] | Response: one | ❌ 
+Clue: A man hugs another from the New World (8) | Definition: ['from the new world'] | Response: man | ❌ 
+Clue: Fish served by maid primarily in reception room (6) | Definition: ['fish'] | Response: fish | ✅ 
+Clue: Tedious last part filling empty day (6) | Definition: ['tedious'] | Response: tedious | ✅ 
+Clue: I see it now, having secured release primarily and enlightenment at last? (5) | Definition: ['i see it now, having secured release primarily and enlightenment at last?'] | Response: enlightenment | ❌ 
+Clue: City shop selling special meat including horse (5) | Definition: ['city'] | Response: city | ✅ 
+Clue: Woman knocking back some chartreuse (3) | Definition: ['woman'] | Response: woman | ✅ 
+Clue: Biscuit good, a coarse one! (9) | Definition: ['biscuit'] | Response: coarse | ❌ 
+Clue: Constable displays this at any time to some people (4) | Definition: ['at any time to some people'] | Response: displays this at any time | ❌ 
+Clue: Infant born during recess (4) | Definition: ['infant'] | Response: infant | ✅ 
+Clue: Water additive gives off sulphur more regularly  (7) | Definition: ['more regularly'] | Response: water | ❌ 
+Clue: Lives with son’s relative (3) | Definition: ['relative'] | Response: lives | ❌ 
+Clue: Ideal notion of this person's past (5) | Definition: ['ideal notion'] | Response: ideal | ❌ 
+Clue: Rob mostly after a shot making no angle (6) | Definition: ['making no angle'] | Response: rob | ❌ 
+Clue: African expresses disapproval with Indian leader (5) | Definition: ['african'] | Response: disapproval | ❌ 
+Clue: Remote security exposes something hidden by competitor (9) | Definition: ['remote security'] | Response: exposes something hidden | ❌ 
+Clue: Boxer dog and this setter roll (8) | Definition: ['boxer'] | Response: setter | ❌ 
+Clue: They use axes: fruit chopped has to be hollowed out (6) | Definition: ['they use axes'] | Response: hollowed out | ❌ 
+Clue: Slime in tavern up for drinking session (5-2) | Definition: ['drinking session'] | Response: drinking session | ✅ 
+Clue: Following one, a second business failure (6) | Definition: ['failure'] | Response: business failure | ✅ 
+Clue: Let’s have more Italian stories to entertain a hundred soldiers! (6) | Definition: ['let’s have more italian'] | Response: entertain a hundred soldiers | ❌ 
+Clue: Sigh with a debate rambling: an expression of annoyance (5,3,3,4) | Definition: ['an expression of annoyance'] | Response: an expression of annoyance | ✅ 
+Clue: Who's crashed air taxi with five aboard? (8) | Definition: ["who's"] | Response: who's crashed | ✅ 
+Clue: Total amount in VAT? (6) | Definition: ['total amount in vat?'] | Response: total amount | ❌ 
+Clue: Worrying about noise recurring in Alcatraz, say (8) | Definition: ['nan'] | Response: worrying | ❌ 
+Clue: Erotic performer’s comeback reportedly overlooked by Hollywood police? (3,6) | Definition: ['erotic performer'] | Response: erotic performer | ✅ 
+Clue: Individual cops caught in the past (4) | Definition: ['in the past'] | Response: individual | ❌ 
+Clue: Account in small volume senior translated (7) | Definition: ['account'] | Response: account | ✅ 
+Clue: Movement round university where lots go (7) | Definition: ['where lots go'] | Response: movement | ❌ 
+Clue: Old doctor content to leave Indian root (6) | Definition: ['root'] | Response: old | ❌ 
+Clue: ... a Labour politician with courage (5) | Definition: ['a labour politician with courage'] | Response: courage | ❌ 
+Clue: Vehicle initially transporting a football team, perhaps (4) | Definition: ['vehicle'] | Response: vehicle | ✅ 
+Clue: Made a call after parking crash (5) | Definition: ['crash'] | Response: made a call | ❌ 
+Clue: Trash read in tenet, considered (11) | Definition: ['considered'] | Response: trash | ❌ 
+Clue: A very old name for a flower (4) | Definition: ['a flower'] | Response: flower | ❌ 
+Clue: Pretentiousness by extremely attractive miss (3,4) | Definition: ['miss'] | Response: pretentiousness | ❌ 
+Clue: Request for exemption from noble marquise on vacation abroad (5,2,3) | Definition: ['request for exemption from'] | Response: request for exemption | ❌ 
+Clue: Mates turned up with glue for knockabout comedy (9) | Definition: ['knockabout comedy'] | Response: knockabout comedy | ✅ 
+Clue: Dignitary and I see fool making comeback (5) | Definition: ['dignitary'] | Response: dignitary | ✅ 
+Clue: Device in Palace re-designed to restrict parking (9) | Definition: ['device'] | Response: device | ✅ 
+Clue: Removal of stone in house cat, the last of many (9) | Definition: ['removal of stone'] | Response: removal | ❌ 
+Clue: Bar code? | Definition: ['nan'] | Response: bar | ❌ 
+Clue: Length kept in check, not bad for a cravat (9) | Definition: ['a cravat'] | Response: length | ❌ 
+Clue: Letter introducing narrow religious person (6) | Definition: ['religious person'] | Response: religious person | ✅ 
+Clue: Tailor bargained for twill fabric (9) | Definition: ['twill fabric'] | Response: fabric | ❌ 
+Clue: Great flag to the west regularly appearing at a distance (4) | Definition: ['at a distance'] | Response: great | ❌ 
+Clue: Tabloid’s web version, maybe, shielding bishop: that prevents red faces? (9) | Definition: ['that prevents red faces'] | Response: prevents | ❌ 
+Clue: Number returning to a centre of revolution (4) | Definition: ['centre of revolution'] | Response: number | ❌ 
+Clue: Form of transport coming up, one has a periscope (3) | Definition: ['one has a periscope'] | Response: form of transport | ❌ 
+Clue: What sounds like containers made of fabric or paper (4) | Definition: ['paper'] | Response: containers | ❌ 
+Clue: Weakness of one group of old soldiers captured by enemy (6) | Definition: ['weakness'] | Response: weakness | ✅ 
+Clue: Better run island, one in the Bay of Naples (5) | Definition: ['one in the bay of naples'] | Response: better | ❌ 
+Clue: All others in post office can be very quick (6) | Definition: ['very quick'] | Response: quick | ❌ 
+Clue: In uncomplicated final part of course (4,8) | Definition: ['final part of course'] | Response: final part of course | ✅ 
+Clue: I regret returning a mobster’s first greeting (6) | Definition: ['greeting'] | Response: regret | ❌ 
+Clue: Primate — evangelical Scotsman? (6) | Definition: ['primate'] | Response: primate | ✅ 
+Clue: Relish stripping gold from Pinochet, say? (5) | Definition: ['relish'] | Response: relish | ✅ 
+Clue: Sure boat at sea is a wrecker? (8) | Definition: ['wrecker'] | Response: wrecker | ✅ 
+Clue: Take to river, provoking argument? (3) | Definition: ['take to river', 'argument'] | Response: argument | ✅ 
+Clue: Design surrounding emblem is oddly vulgar (8) | Definition: ['vulgar'] | Response: design | ❌ 
+Clue: Welsh courtier routed now, badly (4,5) | Definition: ['welsh courtier'] | Response: courtier | ❌ 
+Clue: What may qualify school to provide set of rules (7) | Definition: ['set of rules'] | Response: set of rules | ✅ 
+Clue: Small dwarf, a potential pain in the long run? (6) | Definition: ['a potential pain in the long run?'] | Response: small | ❌ 
+Clue: Patron supposed to be heard? (5) | Definition: ['patron'] | Response: patron | ✅ 
+Clue: Fruity buns turn scorched on the outside? (8) | Definition: ['scorched on the outside'] | Response: fruity | ❌ 
+Clue: A home is beyond me — most unpleasant (7) | Definition: ['most unpleasant'] | Response: most unpleasant | ✅ 
+Clue: Muscle tightening in rugby player, long conversation ensuing? (7) | Definition: ['muscle tightening'] | Response: conversation | ❌ 
+Clue: Prepare the brain to conserve energy? (9) | Definition: ['to conserve energy'] | Response: prepare | ❌ 
+Clue: Donate books in attractive cover to intimate (4,6) | Definition: ['intimate'] | Response: donate books | ❌ 
+Clue: Manage to flee (3) | Definition: ['nan'] | Response: flee | ❌ 
+Clue: Livelier person going downhill at the end of the working week? (8) | Definition: ['livelier'] | Response: livelier | ✅ 
+Clue: Vegetable course spoken of, followed by whip (4,4) | Definition: ['vegetable'] | Response: vegetable | ✅ 
+Clue: Capital of China — Rome, strangely? (7) | Definition: ['capital'] | Response: capital of china | ✅ 
+Clue: New leads on little battle? That’s gossip (6-6) | Definition: ['gossip'] | Response: gossip | ✅ 
+Clue: Strong container holds ten (6) | Definition: ['strong'] | Response: strong | ✅ 
+Clue: Reduce something bloody, having got back in time (8) | Definition: ['reduce'] | Response: reduce | ✅ 
+Clue: Broadcaster announced it will keep buzzers going (3,5) | Definition: ['it will keep buzzers going'] | Response: broadcaster | ❌ 
+Clue: Royal, sweet little thing (7) | Definition: ['royal,', 'sweet little thing'] | Response: royal | ❌ 
+Clue: Sailors with expressions of surprise heading off (6) | Definition: ['sailors'] | Response: sailors | ✅ 
+Clue: Rest of weight porky lecturer carries (3-4) | Definition: ['rest'] | Response: rest of weight | ✅ 
+Clue: What some shy writers use, wanting pounds without celebrity (3,5) | Definition: ['what some shy writers use'] | Response: wanting pounds | ❌ 
+Clue: Alpha males engaged in welcome correspondence (9) | Definition: ['correspondence'] | Response: correspondence | ✅ 
+Clue: Strong liquor: relative's also knocked out by a pint, initially? (6) | Definition: ['strong liquor'] | Response: strong liquor | ✅ 
+Clue: Being obscene about right, comic insisted (9) | Definition: ['being obscene'] | Response: obscene | ❌ 
+Clue: Cry about everything (4) | Definition: ['cry'] | Response: cry | ✅ 
+Clue: End of speech about France is a bore (11) | Definition: ['a bore'] | Response: bore | ❌ 
+Clue: Witch appearing with small goblin, before descending on ship (9) | Definition: ['witch'] | Response: witch | ✅ 
+Clue: Shell company with real investment expanded initially (6) | Definition: ['shell'] | Response: shell | ✅ 
+Clue: Patsy’s Catholic primate, lecherous sort (9) | Definition: ['patsy'] | Response: lecherous | ❌ 
+Clue: Fellow's love with doom around (5) | Definition: ['fellow'] | Response: love | ❌ 
+Clue: Depart from Heathrow, perhaps seizing moment for break (4,4,3) | Definition: ['break'] | Response: seizing moment for break | ✅ 
+Clue: Letter revealing a union problem after seven years? (5) | Definition: ['letter'] | Response: letter | ✅ 
+Clue: What poor have that rich want for? (7) | Definition: ['what poor have', 'that rich want for?'] | Response: want | ❌ 
+Clue: Flower one gentleman brought up (4) | Definition: ['flower'] | Response: flower | ✅ 
+Clue: First takes this money order, revolutionary symbol (9,4) | Definition: ['first takes this'] | Response: revolutionary symbol | ❌ 
+Clue: Mountain-climbers lifted lid on eminent scientists’ group (5) | Definition: ['mountain-climbers'] | Response: eminent scientists' group | ❌ 
+Clue: Prop, you said, caught by Belfast's flankers and lock (8) | Definition: ['prop'] | Response: lock | ❌ 
+Clue: Poke about university, pleased with oneself (5) | Definition: ['pleased with oneself'] | Response: pleased with oneself | ✅ 
+Clue: Speak, under pressure, in golf club (6) | Definition: ['golf club'] | Response: speak | ❌ 
+Clue: Consumable product of melting numismatist’s prize? (7) | Definition: ['consumable product of melting'] | Response: product | ❌ 
+Clue: Like some tall buildings much liked by fat cats? (4-4) | Definition: ['like some tall buildings', 'much liked by fat cats?'] | Response: much liked | ❌ 
+Clue: Look for building to accommodate any number (4) | Definition: ['look for'] | Response: look for | ✅ 
+Clue: Daydreaming earl's back in court party (13) | Definition: ['daydreaming'] | Response: party | ❌ 
+Clue: Removing centre from corn on the cob is a puzzle (4) | Definition: ['a puzzle'] | Response: puzzle | ❌ 
+Clue: Greed seen when fresh caviare’s presented (7) | Definition: ['greed'] | Response: greed | ✅ 
+Clue: Possible mole in border, third in garden (7) | Definition: ['possible mole'] | Response: possible | ❌ 
+Clue: This version of 15 is not seen (9) | Definition: ['not seen'] | Response: not seen | ✅ 
+Clue: Without line dancing babe wants girl that grooves (12) | Definition: ['that grooves'] | Response: girl that grooves | ✅ 
+Clue: Legendary musketeer in combat, hostile (5) | Definition: ['legendary musketeer'] | Response: hostile | ❌ 
+Clue: Pinch mistress's bottom in gallery (5) | Definition: ['pinch'] | Response: pinch | ✅ 
+Clue: American comic keeping coins in supplies to audience (4,7) | Definition: ['nan'] | Response: audience | ❌ 
+Clue: Open up northern city school (10) | Definition: ['school'] | Response: open up | ❌ 
+Clue: More than just a trim diminutive defender accompanying teams (5,4,3,5) | Definition: ['more than just a trim'] | Response: accompanying teams | ❌ 
+Clue: Early indication favouring redistribution of estate (9) | Definition: ['early indication'] | Response: indication | ❌ 
+Clue: Organ stop in list (8) | Definition: ['organ stop', 'list'] | Response: organ | ❌ 
+Clue: Old physician with a particular mineral (6) | Definition: ['particular mineral'] | Response: old physician | ❌ 
+Clue: Judicious use of online fraud? Good grief! (7) | Definition: ['judicious use'] | Response: good grief | ❌ 
+Clue: Start attack where heat is on? (4,4) | Definition: ['start attack', 'where heat is on?'] | Response: start | ❌ 
+Clue: Straitlaced person used a hankie, we hear? (8) | Definition: ['straitlaced person'] | Response: straitlaced person | ✅ 
+Clue: Swelter uncomfortably before round’s beginning for fighter (8) | Definition: ['fighter'] | Response: fighter | ✅ 
+Clue: “Tootsie” not much of a trail for listeners (9, two words) | Definition: ['tootsie'] | Response: not much of a trail | ❌ 
+Clue: Top people on fire among fringes in electorate (5) | Definition: ['top people'] | Response: top people | ✅ 
+Clue: Mark left by injury in steep rocky outcrop (4) | Definition: ['mark left by injury', 'steep rocky outcrop'] | Response: mark | ❌ 
+Clue: Stop at sea to tell some tales? (3,2) | Definition: ['stop at sea', 'to tell some tales?'] | Response: tell some tales | ❌ 
+Clue: Jew, possibly, lives with artist and priest (7) | Definition: ['jew, possibly'] | Response: priest | ❌ 
+Clue: Blushing politician touring Borders? (7) | Definition: ['blushing'] | Response: blushing | ✅ 
+Clue: It combats the cold charm heartlessly used in infidelity (7,7) | Definition: ['it combats the cold'] | Response: it combats the cold | ✅ 
+Clue: Approval to demolish the front and rear (5) | Definition: ['rear'] | Response: approval | ❌ 
+Clue: Instrument requiring practice in it by 5th of October — no later (7,7) | Definition: ['instrument'] | Response: instrument | ✅ 
+Clue: Prayer from crew on capsized craft (6) | Definition: ['prayer'] | Response: prayer | ✅ 
+Clue: Drive round with zero speed (5) | Definition: ['drive'] | Response: speed | ❌ 
+Clue: Horse, observed outside wood (4) | Definition: ['wood'] | Response: horse | ❌ 
+Clue: Journalist raised small (very small) fortune (7) | Definition: ['fortune'] | Response: journalist | ❌ 
+Clue: Casual woolly, back of which has faded (4) | Definition: ['casual'] | Response: casual | ✅ 
+Clue: It has gears not fully engaged (3) | Definition: ['it has gears'] | Response: engaged | ❌ 
+Clue: Twenty-four hours without any answers for firm (6) | Definition: ['firm'] | Response: firm | ✅ 
+Clue: Very old French bother this country: it’s all over for loser at Borodino (7) | Definition: ['loser at borodino'] | Response: very old | ❌ 
+Clue: Confronts having to collect ash container — they may be very hot (8) | Definition: ['they may be very hot'] | Response: they may be very hot | ✅ 
+Clue: A greater number arrived outside British holiday resort (9) | Definition: ['holiday resort'] | Response: a greater number | ❌ 
+Clue: One doesn't like shifting earth (5) | Definition: ["one doesn't like"] | Response: one doesn't like | ✅ 
+Clue: Web image maybe of impressive proportions? (4) | Definition: ['web image maybe', 'impressive proportions?'] | Response: impressive proportions | ❌ 
+Clue: Harry insulting commie makes steady progress (7) | Definition: ['steady progress'] | Response: steady progress | ✅ 
+Clue: Soon begrudge going into work (9) | Definition: ['soon'] | Response: soon | ✅ 
+Clue: Badger bishop over seaside treat (5) | Definition: ['badger'] | Response: treat | ❌ 
+Clue: Freeze player is injured (8) | Definition: ['freeze'] | Response: freeze | ✅ 
+Clue: Standard source of information about one’s hosiery material (9) | Definition: ['hosiery material'] | Response: source of information | ❌ 
+Clue: Contemporary description of Dec 25th? (7-3). | Definition: ['contemporary', 'description of dec 25th?'] | Response: description | ❌ 
+Clue: Cross-country runner / who worries? (7) | Definition: ['cross-country runner', 'who worries?'] | Response: runner | ❌ 
+Clue: Storyline relinquishing hot pace (5) | Definition: ['nan'] | Response: storyline | ❌ 
+Clue: Driver’s warning shot makes you surrender (6) | Definition: ['surrender'] | Response: surrender | ✅ 
+Clue: Quietly brought up and given approval (7) | Definition: ['given approval'] | Response: approval | ❌ 
+Clue: Battleship and escort initially struggling in shortage of water (11) | Definition: ['battleship'] | Response: shortage of water | ❌ 
+Clue: The good and kind could perhaps be honoured (8) | Definition: ['honoured'] | Response: honoured | ✅ 
+Clue: Short sleep in between, a priority (3) | Definition: ['short sleep'] | Response: priority | ❌ 
+Clue: Cornish tourist came across me, back at the front (5) | Definition: ['cornish tourist'] | Response: tourist | ❌ 
+Clue: Recklessly bid a lot for popular paper (7) | Definition: ['popular paper'] | Response: popular | ❌ 
+Clue: Mobilising in the war, start to be ineffective (4,4) | Definition: ['start to be ineffective'] | Response: ineffective | ❌ 
+Clue: A wild animal died on boat (6) | Definition: ['on boat'] | Response: wild animal | ❌ 
+Clue: Bin last trio of artichokes and cook another vegetable (7) | Definition: ['another vegetable'] | Response: another vegetable | ✅ 
+Clue: Once more afforded Soho? Odd places only (6) | Definition: ['once more'] | Response: afforded | ❌ 
+Clue: Upright object supporting leg (2,3) | Definition: ['upright'] | Response: supporting leg | ❌ 
+Clue: Long talk from salesman exuding pressure (4) | Definition: ['long'] | Response: long talk | ✅ 
+Clue: Foxtrot follows this contribution by fine choreographer (4) | Definition: ['foxtrot follows this'] | Response: contribution | ❌ 
+Clue: Composer's husband entertained by tragic king (5) | Definition: ['composer'] | Response: composer's | ✅ 
+Clue: Our Phoebe, getting worked up, a possible Brexit supporter? (9) | Definition: ['a possible brexit supporter'] | Response: possible brexit supporter | ❌ 
+Clue: Description of a nobleman taking in clubs (7) | Definition: ['description'] | Response: description | ✅ 
+Clue: Hereford might be in this stunning location (8) | Definition: ['hereford might be in this stunning location'] | Response: stunning location | ❌ 
+Clue: Extraordinary calibre on list up for promotion (6,9) | Definition: ['promotion'] | Response: extraordinary | ❌ 
+Clue: Grand present sticks in trees (9, two words) | Definition: ['trees'] | Response: grand | ❌ 
+Clue: Rural wrangling about one member of branch (7) | Definition: ['of branch'] | Response: rural | ❌ 
+Clue: Matched husband with poet, a religious type (9) | Definition: ['religious type'] | Response: religious type | ✅ 
+Clue: Go into throwing event, last of disciplines (7) | Definition: ['go into'] | Response: disciplines | ❌ 
+Clue: Exact account, one supporting senior minister (8) | Definition: ['exact'] | Response: exact account | ✅ 
+Clue: Some rubbish appears wet for recycling (10) | Definition: ['some rubbish'] | Response: recycling | ❌ 
+Clue: Maybe Henry VIII is displeased — it's the end of the line for some (5,5) | Definition: ["it's the end of the line for some"] | Response: the end of the line | ❌ 
+Clue: Very fit, but distracted (5) | Definition: ['distracted'] | Response: very fit | ❌ 
+Clue: Friends perhaps enter shortly after rest (6) | Definition: ['friends perhaps'] | Response: friends | ❌ 
+Clue: Fixed a strip of wood or metal around front of window (7) | Definition: ['fixed'] | Response: fixed | ✅ 
+Clue: Left expert holding knight's weapon (5) | Definition: ['weapon'] | Response: weapon | ✅ 
+Clue: Former copper's competent, which may be forgiven (9) | Definition: ['which may be forgiven'] | Response: competent | ❌ 
+Clue: One way to get involved in brother’s restaurant (6) | Definition: ['restaurant'] | Response: involved | ❌ 
+Clue: Encouraged to be purified with head obscured (5) | Definition: ['nan'] | Response: encouraged | ❌ 
+Clue: King George leaves French city, receiving knight to elevate (7) | Definition: ['to elevate'] | Response: elevate | ❌ 
+Clue: Agent X following stuff on phone (6) | Definition: ['agent'] | Response: agent | ✅ 
+Clue: Have time away from built-up area  (3) | Definition: ['have'] | Response: away | ❌ 
+Clue: Detestable patient is ’ell to deal with (12) | Definition: ['detestable'] | Response: detestable | ✅ 
+Clue: Blade cutting head from pig (3) | Definition: ['blade'] | Response: blade | ✅ 
+Clue: Unpleasant person Liberal exposed (4) | Definition: ['unpleasant person'] | Response: unpleasant person | ✅ 
+Clue: Holiday: European hosts constant acrobatic entertainment (10) | Definition: ['acrobatic entertainment'] | Response: holiday | ❌ 
+Clue: Sets out anew, going over mountain face in second year (10) | Definition: ['sets out anew'] | Response: sets out anew | ✅ 
+Clue: Barren: incapable of giving a fig, presumably (10) | Definition: ['barren', 'incapable of giving a fig, presumably'] | Response: barren | ✅ 
+Clue: Advice on food less useful after seeing girlfriend? (4-6,4) | Definition: ['advice on food'] | Response: advice on food | ✅ 
+Clue: Come in in pursuit of fish and chips (9) | Definition: ['chips'] | Response: come in | ❌ 
+Clue: Unusually clear — having some sense in committing crime (9) | Definition: ['committing crime'] | Response: unusually clear | ❌ 
+Clue: Port with nuts passed to the left by cad (9) | Definition: ['port'] | Response: port | ✅ 
+Clue: Teacher’s pet? Not quite (5) | Definition: ['teacher'] | Response: teacher's pet | ✅ 
+Clue: Demented bloke in charge (5) | Definition: ['demented'] | Response: demented | ✅ 
+Clue: What's disturbed rural blag with weapon? (7,5) | Definition: ['nan'] | Response: weapon | ❌ 
+Clue: Persuaded sculptor to box in gym (5,2) | Definition: ['persuaded'] | Response: persuaded | ✅ 
+Clue: Confectioner not the first to copy fizz on part of wedding cake? (11) | Definition: ['confectioner'] | Response: confectioner | ✅ 
+Clue: Weak peacemakers just not liberal (7) | Definition: ['weak'] | Response: weak | ✅ 
+Clue: Detective is planning to arrest uppity American officials (9) | Definition: ['officials'] | Response: detective | ❌ 
+Clue: Like 9 and 0, for instance — neither one thing nor another to Shakespeare (3-4) | Definition: ['like 9 and 0, for instance', 'neither one thing nor another to shakespeare'] | Response: neither one thing nor another | ❌ 
+Clue: Very warm, the Spanish inn (5) | Definition: ['inn'] | Response: very warm | ❌ 
+Clue: Mark is running in trousers: they won’t support his legs (8) | Definition: ['they won’t support his legs'] | Response: support | ❌ 
+Clue: Divine messenger in a new set (5) | Definition: ['divine messenger'] | Response: divine messenger | ✅ 
+Clue: Show how un-English is honest criticism (4,7) | Definition: ['honest criticism'] | Response: honest criticism | ✅ 
+Clue: Healthy calories and more PE sorted out cause of blocked arteries (21) | Definition: ['cause of blocked arteries'] | Response: cause of blocked arteries | ✅ 
+Clue: Wife that was cheeky and clever (6) | Definition: ['clever'] | Response: clever | ✅ 
+Clue: Function for mathematicians at home in the home counties (4) | Definition: ['function for mathematicians'] | Response: function | ❌ 
+Clue: Reversal of gross imperfection in timber (4) | Definition: ['imperfection in timber'] | Response: imperfection | ❌ 
+Clue: Upper-class crystal (3-5) | Definition: ['upper-class', 'crystal'] | Response: upper-class | ✅ 
+Clue: Idiotic order to a chap facing bull (8) | Definition: ['chap facing bull'] | Response: idiotic | ❌ 
+Clue: Decide to do the crossword again? (7) | Definition: ['decide', 'to do the crossword again'] | Response: decide | ✅ 
+Clue: Rebellious group loses its first battle (6) | Definition: ['battle'] | Response: rebellious | ❌ 
+Clue: Melange of April’s seafood?  It’s in your dreams (5,8) | Definition: ['in your dreams'] | Response: it's in your dreams | ✅ 
+Clue: Friendly event noble recollected (10) | Definition: ['friendly'] | Response: friendly | ✅ 
+Clue: Setting etc? Aiming for cryptic (9) | Definition: ['cryptic'] | Response: aiming | ❌ 
+Clue: Reject with contempt ultimately useless banal stuff (5) | Definition: ['reject with contempt'] | Response: reject | ❌ 
+Clue: Half must depart cheated for having tattoos? (5) | Definition: ['having tattoos'] | Response: cheated | ❌ 
+Clue: Jangle in the old way as Queen related (7) | Definition: ['jangle in the old way'] | Response: jangle | ❌ 
+Clue: Sort of artist in a way associated with flags (8) | Definition: ['sort of artist'] | Response: sort of artist | ✅ 
+Clue: Isn’t Ely laid out impressively (2,5) | Definition: ['impressively'] | Response: impressively | ✅ 
+Clue: Room for keeping a type of food (5) | Definition: ['type of food'] | Response: room | ❌ 
+Clue: Romantic sort of ladies sex appeal enthrals (8) | Definition: ['romantic'] | Response: romantic | ✅ 
+Clue: Part of match without a winner having incurred obligations (9) | Definition: ['having incurred obligations'] | Response: obligations | ❌ 
+Clue: Having secured facility on smartphone, you had talked freely (6) | Definition: ['talked freely'] | Response: talked freely | ✅ 
+Clue: Set in views produced from colourful yarn (4-2-3-4) | Definition: ['set in views'] | Response: set in views | ✅ 
+Clue: Cotton on / branch in tree (4) | Definition: ['cotton on', 'branch in tree'] | Response: cotton on | ✅ 
+Clue: Silly person that would expect real profits initially! (5) | Definition: ['nan'] | Response: silly person | ❌ 
+Clue: Be consistent after date and pull hand back (5, two words) | Definition: ['be consistent'] | Response: be consistent | ✅ 
+Clue: Betrays count — and his successor? (5,2) | Definition: ['betrays'] | Response: betray | ❌ 
+Clue: Peasant’s husband seized by large force one heading west (5) | Definition: ['peasant'] | Response: peasant's husband | ✅ 
+Clue: One might make catch, some hero, dashing? (3) | Definition: ['one might make catch'] | Response: hero | ❌ 
+Clue: Risk grabbing Romeo's ulcer (7) | Definition: ['ulcer'] | Response: risk | ❌ 
+Clue: Go when green has changed? Start off yes (6) | Definition: ['go'] | Response: start off | ❌ 
+Clue: Root finally cracked Belgian concrete (8) | Definition: ['concrete'] | Response: concrete | ✅ 
+Clue: Use machete repeatedly with expedition! (4-4) | Definition: ['with expedition'] | Response: expedition | ❌ 
+Clue: Popular record that's No 1, betraying dearth of talent (5) | Definition: ['betraying dearth of talent'] | Response: popular record | ❌ 
+Clue: Drop tool (3) | Definition: ['drop', 'tool'] | Response: drop | ✅ 
+Clue: After operation, I swallowed a painkiller (6) | Definition: ['painkiller'] | Response: painkiller | ✅ 
+Clue: A little pasty? One must get stuck into exercises (3) | Definition: ['a little pasty?'] | Response: one must | ❌ 
+Clue: Saving hospital, military convoy possibly cheers (6) | Definition: ['cheers'] | Response: cheers | ✅ 
+Clue: Equally divides accommodation (8) | Definition: ['equally divides', 'accommodation'] | Response: accommodation | ✅ 
+Clue: Game taking day, touring the terraced houses (5-4,5) | Definition: ['game'] | Response: terraced houses | ❌ 
+Clue: Instrument tuned slightly high? Not initially (4) | Definition: ['instrument'] | Response: instrument | ✅ 
+Clue: Type of photography US magazine used by mistake? (4-5) | Definition: ['type of photography'] | Response: type of photography | ✅ 
+Clue: Indignation that’s not in fashion? (7) | Definition: ['indignation'] | Response: indignation | ✅ 
+Clue: Ideal combination of art made me excited (5,4) | Definition: ['ideal combination'] | Response: ideal | ❌ 
+Clue: Was a jumper extremely loose fitting? | Definition: ['was a jumper'] | Response: loose fitting | ❌ 
+Clue: Part of Europe where Parisian wears fancy winter clothes  (3,3,9) | Definition: ['part of europe'] | Response: fancy winter clothes | ❌ 
+Clue: Nun, peaceful-sounding type (9) | Definition: ['nun'] | Response: peaceful | ❌ 
+Clue: As bandage was for lesion? (5) | Definition: ['as bandage was', 'lesion'] | Response: bandage | ❌ 
+Clue: Eminence of member of family with superior power (9) | Definition: ['eminence'] | Response: eminence | ✅ 
+Clue: In actual fact, dance show's reaching a climax (8,8) | Definition: ['in actual fact'] | Response: reaching a climax | ❌ 
+Clue: Is it possible that moods lead to explicit language? (9) | Definition: ['language'] | Response: moods | ❌ 
+Clue: Regularly we climb tree (3) | Definition: ['tree'] | Response: regularly | ❌ 
+Clue: Seeking to support small railway operation (8) | Definition: ['railway operation'] | Response: support | ❌ 
+Clue: One throwing a jug (7) | Definition: ['one throwing', 'a jug'] | Response: one | ❌ 
+Clue: Starting point for endeavour in which maybe four succeeded, reportedly? (6,3) | Definition: ['starting point for endeavour'] | Response: starting point | ❌ 
+Clue: Biker out in France, she runs German pub (10) | Definition: ['german pub'] | Response: german pub | ✅ 
+Clue: Dirty books in second venue for literary festival (6) | Definition: ['dirty'] | Response: dirty | ✅ 
+Clue: Marine creature turned up alone, shivering in Spanish port (9) | Definition: ['spanish port'] | Response: marine creature | ❌ 
+Clue: Cut down unknown number of same-aged lambs? Yes, cruelly (5) | Definition: ['cruelly'] | Response: cut down | ❌ 
+Clue: Best time to run in defeat (9) | Definition: ['best'] | Response: best time | ✅ 
+Clue: Feelings of tension as crackers start to snap (10) | Definition: ['feelings'] | Response: feelings | ✅ 
+Clue: Yarn written with pen, page being out of order (7) | Definition: ['yarn'] | Response: yarn | ✅ 
+Clue: Drive away reformed killer, perhaps, wiser after case dismissed (8) | Definition: ['drive away'] | Response: wiser | ❌ 
+Clue: Use Socratic method of discussion — what could be noisier? (7) | Definition: ['use socratic method of discussion'] | Response: noisier | ❌ 
+Clue: Large piece for VIP (6) | Definition: ['vip'] | Response: vip | ✅ 
+Clue: Await half-suppressed spits (6) | Definition: ['await'] | Response: await | ✅ 
+Clue: Initially exposing omission, turning over part of text (4) | Definition: ['part of text'] | Response: initially | ❌ 
+Clue: Getting unseated, mounted fighter's lost face (6) | Definition: ['getting unseated'] | Response: unseated | ❌ 
+Clue: Reject a mushroom in Jersey etc — it’ll make youretch (6) | Definition: ['it’ll make youretch'] | Response: reject | ❌ 
+Clue: Cover over swimming pool (4) | Definition: ['swimming pool'] | Response: cover | ❌ 
+Clue: Sweet having me in calmer race, somehow (5,7) | Definition: ['sweet'] | Response: sweet | ✅ 
+Clue: Fruit tree separated from fruit (5) | Definition: ['fruit'] | Response: fruit | ✅ 
+Clue: Ballerina’s posture worked at steadily, endlessly (4) | Definition: ['ballerina’s posture'] | Response: posture | ❌ 
+Clue: Absolute decision by two umpires in agreement? (3,3,3) | Definition: ['absolute'] | Response: decision | ❌ 
+Clue: Good swimmer, going too far, about to flip (5) | Definition: ['good swimmer'] | Response: good swimmer | ✅ 
+Clue: Party after support gaining seat (8) | Definition: ['seat'] | Response: party | ❌ 
+Clue: Alexander’s Feast, say, after composition with parts coming separately (9) | Definition: ['with parts coming separately'] | Response: parts coming separately | ❌ 
+Clue: Hungry, I turn and see jerky (8) | Definition: ['hungry'] | Response: hungry | ✅ 
+Clue: What may suffer from mangled feet and badly gored leg? (8) | Definition: ['what may suffer from mangled feet'] | Response: suffer | ❌ 
+Clue: One knight holding sword back, trapping another in cone-shaped mesh (7) | Definition: ['cone-shaped mesh'] | Response: trapping another | ❌ 
+Clue: Great sort of game (4) | Definition: ['great'] | Response: great | ✅ 
+Clue: Sharp American spies returned to protect detectives (6) | Definition: ['sharp'] | Response: sharp | ✅ 
+Clue: Briefly on fire, Roman priest almost smothers bishop (6) | Definition: ['nan'] | Response: briefly | ❌ 
+Clue: Journey north to support soldier reveals pattern (7) | Definition: ['pattern'] | Response: pattern | ✅ 
+Clue: Get on with head of crime in New York bureau (6) | Definition: ['bureau'] | Response: get on | ❌ 
+Clue: Large wife enthralled by a deer moving downwind(7) | Definition: ['downwind'] | Response: large | ❌ 
+Clue: Poles brought in money for viola (5) | Definition: ['viola'] | Response: money | ❌ 
+Clue: Body part I displayed on greeting athlete’s achievement (7) | Definition: ['body part'] | Response: body part | ✅ 
+Clue: Listener’s problem demanding attention with chopper, briefly (6) | Definition: ['listener’s problem'] | Response: listener's problem | ❌ 
+Clue: The end of Oasis, rubbish band (6) | Definition: ['band'] | Response: band | ✅ 
+Clue: Awful rat, Spain supporter (8) | Definition: ['supporter'] | Response: awful | ❌ 
+Clue: Directors supporting trophy cabinet (8) | Definition: ['cabinet'] | Response: trophy cabinet | ✅ 
+Clue: Sack needed by deadpan alien: it smothers the flames (4,7) | Definition: ['it smothers the flames'] | Response: it smothers the flames | ✅ 
+Clue: Start working with group (5) | Definition: ['start'] | Response: start | ✅ 
+Clue: Art involved with son’s Latin renderings (12) | Definition: ['renderings'] | Response: art | ❌ 
+Clue: Discharge male employees, having finally set remuneration (7) | Definition: ['remuneration'] | Response: discharge | ❌ 
+Clue: American boy outside shouting where are hidden presents? (4,3) | Definition: ['where are hidden presents'] | Response: hidden presents | ❌ 
+Clue: Shackles press with these (5) | Definition: ['shackles', 'press with these'] | Response: shackles | ✅ 
+Clue: Face father pressed by whopping herbivore (10, two words) | Definition: ['nan'] | Response: face | ❌ 
+Clue: Woman not one to go after morning coffee (9) | Definition: ['coffee'] | Response: woman | ❌ 
+Clue: Spanish island business located in Iowa (5) | Definition: ['spanish island'] | Response: spanish island | ✅ 
+Clue: This, installed across the pond, to make flight optional? (8) | Definition: ['this, installed across the pond, to make flight optional?'] | Response: optional | ❌ 
+Clue: Tread the boards at Criterion theatre, taking leading parts (3) | Definition: ['tread the boards'] | Response: leading parts | ❌ 
+Clue: Legal profession's drinking den (3) | Definition: ["legal profession's drinking den"] | Response: legal profession's | ❌ 
+Clue: One into folding paper and leather is an artist (3-10) | Definition: ['an artist'] | Response: artist | ❌ 
+Clue: One might betray characteristic worry, oddly overlooked (7) | Definition: ['one might betray'] | Response: betray | ❌ 
+Clue: At home wearing shoddy stuff - a flaw (5) | Definition: ['flaw'] | Response: a flaw | ✅ 
+Clue: Happy boys in game with yours truly (8) | Definition: ['happy'] | Response: happy | ✅ 
+Clue: Sweet place to hold the Royal Ball | Definition: ['sweet'] | Response: sweet | ✅ 
+Clue: Fat pig eating starters of raw greens — wow! (11) | Definition: ['wow'] | Response: wow | ✅ 
+Clue: Old countryman, chap with ship in Scottish port (8) | Definition: ['old countryman'] | Response: old countryman | ✅ 
+Clue: A twit not finishing a twitch, making some waves? (8) | Definition: ['some waves'] | Response: making some waves | ✅ 
+Clue: Extremely responsible chap, one standing in for monarch (6) | Definition: ['one standing in for monarch'] | Response: responsible | ❌ 
+Clue: Thoughtlessly mean corruption, leading to rage? (6-7) | Definition: ['thoughtlessly'] | Response: thoughtlessly mean | ✅ 
+Clue: Next to boy, insect buzzing round (6) | Definition: ['next to'] | Response: next to | ✅ 
+Clue: Add nothing for form of wrestling (4) | Definition: ['form of wrestling'] | Response: form of wrestling | ✅ 
+Clue: An end to this callous contempt (5) | Definition: ['contempt'] | Response: contempt | ✅ 
+Clue: Touching address finally by head of Europol leading investigation (8) | Definition: ['investigation'] | Response: investigation | ✅ 
+Clue: Money for Seniors left in San Diego Open unexpectedly (3-3,7) | Definition: ['money for seniors'] | Response: money | ❌ 
+Clue: Enthusiasm keeps injured one in battle | Definition: ['battle'] | Response: enthusiasm | ❌ 
+Clue: Strange mystery involving minute, pleasing form? (8) | Definition: ['pleasing form?'] | Response: pleasing form | ❌ 
+Clue: Make wealthy leaders of English nobility remain in city homes (6) | Definition: ['make wealthy'] | Response: make wealthy | ✅ 
+Clue: Fish boxes offering spaces for wheels (3,5) | Definition: ['spaces for wheels'] | Response: fish | ❌ 
+Clue: Partners cutting low quality feldspar (9) | Definition: ['feldspar'] | Response: partners | ❌ 
+Clue: Parent with very difficult dog (7) | Definition: ['dog'] | Response: parent | ❌ 
+Clue: Pet reason for developing an artificial language (9) | Definition: ['an artificial language'] | Response: reason | ❌ 
+Clue: Most of camp moving into fortress (7) | Definition: ['fortress'] | Response: fortress | ✅ 
+Clue: Wet British weather initially irritating an East European (9) | Definition: ['east european'] | Response: wet | ❌ 
+Clue: Good American group making strengthener for garment (6) | Definition: ['strengthener for garment'] | Response: strengthener | ❌ 
+Clue: Cardinal knew many on the inside (6) | Definition: ['cardinal'] | Response: cardinal | ✅ 
+Clue: Roll amazes, prepared with unknown cheeses (11) | Definition: ['cheeses'] | Response: amazes | ❌ 
+Clue: What many investors do is part of some movies (12, two words) | Definition: ['part of some movies'] | Response: investors | ❌ 
+Clue: Condemn act of piracy in plain language (9) | Definition: ['condemn'] | Response: condemn | ✅ 
+Clue: If all else fails, the grand tour will end here (2,3,4,6) | Definition: ['if all else fails'] | Response: the grand tour | ❌ 
+Clue: Suffering cutting pains, incline to show weakness (8,4) | Definition: ['weakness'] | Response: suffering, weakness | ✅ 
+Clue: Encrustation to mount (5) | Definition: ['encrustation', 'mount'] | Response: encrustation | ✅ 
+Clue: Romantic English celebs pursue papers (8) | Definition: ['romantic'] | Response: romantic | ✅ 
+Clue: Cutter wallows and yaws endlessly under southern cape (6,3) | Definition: ['cutter'] | Response: wallow | ❌ 
+Clue: Played the part of cadet at sea (5) | Definition: ['played the part'] | Response: cadet | ❌ 
+Clue: Loose screw in the firearm (10) | Definition: ['firearm'] | Response: loose | ❌ 
+Clue: Distance achieved by missile, front of boat's on fire? (7) | Definition: ['distance achieved by missile'] | Response: distance | ❌ 
+Clue: Ring for the head, boy needing permit (7) | Definition: ['ring for the head'] | Response: ring | ❌ 
+Clue: Block, and flow perfectly (4,4) | Definition: ['perfectly'] | Response: flow | ❌ 
+Clue: Family animals up for a bit of a walk (4) | Definition: ['bit of a walk'] | Response: family | ❌ 
+Clue: Swallow nesting afresh, bottom of garden abandoned (6) | Definition: ['swallow'] | Response: swallow | ✅ 
+Clue: Musical canon’s duty list (4) | Definition: ['musical canon', 'duty list'] | Response: duty list | ✅ 
+Clue: Language of Hamlet — old lines becoming quite a mouthful! (6,6) | Definition: ['quite a mouthful'] | Response: language | ❌ 
+Clue: Result of being not prepared to back away? (3) | Definition: ['result of being not prepared to back away'] | Response: result | ❌ 
+Clue: Musical style it's rude to sing (9) | Definition: ['musical style'] | Response: musical style | ✅ 
+Clue: Family beginning to generate loud noise (5) | Definition: ['loud noise'] | Response: family | ❌ 
+Clue: Wife’s left at Crewe, due to change train again | Definition: ['train again'] | Response: wife's left | ❌ 
+Clue: Official recalled film full of hot passion (6) | Definition: ['full of hot passion'] | Response: official | ❌ 
+Clue: English town’s fresh flood defence (6) | Definition: ['english town'] | Response: flood defense | ❌ 
+Clue: One imposing cuts potentially a threat to security (6) | Definition: ['one imposing cuts'] | Response: threat | ❌ 
+Clue: Feline in revamped Disney corporation (9) | Definition: ['corporation'] | Response: feline | ❌ 
+Clue: Turtle avoiding soft ground (7) | Definition: ['ground'] | Response: turtle | ❌ 
+Clue: Scraped a result worse than an F (6) | Definition: ['scraped'] | Response: scraped | ✅ 
+Clue: Fascist piglet? (6,6) | Definition: ['nan'] | Response: fascist piglet | ❌ 
+Clue: Race the old lady runs with unusual hat on (8) | Definition: ['race'] | Response: race | ✅ 
+Clue: Dreadful cooked lamb, say (7) | Definition: ['dreadful'] | Response: dreadful | ✅ 
+Clue: Schedule for lightweight: yours truly! (9) | Definition: ['schedule'] | Response: schedule | ✅ 
+Clue: Reposition soldiers on island, for example moving north (9) | Definition: ['reposition'] | Response: reposition | ✅ 
+Clue: Performance involving Roman couple in which female is greatly exalted (7) | Definition: ['greatly exalted'] | Response: greatly exalted | ✅ 
+Clue: Race with crew in sporting division (9) | Definition: ['sporting division'] | Response: race | ❌ 
+Clue: Translation of this page involves conclusion of plot with many strands (9) | Definition: ['with many strands'] | Response: conclusion | ❌ 
+Clue: Most senior of the French embraced by English lieutenant (6) | Definition: ['most senior'] | Response: most senior | ✅ 
+Clue: A US lot losing heart unfortunately in Oklahoman city (5) | Definition: ['oklahoman city'] | Response: city | ❌ 
+Clue: Ale supplier having bartender empty pitcher (6) | Definition: ['ale supplier'] | Response: ale supplier | ✅ 
+Clue: Prediction heard if warning players (7,8) | Definition: ['prediction'] | Response: prediction | ✅ 
+Clue: A loud cry after wife’s total failure (7) | Definition: ['total failure'] | Response: cry | ❌ 
+Clue: … is what it will be if the typist doesn’t get a shift on (8) | Definition: ['… is what it will be if the typist doesn’t get a shift on'] | Response: shift | ❌ 
+Clue: Grip left in odd storage space on ship (12) | Definition: ['grip'] | Response: grip | ✅ 
+Clue: Judicial speciality having edge in everything covered by comment from beak? (8,3) | Definition: ['judicial speciality'] | Response: judicial speciality | ✅ 
+Clue: Northern home, one virtually dark (5) | Definition: ['northern home'] | Response: dark | ❌ 
+Clue: Character in Greek article volunteers (5) | Definition: ['character in greek'] | Response: volunteers | ❌ 
+Clue: Hatching a plot? Fascinating! (10) | Definition: ['hatching a plot?', 'fascinating!'] | Response: fascinating | ❌ 
+Clue: Item the Parisian found under lorry (7) | Definition: ['item'] | Response: item | ✅ 
+Clue: Reserve first of tables in coastal area (3,5) | Definition: ['reserve'] | Response: reserve | ✅ 
+Clue: A Guernsey detective cut off sharpish (6) | Definition: ['nan'] | Response: detective | ❌ 
+Clue: Pith helmet, best one (4) | Definition: ['pith helmet'] | Response: best | ❌ 
+Clue: One prompting motion reconstituting a vile tax | Definition: ['one prompting motion'] | Response: vile | ❌ 
+Clue: Descend from on high bringing contract  (4,4,4) | Definition: ['descend from on high bringing', 'contract'] | Response: contract | ✅ 
+Clue: Large Italian male, loose-limbed (5) | Definition: ['loose-limbed'] | Response: large | ❌ 
+Clue: Troublesome insect perhaps over sauce (5) | Definition: ['sauce'] | Response: troublesome | ❌ 
+Clue: Roman road circling two lakes and country house (5) | Definition: ['country house'] | Response: country house | ✅ 
+Clue: Flog business during sudden upswing (7) | Definition: ['flog'] | Response: business | ❌ 
+Clue: Limit relaxation, taking shower? (8) | Definition: ['limit'] | Response: limit | ✅ 
+Clue: Key adversely affects stuffing pipe down bog  (4,5) | Definition: ['bog'] | Response: key | ❌ 
+Clue: Escape grasping wife, getting clean away? (5) | Definition: ['clean away'] | Response: escape | ❌ 
+Clue: Grass left to grow up on island (4) | Definition: ['grass'] | Response: grass | ✅ 
+Clue: Servant who could be Eritrean (8) | Definition: ['servant'] | Response: servant | ✅ 
+Clue: Husband put in delicate position (5) | Definition: ['nan'] | Response: husband | ❌ 
+Clue: Expression of despair by pedestrian performer allowed no rehearsal? (5-6) | Definition: ['performer allowed no rehearsal?'] | Response: expression of despair | ❌ 
+Clue: Consequences of one initially minor agreement (6) | Definition: ['consequences'] | Response: consequences | ✅ 
+Clue: Given food — or a hat! (6) | Definition: ['hat'] | Response: given food | ❌ 
+Clue: Holy Land area within borders of sand (6) | Definition: ['holy'] | Response: holy land | ✅ 
+Clue: Music from revolutionary agent welcomed to state ball (7) | Definition: ['nan'] | Response: music | ❌ 
+Clue: Exclusive group start to enter through low gate (3,2-5) | Definition: ['exclusive group'] | Response: exclusive group | ✅ 
+Clue: Private leaving the field hurt? (8) | Definition: ['private', 'leaving the field hurt'] | Response: hurt | ❌ 
+Clue: Star mimed, unexpectedly, halfway through (9) | Definition: ['nan'] | Response: star | ❌ 
+Clue: Los Angeles - less than clean (7) | Definition: ['clean'] | Response: less than clean | ✅ 
+Clue: Organ the archbishop has installed (3) | Definition: ['organ'] | Response: organ | ✅ 
+Clue: Grunts of young one on the line (8) | Definition: ['grunts'] | Response: grunts | ✅ 
+Clue: Hurried a bit, nearly producing kidnapper's demand (6) | Definition: ["kidnapper's demand"] | Response: kidnapper's demand | ✅ 
+Clue: Sidekick's scheme's last to start (4) | Definition: ['sidekick'] | Response: scheme's last | ❌ 
+Clue: Current cartographers put back rail line on map (6) | Definition: ['line on map'] | Response: map | ❌ 
+Clue: Internal organs ultimately destroy neighbour of Kildare (6) | Definition: ['neighbour of kildare'] | Response: internal organs | ❌ 
+Clue: Partiality shown by arts graduates around India (4) | Definition: ['partiality'] | Response: partiality | ✅ 
+Clue: Knotty old lady? (6) | Definition: ['knotty old lady'] | Response: old lady | ❌ 
+Clue: Paper reviewed green comic strip (8) | Definition: ['comic strip'] | Response: comic strip | ✅ 
+Clue: Lapps tear apart this fruit (4-5) | Definition: ['lapps tear'] | Response: tear apart | ❌ 
+Clue: Northern city quickly attracting any number (7) | Definition: ['northern city'] | Response: northern city | ✅ 
+Clue: Fleet member — 7 falling short (6) | Definition: ['fleet'] | Response: member | ❌ 
+Clue: City where de Gaulle would appear after church (5) | Definition: ['city'] | Response: city | ✅ 
+Clue: Tango leaves part of leg extended above the normal level (4) | Definition: ['extended above the normal level'] | Response: above the normal level | ❌ 
+Clue: - No GEN on HALOGEN [information; fluorine, perhaps] | Definition: ['nan'] | Response: information | ❌ 
+Clue: What can clear stuff in port? Get strainer out (8) | Definition: ['what can clear stuff in port'] | Response: strainer | ❌ 
+Clue: Play safe with hammer (5,3) | Definition: ['play'] | Response: play safe | ✅ 
+Clue: Carpentry tool from church lies abandoned (6) | Definition: ['carpentry tool'] | Response: carpentry tool | ✅ 
+Clue: Hong Kong's about to arrest one Punjabi? (4) | Definition: ['punjabi'] | Response: arrest | ❌ 
+Clue: Fake illness needs mother to stay around (8) | Definition: ['fake illness'] | Response: fake illness | ✅ 
+Clue: Toppled tyrant ultimately disgraced, beheaded (7) | Definition: ['toppled'] | Response: toppled | ✅ 
+Clue: Baddy on street serving protest (13) | Definition: ['protest'] | Response: protest | ✅ 
+Clue: Gas money in the US, superior to your old pounds (8) | Definition: ['gas'] | Response: superior | ❌ 
+Clue: A course of action ending in surly indifference (6) | Definition: ['indifference'] | Response: indifference | ✅ 
+Clue: Barges Les manoeuvred around front of ship (6) | Definition: ['barges'] | Response: barges | ✅ 
+Clue: Snatching mobile for bit of a lark could be the beginning of this (8) | Definition: ['snatching mobile for bit of a lark could be the beginning of this'] | Response: beginning | ❌ 
+Clue: Young hare loses head, circling top of snowy mountain (7) | Definition: ['mountain'] | Response: young hare | ❌ 
+Clue: Hack back old-fashioned, short frizzy hairdo (8) | Definition: ['hack'] | Response: frizzy | ❌ 
+Clue: East Anglian student involved in a row? (9,4) | Definition: ['east anglian student involved in a row'] | Response: involved in a row | ❌ 
+Clue: Choirboy maybe briefly gets up after Fiona and Hazel (7) | Definition: ['hazel'] | Response: choirboy | ❌ 
+Clue: Policeman’s list of wrong-doers (9) | Definition: ['policeman'] | Response: list | ❌ 
+Clue: Point to suggest without complication (6) | Definition: ['without complication'] | Response: suggest | ❌ 
+Clue: Surrender of California vessel (4-2) | Definition: ['surrender'] | Response: surrender | ✅ 
+Clue: Variety of agate needs working unknown times (4) | Definition: ['variety of agate'] | Response: variety | ❌ 
+Clue: Think logically with reference to a male child (6) | Definition: ['think logically'] | Response: think logically | ✅ 
+Clue: Facing work to advance start of earning (8) | Definition: ['facing'] | Response: facing | ✅ 
+Clue: In the Netherlands sleuth cocked up a hard case (8) | Definition: ['a hard case'] | Response: sleuth | ❌ 
+Clue: Bigoted Illinois artist involved in defamation | Definition: ['bigoted'] | Response: defamation | ❌ 
+Clue: Subordinate position receives a command (9) | Definition: ['subordinate'] | Response: command | ❌ 
+Clue: Hugo is mad, moving around foreign capital (9) | Definition: ['foreign capital'] | Response: mad | ❌ 
+Clue: Maybe extra keen on encounter (3,4) | Definition: ['encounter'] | Response: extra keen | ❌ 
+Clue: Military group you join together, we hear (4) | Definition: ['military group'] | Response: military group | ✅ 
+Clue: Alas, nut wrong fruit! (7) | Definition: ['fruit'] | Response: alas | ❌ 
+Clue: A Gypsy heading north through European region (7) | Definition: ['european region'] | Response: european region | ✅ 
+Clue: Overstep the mark and move twelve inches back, right? (2,3,3) | Definition: ['overstep the mark'] | Response: move twelve inches back | ❌ 
+Clue: Neighbourhood watch, roughly fifty (5) | Definition: ['neighbourhood'] | Response: neighbourhood | ✅ 
+Clue: Performer rejected new routine (4) | Definition: ['performer'] | Response: performer | ✅ 
+Clue: Sportsman's father not taking sides, accepting foul shot (7) | Definition: ['sportsman'] | Response: sportsman's father | ✅ 
+Clue: Liking head of sculpture in London gallery (5) | Definition: ['liking'] | Response: liking | ✅ 
+Clue: Something sending elderly relative to sleep? Answer where nothing’s spoken (5,5) | Definition: ['where nothing’s spoken'] | Response: where nothing's spoken | ❌ 
+Clue: Predict a feeling of annoyance, getting hit hard (7) | Definition: ['hit hard'] | Response: predict | ❌ 
+Clue: A fee piously thrown over, certainly ironically (11, three words) | Definition: ['certainly ironically'] | Response: certainly | ❌ 
+Clue: Flightless bird in Prague museum (3) | Definition: ['flightless bird'] | Response: flightless bird | ✅ 
+Clue: Chilly precipitation’s coming up, bringing nerves (6) | Definition: ['nerves'] | Response: nerves | ✅ 
+Clue: Missing opening, cannon section ring and reverberate (2-4) | Definition: ['reverberate'] | Response: cannon section | ❌ 
+Clue: Note misuse of "me" and "I", borders on careless one.(8)  - | Definition: ['misuse'] | Response: careless | ❌ 
+Clue: Nothing pleasant pending (2,3) | Definition: ['pending'] | Response: nothing | ❌ 
+Clue: A largely penniless place of learning in the Midlands (5) | Definition: ['place of learning in the midlands'] | Response: place of learning | ❌ 
+Clue: Not close to Italian? On the contrary (3,4,2) | Definition: ['on the contrary'] | Response: on the contrary | ✅ 
+Clue: Stop for welcome morsel (8) | Definition: ['stop'] | Response: stop | ✅ 
+Clue: One investigates broken lute in case of Sherlock Holmes initially (6) | Definition: ['one investigates'] | Response: investigates | ❌ 
+Clue: Cephalonia’s interior is steaming — get as far from the sun as possible (8) | Definition: ['as far from the sun as possible'] | Response: get as far from the sun as possible | ✅ 
+Clue: Fiddler supposedly taking part in Wagner opera (4) | Definition: ['fiddler supposedly'] | Response: fiddler | ❌ 
+Clue: Stress English politician has income support initially (8) | Definition: ['stress'] | Response: stress | ✅ 
+Clue: Keeling over, hot servicemen expire, sadly (4) | Definition: ['expire, sadly'] | Response: sadly | ❌ 
+Clue: Prize relating to hospital section (6) | Definition: ['prize'] | Response: prize | ✅ 
+Clue: Note appended to records by popular artist (7) | Definition: ['artist'] | Response: note | ❌ 
+Clue: Greek character's teacup regularly avoided (3) | Definition: ['greek character'] | Response: greek character's | ✅ 
+Clue: What cow does in periods of depression? (4) | Definition: ['what cow does', 'periods of depression'] | Response: moo | ❌ 
+Clue: Revolutionary number left heading west (5) | Definition: ['revolutionary'] | Response: revolutionary | ✅ 
+Clue: Trump’s slow burn about every hot campesino (11) | Definition: ['campesino'] | Response: slow burn | ❌ 
+Clue: The sort of beast the solver sounds like (3) | Definition: ['the sort of beast'] | Response: beast | ❌ 
+Clue: Safe shelter in “new” Durham town (8) | Definition: ['“new” durham town'] | Response: safe shelter | ❌ 
+Clue: Joy in grand old tranquillity (4) | Definition: ['joy'] | Response: joy | ✅ 
+Clue: Pull girl over who is dawdling (7) | Definition: ['who is dawdling'] | Response: pull | ❌ 
+Clue: Car maintenance business? It doesn't make much (7,8) | Definition: ["it doesn't make much"] | Response: car maintenance | ❌ 
+Clue: Crisis antics are anyhow in vain (12) | Definition: ['vain'] | Response: crisis | ❌ 
+Clue: No place for Scott or Janis to wed (4) | Definition: ['nan'] | Response: no place | ❌ 
+Clue: Line of cabs, first one leaving (4) | Definition: ['line'] | Response: line | ✅ 
+Clue: Children's drink more costly, like some of their books? (3-2) | Definition: ['like some of their books?'] | Response: children's drink | ❌ 
+Clue: Dispute starts to frustrate regular dispute resolvers (6) | Definition: ['dispute'] | Response: dispute | ✅ 
+Clue: Two islands to worry about, first encountered in Ulysses (8) | Definition: ['first encountered in ulysses'] | Response: worry about | ❌ 
+Clue: Winning entailed galloping astride horse (2,3,4) | Definition: ['winning'] | Response: winning | ✅ 
+Clue: Subject of certain theories, complicated yet trivial (10) | Definition: ['subject of certain theories'] | Response: trivial | ❌ 
+Clue: Supports sailors imprisoning one behind the scenes (10) | Definition: ['behind the scenes'] | Response: supports | ❌ 
+Clue: Tooth powder manufacturer (7) | Definition: ['tooth', 'powder manufacturer'] | Response: manufacturer | ❌ 
+Clue: Urge is visible, we hear (6) | Definition: ['urge'] | Response: urge | ✅ 
+Clue: No drinks served half-heartedly in these? (9) | Definition: ['nan'] | Response: no drinks served | ❌ 
+Clue: Church under pressure to accommodate gold in hall (5) | Definition: ['hall'] | Response: hall | ✅ 
+Clue: Unique runner left in a game | Definition: ['unique'] | Response: unique | ✅ 
+Clue: Pain? Nothing, nothing to upset animal (8) | Definition: ['animal'] | Response: pain | ❌ 
+Clue: Mostly criminal men punching mug or suckers (10) | Definition: ['nan'] | Response: suckers | ❌ 
+Clue: Ignore police officers on patrol, it’s said (9) | Definition: ['ignore'] | Response: ignore | ✅ 
+Clue: Character waited for leave period (5) | Definition: ['character waited for'] | Response: waited | ❌ 
+Clue: Forebear caught stabbing a wise old king (8) | Definition: ['forebear'] | Response: wise old king | ❌ 
+Clue: Apparently rational European ruined  (6) | Definition: ['ruined'] | Response: apparently | ❌ 
+Clue: Dairy product's around jug where drinks come from (9) | Definition: ['where drinks come from'] | Response: drinks | ❌ 
+Clue: Partner no longer to make fast ground in SW England (6) | Definition: ['ground in sw england'] | Response: partner no longer | ❌ 
+Clue: Run through gardens before accessing sacred hollow (8) | Definition: ['run through'] | Response: sacred | ❌ 
+Clue: Screen restaurant close to home (6) | Definition: ['screen'] | Response: screen | ✅ 
+Clue: One of those on the fiddle — and bit of a racket? (6) | Definition: ['one of those on the fiddle', 'bit of a racket'] | Response: racket | ❌ 
+Clue: Subject to bet, it could be inferior to Axminster (8) | Definition: ['could be inferior to axminster'] | Response: inferior | ❌ 
+Clue: Software aims to include cool extra sections (10) | Definition: ['nan'] | Response: extra sections | ❌ 
+Clue: Inexpensive carpet only initially has pile (5) | Definition: ['inexpensive'] | Response: inexpensive | ✅ 
+Clue: A wicket with line wrong (4) | Definition: ['nan'] | Response: wicket | ❌ 
+Clue: Eye part   one studies (5) | Definition: ['eye part', 'one studies'] | Response: eye part | ✅ 
+Clue: Cold atmosphere at new stone mound (5) | Definition: ['stone mound'] | Response: cold | ❌ 
+Clue: Share the Sunday joint, do we hear? (4) | Definition: ['share'] | Response: share | ✅ 
+Clue: God, I sat on nails! (8) | Definition: ['god'] | Response: sat on nails | ❌ 
+Clue: Fork out about two pounds, like a friend (5) | Definition: ['like a friend'] | Response: friend | ❌ 
+Clue: As told, look after united country (6) | Definition: ['country'] | Response: look after | ❌ 
+Clue: Picture harbour with fish (7) | Definition: ['picture'] | Response: picture | ✅ 
+Clue: Little beast returning from dissolute revels (7) | Definition: ['little beast'] | Response: little beast | ✅ 
+Clue: Clip vehicle, a black one, narrowly missing American (9) | Definition: ['clip'] | Response: clip | ✅ 
+Clue: Printing unit, sound and arousing jealousy (8) | Definition: ['arousing jealousy'] | Response: printing unit | ❌ 
+Clue: Set on eating this? (2,6) | Definition: ['set on eating this'] | Response: set | ❌ 
+Clue: Evil King Edward blocked by good Harry (6) | Definition: ['harry'] | Response: evil | ❌ 
+Clue: People getting some education in Exeter or Warwick, say (10) | Definition: ['exeter or warwick, say'] | Response: people | ❌ 
+Clue: Finally nibble crackers passed round with this? (4) | Definition: ['finally nibble crackers passed round with this', 'finally nibble crackers passed round with this'] | Response: finally | ❌ 
+Clue: Glaring error primarily confronted by advocates generally (9) | Definition: ['glaring'] | Response: error | ❌ 
+Clue: Getting close to burning with change of wind direction upfront (7) | Definition: ['getting close to'] | Response: burning | ❌ 
+Clue: Viper sliding around before noon is deadly biter (7) | Definition: ['deadly biter'] | Response: deadly | ❌ 
+Clue: Amusement papers served up with subjective account | Definition: ['amusement'] | Response: amusement | ✅ 
+Clue: Rodent initially caught on yellow plant, unfortunately (5) | Definition: ['rodent'] | Response: unfortunately | ❌ 
+Clue: Fellow, very popular, holding a flower (7) | Definition: ['flower'] | Response: fellow | ❌ 
+Clue: Sound from hooter in retreat, is hooting! (7) | Definition: ['sound from hooter'] | Response: hooting | ❌ 
+Clue: ‘Innocent’ Alice being false – no good inside (7) | Definition: ['‘innocent’'] | Response: innocent | ❌ 
+Clue: Double quantities of drink universal in country house (7) | Definition: ['country house'] | Response: quantities of drink | ❌ 
+Clue: Old and anxious but not very demanding (7) | Definition: ['demanding'] | Response: anxious | ❌ 
+Clue: Aptly learn swimming, as father treats child? (10) | Definition: ['as father treats child'] | Response: aptly | ❌ 
+Clue: One’s under canvas to relax at length (5) | Definition: ['one’s under canvas'] | Response: relax | ❌ 
+Clue: Make a choice: revolutionary science, visual science (6) | Definition: ['visual science'] | Response: visual | ❌ 
+Clue: Welsh town mostly to respond over Christmas coming up (8) | Definition: ['welsh town'] | Response: respond | ❌ 
+Clue: Lean one knee out, keeping centre of gravity balanced (2,2,4,4) | Definition: ['balanced'] | Response: lean | ❌ 
+Clue: Individual forks out pounds for old French coin (3) | Definition: ['old french coin'] | Response: individual | ❌ 
+Clue: Two notes correctly so long (8) | Definition: ['so long'] | Response: so long | ✅ 
+Clue: What almost half of us wanted to do on the ocean (6) | Definition: ['what almost half of us wanted to do'] | Response: wanted to do | ❌ 
+Clue: Prohibition has young hooligan stuck in outhouse (6) | Definition: ['stuck in outhouse'] | Response: prohibition | ❌ 
+Clue: Discounted wine leader brought in (7) | Definition: ['discounted'] | Response: discounted | ✅ 
+Clue: Girl is after varying rough indicator of time (9) | Definition: ['indicator of time'] | Response: indicator of time | ✅ 
+Clue: Rhode Island's one and only savoury dish? (7) | Definition: ['savoury dish'] | Response: savoury dish | ✅ 
+Clue: Right height in English river (5) | Definition: ['river'] | Response: height | ❌ 
+Clue: Getting up, 5 consumes first of its fibre (5) | Definition: ['fibre'] | Response: getting up | ❌ 
+Clue: Groom cheerful after kiss (5-2) | Definition: ['groom'] | Response: groom | ✅ 
+Clue: Dock workers' organisation on the rise (3) | Definition: ['dock'] | Response: rise | ❌ 
+Clue: One easily taken in by prophet’s light material (10) | Definition: ['light material'] | Response: gullible | ❌ 
+Clue: Healthy food reportedly goes for a song (12) | Definition: ['a song'] | Response: healthy | ❌ 
+Clue: Return of old woman to heave boxes (7) | Definition: ['return'] | Response: return | ✅ 
+Clue: Ring to listen to one half of animated pair (7) | Definition: ['ring'] | Response: listen to | ❌ 
+Clue: Who'll guide a dreamer lost without plan at first? (3,6) | Definition: ["who'll guide"] | Response: guide | ❌ 
+Clue: Regularly putting note to the last name (6) | Definition: ['name'] | Response: regularly | ❌ 
+Clue: Tend to run up banks of Seine (5) | Definition: ['tend to'] | Response: tend | ❌ 
+Clue: Venomous man, a day tripper (8) | Definition: ['tripper'] | Response: venomous | ❌ 
+Clue: Tunes, each differently arranged for nightclub singer (9) | Definition: ['nightclub singer'] | Response: tunes | ❌ 
+Clue: Medical officer to come over for sport (9) | Definition: ['sport'] | Response: medical officer | ❌ 
+Clue: Something for American children to eat these days, put in cakes (4,5) | Definition: ['something for american children to eat'] | Response: something for american children to eat these days | ✅ 
+Clue: Group circling the globe to find frozen dessert (6) | Definition: ['frozen dessert'] | Response: frozen dessert | ✅ 
+Clue: Children eating — sadly no child wanted fruit  (9) | Definition: ['fruit'] | Response: children | ❌ 
+Clue: Calm, primate eating green seeds (7) | Definition: ['calm'] | Response: calm | ✅ 
+Clue: Become cheerful, helping out in a mess — nothing to lose(7,2) | Definition: ['become cheerful'] | Response: become cheerful | ✅ 
+Clue: Drinks late on? They won't help you keep a cool head then (9) | Definition: ['drinks late on'] | Response: drinks | ❌ 
+Clue: NW state unfortunately ends with black lava (6) | Definition: ['nw state'] | Response: state | ❌ 
+Clue: Dark-haired fellow in punt tackling course (6) | Definition: ['dark-haired fellow'] | Response: dark-haired | ❌ 
+Clue: Own extremely fashionable cat, on reflection (4,2) | Definition: ['own'] | Response: own | ✅ 
+Clue: Missile['s] power staggered sailor (7) | Definition: ['missile'] | Response: missile's | ✅ 
+Clue: Long-distance runner having zero energy (4) | Definition: ['long-distance runner'] | Response: long-distance runner | ✅ 
+Clue: Nervous, looking over a cliff? (2,4) | Definition: ['nervous'] | Response: nervous | ✅ 
+Clue: John is able to dance (6) | Definition: ['dance'] | Response: able | ❌ 
+Clue: Guardian of public rights bans a Parisian race (5) | Definition: ['race'] | Response: guardian | ❌ 
+Clue: She succeeds, using trendy woman’s current ploys, we hear (10) | Definition: ['she succeeds'] | Response: succeeds | ❌ 
+Clue: Utter nothing in between (8) | Definition: ['utter'] | Response: nothing | ❌ 
+Clue: Indoctrination of supporter in laundry? (12) | Definition: ['indoctrination'] | Response: indoctrination | ✅ 
+Clue: I saw, or see, monarch astride horse (6) | Definition: ['i saw'] | Response: monarch | ❌ 
+Clue: Large fish seen in Gibraltar pond (6) | Definition: ['large fish'] | Response: large fish | ✅ 
+Clue: Woman cuddling baby, eating a hot snack (9) | Definition: ['hot snack'] | Response: woman | ❌ 
+Clue: Celebrate noisily with band: I arranged backing (5,2,2) | Definition: ['celebrate noisily'] | Response: celebrate noisily | ✅ 
+Clue: Was bather panicking at first in flood? (5) | Definition: ['flood'] | Response: flood | ✅ 
+Clue: Valuable box: safe found in stretch in river (8,5) | Definition: ['valuable box'] | Response: valuable box | ✅ 
+Clue: Record-holder rolled up in warm weather? (6) | Definition: ['record-holder', 'rolled up in warm weather?'] | Response: record-holder | ✅ 
+Clue: Pin on (3) | Definition: ['pin', 'on'] | Response: on | ✅ 
+Clue: 100 mature British gents finished back on ship? That's callous (4-11) | Definition: ["that's callous"] | Response: callous | ❌ 
+Clue: Body found in squat surrounded by refuse (7) | Definition: ['body'] | Response: body | ✅ 
+Clue: Tom Potter is trained as an eye specialist (11) | Definition: ['an eye specialist'] | Response: eye specialist | ❌ 
+Clue: Physical activity cut out without hesitation (8) | Definition: ['physical activity'] | Response: physical activity | ✅ 
+Clue: Great to keep remaining Northern soldiers in control (10) | Definition: ['control'] | Response: control | ✅ 
+Clue: An approving gesture about girl (5) | Definition: ['girl'] | Response: approving | ❌ 
+Clue: Not too bright about location of Taj Mahal?  Here’s a plan (7) | Definition: ['here’s a plan'] | Response: plan | ❌ 
+Clue: Bird, single, 21 (4) | Definition: ['bird'] | Response: bird | ✅ 
+Clue: Insect that buzzes around girl in the country (6) | Definition: ['country'] | Response: insect | ❌ 
+Clue: Try to spot invisible character in play (5) | Definition: ['invisible character in play'] | Response: try | ❌ 
+Clue: Mix up first of banks to offer loans (5) | Definition: ['mix up'] | Response: offer loans | ❌ 
+Clue: Indian animal that’s awful crossing a lake (5) | Definition: ['indian animal'] | Response: indian animal | ✅ 
+Clue: Hearsay from second I trust (5) | Definition: ['hearsay'] | Response: trust | ❌ 
+Clue: Indian board game is one behind chap playing (7) | Definition: ['indian board game'] | Response: board game | ❌ 
+Clue: Boy guarded by soldier on list, upcoming fighter (9) | Definition: ['nan'] | Response: upcoming fighter | ❌ 
+Clue: Muscle initially bulging in chaps exercising pretty solidly (6) | Definition: ['muscle'] | Response: muscle | ✅ 
+Clue: Difficult to understand — certain it must be rewritten (9) | Definition: ['difficult to understand'] | Response: difficult | ❌ 
+Clue: A stroll in the park leads up garden path to gorge (4,5) | Definition: ['a stroll in the park'] | Response: gorge | ❌ 
+Clue: Dump commander's jacket in boat (5) | Definition: ['dump'] | Response: dump | ✅ 
+Clue: Chess icon playing with hobo as there’s no alternative (7,6) | Definition: ['there’s no alternative'] | Response: alternative | ❌ 
+Clue: Official verses and unfinished scores (8) | Definition: ['official'] | Response: official | ✅ 
+Clue: Aim to preserve a set of books in cabin (6) | Definition: ['cabin'] | Response: preserve | ❌ 
+Clue: Heavy breather coming round to eat spread (7) | Definition: ['heavy breather'] | Response: spread | ❌ 
+Clue: Flag with damage carried by European vessel (7) | Definition: ['flag'] | Response: flag | ✅ 
+Clue: Digger’s card (5) | Definition: ['digger', 'card'] | Response: digger's | ✅ 
+Clue: Archaeological find: group with cash prepared to support it (11) | Definition: ['nan'] | Response: archaeological find | ❌ 
+Clue: Termination's accepted by secretary to produce growth (6) | Definition: ['to produce growth'] | Response: growth | ❌ 
+Clue: Volcano: bet goes up (4) | Definition: ['volcano'] | Response: volcano | ✅ 
+Clue: Unattached and promiscuous (5) | Definition: ['unattached', 'promiscuous'] | Response: promiscuous | ✅ 
+Clue: Like old Peruvian serving prison sentence (5) | Definition: ['like old peruvian'] | Response: like | ❌ 
+Clue: Father of Mickey Mouse half abandoned Pluto (3) | Definition: ['pluto'] | Response: father | ❌ 
+Clue: Immature creature raised in a year (4) | Definition: ['immature creature'] | Response: immature | ❌ 
+Clue: Bet inn air could become intoxicating (9) | Definition: ['intoxicating'] | Response: intoxicating | ✅ 
+Clue: Open sandwiches are commonly initially ham (7) | Definition: ['ham'] | Response: open | ❌ 
+Clue: Pipe blown as letter's read out by Spooner (5,7) | Definition: ['pipe blown'] | Response: pipe | ❌ 
+Clue: Reddish lolly, a sweet snack? (11) | Definition: ['a sweet snack'] | Response: sweet snack | ❌ 
+Clue: Unopened beer and glass smashed for charity | Definition: ['charity'] | Response: charity | ✅ 
+Clue: Had lilies regularly dropped round for girl (4) | Definition: ['girl'] | Response: girl | ✅ 
+Clue: Hack possibly putting run in stockings? (5) | Definition: ['hack possibly'] | Response: hack | ❌ 
+Clue: Speak at length with person living overseas missing queen (9) | Definition: ['speak at length'] | Response: speak at length | ✅ 
+Clue: Scary — as a lycanthrope? (5) | Definition: ['scary', 'as a lycanthrope'] | Response: scary | ✅ 
+Clue: Ringroad has part that’s got spoken about (7) | Definition: ['ringroad'] | Response: ringroad | ✅ 
+Clue: Energy about a brass band's sound (6) | Definition: ["brass band's sound"] | Response: energy | ❌ 
+Clue: Fire extinguisher taken from prison: warder finally in court subject to questioning (7,4) | Definition: ['fire extinguisher'] | Response: fire extinguisher | ✅ 
+Clue: Convincing oneself car has motion (14) | Definition: ['convincing oneself'] | Response: convincing | ❌ 
+Clue: Good man has certainly to remain steady (4) | Definition: ['to remain steady'] | Response: good | ❌ 
+Clue: this made me laugh. A den might be a lair, so if DENNY means “like a den”, LAIRY can do likewise. I suspected “lairy” might be an Aussie word, and Chambers agrees, but here it is! | Definition: ['nan'] | Response: like a den | ❌ 
+Clue: Clearing books one has stopped cancelling (11) | Definition: ['clearing'] | Response: clearing | ✅ 
+Clue: Page unfinished judge takes on to work out (4,4) | Definition: ['work out'] | Response: judge takes on | ❌ 
+Clue: Some love he-men, tough, very intense (8) | Definition: ['very intens'] | Response: very intense | ✅ 
+Clue: English vehicles for Welshman? (5) | Definition: ['welshman?'] | Response: welshman | ❌ 
+Clue: Paint a picture of harbour and fish (7) | Definition: ['paint a picture'] | Response: paint | ❌ 
+Clue: What's rude about article becomes relevant (2,3,5) | Definition: ['relevant'] | Response: becomes relevant | ✅ 
+Clue: A change in store at sea? (6) | Definition: ['at sea'] | Response: change | ❌ 
+Clue: Our new envoy foolishly crosses king — anything could happen! (3,5,4) | Definition: ['anything could happen!'] | Response: anything could happen | ❌ 
+Clue: Damp squib, you might say, encapsulating the ultimate in dreary gossip  (4,6) | Definition: ['gossip'] | Response: gossip | ✅ 
+Clue: Not in power, party men will be not in the house (7) | Definition: ['not in the house'] | Response: not in power | ❌ 
+Clue: Lover once and I getting in bed? It's a bold act (7) | Definition: ['a bold act'] | Response: bold act | ❌ 
+Clue: After present, left watch for sculptor (9) | Definition: ['sculptor'] | Response: sculptor | ✅ 
+Clue: Plant spread easily in awkward position (10) | Definition: ['plant'] | Response: plant | ✅ 
+Clue: Canadian city aware of having hill to the north (7) | Definition: ['canadian city'] | Response: aware of having hill | ❌ 
+Clue: German artist doesn't understand Russian, English and Romanian at first (5) | Definition: ['german artist'] | Response: artist | ❌ 
+Clue: Clothing subject to damage through use (9) | Definition: ['nan'] | Response: clothing | ❌ 
+Clue: Bloke bound to succeed getting hold of iron cow (6) | Definition: ['cow'] | Response: bloke bound to succeed | ❌ 
+Clue: Holiday site that's quiet by river (4) | Definition: ['holiday site'] | Response: quiet | ❌ 
+Clue: Loyal worker upholding Conservative way (8) | Definition: ['loyal'] | Response: loyal | ✅ 
+Clue: Scrap old leaders in Daily Mail during depression (7) | Definition: ['scrap'] | Response: scrap | ✅ 
+Clue: One business area's last resort (5) | Definition: ['resort'] | Response: last resort | ✅ 
+Clue: Daughter has one final letter — the long version — made shorter (9) | Definition: ['made shorter'] | Response: daughter | ❌ 
+Clue: Pretend an eccentric was boring (9) | Definition: ['was boring'] | Response: pretend | ❌ 
+Clue: Rare stone is indulgence after changing hands over an evening, informally (11) | Definition: ['rare stone'] | Response: indulgence | ❌ 
+Clue: Skin of fruit’s twisted to drop off (5) | Definition: ['drop off'] | Response: skin | ❌ 
+Clue: Curl copper up round edge (5) | Definition: ['curl'] | Response: curl | ✅ 
+Clue: Celebrities with a brand new South American flag (5,3,4) | Definition: ['american flag'] | Response: celebrities | ❌ 
+Clue: Consume a British dessert, but not last two portions (6) | Definition: ['consume'] | Response: consume | ✅ 
+Clue: During short nap, smell most like foam rubber | Definition: ['most like foam rubber'] | Response: smell | ❌ 
+Clue: Wrong to keep people in terrible pain (7) | Definition: ['nan'] | Response: terrible pain | ❌ 
+Clue: Stories about old bishop? They may be articulated (7) | Definition: ['they may be articulated'] | Response: stories | ❌ 
+Clue: In east of France, a woman’s book (6) | Definition: ['book'] | Response: woman's | ❌ 
+Clue: As a result of whistle-blower, the mineral deposit’s protected (9) | Definition: ['as a result'] | Response: protected | ❌ 
+Clue: It’s blooming Weller at last, valet now getting replaced  (9) | Definition: ['it', 'it’s blooming'] | Response: valet | ❌ 
+Clue: Nothing working for disgraced politician (5) | Definition: ['disgraced politician'] | Response: nothing | ❌ 
+Clue: Blooming head of theatre and choir take off (5,9) | Definition: ['blooming head'] | Response: take off | ❌ 
+Clue: Father and mother embracing the Spanish girl (6) | Definition: ['girl'] | Response: spanish girl | ✅ 
+Clue: A Roman general: one that’s riveting for the audience  (7) | Definition: ['a roman general'] | Response: audience | ❌ 
+Clue: In place of wild dancing, doctors knock around quietly (4,3) | Definition: ['place of wild dancing'] | Response: quietly | ❌ 
+Clue: More obvious career for cobblers (10) | Definition: ['cobblers'] | Response: more obvious | ❌ 
+Clue: A jolly cleaner goes round one piece of furniture (8) | Definition: ['piece of furniture'] | Response: cleaner | ❌ 
+Clue: Queen is aboard newer boat at sea or on river? (10) | Definition: ['on river'] | Response: queen | ❌ 
+Clue: This man's with it — worker maybe destined to lose? (8) | Definition: ['maybe destined to lose?'] | Response: worker | ❌ 
+Clue: Clubs to break old rule for French writer (6) | Definition: ['french writer'] | Response: french writer | ✅ 
+Clue: Some aeroplanes Biggles sent up for playfellow (5) | Definition: ['playfellow'] | Response: playfellow | ✅ 
+Clue: Partly form a law in an African country (6) | Definition: ['african country'] | Response: form a law | ❌ 
+Clue: US composer whinges awfully about intro of record (8) | Definition: ['nan'] | Response: whinges | ❌ 
+Clue: Money flowing out of London indexes at first (4) | Definition: ['money'] | Response: money | ✅ 
+Clue: Granny's first attempt to digest a French report (7) | Definition: ['report'] | Response: granny's first attempt | ❌ 
+Clue: Fur-coated drag specialist, say, about to pass quickly through Oscar party (6,3) | Definition: ['fur-coated drag specialist'] | Response: pass quickly through | ❌ 
+Clue: Change of name? I'll second that (4) | Definition: ["i'll second that"] | Response: change of name | ❌ 
+Clue: Through which spirit is poured out of sight (5) | Definition: ['through which spirit is poured out', 'of sight'] | Response: out of sight | ✅ 
+Clue: Greek city corners recalled Athens at first | Definition: ['greek city'] | Response: greek city | ✅ 
+Clue: Condemn the amount managers are paid? (8) | Definition: ['condemn'] | Response: condemn | ✅ 
+Clue: In need of opening, kitchen passage (5) | Definition: ['passage'] | Response: kitchen passage | ✅ 
+Clue: Hombre who stashes drink (4) | Definition: ['drink'] | Response: drink | ✅ 
+Clue: Mum on edge starts to bring anti-depressants from a part of the kitchen (7) | Definition: ['a part of the kitchen'] | Response: anti-depressants | ❌ 
+Clue: Complaints caused by Conservative-Liberal relationship (7) | Definition: ['complaints'] | Response: complaints | ✅ 
+Clue: Act involving three thousand outside university (4) | Definition: ['act'] | Response: act | ✅ 
+Clue: Holy ship’s company mostly in blue (6) | Definition: ['holy'] | Response: holy | ✅ 
+Clue: Company went without leader as old as you and I (9) | Definition: ['company'] | Response: company | ✅ 
+Clue: Defence playing worst during counterattack (10) | Definition: ['defence'] | Response: defence | ✅ 
+Clue: Building bird table without support ultimately, one improvises  (2,6) | Definition: ['one improvises'] | Response: one improvises | ✅ 
+Clue: Opened church in the country (6) | Definition: ['opened'] | Response: country | ❌ 
+Clue: Putting up with individual cordoning off street’s archaeological feature (8,5) | Definition: ['archaeological feature'] | Response: archaeological feature | ✅ 
+Clue: Actors / thrown (4) | Definition: ['actors', 'thrown'] | Response: actors | ✅ 
+Clue: In court, youngster takes in many at first — very many! (7) | Definition: ['very many'] | Response: very many | ✅ 
+Clue: After a job (4) | Definition: ['after', ' job'] | Response: after | ✅ 
+Clue: Company receives order beginning to march with soldier (8) | Definition: ['soldier'] | Response: company | ❌ 
+Clue: The German artist’s consumer’s guide | Definition: ['consumer’s guide'] | Response: consumer's guide | ❌ 
+Clue: He is naughty nabbing two maidens put in a trap (6) | Definition: ['put in a trap'] | Response: naughty | ❌ 
+Clue: Pernicious agents altered Nixon's route (11) | Definition: ['pernicious agents'] | Response: pernicious | ❌ 
+Clue: Approval to arrest one lout (3) | Definition: ['lout'] | Response: approval | ❌ 
+Clue: Sanctimonious about minister’s former convictions (8) | Definition: ['former convictions'] | Response: sanctimonious | ❌ 
+Clue: System for better transport (4) | Definition: ['system for better', 'transport'] | Response: system | ❌ 
+Clue: Primarily, noses always sound, appropriately, like - this? (5) | Definition: ['like - this?'] | Response: sound, appropriately | ❌ 
+Clue: Second trial dropped in place of overall cuts? (8,4) | Definition: ['place of overall cuts?'] | Response: overall cuts | ❌ 
+Clue: Oscar sitting down to eat cereal (7) | Definition: ['cereal'] | Response: eat | ❌ 
+Clue: Drink making you sardonic in speech? (3) | Definition: ['drink'] | Response: drink | ✅ 
+Clue: A good number remain endlessly uncertain about what to believe (8) | Definition: ['uncertain about what to believe'] | Response: believe | ❌ 
+Clue: Affected by exposure in The Sun — camera-shy maybe? (5-9) | Definition: ['nan'] | Response: camera-shy | ❌ 
+Clue: Revamped tablets, such as may be charged in, eg, All Souls Buttery (7) | Definition: ['such as may be charged in, eg, all souls buttery'] | Response: revamped | ❌ 
+Clue: Founder of colony and member of one showing flag (7) | Definition: ['flag'] | Response: founder | ❌ 
+Clue: Succulent fruit piece, half gone (5) | Definition: ['succulent fruit'] | Response: succulent fruit | ✅ 
+Clue: Badly done now? Oops! Here’s booby prize (6,5) | Definition: ['booby prize'] | Response: booby prize | ✅ 
+Clue: Record seen at game in capital city (10) | Definition: ['capital city'] | Response: record | ❌ 
+Clue: Havana boxer one good to punch body (5,4) | Definition: ['havana boxer'] | Response: boxer | ❌ 
+Clue: The right doctor assembled emergency room gauge (11) | Definition: ['gauge'] | Response: emergency room | ❌ 
+Clue: Most important individual item in cemetery (10) | Definition: ['item in cemetery'] | Response: most important | ❌ 
+Clue: Sick cat faints? That’s bizarre (9) | Definition: ['bizarre'] | Response: sick | ❌ 
+Clue: Stop to make a speech about international decline (11) | Definition: ['decline'] | Response: stop | ❌ 
+Clue: Intelligence-based short course not for sharing (5,4) | Definition: ['not for sharing'] | Response: intelligence-based | ❌ 
+Clue: Cat book unfinished (3) | Definition: ['cat'] | Response: cat | ✅ 
+Clue: Head of chapter restricts company for church officer (6) | Definition: ['church officer'] | Response: church officer | ✅ 
+Clue: Big Herb is relaxing in bunk (9) | Definition: ['bunk'] | Response: relaxing | ❌ 
+Clue: Girl I left in meadow (5) | Definition: ['girl'] | Response: girl | ✅ 
+Clue: Back rooms requiring work: one’s nonetheless to be suitable for lawgiver (14) | Definition: ['back rooms'] | Response: suitable for lawgiver | ❌ 
+Clue: Visitor reckoned to be heard (5) | Definition: ['visitor'] | Response: visitor | ✅ 
+Clue: Match-winner, or miss? There’s nothing in it (6,4) | Definition: ['match-winner'] | Response: match-winner | ✅ 
+Clue: Left, maybe, taken apart (8) | Definition: ['left, maybe', 'taken apart'] | Response: left | ❌ 
+Clue: Verse in translation, initially extremely hard (6) | Definition: ['hard'] | Response: verse | ❌ 
+Clue: One of a group of painters, six, entertained by German play (7) | Definition: ['one of a group of painters'] | Response: painters | ❌ 
+Clue: Internet pest missing start of leisurely walk (5) | Definition: ['internet pest'] | Response: internet pest | ✅ 
+Clue: With show of diplomacy, regularly discuss strategy (7) | Definition: ['strategy'] | Response: discuss | ❌ 
+Clue: What oenophiles may hold in reserve: smart! (7) | Definition: ['what oenophiles may hold'] | Response: smart | ❌ 
+Clue: Unfortunate lad ending up in place where fire broke out (7,4) | Definition: ['place where fire broke out'] | Response: unfortunate | ❌ 
+Clue: One million central to assets — that's a rough guess (8) | Definition: ['rough guess'] | Response: rough guess | ✅ 
+Clue: Get the better of equestrian lacking aspiration, like her say (9) | Definition: ['like her say'] | Response: get the better of | ❌ 
+Clue: Girl nonetheless much reduced (5) | Definition: ['girl'] | Response: girl | ✅ 
+Clue: Herb around old French bread now (4) | Definition: ['french bread now'] | Response: herb | ❌ 
+Clue: Separate trip taking in golf game (9) | Definition: ['game'] | Response: separate | ❌ 
+Clue: Union leader leaving well-liked part of London (6) | Definition: ['part of london'] | Response: union leader | ❌ 
+Clue: Coarse east European taking Victor for British (6) | Definition: ['coarse'] | Response: coarse | ✅ 
+Clue: The woman Basil cut short? (3) | Definition: ['the woman'] | Response: woman | ❌ 
+Clue: Site of impact of old plane beside river (6) | Definition: ['site of impact'] | Response: site of impact | ✅ 
+Clue: New toys lured men, to a considerable degree (12) | Definition: ['to a considerable degree'] | Response: considerable degree | ❌ 
+Clue: One assists a traveller leaving capital (5) | Definition: ['one assists'] | Response: assists | ❌ 
+Clue: - ({w}ORK HAS*) ["ruined"] + I [one], semi-&lit | Definition: ['nan'] | Response: semi-&lit | ❌ 
+Clue: Attention required in class — might one be leaning on desk? (7) | Definition: ['might one be leaning on desk'] | Response: attention | ❌ 
+Clue: Graduate severe about one current leading teacher (9) | Definition: ['leading teacher'] | Response: teacher | ❌ 
+Clue: Rearrange a space as in inland lake (7,3) | Definition: ['inland lake'] | Response: inland lake | ✅ 
+Clue: Immobilize reticent type, parking (5) | Definition: ['immobilize'] | Response: immobilize | ✅ 
+Clue: Bottle for perfume that's disgusting, we hear (4) | Definition: ['bottle for perfume'] | Response: disgusting | ❌ 
+Clue: Stock European bon mot? (5) | Definition: ['stock'] | Response: european | ❌ 
+Clue: Nursing different part of the leg, I turned out for team (9,6) | Definition: ['team'] | Response: nursing different part of the leg | ❌ 
+Clue: Eg Annie’s extraordinary claims about university (7) | Definition: ['eg annie'] | Response: university | ❌ 
+Clue: Constant? Never secure (4) | Definition: ['secure'] | Response: never | ❌ 
+Clue: Scholarly American's volume found on a railway (8) | Definition: ['scholarly'] | Response: scholarly | ✅ 
+Clue: Copper, like gold, is toxic stuff (6) | Definition: ['toxic stuff'] | Response: toxic | ❌ 
+Clue: Pulpit constructed by a Doctor Love? (4) | Definition: ['pulpit'] | Response: pulpit | ✅ 
+Clue: With no pressure move to capture small portion (5) | Definition: ['small portion'] | Response: portion | ❌ 
+Clue: Popular French novelist's son in Scottish city (9) | Definition: ['scottish city'] | Response: popular french novelist's son | ❌ 
+Clue: Duke outdated as he used to go by every time (4) | Definition: ['duke outdated'] | Response: duke | ❌ 
+Clue: Notice difficulty (4) | Definition: ['notice', 'difficulty'] | Response: notice | ✅ 
+Clue: Where one may find tea leaves practically secured (2,3,3) | Definition: ['where one may find tea leaves', 'practically secured'] | Response: practically secured | ✅ 
+Clue: English travel showing self-importance (3) | Definition: ['self-importance'] | Response: english | ❌ 
+Clue: Harp playing adopted by one daughter, left by herself? (8) | Definition: ['left by herself?'] | Response: left | ❌ 
+Clue: What strains company taking on moon explorer (8) | Definition: ['what strains'] | Response: moon explorer | ❌ 
+Clue: Negotiator, during legal sessions, beginning to edit record (12) | Definition: ['negotiator'] | Response: negotiator | ✅ 
+Clue: Devious trap-door hides head of hairy spider, say (9) | Definition: ['spider, say'] | Response: devious | ❌ 
+Clue: Son and relations hide (4) | Definition: ['hide'] | Response: hide | ✅ 
+Clue: Fine arresting extremes of opulent love poem (6) | Definition: ['love poem'] | Response: love poem | ✅ 
+Clue: One demonstrating fashion line? (5) | Definition: ['one demonstrating'] | Response: fashion | ❌ 
+Clue: Animal in a cell — a second has been regularly raised (6) | Definition: ['animal in a cell'] | Response: animal | ❌ 
+Clue: Male that is eating corn, say, gets a headache (8) | Definition: ['a headache'] | Response: headache | ❌ 
+Clue: Broadcast facts that are a Cockney journalist’s own (11) | Definition: ['own'] | Response: broadcast facts | ❌ 
+Clue: Left Western Europe for part of West Africa (7) | Definition: ['art of west africa'] | Response: left | ❌ 
+Clue: Choose ends like every captain, toss at first (5) | Definition: ['choose'] | Response: choose, captain | ✅ 
+Clue: City haunt making delicious pastry? (6) | Definition: ['delicious pastry'] | Response: delicious pastry | ✅ 
+Clue: Frank's good poker hand (8) | Definition: ['frank', 'good poker hand'] | Response: good | ❌ 
+Clue: Item subject to inflation following a crash | Definition: ['item subject to inflation following a crash'] | Response: item | ❌ 
+Clue: Mock appeal for peace by dreamers in the centre (4) | Definition: ['mock'] | Response: mock | ✅ 
+Clue: One dealing with gender-fluid performer (10) | Definition: ['one dealing'] | Response: performer | ❌ 
+Clue: Quite awful Los Angeles drink (7) | Definition: ['drink'] | Response: quite awful | ❌ 
+Clue: Extremely docile, weepy, moist (4) | Definition: ['moist'] | Response: moist | ✅ 
+Clue: Pa and I had curious elegy from Edmund on the death of a daughter  (9) | Definition: ['elegy from edmund on the death of a daughter'] | Response: elegy | ❌ 
+Clue: Enjoys hot cooked meat dish (4) | Definition: ['cooked meat dish'] | Response: enjoys | ❌ 
+Clue: Grass skirts from Burma, low around back initially (6) | Definition: ['grass'] | Response: skirts | ❌ 
+Clue: Spellbound? That’s right and appropriate (4) | Definition: ['spellbound'] | Response: right and appropriate | ❌ 
+Clue: Obscure appeal by maiden (4) | Definition: ['obscure'] | Response: obscure | ✅ 
+Clue: With sensitive information, European Community in bizarre protest (3-6) | Definition: ['with sensitive information'] | Response: european community | ❌ 
+Clue: A pole proclaims my job in saloon, say, at capital’s west side (6) | Definition: ['a pole proclaims my job'] | Response: job | ❌ 
+Clue: American men and nations in turmoil (10) | Definition: ['american'] | Response: turmoil | ❌ 
+Clue: Blocking the rejection of hot stuff, I am useful (5) | Definition: ['am useful'] | Response: useful | ❌ 
+Clue: Richly adorned Eastern believer eclipsed by lovely daughter (10) | Definition: ['richly adorned'] | Response: richly adorned | ✅ 
+Clue: Squash, say, not right with a particular cheese  (5) | Definition: ['particular cheese'] | Response: particular cheese | ✅ 
+Clue: Doctor going by boat in capital (6) | Definition: ['capital'] | Response: doctor | ❌ 
+Clue: Plant in medium Yorkshire town mostly not that great ultimately (4,7) | Definition: ['plant'] | Response: plant | ✅ 
+Clue: Worker interrupting start of this odd outburst (7) | Definition: ['outburst'] | Response: worker | ❌ 
+Clue: Reject most of panel in Lincoln (6) | Definition: ['reject'] | Response: reject | ✅ 
+Clue: Ball girl chosen for final footie match (10) | Definition: ['nan'] | Response: chosen for final | ❌ 
+Clue: Most demanding strain on one entering exam (9) | Definition: ['most demanding'] | Response: most demanding | ✅ 
+Clue: Directly opposed: in general, opening up (5) | Definition: ['directly opposed'] | Response: directly opposed | ✅ 
+Clue: Attempting to find oneself online fun: e-gigs or raves (3-7) | Definition: ['attempting to find oneself online'] | Response: attempting | ❌ 
+Clue: US investigator with mobile for underground worker (7) | Definition: ['nan'] | Response: investigator | ❌ 
+Clue: Singers of music, keeping time | Definition: ['singers'] | Response: singers | ✅ 
+Clue: One has Bond smashing luge into pieces (9) | Definition: ['one has bond'] | Response: pieces | ❌ 
+Clue: Judge on Charlie's case (5) | Definition: ['case'] | Response: judge | ❌ 
+Clue: Conceited, sticks around (4) | Definition: ['conceited'] | Response: conceited | ✅ 
+Clue: Unfashionable job in faraway place (7) | Definition: ['faraway place'] | Response: unfashionable | ❌ 
+Clue: Poseur writing about pretentious rubbish (6-5) | Definition: ['poseur'] | Response: pretentious | ❌ 
+Clue: Bottle for Brecht's mother (7) | Definition: ['bottle', "brecht's mother"] | Response: bottle | ✅ 
+Clue: Rash, heartless and hollow (6) | Definition: ['hollow'] | Response: rash | ❌ 
+Clue: Insulting term directed against bishop in paper | Definition: ['insulting term'] | Response: insulting term | ✅ 
+Clue: Harsh year, marked by pollution (5) | Definition: ['marked by pollution'] | Response: harsh | ❌ 
+Clue: Person in surgery admitting green look (5) | Definition: ['look'] | Response: look | ✅ 
+Clue: Fall apart, having cold and noise in stomach? (7) | Definition: ['fall apart'] | Response: fall apart | ✅ 
+Clue: Pawn that queen needs to move? (4-3) | Definition: ['pawn'] | Response: pawn | ✅ 
+Clue: Female taking leave in sort of cordial working arrangement (9) | Definition: ['working arrangement'] | Response: working arrangement | ✅ 
+Clue: Doctor frees police up (8) | Definition: ['police up'] | Response: doctor | ❌ 
+Clue: Daughter has got these last ten clues! (5) | Definition: ['these last ten clues'] | Response: clues | ❌ 
+Clue: Last Shakespearean character (6) | Definition: ['last', 'shakespearean character'] | Response: last | ✅ 
+Clue: Not entirely light batter (3) | Definition: ['batter'] | Response: not entirely | ❌ 
+Clue: What ensures voting success? Manipulating voting age! (7,8) | Definition: ['what ensures voting success'] | Response: voting age | ❌ 
+Clue: Husband to Mathilde perhaps housing old south sea islander (5) | Definition: ['south sea islander'] | Response: husband | ❌ 
+Clue: Replace some coins (6) | Definition: ['replace', 'some coins'] | Response: replace | ✅ 
+Clue: Promotion of article supporting ancient city in EU country (11) | Definition: ['promotion'] | Response: promotion | ✅ 
+Clue: Cry that is about to reverberate endlessly (7) | Definition: ['cry'] | Response: cry | ✅ 
+Clue: Resigned from music group, one featuring in commercial (9) | Definition: ['resigned from'] | Response: resigned | ❌ 
+Clue: Radio unit taking great pains to broadcast (9) | Definition: ['radio unit'] | Response: great pains | ❌ 
+Clue: Misdirect a soldier and there could be this (3,2,4,4) | Definition: ['misdirect a soldier and there could be this'] | Response: there could be this | ❌ 
+Clue: Dire subscription service here could be seen as depravity (5, two words) | Definition: ['subscription service'] | Response: depravity | ❌ 
+Clue: Kind of speech I state is maybe Marxist? (11) | Definition: ['maybe marxist?'] | Response: kind of speech | ❌ 
+Clue: Egg on starter of chicken, he starts to eat ramen (5) | Definition: ['egg on'] | Response: egg | ❌ 
+Clue: Captain of boat has permits to travel (10) | Definition: ['captain of boat'] | Response: permits | ❌ 
+Clue: Borders crossing close to notable French city (5) | Definition: ['french city'] | Response: borders | ❌ 
+Clue: Son nervous describing grasses (5) | Definition: ['describing grasses'] | Response: grasses | ❌ 
+Clue: Outbuilding quietly removed from Greek battle site (4-2) | Definition: ['outbuilding'] | Response: outbuilding | ✅ 
+Clue: Rattle, say, very nearly storms out without a note (7) | Definition: ['rattle, say'] | Response: rattle | ❌ 
+Clue: Our welcoming cricket club brings spring to mind (5) | Definition: ['spring to mind'] | Response: spring | ❌ 
+Clue: Turned, using saw to set about cedar, finally (7) | Definition: ['turned'] | Response: turned | ✅ 
+Clue: What could be small member's helmet? (5) | Definition: ['helmet'] | Response: helmet | ✅ 
+Clue: Joggers do it right, in small measure (4) | Definition: ['joggers do it'] | Response: joggers - run | ❌ 
+Clue: Judge’s wine imbibed by molecular biologist briefly (6) | Definition: ['judge'] | Response: judge's | ✅ 
+Clue: Plant to burgeon around ocean, on reflection (9) | Definition: ['plant'] | Response: plant | ✅ 
+Clue: Ordinal with tenet that's controversial (9) | Definition: ['ordinal'] | Response: controversial | ❌ 
+Clue: Holds small book up containing Listener and unfinished Jumbo (4,4) | Definition: ['holds'] | Response: holds small book up | ✅ 
+Clue: Isotonic solution chap brought into function (6) | Definition: ['isotonic solution'] | Response: isotonic | ❌ 
+Clue: Forward, notice, avoiding header (4) | Definition: ['forward'] | Response: forward | ✅ 
+Clue: You are stopping recovery in the countryside (7) | Definition: ['in the countryside'] | Response: stopping | ❌ 
+Clue: Heard of spying when reaching the top (7) | Definition: ['reaching the top'] | Response: heard of | ❌ 
+Clue: I live with cross mountain dweller | Definition: ['mountain dweller'] | Response: mountain dweller | ✅ 
+Clue: Crabbit sort’s preferable twa-handed drinker with no breadth (8) | Definition: ['crabbit sort’'] | Response: crabbit | ❌ 
+Clue: Grope for board game (8) | Definition: ['grope for', 'board game'] | Response: board game | ✅ 
+Clue: Indians echo line (6) | Definition: ['line'] | Response: indians | ❌ 
+Clue: “Yes, I am competent” is answer to this? That's pleasing (7) | Definition: ['pleasing'] | Response: pleasing | ✅ 
+Clue: Fashion workers enthralled by child’s flower (6-2-3) | Definition: ['flower'] | Response: fashion workers | ❌ 
+Clue: Day rent fell? (7) | Definition: ['fell'] | Response: fell | ✅ 
+Clue: Flatten incisive article perhaps taken out of newspaper (5,7) | Definition: ['article perhaps taken out of newspaper'] | Response: flatten | ❌ 
+Clue: Homeless old lady sheltering in barrel (7) | Definition: ['homeless'] | Response: homeless | ✅ 
+Clue: Sovereign holds good man to be lawbreaker (7) | Definition: ['lawbreaker'] | Response: lawbreaker | ✅ 
+Clue: Essential element of old bomb soldiers sometimes guard (7,1) | Definition: ['essential element'] | Response: essential element | ✅ 
+Clue: Likely to go off with the least amount of a shock? (4-7) | Definition: ['likely to go off with the least amount of a shock?'] | Response: likely | ❌ 
+Clue: Nick overheard beginning to design strange instrument (5,4) | Definition: ['instrument'] | Response: strange instrument | ✅ 
+Clue: Democrat here is French and least likely to succeed? (7) | Definition: ['least likely to succeed?'] | Response: least likely to succeed | ❌ 
+Clue: Prize given to Republican fund manager (9) | Definition: ['nan'] | Response: prize | ❌ 
+Clue: Slouch about, having lost heart in muggy Scottish weather (4) | Definition: ['muggy scottish weather'] | Response: muggy | ❌ 
+Clue: Drunk must conceal wine, which is novel | Definition: ['novel'] | Response: novel | ✅ 
+Clue: Passage is guarded by porter, say (5) | Definition: ['passage'] | Response: passage | ✅ 
+Clue: Learning to conserve one foreign flower (5) | Definition: ['foreign flower'] | Response: learning | ❌ 
+Clue: Vessel in service yielding easy money with craft (5,4) | Definition: ['vessel in service'] | Response: easy money | ❌ 
+Clue: Fine-tune variable way of working on holiday (9) | Definition: ['holiday'] | Response: fine-tune | ❌ 
+Clue: Dear writer of verses has penned two pages (6) | Definition: ['dear'] | Response: dear | ✅ 
+Clue: Strangely, Gill not ringing (7) | Definition: ['ringing'] | Response: strangely | ❌ 
+Clue: Mirror in Quebec house (4) | Definition: ['mirror'] | Response: mirror | ✅ 
+Clue: Dope getting left in depression (4) | Definition: ['depression'] | Response: depression | ✅ 
+Clue: Support for library users? (9) | Definition: ['support for library users?'] | Response: support | ❌ 
+Clue: Be suspicious of some nonconformist rusticated (8) | Definition: ['be suspicious of'] | Response: suspicious | ❌ 
+Clue: What fighter may carry out through following cunning (5) | Definition: ['what fighter may carry out'] | Response: fighter | ❌ 
+Clue: Smothering resistance, recklessly pays up for ancient document (7) | Definition: ['ancient document'] | Response: ancient document | ✅ 
+Clue: Bloomer ruined tree? I'll say! (6,4) | Definition: ['bloomer'] | Response: ruined tree | ❌ 
+Clue: Curious how day’s dim (7) | Definition: ['dim'] | Response: curious | ❌ 
+Clue: Mushroom dessert northern men sent up (9) | Definition: ['mushroom'] | Response: dessert | ❌ 
+Clue: Municipal officer beginning to cheer in call for round of drinks (6) | Definition: ['municipal officer'] | Response: municipal officer | ✅ 
+Clue: European notes tucking into tea in Indian city (7) | Definition: ['indian city'] | Response: indian city | ✅ 
+Clue: A prosecuting officer’s girl (3) | Definition: ['girl'] | Response: girl | ✅ 
+Clue: One entering part of the church, innocent (5) | Definition: ['innocent'] | Response: innocent | ✅ 
+Clue: Reside at home at this stage (6) | Definition: ['reside'] | Response: reside | ✅ 
+Clue: Take advantage of former plan to tour India (7) | Definition: ['take advantage of'] | Response: take advantage of | ✅ 
+Clue: Cultured person losing head (4) | Definition: ['cultured'] | Response: cultured | ✅ 
+Clue: Composer from Wales met an arranger (7) | Definition: ['composer'] | Response: composer | ✅ 
+Clue: Heavy bouncer coming from BMA social? (8,4) | Definition: ['heavy bouncer'] | Response: heavy | ❌ 
+Clue: Stay at the front? | Definition: ['stay at the front?'] | Response: stay | ❌ 
+Clue: A scorer briefly crossing a sort of green, one at the White House once (7,7) | Definition: ['one at the white house once'] | Response: a scorer briefly | ❌ 
+Clue: Somewhat petty complaint rejected in break (8) | Definition: ['somewhat petty'] | Response: complaint | ❌ 
+Clue: New corset bishop must get out of? Fat chance! | Definition: ['fat chance'] | Response: fat chance | ✅ 
+Clue: Lulu longing to entertain married princess (9) | Definition: ['lulu'] | Response: princess | ❌ 
+Clue: Former statesman’s to agitate briefly with South American, reportedly (12) | Definition: ['former statesman’s'] | Response: former statesman's | ❌ 
+Clue: Primate I listened to repeatedly (3-3) | Definition: ['nan'] | Response: primate | ❌ 
+Clue: At some stage note error also needs correction (6,2,5) | Definition: ['at some stage'] | Response: also needs correction | ❌ 
+Clue: Part to go round audibly (4) | Definition: ['part'] | Response: part | ✅ 
+Clue: Fizzy drink delivery outside extremely shoddy base for armchair sport? (7,8) | Definition: ['armchair sport?'] | Response: armchair sport | ❌ 
+Clue: Inaccuracy of English bishop, one with old American cape (13) | Definition: ['inaccuracy'] | Response: inaccuracy | ✅ 
+Clue: Hold back burden (7) | Definition: ['hold back', 'burden'] | Response: burden | ✅ 
+Clue: V & A visitor most uncertain (7) | Definition: ['most uncertain'] | Response: uncertain | ❌ 
+Clue: Ornamentation adjusted for uniform twice | Definition: ['ornamentation'] | Response: ornamentation | ✅ 
+Clue: Lie about insect being in food that's sent back (8) | Definition: ['lie about'] | Response: lie | ❌ 
+Clue: College head wanting a good book, devoid of current jargon (12) | Definition: ['jargon'] | Response: devoid of current jargon | ✅ 
+Clue: Space around this heath (4) | Definition: ['heath'] | Response: space | ❌ 
+Clue: Four getting stuck into the drink — it's bubbly (5) | Definition: ['bubbly'] | Response: bubbly | ✅ 
+Clue: Endless filth is ghastly (4) | Definition: ['ghastly'] | Response: ghastly | ✅ 
+Clue: One who’s stopped working on island (7) | Definition: ['one who’s stopped working'] | Response: stopped working | ❌ 
+Clue: Composer’s hard day, struggling by noon (5) | Definition: ['composer'] | Response: composer's | ✅ 
+Clue: Fame about now, heading for notoriety (6) | Definition: ['fame'] | Response: fame | ✅ 
+Clue: Home for hermit in Home Counties — like Hades (8) | Definition: ['home for hermit'] | Response: home | ❌ 
+Clue: Windy river, confined in another river (10) | Definition: ['windy'] | Response: windy | ✅ 
+Clue: Yes, I have long fingers (3-3) | Definition: ['yes', 'i have long fingers'] | Response: long fingers | ❌ 
+Clue: Some unfortunate fish (4) | Definition: ['fish'] | Response: unfortunate | ❌ 
+Clue: Covers ring with one large layer of earth (7) | Definition: ['layer of earth'] | Response: covers | ❌ 
+Clue: One sooty worker after a good wash / winning all the prizes (1,5,5) | Definition: ['one sooty worker after a good wash', '', ' winning all the prizes'] | Response: winning all the prizes | ✅ 
+Clue: Ruled out old notion about duke having died (8) | Definition: ['nan'] | Response: ruled out | ❌ 
+Clue: Old magistrate taking bible class the day before (5) | Definition: ['old magistrate'] | Response: old | ❌ 
+Clue: Guarantee rebuke when scratching head (6) | Definition: ['guarantee'] | Response: guarantee | ✅ 
+Clue: Places one appreciates at first, visiting island in eastern state (9) | Definition: ['in eastern state'] | Response: places | ❌ 
+Clue: Article put out on home brewing (2,3,3) | Definition: ['brewing'] | Response: home brewing | ✅ 
+Clue: Brother’s set about roughly in brawl (6) | Definition: ['brawl'] | Response: brother's | ❌ 
+Clue: Romp curtailed by French girlfriend in city (7) | Definition: ['city'] | Response: city | ✅ 
+Clue: Resist outcast from the east (5) | Definition: ['resist'] | Response: resist | ✅ 
+Clue: Rock climber following one — look — on way up (7) | Definition: ['rock'] | Response: look | ❌ 
+Clue: First dance with nothing on may go down like this! (4,7) | Definition: ['may go down like this'] | Response: may go down | ❌ 
+Clue: Nail for horses harness (4) | Definition: ['nail', 'harness'] | Response: nail | ✅ 
+Clue: I love 1AM ramble, after changing into jogging things?  (11) | Definition: ['jogging things'] | Response: jogging | ❌ 
+Clue: Health worker, poorly insured, firm admitted (8,5) | Definition: ['health worker'] | Response: health worker | ✅ 
+Clue: Military leader and Roman emperor beheaded Roman orator (6) | Definition: ['roman orator'] | Response: military leader | ❌ 
+Clue: One measures / a big gun, perhaps? (5) | Definition: ['one measures', 'a big gun, perhaps'] | Response: one measures | ✅ 
+Clue: Fijian with toothache tries this, somewhat soft on gargling (5) | Definition: ['fijian with toothache tries this'] | Response: somewhat soft | ❌ 
+Clue: Eccentric boasted when cutting southern Yankee (6) | Definition: ['eccentric'] | Response: boasted | ❌ 
+Clue: 50 per cent of satellites orbited off course in region of solar system (8,4) | Definition: ['region of solar system'] | Response: region of solar system | ✅ 
+Clue: Fail to win compassion, become disillusioned (4,5) | Definition: ['become disillusioned'] | Response: become disillusioned | ✅ 
+Clue: Attempt place in event (4,3) | Definition: ['event'] | Response: attempt | ❌ 
+Clue: One heading for snow protected by mountain is a famousNorwegian (5) | Definition: ['a famousnorwegian'] | Response: famous norwegian | ❌ 
+Clue: Old Arab people hospitalised? (7) | Definition: ['old arab'] | Response: hospitalised | ❌ 
+Clue: Statement true about city dumping yen (7) | Definition: ['statement'] | Response: statement | ✅ 
+Clue: Agent almost penniless (5) | Definition: ['penniless'] | Response: almost penniless | ✅ 
+Clue: Present taken up  (3) | Definition: ['present'] | Response: present | ✅ 
+Clue: Old person using their teeth in passing (6) | Definition: ['in passing'] | Response: old person | ❌ 
+Clue: Richardson’s girl topped Pasternak’s  (7) | Definition: ['richardson’s girl topped pasternak’s', 'pasternak’s'] | Response: girl | ❌ 
+Clue: Spots some Scottish Water precipitation (8) | Definition: ['precipitation'] | Response: precipitation | ✅ 
+Clue: From where child may feed tame animal immediately (3,2,4) | Definition: ['from where child may feed tame animal', 'immediately'] | Response: immediately | ✅ 
+Clue: An attractive way of speaking that’s used in French, say (5,6) | Definition: ['used in french'] | Response: an attractive way of speaking | ❌ 
+Clue: Isolated inside pit with collar to wrap throat (4-4) | Definition: ['with collar to wrap throat'] | Response: isolated | ❌ 
+Clue: A Finnish company in retreat — no way out of Africa (6) | Definition: ['no way out of africa'] | Response: no way | ❌ 
+Clue: Sentimental film has career Yank meeting Queen (10) | Definition: ['sentimental film'] | Response: sentimental | ❌ 
+Clue: Powerful person in pub, working (5) | Definition: ['powerful person'] | Response: powerful | ❌ 
+Clue: Coercion, you, say, escaped from with revolting disguise (5,2) | Definition: ['disguise'] | Response: coercion | ❌ 
+Clue: My number is secret as before (5) | Definition: ['secret as before'] | Response: secret | ❌ 
+Clue: Horses that might feature on the menu? (8) | Definition: ['horses', 'might feature on the menu?'] | Response: horses | ✅ 
+Clue: Former writer’s ultimately excessive outlay (7) | Definition: ['outlay'] | Response: former | ❌ 
+Clue: Item often illegally exported from country without coast (5) | Definition: ['item often illegally exported'] | Response: item | ❌ 
+Clue: Popular sort of tea one kept in jug (6) | Definition: ['one kept in jug'] | Response: popular sort of tea | ❌ 
+Clue: Summons learner driver aboard vehicle in local smashes (7,4) | Definition: ['summons'] | Response: summons | ✅ 
+Clue: Enchanting woman accompanying boxing clubs (5) | Definition: ['enchanting woman'] | Response: enchanting | ❌ 
+Clue: City witches go for (8) | Definition: ['city'] | Response: city | ✅ 
+Clue: One hundred and fifty live in part of Ireland (5) | Definition: ['part of ireland'] | Response: one hundred and fifty | ❌ 
+Clue: What's right in heart of Tate (3) | Definition: ["what's right in heart of tate"] | Response: right | ❌ 
+Clue: Italian city is situated in plain to the west (7) | Definition: ['italian city'] | Response: italian city | ✅ 
+
+
+Wordplay Responses
+
+
+
+Total Clues: 1000

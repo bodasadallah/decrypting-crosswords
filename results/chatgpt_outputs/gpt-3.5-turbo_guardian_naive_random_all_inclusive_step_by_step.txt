@@ -1,0 +1,316 @@
+Model: 0    gpt-3.5-turbo
+Name: model_name_or_path, dtype: object
+dataset: 0    boda/guardian_naive_random
+Name: dataset, dtype: object - 0    test
+Name: split, dtype: object split
+Prompt: 0    LLAMA3_BASE_PROMPT
+Name: prompt_head, dtype: object 
+Number of Shots: 0    0
+Name: n_shots, dtype: int64 
+Number of Examples 100
+Cleaned ACCURACY:  0.01
+Orginal ACCURACY:  0.02
+Cleaned Length error:  0.48
+Original Length error:  0.98
+----------------------------------------------------- 
+
+Raw: answer: aches (54) | Cleaned: answe ache | Label: china clay    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "for a sound woman" indicates that we need to find a synonym for "sound woman" which is "free" and then add "d" (short for "paid") to get the answer "freed" (5) | Cleaned: wordp | Label: freda    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: putting sp (from "in germany") before aghetti (from "thin") gives us spaghetti | Cleaned: putting | Label: anything    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "old official" = po "partial to" indicates that we need to insert "et" (from the word "to") into "po" to get the answer poet | Cleaned: wordp | Label: reeve    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: roughly the definition is "coarse-sounding" which could be a synonym for "rough" the wordplay suggests that we need to put the letter "s" (son's) inside a word meaning "wilderness" to get the answer a synonym for "wilderness" is "bush" putting "s" inside "bush" gives us the answer: roughly (7) | Cleaned: roughly | Label: dessert    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: a synonym of "well received" and has 7 letters | Cleaned: - | Label: popular    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "racket" completely disheartened = remove the middle letters of "auditor" (au(dit)or) | Cleaned: wordp | Label: dinar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: the fellow (cat) apprehending one felon (h) | Cleaned: wordp | Label: thief    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - in this case "popular" indicates that we need to find a word that is commonly used or well-known and "with sailors" suggests that we need to look for a term that is associated with sailors the answer to this wordplay is ladies as it is a term often used to refer to women and is also a common term used by sailors | Cleaned: - | Label: broads    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: putting it all together we get "reporter" with "y" and "r" inside which gives us the answer "report" (6 letters) | Cleaned: puttin | Label: evelyn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: breaks = anagram indicator bent pan = "pan" rearranged gives "nap" so "nap" is bent or broken to give "mang" which when combined with "ling" (from the word "pan") gives us "mangling" (7) | Cleaned: wordpla | Label: skillet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: a synonym of "improved" and has 4 letters (brush) and 2 letters (up) in it | Cleaned: - th | Label: came on    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: 's "a hairy man" = doll (a hairy man) + speaking in child's play = ar (from the wordplay of the word "dollar" in a child's play) | Cleaned: wordpl | Label: seesaw    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: **curtsy** | Cleaned: puttin | Label: crouch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - "message left in note" indicates that we need to find a word for "message" that is left inside the word "note" the word for "message" is "break" which can be found in the word "note" to give us "breakfast" | Cleaned: - | Label: telegram    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - "a weightwatchers' congress" suggests taking the first letter of each word which gives us the answer "slim" | Cleaned: - | Label: diet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: anagram of "clue" + last letter of "compiler" = "cimbalom" (anagram indicator) | Cleaned: wordplay | Label: dulcimer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting d (democrat) inside "sedate" gives us the answer "sedated" (7 letters) | Cleaned: - | Label: sedated    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "imagined" indicates an anagram "finding garment ripped" is the anagram indicator and "models having fled" is the anagram fodder putting "models" into an anagram gives "unicorn" | Cleaned: wordpla | Label: unicorn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: giving enemy (foe) cut (remove the last letter) to one leg (i) | Cleaned: word | Label: foil    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - therefore "sharp wit" is the answer | Cleaned: - there | Label: two edged    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: costs | Cleaned: theref | Label: treats    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: very one just cited = w + ord (very one just cited) | Cleaned: word | Label: ovid    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - wordplay: "academic sinecures" can be seen as positions that require little work or effort which is another way to describe being on "easy street" | Cleaned: - wordpl | Label: easy chairs    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - wordplay: "girl" is a reversal indicator so we need to reverse the word "girl" to get "lrig" "family" is the definition for the reversed word "lrig" | Cleaned: - | Label: beryl    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "drink or warm brew before church" is an anagram indicator for "needed" (unemployed) which gives "holy" and "grail" as the answer | Cleaned: wordpl "drin | Label: jarrow march    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: brush turkeys | Cleaned: brush turkeys | Label: brush turkeys | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: - "in the navy" indicates that we need to rearrange the letters of "cimage" to get the answer "public" | Cleaned: - "in | Label: print run    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "to go topless" indicates removing the first letter from the word "s(h)ad" | Cleaned: word | Label: iffy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - when put together "them us" gives the answer "them us" (52) | Cleaned: - wh | Label: royal we    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "by amazons" is indicating that we need to look at the word "amazons" and find a synonym for "custodians" which is "warders" combining "warders" with "robes" (as in what's worn) gives us "wardrobes" | Cleaned: wordplay: | Label: wardresses    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "with a cereal" indicates that we need to combine the word "eat" (cereal) with the word "up" (a) giving us the answer "eat up" | Cleaned: wor " a | Label: has a go    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - combine "app" with "appropriate" to get the answer "appropriate" | Cleaned: - | Label: exoteric    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - *combined:* injure a black beetle = damage | Cleaned: - | Label: scarab    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: the wordplay indicates that we need to insert the word "rally" into a synonym for "disaster" a synonym for disaster is "calamity" if we insert "rally" into "calamity" we get the answer: calamity rally (454) | Cleaned: the wordp indi | Label: lord privy seal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting "form" (a synonym for "team") inside "ration" (a synonym for "something") gives us "formation" which is a synonym for "team" and has 9 letters | Cleaned: - | Label: mincemeat    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting "fore" (a synonym of "before" or "in advance") before "casts" gives us the answer "forecasts" | Cleaned: - | Label: promotion    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: "beaver" (6) | Cleaned: theref | Label: weirdo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "furious" is an anagram indicator instructing us to rearrange the letters of "with puzzle" to get the answer | Cleaned: wordplay | Label: bewilder    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting "making" into an anagram gives us the answer fail | Cleaned: - | Label: duff    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: number of letters: 9 | Cleaned: number | Label: mortgagee    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "mason's" is a homophone indicator indicating that the answer sounds like "cider" | Cleaned: wordp | Label: perry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: oh | Cleaned: oh! | Label: ooh    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "band crew" (geld) + "outfit leaders on road" (lamp) | Cleaned: word "ban | Label: sash cord    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting the first letter of "author" (which is 'a') inside "leader" gives us the answer "leader" | Cleaned: - | Label: kipling    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: putting "tan" inside "sul" (reversed) gives us "sultan" | Cleaned: puttin | Label: agenda    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "modifies" indicates an anagram "other pedal" is the anagram indicator rearrange the letters of "other pedal" to get the answer | Cleaned: wordplay: | Label: petrolhead    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "surprisingly" indicates an anagram "is over a year missing" gives "is" without "y" (year missing) which gives "is" + "galaxy" = galaxy (6) | Cleaned: wordpl | Label: astray    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: an anagram of "jagged" | Cleaned: wordpl | Label: pebble    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: 8 letters so we take the 8-letter word from the anagram | Cleaned: - | Label: magnolia    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: benefactor | Cleaned: therefor | Label: telethon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "racing around italy" indicates that we need to find a word for "racer" that is placed around the letters for "italy" the word that fits is "grand" (meaning big or old) placed around "pi" (the letters for italy) combining them gives us "grandprix" which is a synonym for a race | Cleaned: wordplay: | Label: charioteer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: a phrase that means retracting something that was said which is a synonym of "eat her words" | Cleaned: the ans is | Label: chew the fat    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - in the theatre actors "act" and "on" is a common abbreviation for "in" combining them gives us "act" + "on" = "continue" | Cleaned: - | Label: operate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - if we rearrange the letters of "citadel walls" and double up the result we get "fortified" which is a synonym of the answer | Cleaned: - | Label: duplicate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - "roundhead" is a synonym for "compass" which is what we get when we put "men" around it | Cleaned: - | Label: regret    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - "provokes" is a synonym of "irritates" | Cleaned: - | Label: needless    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: **explanation:** "temporarily relocate" is an anagram indicator telling us to rearrange the letters of "help" to get the answer "rescue" | Cleaned: **expl | Label: second    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: endless | Cleaned: therefo | Label: endless | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: grew which means matured | Cleaned: ther | Label: aged    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - **(5)** = the answer has 5 letters | Cleaned: - | Label: glare    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: putting "s" (son) inside an anagram of "cider" (drink) gives us "consider" | Cleaned: putting | Label: consider    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: substitute "temporary work" with the word "job" and "welcomed by young boxer" with the word "jab" when put together we get "job" (temporary work) and "jab" (welcomed by young boxer) which gives us the answer: odd job | Cleaned: sub "t | Label: pop up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: "tag" which has 3 letters | Cleaned: - | Label: dub    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting these together we get the answer "involved" | Cleaned: - | Label: eisenhower    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: the word "hawk" is a homophone (indicated by "of prey") of the word "hock" which means to pawn or pledge | Cleaned: wordp | Label: raven    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: putting "an" inside "gir" gives us "giran" which is the country iran | Cleaned: putt | Label: laos    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - the wordplay suggests taking the letters of "appliances" (such appliances) and rearranging them to get the answer "discovered" | Cleaned: - | Label: unearthed    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: combining i and ry gives us "retry" | Cleaned: combi | Label: resit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - "ry" is a group of sailors also known as a "sea" (3 letters) | Cleaned: - | Label: rya    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: place order (com) + getting from pick-up to destination (pose) = com + pose = compose (6) | Cleaned: wordpl | Label: aplomb    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: combining hair and trigger gives us the answer "hair trigger" (44) | Cleaned: comb hair | Label: tear into    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting "a piece of classical music" (a note) together with "scrap" (delete) gives us the answer "note" | Cleaned: - | Label: raga    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: trophy girls (wicket) tricked (anagram indicator) into (container indicator) = sticky | Cleaned: wordp trophy | Label: sorry plight    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: a synonym of "doubt" and is made up of 7 letters | Cleaned: wordpla | Label: suspect    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting "strive" (wayward cousin) inside "baron" (retired transvestite) gives us "baroness" which is a synonym of "noble" | Cleaned: - | Label: viscount    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - putting "the" and "mob" together gives us "the mob" | Cleaned: - puttin | Label: mme bovary    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: double confinement = mad (insane) + me (double "me") | Cleaned: wordpl | Label: sabine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: continue (hit) + a man (on) | Cleaned: wordp | Label: ramon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: answer: crucial | Cleaned: answer | Label: moment    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: answer: philm (7) | Cleaned: answer: | Label: memphis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: put together (12) | Cleaned: pu to (12) | Label: do it yourself    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: an anagram (disturbed) of "rest" placed on a word for ship which is "ship" itself | Cleaned: wordpl | Label: stress    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: the word "wild" is an anagram indicator telling us to rearrange the letters of "go really" to get the answer "allegory" which is a synonym of "symbolic tale" | Cleaned: the | Label: allegory    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "so there's nothing missed" indicates that we need to remove the letter "o" (nothing) from the word "says" to get the answer | Cleaned: word | Label: says    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "cross" (x) in "position of eminence" (ape) | Cleaned: word | Label: apex    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: a 9-letter word that means a spanish city | Cleaned: - | Label: salamanca    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "marsh" (anagram indicator) + "east of senegalese capital" (e from "dakar") = recessed (7) | Cleaned: wordpla | Label: stiffen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: "united" which has 6 letters | Cleaned: - | Label: banded    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: **utensil** (7 letters) which is a synonym for a source of milk | Cleaned:  | Label: coconut    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: "author" (7) | Cleaned: - | Label: rushdie    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: take a "stab" at providing a short survey = try out (37) | Cleaned: tak a | Label: run through    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: - when you combine the definition and the wordplay you get "apartment" which has 8 letters | Cleaned: - | Label: bungalow    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: reader | Cleaned: therefo | Label: rotunda    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: the winter sportsman (ice) + the word "the" = icicle | Cleaned: wordp | Label: skier    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: anagram of "evert's" + closing attack (last) | Cleaned: wordplay: | Label: onslaught    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: **answer:** **eavesdropped** (8) | Cleaned: **answer | Label: enlisted    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: disciples (con) are against (opposite of) books (stell) | Cleaned: wordplay | Label: votaries    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wordplay: "whom beer affected" is an anagram indicator rearrange the letters in "beer" to get the answer | Cleaned: word "who | Label: home brew    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: a synonym of "transcript" and is made up of the word "scripted" (nice revised) and "report of spoken words" (written) | Cleaned: - the | Label: indirect speech    ❌ 
+---------------------------------------------------------------------------------- 
+

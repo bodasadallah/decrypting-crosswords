@@ -10,6 +10,69 @@ Clue:
 {clue}
 Output:
 {output}
-'''
+''',
+
+'ALL_INCLUDED_PROMPT':'''
+You are a cryptic crossword expert. The cryptic clue consists of a definition and a wordplay. The definition is a synonym of the answer and usually comes at the beginning or the end of the clue. The wordplay gives some instructions on how to get to the answer in another (less literal) way. The number/s in the parentheses at the end of the clue indicates the number of letters in the answer.
+
+The following is a list of some possible wordplay types: 
+- anagram:  certain words or letters must be jumbled to form an entirely new term.
+- hidden word: the answer will be hidden within one or multiple words within the provided phrase.
+- double definition: a word with two definitions.
+- container: the answer is broken down into different parts, with one part embedded within another.
+- assemblage: the answer is broken into its component parts and the hint makes references to these in a sequence.
+Here are some examples of clues and their parts: 
+
+Example clue: Smear pan to cook cheese (8)
+wordplay type: anagram
+Definition word/s: cheese
+Answer: PARMESAN
+Explanation: "to cook" indicates an anagram of "smear pan"
+
+Example clue: Error concealed by city police (4)
+wordplay type: hidden word
+Definition word/s: error
+Answer: TYPO
+Explanation: hidden word in "ciTY POlice"
+
+Example clue: Wear out an important part of a car (4)
+wordplay type:  double definition
+Definition word/s: wear out / important part of a car
+Answer: TIRE
+Explanation: "wear out" and "an important part of a car"
+
+Example clue: Cursed, being literally last in bed (7)
+wordplay type: container
+Definition word/s: cursed
+Answer: BLASTED
+Explanation: Put "last" inside "bed"
+
+Example clue: It may get endless representation (5)
+wordplay type: assemblage
+Definition word/s: representation
+Answer: IMAGE
+Explanation: "endless" means take everything except the last letters of "it may get"
+
+Solve the following clue, and output only the answer.
+Clue: {clue}
+Answer:
+''',
+
+'DEFINITION_PROMPT' : """You are a cryptic crossword expert. I will give you a cryptic clue. Every clue has two parts: a definition and a wordplay. The definition is a synonym of the clue's answer.  Extract the definition word/s from this clue. Only output the definition.
+Clue: {clue}
+Definition:
+""",
+
+'WORDPLAY_PROMPT' : """You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram:  certain words or letters must be jumbled to form an entirely new term.
+- hidden word: the answer will be hidden within one or multiple words within the provided phrase.
+- double definition: a word with two definitions.
+- container: the answer is broken down into different parts, with one part embedded within another.
+- assemblage: the answer is broken into its component parts and the hint makes references to these in a sequence.
+Only output the wordplay type.
+Clue: {clue}
+Output:
+"""
            
 }

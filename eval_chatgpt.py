@@ -40,8 +40,8 @@ model_name = 'gpt-3.5-turbo'
 dataset_name = 'boda/guardian_naive_random'
 # dataset_name = 'boda/guardian_word_initial_disjoint'
 
-chatgpt_outputs_file = f"results/chatgpt_outputs/{model_name}_{dataset_name.split('/')[-1]}_no-sampling_with_definition.json"
-base_prompt ='BASE_PROMPT_WITH_DEFINITION'
+chatgpt_outputs_file = f"results/chatgpt_outputs/{model_name}_{dataset_name.split('/')[-1]}_all_inclusive_prompt.json"
+base_prompt ='ALL_INCLUDED_PROMPT'
 shots = 0
 temperature = 0
 dataset = get_dataset(dataset_name,
@@ -52,7 +52,7 @@ dataset = get_dataset(dataset_name,
                 )
 
 # %%
-dataset
+print(f'Same of prompt: {dataset[0]["prompt"]}')
 
 # %%
 
@@ -89,6 +89,7 @@ for idx ,sample in enumerate(tqdm(dataset.select(range(offset,num_examples)))):
     try:
       # correct_answers.append(clue["target"])
       clue_message = {"role": "user", "content": prompt }#clue['prompt']}
+
       completion = client.chat.completions.create(
         model=model_name,
         messages=[
@@ -98,6 +99,8 @@ for idx ,sample in enumerate(tqdm(dataset.select(range(offset,num_examples)))):
       )
 
       response = completion.choices[0].message.content.lower()
+
+      
       save_temps.append({'idx': idx, 'clue': clue,'response': response, 'target': target})
     except:
       save_temps.append({'idx': idx})
@@ -160,7 +163,7 @@ calc_and_save_acc(
                 chatgpt_outputs, 
                 correct_answers, 
                 cleaned_predictions= cleaned_outputs, 
-                save_file = f"results/chatgpt_results_{dataset_name.split('/')[-1]}_no-sampling_with-definition.txt", 
+                save_file = f"results/chatgpt_results_{dataset_name.split('/')[-1]}_all_inclusive_prompt.txt", 
                 write_outputs = True,
                 model_args = model_args,
                 data_args= data_args,)

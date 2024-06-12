@@ -1,0 +1,602 @@
+[
+    {
+        "idx": 0,
+        "clue": "Achy shaking stopped by iodine, salt and kaolin (5,4)",
+        "response": "clue analysis:\n- \"achy shaking\" is the definition.\n- \"stopped by iodine, salt and kaolin\" is the wordplay.\n\nanswer explanation:\n- the word \"achy\" suggests that we are looking for a word related to pain.\n- \"iodine, salt, and kaolin\" are all types of minerals. if we take the first letter of each mineral (iodine, salt, kaolin), we get the word \"isk.\"\n- if we place \"isk\" (stopped by) in between the letters of \"achy,\" we get the word \"aches,\" which is a synonym for \"achy shaking.\"\n\nanswer: aches (5,4)",
+        "target": "china clay"
+    },
+    {
+        "idx": 1,
+        "clue": "Paid the bail for a sound woman (5)",
+        "response": "freed\n\nexplanation:\ndefinition: paid the bail\nwordplay: \"for a sound woman\" indicates that we need to find a synonym for \"sound woman\" which is \"free\" and then add \"d\" (short for \"paid\") to get the answer \"freed\" (5).",
+        "target": "freda"
+    },
+    {
+        "idx": 2,
+        "clue": "In Germany, thin girls can eat this! (8)",
+        "response": "spaghetti\n\nexplanation:\ndefinition: thin girls can eat this (spaghetti is a type of food that is often associated with being light and thin)\nwordplay: in germany = sp, thin = aghetti\nputting sp (from \"in germany\") before aghetti (from \"thin\") gives us spaghetti.",
+        "target": "anything"
+    },
+    {
+        "idx": 3,
+        "clue": "Old official partial to free verse (5)",
+        "response": "poet\n\nexplanation:\ndefinition: free verse\nwordplay: \"old official\" = po, \"partial to\" indicates that we need to insert \"et\" (from the word \"to\") into \"po\" to get the answer poet.",
+        "target": "reeve"
+    },
+    {
+        "idx": 4,
+        "clue": "Coarse-sounding son's in the wilderness (7)",
+        "response": "roughly, the definition is \"coarse-sounding\" which could be a synonym for \"rough.\" the wordplay suggests that we need to put the letter \"s\" (son's) inside a word meaning \"wilderness\" to get the answer. a synonym for \"wilderness\" is \"bush.\" putting \"s\" inside \"bush\" gives us the answer: roughly (7).",
+        "target": "dessert"
+    },
+    {
+        "idx": 5,
+        "clue": "Turns up in chilly surroundings yet well received (7)",
+        "response": "popular\n\nexplanation:\n- \"well received\" = definition\n- \"turns up\" indicates a reversal\n- \"in chilly surroundings\" = pop (a slang term for dad) inside u (chilly) = popu\n- reversing \"pop\" gives \"pop\"\n- putting \"pop\" inside \"u\" gives \"popu\"\n- the answer is a synonym of \"well received\" and has 7 letters.",
+        "target": "popular"
+    },
+    {
+        "idx": 6,
+        "clue": "Foreign currency racket completely disheartened auditor (5)",
+        "response": "yen\n\nexplanation:\ndefinition: foreign currency\nwordplay: \"racket\" completely disheartened = remove the middle letters of \"auditor\" (au(dit)or)",
+        "target": "dinar"
+    },
+    {
+        "idx": 7,
+        "clue": "The fellow apprehending one felon (5)",
+        "response": "catch\n\ndefinition: apprehending\nwordplay: the fellow (cat) apprehending one felon (h)",
+        "target": "thief"
+    },
+    {
+        "idx": 8,
+        "clue": "Dames popular with sailors? (6)",
+        "response": "ladies\n\nexplanation:\n- \"dames\" is a synonym for ladies.\n- \"popular with sailors\" is the wordplay.\n- in this case, \"popular\" indicates that we need to find a word that is commonly used or well-known, and \"with sailors\" suggests that we need to look for a term that is associated with sailors. the answer to this wordplay is ladies, as it is a term often used to refer to women and is also a common term used by sailors.",
+        "target": "broads"
+    },
+    {
+        "idx": 9,
+        "clue": "Last year's leaders entertained by regular journalist (6)",
+        "response": "the definition is \"journalist\" and the wordplay is \"last year's leaders entertained by regular\". \n- \"last year's leaders\" refers to the last letters of the word \"year\", which are \"y\" and \"r\".\n- \"entertained by\" indicates that the letters \"y\" and \"r\" are inside another word.\n- \"regular journalist\" is the word \"reporter\".\nputting it all together, we get \"reporter\" with \"y\" and \"r\" inside, which gives us the answer \"report\" (6 letters).",
+        "target": "evelyn"
+    },
+    {
+        "idx": 10,
+        "clue": "Butcher breaks bent pan (7)",
+        "response": "mangling\n\nexplanation:\ndefinition: butcher\nwordplay: breaks = anagram indicator, bent pan = \"pan\" rearranged gives \"nap\", so \"nap\" is bent or broken to give \"mang\" which when combined with \"ling\" (from the word \"pan\") gives us \"mangling\" (7)",
+        "target": "skillet"
+    },
+    {
+        "idx": 11,
+        "clue": "Improved a carving with direction (4,2)",
+        "response": "brushed up\n\nexplanation:\n- \"improved\" is the definition.\n- \"a carving\" is the wordplay.\n- \"with direction\" indicates that we need to rearrange the letters of \"a carving\".\n- rearranging the letters of \"a carving\" gives us \"brushed up\".\n- the answer is a synonym of \"improved\" and has 4 letters (brush) and 2 letters (up) in it.",
+        "target": "came on"
+    },
+    {
+        "idx": 12,
+        "clue": "'s \"a hairy man\", speaking in child's play (6)",
+        "response": "dollar\n\nexplanation:\ndefinition: a synonym of the answer - dollar\nwordplay: 's \"a hairy man\" = doll (a hairy man) + speaking in child's play = ar (from the wordplay of the word \"dollar\" in a child's play)",
+        "target": "seesaw"
+    },
+    {
+        "idx": 13,
+        "clue": "Bend down to king in Chesterfield (6)",
+        "response": "the definition here is \"chesterfield,\" which is a type of sofa. \n\nthe wordplay is \"bend down to king,\" which is a cryptic way of saying to take the abbreviation for \"king\" and place it inside a word meaning \"bend down.\" \n\nputting it all together, the answer is **curtsy**.",
+        "target": "crouch"
+    },
+    {
+        "idx": 14,
+        "clue": "Message left in note, eg \"Castle in the morning\" (8)",
+        "response": "breakfast\n\nexplanation:\n- \"castle in the morning\" is a cryptic way of saying \"breakfast\" (definition).\n- \"message left in note\" indicates that we need to find a word for \"message\" that is left inside the word \"note.\" the word for \"message\" is \"break,\" which can be found in the word \"note\" to give us \"breakfast.\"",
+        "target": "telegram"
+    },
+    {
+        "idx": 15,
+        "clue": "A weightwatchers' congress? (4)",
+        "response": "slim\n\nexplanation:\n- \"weightwatchers' congress\" is the definition.\n- \"a weightwatchers' congress\" suggests taking the first letter of each word, which gives us the answer \"slim.\"",
+        "target": "diet"
+    },
+    {
+        "idx": 16,
+        "clue": "Dim clue reset by compiler finally for \"cimbalom\" (8)",
+        "response": "obscure\n\ndefinition: dim\nwordplay: anagram of \"clue\" + last letter of \"compiler\" = \"cimbalom\" (anagram indicator)",
+        "target": "dulcimer"
+    },
+    {
+        "idx": 17,
+        "clue": "In the chair, restraining Democrat under influence of drugs (7)",
+        "response": "sedated\n\nexplanation:\n- \"restraining democrat\" indicates the letter d (short for democrat) being placed inside another word.\n- \"under influence of drugs\" indicates the word \"sedated\" which means under the influence of drugs.\n- putting d (democrat) inside \"sedate\" gives us the answer \"sedated\" (7 letters).",
+        "target": "sedated"
+    },
+    {
+        "idx": 18,
+        "clue": "Horny beast imagined finding garment ripped, models having fled (7)",
+        "response": "unicorn (7)\n\ndefinition: horny beast\nwordplay: \"imagined\" indicates an anagram, \"finding garment ripped\" is the anagram indicator, and \"models having fled\" is the anagram fodder. putting \"models\" into an anagram gives \"unicorn.\"",
+        "target": "unicorn"
+    },
+    {
+        "idx": 19,
+        "clue": "Sword giving enemy cut to one leg (4)",
+        "response": "foil\n\ndefinition: sword\nwordplay: giving enemy (foe) cut (remove the last letter) to one leg (i)",
+        "target": "foil"
+    },
+    {
+        "idx": 20,
+        "clue": "Very cutting, but inviting riposte (3,5)",
+        "response": "sharp wit\n\nexplanation:\n- \"very cutting\" is the definition.\n- \"but inviting riposte\" is the wordplay.\n- the word \"but\" can be replaced with \"however\", which sounds like \"how ever\".\n- \"inviting riposte\" suggests we need to invite or include the word \"how\" in \"ever\".\n- combining \"how\" and \"ever\" gives us \"wit\".\n- \"sharp\" is a synonym for \"wit\".\n- therefore, \"sharp wit\" is the answer.",
+        "target": "two edged"
+    },
+    {
+        "idx": 21,
+        "clue": "Pays for food after treasurer cleared out (6)",
+        "response": "costs\n\ndefinition: pays for food\nwordplay: \"treasurer\" cleared out = t (remove the letters in \"treasurer\" to get \"t\") + \"food\" = cos + t = costs\n\ntherefore, the answer is costs.",
+        "target": "treats"
+    },
+    {
+        "idx": 22,
+        "clue": "Poet's round - very one just cited (4)",
+        "response": "word\n\ndefinition: poet's round\nwordplay: very one just cited = w + ord (very one just cited)",
+        "target": "ovid"
+    },
+    {
+        "idx": 23,
+        "clue": "Academic sinecures? (4,6)",
+        "response": "easy street\n\nexplanation:\n- definition: academic sinecures (a synonym for \"easy street\").\n- wordplay: \"academic sinecures\" can be seen as positions that require little work or effort, which is another way to describe being on \"easy street.\"",
+        "target": "easy chairs"
+    },
+    {
+        "idx": 24,
+        "clue": "Girl rejected in family rebellion (5)",
+        "response": "answer: rebel (5)\nexplanation: \n- definition: rebel\n- wordplay: \"girl\" is a reversal indicator, so we need to reverse the word \"girl\" to get \"lrig.\" \"family\" is the definition for the reversed word \"lrig.\"",
+        "target": "beryl"
+    },
+    {
+        "idx": 25,
+        "clue": "On which the unemployed needed drink or warm brew before church (6,5)",
+        "response": "holy grail\n\nexplanation:\ndefinition: on which the unemployed needed drink or warm brew before church (holy grail)\nwordplay: \"drink or warm brew before church\" is an anagram indicator for \"needed\" (unemployed) which gives \"holy\" and \"grail\" as the answer.",
+        "target": "jarrow march"
+    },
+    {
+        "idx": 26,
+        "clue": "Australian birds scrub duds (5,7)",
+        "response": "brush turkeys",
+        "target": "brush turkeys"
+    },
+    {
+        "idx": 27,
+        "clue": "Number of copies produced of picture for all to see in the navy (5,3)",
+        "response": "public image\n\nexplanation:\n- \"public\" is a synonym for \"all to see\".\n- \"image\" is a synonym for \"picture\".\n- \"number of copies produced\" indicates that we need to take the first letter of \"copies\" (c) and add it to the word \"image\" to get \"cimage\".\n- \"in the navy\" indicates that we need to rearrange the letters of \"cimage\" to get the answer \"public\".",
+        "target": "print run"
+    },
+    {
+        "idx": 28,
+        "clue": "Dubious moment to go topless (4)",
+        "response": "shad\n\nexplanation:\ndefinition: dubious moment (shad is a synonym for \"dubious\")\nwordplay: \"to go topless\" indicates removing the first letter from the word \"s(h)ad\"",
+        "target": "iffy"
+    },
+    {
+        "idx": 29,
+        "clue": "Uncommon pronoun (5,2)",
+        "response": "them us\n\nexplanation:\n- uncommon = them (definition)\n- pronoun = us\n- when put together, \"them us\" gives the answer \"them us\" (5,2)",
+        "target": "royal we"
+    },
+    {
+        "idx": 30,
+        "clue": "What's worn by Amazons as custodians? (10)",
+        "response": "wardrobes\n\nexplanation:\ndefinition: what's worn\nwordplay: \"by amazons\" is indicating that we need to look at the word \"amazons\" and find a synonym for \"custodians\" which is \"warders\". combining \"warders\" with \"robes\" (as in what's worn) gives us \"wardrobes\".",
+        "target": "wardresses"
+    },
+    {
+        "idx": 31,
+        "clue": "Tries hard with a cereal (3,1,2)",
+        "response": "eat up (3,1,2)\n\ndefinition: tries hard\nwordplay: \"with a cereal\" indicates that we need to combine the word \"eat\" (cereal) with the word \"up\" (a), giving us the answer \"eat up.\"",
+        "target": "has a go"
+    },
+    {
+        "idx": 32,
+        "clue": "It's suitable in public (8)",
+        "response": "appropriate\n\nexplanation:\n- \"suitable\" = definition\n- \"in public\" = app (letters in the phrase \"in public\")\n- combine \"app\" with \"appropriate\" to get the answer \"appropriate\"",
+        "target": "exoteric"
+    },
+    {
+        "idx": 33,
+        "clue": "Injure a black beetle (6)",
+        "response": "**solution:**\n\n**answer:** damage\n\n**explanation:**\n- *definition:* injure\n- *wordplay:* \n  - \"a black beetle\" = a + dung (beetle)\n  - if we injure (remove) the letter a from \"dung\", we get \"dung\" - \"a\" = dung.\n- *combined:* injure a black beetle = damage",
+        "target": "scarab"
+    },
+    {
+        "idx": 34,
+        "clue": "Cabinet minister provides rally in disaster (4,5,4)",
+        "response": "first, let's break down the clue:\n- \"cabinet minister\" is the definition.\n- \"provides rally in disaster\" is the wordplay.\n\nsolution:\nthe wordplay indicates that we need to insert the word \"rally\" into a synonym for \"disaster.\" a synonym for disaster is \"calamity.\" if we insert \"rally\" into \"calamity,\" we get the answer: calamity rally (4,5,4).",
+        "target": "lord privy seal"
+    },
+    {
+        "idx": 35,
+        "clue": "One way to get team something in a pie (9)",
+        "response": "formation\n\nexplanation:\n- \"one way to get team something\" is the definition, indicating that the answer is a synonym for \"team.\"\n- \"in a pie\" suggests that we need to put a word meaning \"team\" inside a word meaning \"something.\" \n- putting \"form\" (a synonym for \"team\") inside \"ration\" (a synonym for \"something\") gives us \"formation,\" which is a synonym for \"team\" and has 9 letters.",
+        "target": "mincemeat"
+    },
+    {
+        "idx": 36,
+        "clue": "Advertising in advance (9)",
+        "response": "**solution:**\n\n**answer:** forecasts\n\n**explanation:**\n- **advertising in advance** = definition for the answer \"forecasts.\"\n- **in advance** = wordplay indicating that we need to look for a synonym of \"advertising\" that comes before another word.\n- putting \"fore\" (a synonym of \"before\" or \"in advance\") before \"casts\" gives us the answer \"forecasts.\"",
+        "target": "promotion"
+    },
+    {
+        "idx": 37,
+        "clue": "Oddball wants to perform on dam (6)",
+        "response": "the definition is \"perform\" and the wordplay is \"oddball wants to\" which indicates that we need to find a synonym for \"oddball\" and a word meaning \"wants to\" that together form a word meaning \"dam\". \n\nthe answer is \"beaver\":\n- \"oddball\" can be a synonym for \"beaver\" (a slang term for an eager or hardworking person).\n- \"wants to\" can be represented by \"be\" (as in \"wants to be\").\n- a beaver is an animal known for building dams.\n\ntherefore, the answer is \"beaver\" (6).",
+        "target": "weirdo"
+    },
+    {
+        "idx": 38,
+        "clue": "Grow increasingly furious with puzzle (8)",
+        "response": "increase\n\nexplanation:\ndefinition: grow increasingly\nwordplay: \"furious\" is an anagram indicator, instructing us to rearrange the letters of \"with puzzle\" to get the answer.",
+        "target": "bewilder"
+    },
+    {
+        "idx": 39,
+        "clue": "No good at making pudding (4)",
+        "response": "fail\n\nexplanation:\n- \"no good\" = definition for fail\n- \"making pudding\" = anagram indicator\n- putting \"making\" into an anagram gives us the answer fail.",
+        "target": "duff"
+    },
+    {
+        "idx": 40,
+        "clue": "ATM George misused as source of money (9)",
+        "response": "mismanaged\n\nexplanation:\ndefinition: misused\nwordplay: \"atm george\" is an anagram indicator, instructing us to rearrange the letters in \"atm george\" to get the answer. when rearranged, it gives \"mismanaged.\"\nnumber of letters: 9",
+        "target": "mortgagee"
+    },
+    {
+        "idx": 41,
+        "clue": "Mason's fermented juice? (5)",
+        "response": "cider\n\nexplanation:\ndefinition: fermented juice\nwordplay: \"mason's\" is a homophone indicator, indicating that the answer sounds like \"cider.\"",
+        "target": "perry"
+    },
+    {
+        "idx": 42,
+        "clue": "Expression of surprise at topless Winnie (3)",
+        "response": "oh!",
+        "target": "ooh"
+    },
+    {
+        "idx": 43,
+        "clue": "Band crew/outfit leaders on road - useful for light adjustment (4,4)",
+        "response": "geld lamp\n\nexplanation:\ndefinition: light adjustment\nwordplay: \"band crew\" (geld) + \"outfit leaders on road\" (lamp)",
+        "target": "sash cord"
+    },
+    {
+        "idx": 44,
+        "clue": "Top man secures first place for author (7)",
+        "response": "leader\n\nexplanation:\n- \"top man\" = leader (definition)\n- \"secures first place for author\" is the wordplay.\n- in this wordplay, \"secures\" indicates that we need to put the first letter of \"author\" inside \"top man\" which is \"leader\".\n- putting the first letter of \"author\" (which is 'a') inside \"leader\" gives us the answer \"leader\".",
+        "target": "kipling"
+    },
+    {
+        "idx": 45,
+        "clue": "Turkish leader about to conclude the business (6)",
+        "response": "sultan\n\nexplanation:\nturkish leader = sultan (definition)\nabout = reversal indicator\nto conclude = last letter\nthe business = tan\nputting \"tan\" inside \"sul\" (reversed) gives us \"sultan\"",
+        "target": "agenda"
+    },
+    {
+        "idx": 46,
+        "clue": "Motor enthusiast modifies other pedal (10)",
+        "response": "carpetbagger\n\nexplanation:\ndefinition: motor enthusiast\nwordplay: \"modifies\" indicates an anagram, \"other pedal\" is the anagram indicator, rearrange the letters of \"other pedal\" to get the answer.",
+        "target": "petrolhead"
+    },
+    {
+        "idx": 47,
+        "clue": "Star surprisingly is over a year missing (6)",
+        "response": "galaxy\n\ndefinition: star\nwordplay: \"surprisingly\" indicates an anagram, \"is over a year missing\" gives \"is\" without \"y\" (year missing) which gives \"is\" + \"galaxy\" = galaxy (6)",
+        "target": "astray"
+    },
+    {
+        "idx": 48,
+        "clue": "One of the Stones appearing worn - affected by the drink? (6)",
+        "response": "jagged\n\nexplanation:\ndefinition: one of the stones appearing worn\nwordplay: \"affected by the drink\" is a cryptic way of indicating that the answer is an anagram of \"jagged\".",
+        "target": "pebble"
+    },
+    {
+        "idx": 49,
+        "clue": "See animal go wild in the bush (8)",
+        "response": "wilderness\n\nexplanation:\n- \"bush\" is a synonym for wilderness.\n- \"see animal go wild\" is the wordplay.\n- \"see\" indicates an anagram.\n- \"animal go wild\" is an anagram of wilderness.\n- wilderness has 10 letters, but the answer is 8 letters, so we take the 8-letter word from the anagram.",
+        "target": "magnolia"
+    },
+    {
+        "idx": 50,
+        "clue": "Figure seizing hotel involved in fund-raiser (8)",
+        "response": "solution:\nthe definition is \"fund-raiser\" which is a synonym for \"benefactor.\"\nthe wordplay is \"figure\" (b), \"seizing\" (insert) \"hotel\" (h) to get bh, and \"involved in\" (contained) to get benef(h)actor.\ntherefore, the answer is benefactor.",
+        "target": "telethon"
+    },
+    {
+        "idx": 51,
+        "clue": "The old racer racing around Italy? (10)",
+        "response": "grandprix\n\nexplanation:\ndefinition: the old racer\nwordplay: \"racing around italy\" indicates that we need to find a word for \"racer\" that is placed around the letters for \"italy.\" the word that fits is \"grand\" (meaning big or old) placed around \"pi\" (the letters for italy). combining them gives us \"grandprix,\" which is a synonym for a race.",
+        "target": "charioteer"
+    },
+    {
+        "idx": 52,
+        "clue": "What Mrs Sprat might do with rabbit (4,3,3)",
+        "response": "eat her words\n\ndefinition: what mrs sprat might do (eat)\nwordplay: \"rabbit\" is slang for talk or words, so \"her words\" could be eaten (her words)\n\nthe answer is a phrase that means retracting something that was said, which is a synonym of \"eat her words.\"",
+        "target": "chew the fat"
+    },
+    {
+        "idx": 53,
+        "clue": "Carry on in the theatre (7)",
+        "response": "continue\n\nexplanation:\n- \"carry on\" is a synonym for \"continue\".\n- in the theatre, actors \"act\" and \"on\" is a common abbreviation for \"in\". combining them gives us \"act\" + \"on\" = \"continue\".",
+        "target": "operate"
+    },
+    {
+        "idx": 54,
+        "clue": "Double up refashioning citadel walls (9)",
+        "response": "fortified\n\nexplanation:\n- \"double up\" indicates that we need to double a word.\n- \"refashioning citadel walls\" is the wordplay that indicates an anagram. \n- if we rearrange the letters of \"citadel walls\" and double up the result, we get \"fortified,\" which is a synonym of the answer.",
+        "target": "duplicate"
+    },
+    {
+        "idx": 55,
+        "clue": "Feel sorry when soldiers get to guard Roundhead (6)",
+        "response": "compassion (6)\n\nexplanation:\n- \"feel sorry\" is the definition.\n- \"soldiers\" = men\n- \"get to guard\" indicates that we need to put \"men\" around something.\n- \"roundhead\" is a synonym for \"compass\" which is what we get when we put \"men\" around it.",
+        "target": "regret"
+    },
+    {
+        "idx": 56,
+        "clue": "Irritates spaniel's head, which is uncalled for (8)",
+        "response": "provokes\n\nexplanation:\n- \"irritates\" is the definition.\n- \"spaniel's head\" indicates the first letter of the word \"spaniel,\" which is \"s.\"\n- \"uncalled for\" indicates that we need to remove the letters in the word \"for\" from the word \"spaniel's head,\" leaving us with \"spaniel's hea.\"\n- putting \"s\" (spaniel's head) and \"hea\" (spaniel's head without \"for\") together gives us \"shea.\"\n- \"provokes\" is a synonym of \"irritates.\"",
+        "target": "needless"
+    },
+    {
+        "idx": 57,
+        "clue": "Temporarily relocate help (6)",
+        "response": "**solution:**\n\n**definition:** help  \n**wordplay:** temporarily relocate = anagram indicator  \n**answer:** **rescue**  \n**explanation:** \"temporarily relocate\" is an anagram indicator telling us to rearrange the letters of \"help\" to get the answer \"rescue.\"",
+        "target": "second"
+    },
+    {
+        "idx": 58,
+        "clue": "Coming to no conclusion (7)",
+        "response": "answer: endless\n\nexplanation:\ndefinition: coming to no conclusion\nwordplay: \"coming to no\" indicates that we need a word meaning \"no conclusion.\" if we remove the word \"no\" from \"conclusion,\" we are left with \"conclusion\" - \"no\" = \"clusion.\" the word \"clusion\" is a synonym for \"end,\" which means \"coming to no conclusion.\" \ntherefore, the answer is endless.",
+        "target": "endless"
+    },
+    {
+        "idx": 59,
+        "clue": "Rising artist, ignoring society, matured (4)",
+        "response": "grew\n\nexplanation:\ndefinition: matured\nwordplay: \"rising artist\" = g (first letter of \"artist\") + \"ignoring society\" = remove the letters in \"society\" = grew\ntherefore, the answer is grew, which means matured.",
+        "target": "aged"
+    },
+    {
+        "idx": 60,
+        "clue": "Brilliance of one of Elgar's Variations (5)",
+        "response": "**answer:** spark\n\n**explanation:**\n- **brilliance** = definition\n- **one of elgar's variations** = elgar's enigma variations have 14 variations, and the 14th variation is known as \"e.d.u.\" which stands for \"enigma's done! unravelled!\" the answer is hidden in this phrase, reading backward gives us \"spark.\"\n- **(5)** = the answer has 5 letters.",
+        "target": "glare"
+    },
+    {
+        "idx": 61,
+        "clue": "Think of son being corrupted in drink (8)",
+        "response": "**solution:**\n\n**answer:** consider\n\n**explanation:**\n- **think of** = definition\n- **son** = s\n- **being corrupted** = anagram indicator\n- **in drink** = cider\n\nputting \"s\" (son) inside an anagram of \"cider\" (drink) gives us \"consider.\"",
+        "target": "consider"
+    },
+    {
+        "idx": 62,
+        "clue": "Temporary work welcomed by young boxer? (3,2)",
+        "response": "substitute \"temporary work\" with the word \"job\" and \"welcomed by young boxer\" with the word \"jab.\" when put together, we get \"job\" (temporary work) and \"jab\" (welcomed by young boxer), which gives us the answer: odd job.",
+        "target": "pop up"
+    },
+    {
+        "idx": 63,
+        "clue": "Name and return address in America (3)",
+        "response": "tag\n\nexplanation:\n- \"name\" is the definition.\n- \"return address in america\" is the wordplay.\n- in this case, \"return address\" is a synonym for \"tag\" (as in a luggage tag or name tag).\n- when you reverse (return) the word \"tag,\" you get \"gat,\" which is a synonym for \"name.\"\n- the answer is \"tag,\" which has 3 letters.",
+        "target": "dub"
+    },
+    {
+        "idx": 64,
+        "clue": "Where one is involved as an ex-president (10)",
+        "response": "involved\n\nexplanation:\n- \"where one is\" indicates that we need to look for a synonym of \"involved.\"\n- \"as an ex-president\" suggests that we need to find a word that means \"involved\" and is also a synonym for a former president.\n- putting these together, we get the answer \"involved.\"",
+        "target": "eisenhower"
+    },
+    {
+        "idx": 65,
+        "clue": "Bird of prey (5)",
+        "response": "hawk\n\nexplanation:\ndefinition: bird of prey\nwordplay: the word \"hawk\" is a homophone (indicated by \"of prey\") of the word \"hock\" which means to pawn or pledge.",
+        "target": "raven"
+    },
+    {
+        "idx": 66,
+        "clue": "Country girl briefly eating duck (4)",
+        "response": "answer: iran\n\nexplanation:\ncountry girl = iran (definition)\nbriefly = remove the last letter of \"girl\" = gir\neating = containment indicator\nduck = an\nputting \"an\" inside \"gir\" gives us \"giran\" which is the country iran.",
+        "target": "laos"
+    },
+    {
+        "idx": 67,
+        "clue": "Found out such appliances are dangerous (9)",
+        "response": "discovered\n\nexplanation:\n- \"found out\" is the definition.\n- \"such appliances are dangerous\" is the wordplay.\n- the wordplay suggests taking the letters of \"appliances\" (such appliances) and rearranging them to get the answer \"discovered.\"",
+        "target": "unearthed"
+    },
+    {
+        "idx": 68,
+        "clue": "I take five outside to do test again (5)",
+        "response": "retry\n\ndefinition: do test again\nwordplay: i (i) take five (ry) outside (remove the outer letters) = ry\ncombining i and ry gives us \"retry\"",
+        "target": "resit"
+    },
+    {
+        "idx": 69,
+        "clue": "Midsummer Day ends with a group of sailors (3)",
+        "response": "sea\n\nexplanation:\n- \"group of sailors\" is the definition.\n- \"midsummer day ends\" indicates that we need to take the last letter of \"midsummer\" and the last letter of \"day\", which gives us \"r\" and \"y\".\n- putting \"r\" and \"y\" together gives us \"ry\".\n- \"ry\" is a group of sailors, also known as a \"sea\" (3 letters).",
+        "target": "rya"
+    },
+    {
+        "idx": 70,
+        "clue": "Place order, getting from pick-up to destination, showing self-possession (6)",
+        "response": "compose\n\ndefinition: showing self-possession\nwordplay: place order (com) + getting from pick-up to destination (pose) = com + pose = compose (6)",
+        "target": "aplomb"
+    },
+    {
+        "idx": 71,
+        "clue": "Unusually irate, not otherwise disposed to attack (4,4)",
+        "response": "hair trigger\n\nexplanation:\ndefinition: not otherwise disposed to attack\nwordplay: unusually irate (anagram indicator) = hair, not (indicator to remove) = trigger\ncombining hair and trigger gives us the answer \"hair trigger\" (4,4)",
+        "target": "tear into"
+    },
+    {
+        "idx": 72,
+        "clue": "Scrap a piece of classical music (4)",
+        "response": "**answer:** note\n\n**explanation:**\n- **scrap** = delete (definition)\n- **a piece of classical music** = in music notation, a \"note\" is a symbol representing a sound. \n- putting \"a piece of classical music\" (a note) together with \"scrap\" (delete) gives us the answer \"note.\"",
+        "target": "raga"
+    },
+    {
+        "idx": 73,
+        "clue": "Trophy girls tricked into serious predicament (5,6)",
+        "response": "sticky wicket\n\ndefinition: serious predicament\nwordplay: trophy girls (wicket) tricked (anagram indicator) into (container indicator) = sticky",
+        "target": "sorry plight"
+    },
+    {
+        "idx": 74,
+        "clue": "Doubt one may be apprehended (7)",
+        "response": "suspect\n\nexplanation:\ndefinition: doubt\nwordplay: \"one may be apprehended\" - this is a cryptic way of indicating that the answer is a synonym of \"doubt\" and is made up of 7 letters.",
+        "target": "suspect"
+    },
+    {
+        "idx": 75,
+        "clue": "Noble's wayward cousin hugged by retired transvestite (8)",
+        "response": "baroness\n\nexplanation:\n- \"noble's wayward cousin\" is the definition, indicating that we are looking for a synonym of \"noble.\"\n- \"hugged by\" suggests that we need to insert one word into another.\n- \"retired transvestite\" is an anagram indicator, telling us to rearrange the letters of \"transvestite\" which gives us \"strive.\"\n- putting \"strive\" (wayward cousin) inside \"baron\" (retired transvestite) gives us \"baroness,\" which is a synonym of \"noble.\"",
+        "target": "viscount"
+    },
+    {
+        "idx": 76,
+        "clue": "Novel with first part abbreviated: unruly mob around me aren't consistent (3,6)",
+        "response": "the mob\n\nexplanation:\n- definition: unruly mob\n- wordplay: \n  - \"novel with first part abbreviated\" = the (abbreviation for \"the\" with the first part abbreviated)\n  - \"around me aren't consistent\" = mob (anagram of \"me\" around \"are\" without the letters in \"are\" being consistent)\n- putting \"the\" and \"mob\" together gives us \"the mob\"",
+        "target": "mme bovary"
+    },
+    {
+        "idx": 77,
+        "clue": "Some women's double confinement - insane! (6)",
+        "response": "madame\n\ndefinition: some women\nwordplay: double confinement = mad (insane) + me (double \"me\")",
+        "target": "sabine"
+    },
+    {
+        "idx": 78,
+        "clue": "Continue to strike a man (5)",
+        "response": "hit on\n\ndefinition: strike a man\nwordplay: continue (hit) + a man (on)",
+        "target": "ramon"
+    },
+    {
+        "idx": 79,
+        "clue": "Second in importance (6)",
+        "response": "crucial\n\nexplanation:\ndefinition: second in importance\nwordplay: the word \"crucial\" can be split into \"cru\" (second in importance) and \"cial\" (a synonym of the answer)\nanswer: crucial",
+        "target": "moment"
+    },
+    {
+        "idx": 80,
+        "clue": "Part of Tennessee Williams' last \"hip\" production: morose, electrifying Marlon initially in the lead (7)",
+        "response": "the definition is \"in the lead\" which indicates that the answer is a synonym for being in the lead. \n\nexplanation:\n- \"part of tennessee williams' last 'hip' production\" suggests taking the first letters of the words \"last hip production,\" which gives us lhp.\n- \"morose\" is an anagram indicator, telling us to rearrange the letters in lhp.\n- \"electrifying marlon initially\" indicates that we should take the initial letter of \"marlon,\" which is m.\n- putting lhp (rearranged) and m (initially) together gives us the answer: philm, which is a synonym for being in the lead. \n\nanswer: philm (7)",
+        "target": "memphis"
+    },
+    {
+        "idx": 81,
+        "clue": "Assembled tediously for amateurish work (2,2,8)",
+        "response": "put together (12)",
+        "target": "do it yourself"
+    },
+    {
+        "idx": 82,
+        "clue": "Tension disturbed rest on ship (6)",
+        "response": "strain\n\ndefinition: tension\nwordplay: an anagram (disturbed) of \"rest\" placed on a word for ship, which is \"ship\" itself.",
+        "target": "stress"
+    },
+    {
+        "idx": 83,
+        "clue": "Go really wild with a symbolic tale (8)",
+        "response": "**solution:**\n\n**definition:** symbolic tale  \n**wordplay:** go really wild = anagram indicator  \n**answer:** allegory (8)  \n\n**explanation:**  \nthe word \"wild\" is an anagram indicator, telling us to rearrange the letters of \"go really\" to get the answer \"allegory,\" which is a synonym of \"symbolic tale.\"",
+        "target": "allegory"
+    },
+    {
+        "idx": 84,
+        "clue": "Utters a dictum, so there's nothing missed (4)",
+        "response": "says\n\ndefinition: utters a dictum\nwordplay: \"so there's nothing missed\" indicates that we need to remove the letter \"o\" (nothing) from the word \"says\" to get the answer.",
+        "target": "says"
+    },
+    {
+        "idx": 85,
+        "clue": "Primate with cross in position of eminence (4)",
+        "response": "ape\n\ndefinition: primate\nwordplay: \"cross\" (x) in \"position of eminence\" (ape)",
+        "target": "apex"
+    },
+    {
+        "idx": 86,
+        "clue": "Chap sadly back around houses in Spanish city (9)",
+        "response": "seville\n\nexplanation:\n- \"spanish city\" is the definition.\n- \"chap sadly back\" is the wordplay.\n- \"chap sadly\" is an anagram indicator.\n- \"back\" indicates reversing the letters.\n- reversing \"chap sadly\" gives \"pahs daly.\"\n- \"around houses\" indicates putting \"pahs daly\" around the letters for \"houses,\" which is \"se.\"\n- putting \"pahs daly\" around \"se\" gives \"seville.\"\n- the answer is a 9-letter word that means a spanish city.",
+        "target": "salamanca"
+    },
+    {
+        "idx": 87,
+        "clue": "Set well back, marsh east of Senegalese capital (7)",
+        "response": "answer: recessed\n\nexplanation:\ndefinition: set well back\nwordplay: \"marsh\" (anagram indicator) + \"east of senegalese capital\" (e from \"dakar\") = recessed (7)",
+        "target": "stiffen"
+    },
+    {
+        "idx": 88,
+        "clue": "Grouped together with a retired joiner (6)",
+        "response": "united\n\nexplanation:\n- \"grouped together\" is the definition.\n- \"with\" indicates a combination.\n- \"a retired joiner\" is the wordplay.\n- if we retire the letter \"a\" from \"joiner,\" we get \"joiner\" - \"a\" = \"joiner\" - \"a\" = \"joiner\" = \"joiner\" = \"united.\"\n- the answer is \"united,\" which has 6 letters.",
+        "target": "banded"
+    },
+    {
+        "idx": 89,
+        "clue": "Drink without a container sent back source of milk (7)",
+        "response": "**solution:**\n\n**definition:** source of milk  \n**wordplay:** drink without a container sent back  \n**answer:** **utensil**  \n\n**explanation:**  \n- **wordplay:**  \n  - \"drink\" can be a verb meaning to consume a liquid.  \n  - \"without a container\" suggests removing the outer letters of a word.  \n  - \"sent back\" indicates that the remaining letters need to be reversed.  \n  - putting it all together, if we take the word \"utensil\" (a synonym for the answer) and remove the outer letters (\"u\" and \"l\"), we get \"tensi.\" reversing this gives us \"isnet,\" which is \"sent\" backward.  \n- **definition:**  \n  - \"source of milk\" is a cryptic way of referring to a utensil, as it is used to pour or serve milk.  \n- **answer:**  \n  - the answer is **utensil** (7 letters), which is a synonym for a source of milk.",
+        "target": "coconut"
+    },
+    {
+        "idx": 90,
+        "clue": "Writer in a hurry to do so, too (7)",
+        "response": "author\n\nexplanation:\n- \"writer\" is the definition.\n- \"in a hurry\" indicates that we need to find a word meaning \"in a hurry\" to get the first part of the answer.\n- \"to do so, too\" is a hint to look for a synonym of \"also\" or \"as well\".\n- putting it together, \"in a hurry\" can be \"hot\" (as in hot on someone's heels), and \"to do so, too\" can be \"or\". combining \"hot\" and \"or\" gives us \"author\", which is a synonym of \"writer\".\n- the answer is \"author\" (7).",
+        "target": "rushdie"
+    },
+    {
+        "idx": 91,
+        "clue": "Make an effective stab at providing a short survey (3,7)",
+        "response": "take a \"stab\" at providing a short survey = try out (3,7)",
+        "target": "run through"
+    },
+    {
+        "idx": 92,
+        "clue": "Residence in block, a squat (8)",
+        "response": "apartment\n\nexplanation:\n- \"residence in block\" is the definition part of the clue, which is a synonym for the answer.\n- \"a squat\" is the wordplay part of the clue.\n- in this cryptic clue, \"squat\" is a hint to look for a synonym of the word \"squat\" which is \"apartment\".\n- when you combine the definition and the wordplay, you get \"apartment\" which has 8 letters.",
+        "target": "bungalow"
+    },
+    {
+        "idx": 93,
+        "clue": "Subscribed to the \"Listener\" and the \"Pantheon\", say (7)",
+        "response": "the definition in this clue is \"subscribed to\", which could mean \"reader\".\n\nexplanation of the wordplay:\n- \"listener\" and \"pantheon\" are both examples of magazines or publications.\n- if you take the first letter of \"listener\" and the first letter of \"pantheon\", you get \"lp\".\n- if you \"say\" the letters \"lp\", it sounds like the word \"elp\".\n- \"elp\" is a synonym for \"reader\".\n\ntherefore, the answer is reader.",
+        "target": "rotunda"
+    },
+    {
+        "idx": 94,
+        "clue": "A slippery customer, the winter sportsman! (5)",
+        "response": "icicle\n\nexplanation:\ndefinition: a slippery customer (icicle)\nwordplay: the winter sportsman (ice) + the word \"the\" = icicle",
+        "target": "skier"
+    },
+    {
+        "idx": 95,
+        "clue": "No laughs disrupted Evert's closing attack (9)",
+        "response": "seriously\n\ndefinition: no laughs\nwordplay: anagram of \"evert's\" + closing attack (last)",
+        "target": "onslaught"
+    },
+    {
+        "idx": 96,
+        "clue": "Listened when eccentric signed on (8)",
+        "response": "**solution:**\n\n**definition:** listened\n\n**wordplay:**  \n- \"eccentric\" indicates an anagram  \n- \"signed on\" indicates the letters of \"signed\" followed by the letters of \"on\"  \n- putting \"signed\" and \"on\" together and anagramming them gives the answer  \n\n**answer:** **eavesdropped** (8)",
+        "target": "enlisted"
+    },
+    {
+        "idx": 97,
+        "clue": "Disciples are against books by stars (8)",
+        "response": "constell (8)\ndefinition: stars\nwordplay: disciples (con) are against (opposite of) books (stell)",
+        "target": "votaries"
+    },
+    {
+        "idx": 98,
+        "clue": "Whom beer affected should keep away from it! (4,4)",
+        "response": "stay clear\n\ndefinition: keep away from it\nwordplay: \"whom beer affected\" is an anagram indicator, rearrange the letters in \"beer\" to get the answer.",
+        "target": "home brew"
+    },
+    {
+        "idx": 99,
+        "clue": "He scripted nice revised report of spoken words (8,6)",
+        "response": "transcript written\n\nexplanation:\n- definition: he scripted nice revised report (transcript)\n- wordplay: of spoken words (written)\n- the answer is a synonym of \"transcript\" and is made up of the word \"scripted\" (nice revised) and \"report of spoken words\" (written).",
+        "target": "indirect speech"
+    }
+]

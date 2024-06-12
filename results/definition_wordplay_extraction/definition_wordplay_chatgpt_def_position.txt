@@ -1,0 +1,82 @@
+Evaluation of gpt-3.5-turbo
+
+Prompts: 
+ Definition_prompt: You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the definition word/s from this clue. Notice that the definition usually comes at the clue's beginning or end. Only output the definition word.
+Clue: {clue}
+Output:
+ 
+ Wordplay_prompt:You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram:  certain words or letters must be jumbled to form an entirely new term.
+- hidden word: the answer will be hidden within one or multiple words within the provided phrase.
+- double definition: a word with two definitions.
+- container: the answer is broken down into different parts, with one part embedded within another.
+- assemblage: the answer is broken into its component parts and the hint makes references to these in a sequence.
+only output the wordplay type.
+Clue: {clue}
+Output:
+
+
+Definition Accuracy: 0.44
+Wordplay Accuracy: 0.32
+
+
+Definition Responses
+
+Clue: Smear pan to cook cheese (8) | Definition: ['cheese'] | Response: cook | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Definition: ['somewhat'] | Response: agreed | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Definition: ['tricky problem'] | Response: problem | ❌ 
+Clue: Promise to fix toilet pan (9) | Definition: ['promise'] | Response: promise | ✅ 
+Clue: Sterile unit fenced off (10) | Definition: ['sterile'] | Response: unit | ❌ 
+Clue: Refuse a black mark (7) | Definition: ['refuse'] | Response: refuse | ✅ 
+Clue: Chap gets older but copes (7) | Definition: ['copes'] | Response: chap | ❌ 
+Clue: It may get endless representation (5) | Definition: ['representation'] | Response: representation | ✅ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Definition: ['magic transport'] | Response: transport | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Definition: ['sound'] | Response: sound | ✅ 
+Clue: European power limited by genuine revocation (6) | Definition: ['revocation'] | Response: power | ❌ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Definition: ['standard'] | Response: offer | ❌ 
+Clue: Cursed, being literally last in bed (7) | Definition: ['cursed'] | Response: cursed | ✅ 
+Clue: Everyone in short dash for US city (6) | Definition: ['US city'] | Response: city | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Definition: ['irresistable'] | Response: irresistible | ❌ 
+Clue: Wear out an important part of a car (4) | Definition: ['wear out ', ' important part of a car'] | Response: wear | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Definition: ['encouraging sign ', ' sleepy land'] | Response: sign | ❌ 
+Clue: My virtue (8) | Definition: ['virtue'] | Response: virtue | ✅ 
+Clue: Stipulations for academic periods (5) | Definition: ['stipulations ', ' academic periods'] | Response: stipulations | ✅ 
+Clue: Back in a short while (6) | Definition: ['back ', ' a short while'] | Response: back | ✅ 
+Clue: Error concealed by city police (4) | Definition: ['error'] | Response: error | ✅ 
+Clue: Soft cases used by opera violinists (7) | Definition: ['soft cases'] | Response: violinists | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Definition: ['singer'] | Response: singer | ✅ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Definition: ['into disorder'] | Response: section | ❌ 
+Clue: In Berlin, dainty girl (5) | Definition: ['girl'] | Response: girl | ✅ 
+
+
+Wordplay Responses
+
+Clue: Smear pan to cook cheese (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Promise to fix toilet pan (9) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Sterile unit fenced off (10) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Refuse a black mark (7) | Wordplay: ['assemblage'] | Response: double definition | ❌ 
+Clue: Chap gets older but copes (7) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: It may get endless representation (5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: European power limited by genuine revocation (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Cursed, being literally last in bed (7) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Everyone in short dash for US city (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Wear out an important part of a car (4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: My virtue (8) | Wordplay: ['double definition'] | Response: double definition | ✅ 
+Clue: Stipulations for academic periods (5) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Back in a short while (6) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Error concealed by city police (4) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Soft cases used by opera violinists (7) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Wordplay: ['hidden word'] | Response: anagram | ❌ 
+Clue: In Berlin, dainty girl (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+
+
+Total Clues: 25
