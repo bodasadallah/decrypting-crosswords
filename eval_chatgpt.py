@@ -40,8 +40,9 @@ model_name = 'gpt-3.5-turbo'
 dataset_name = 'boda/guardian_naive_random'
 # dataset_name = 'boda/guardian_word_initial_disjoint'
 
-chatgpt_outputs_file = f"results/chatgpt_outputs/{model_name}_{dataset_name.split('/')[-1]}_all_inclusive_prompt.json"
-base_prompt ='ALL_INCLUDED_PROMPT'
+chatgpt_outputs_file = f"results/chatgpt_outputs/{model_name}_{dataset_name.split('/')[-1]}_no-sampling_temp-zero.json"
+
+base_prompt ='LLAMA3_BASE_PROMPT'
 shots = 0
 temperature = 0
 dataset = get_dataset(dataset_name,
@@ -59,8 +60,8 @@ print(f'Same of prompt: {dataset[0]["prompt"]}')
 
 
 
-# num_examples = len(dataset)
-num_examples = 10000
+num_examples = len(dataset)
+# num_examples = 10000
 
 save_temps = []
 
@@ -146,7 +147,7 @@ import pandas as pd
 
 data_args = pd.DataFrame({
     'dataset': dataset_name,
-    'split': 'test',
+    'split': 'test'LLAMA3_BASE_PROMPT,
     'prompt_key': 'prompt',
     'prompt_head': base_prompt,
     'n_shots': shots,

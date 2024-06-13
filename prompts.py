@@ -63,16 +63,74 @@ Clue: {clue}
 Definition:
 """,
 
-'WORDPLAY_PROMPT' : """You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+'WORDPLAY_WITH_DEF_PROMPT' : """You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
 Here is a list of all possible wordplay types, and their descriptions:
-- anagram:  certain words or letters must be jumbled to form an entirely new term.
-- hidden word: the answer will be hidden within one or multiple words within the provided phrase.
-- double definition: a word with two definitions.
-- container: the answer is broken down into different parts, with one part embedded within another.
-- assemblage: the answer is broken into its component parts and the hint makes references to these in a sequence.
+- anagram:   An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+- hidden word: The answer is found in the clue itself, amongst other words.
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+- container: One word is placed inside another (or outside another) to get the answer.
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
 Only output the wordplay type.
 Clue: {clue}
 Output:
-"""
+""",
+
+'WORDPLAY_WITH_DEF_EX_PROMPT_ANS' : """You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram: An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+    Example: Ms Reagan is upset by the executives (8)
+    The answer: Managers
+
+- hidden word: The answer is found in the clue itself, amongst other words.
+    Example: Confront them in the tobacco store (6)          
+    The answer: Accost
+
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+    Example: Footwear for pack animals (5)
+    The answer: Mules
+
+- container: One word is placed inside another (or outside another) to get the answer.
+    Example: Curse about the Maori jumper (7)
+    The answer: Sweater
+
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
+    Example:  Brash gets a Prime Minister employment, but it’s drudgery (6,4)  
+    The answer: Donkey work
+Only output the wordplay type.
+Clue: {clue}
+The answer: {ans}
+Output:
+""",
+'WORDPLAY_WITH_DEF_EX_PROMPT' : """You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram: An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+    Example: Ms Reagan is upset by the executives (8)
+    The answer: Managers
+
+- hidden word: The answer is found in the clue itself, amongst other words.
+    Example: Confront them in the tobacco store (6)          
+    The answer: Accost
+
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+    Example: Footwear for pack animals (5)
+    The answer: Mules
+
+- container: One word is placed inside another (or outside another) to get the answer.
+    Example: Curse about the Maori jumper (7)
+    The answer: Sweater
+
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
+    Example:  Brash gets a Prime Minister employment, but it’s drudgery (6,4)  
+    The answer: Donkey work
+Only output the wordplay type.
+Clue: {clue}
+Output:
+""",
+
+'WORDPLAY_PROMPT': """
+You are a cryptic crosswords expert. I will give you a clue. Every clue has two parts: a definition and wordplay. Definition is a synonym of the answer. Wordplay is the rest of the clue. Please extract the wordplay type for this clue.
+Here is a list of all possible wordplay types: anagram, hidden word, double definition, container, assemblage. Only output the wordplay type.
+Clue: {clue}
+Output:"""
            
 }

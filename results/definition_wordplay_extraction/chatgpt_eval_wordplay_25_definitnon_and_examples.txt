@@ -1,0 +1,92 @@
+Evaluation of gpt-3.5-turbo
+
+Prompts: 
+ Definition_prompt: You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram: An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+    Example: Ms Reagan is upset by the executives (8)
+    The answer: Managers
+
+- hidden word: The answer is found in the clue itself, amongst other words.
+    Example: Confront them in the tobacco store (6)          
+    The answer: Accost
+
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+    Example: Footwear for pack animals (5)
+    The answer: Mules
+
+- container: One word is placed inside another (or outside another) to get the answer.
+    Example: Curse about the Maori jumper (7)
+    The answer: Sweater
+
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
+    Example:  Brash gets a Prime Minister employment, but it’s drudgery (6,4)  
+    The answer: Donkey work
+Only output the wordplay type.
+Clue: {clue}
+Output:
+ 
+ Wordplay_prompt:You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram: An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+    Example: Ms Reagan is upset by the executives (8)
+    The answer: Managers
+
+- hidden word: The answer is found in the clue itself, amongst other words.
+    Example: Confront them in the tobacco store (6)          
+    The answer: Accost
+
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+    Example: Footwear for pack animals (5)
+    The answer: Mules
+
+- container: One word is placed inside another (or outside another) to get the answer.
+    Example: Curse about the Maori jumper (7)
+    The answer: Sweater
+
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
+    Example:  Brash gets a Prime Minister employment, but it’s drudgery (6,4)  
+    The answer: Donkey work
+Only output the wordplay type.
+Clue: {clue}
+Output:
+
+
+Definition Accuracy: 0.0
+Wordplay Accuracy: 0.4
+
+
+Definition Responses
+
+
+
+Wordplay Responses
+
+Clue: Smear pan to cook cheese (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: Promise to fix toilet pan (9) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Sterile unit fenced off (10) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Refuse a black mark (7) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Chap gets older but copes (7) | Wordplay: ['assemblage'] | Response: charade | ❌ 
+Clue: It may get endless representation (5) | Wordplay: ['assemblage'] | Response: anagram | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Wordplay: ['assemblage'] | Response: reverse anagram | ❌ 
+Clue: European power limited by genuine revocation (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Wordplay: ['container'] | Response: double definition | ❌ 
+Clue: Cursed, being literally last in bed (7) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Everyone in short dash for US city (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Wear out an important part of a car (4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Wordplay: ['double definition'] | Response: anagram | ❌ 
+Clue: My virtue (8) | Wordplay: ['double definition'] | Response: double definition | ✅ 
+Clue: Stipulations for academic periods (5) | Wordplay: ['double definition'] | Response: double definition | ✅ 
+Clue: Back in a short while (6) | Wordplay: ['double definition'] | Response: double definition | ✅ 
+Clue: Error concealed by city police (4) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Soft cases used by opera violinists (7) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Singer in first ENO Rigoletto (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Wordplay: ['hidden word'] | Response: anagram | ❌ 
+Clue: In Berlin, dainty girl (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+
+
+Total Clues: 25

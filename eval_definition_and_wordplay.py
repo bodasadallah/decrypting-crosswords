@@ -21,6 +21,7 @@ from  prompts import PROMPTS
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 
+
 # DEFINITION_PROMPT = """You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the definition from this clue.
 # clue: {clue}
 # """
@@ -33,16 +34,16 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 
 
-def chatgpt_eval(prompt, clue, target):
+def chatgpt_eval(prompt, clue, target, ans=''):
 
     correct = 0
-    clue_message = {"role": "user", "content": prompt.format(clue=clue)}
+    clue_message = {"role": "user", "content": prompt.format(clue=clue, ans=ans)}
     completion = client.chat.completions.create(
     model=args.model,
     messages=[
         clue_message
     ],
-    temperature=0.0,
+    # temperature=0.0,
     )
     response = completion.choices[0].message.content.lower().strip()
 
@@ -56,27 +57,27 @@ def chatgpt_eval(prompt, clue, target):
     return correct, response
 
 
-def eval_llama(prompt, clue, target, model, tokenizer):
+def eval_llama(prompt, clue, target, model, tokenizer, ans=''):
     correct = 0
     
     messages = [
-    {"role": "user", "content": prompt.format(clue=clue)},
+    {"role": "user", "content": prompt.format(clue=clue, ans=ans)},
 ]
     prompt = tokenizer.apply_chat_template(
         messages, 
         tokenize=False, 
         add_generation_prompt=True
 )
-    response = llama3_inference (model, tokenizer, [prompt],do_sample= True,temp=0.1, top_p=0.1 )[0].lower()
+    response = llama3_inference (model, tokenizer, [prompt],do_sample= False,temp=0.1, top_p=0.1 )[0].lower()
 
 
     if re.findall('"([^"]*)"', response):
         response = re.findall('"([^"]*)"', response)[0]
     
     elif 'definition word' in response:
-        response = response.split('definition word')[1]
+        response = response.split('definition word is:')[1]
     elif 'wordplay type is' in response:
-        response = response.split('wordplay type is')[1]
+        response = response.split('wordplay type is:')[1]
     
 
 
@@ -92,6 +93,7 @@ def eval_llama(prompt, clue, target, model, tokenizer):
 
 
 if __name__ == "__main__":
+
     
     parser = argparse.ArgumentParser(description='Optional app description') 
     parser.add_argument('--model')
@@ -99,6 +101,7 @@ if __name__ == "__main__":
     parser.add_argument('--eval_definition', action='store_true')
     parser.add_argument('--eval_wordplay', action='store_true')
     parser.add_argument('--data_path')
+    parser.add_argument('--prompt')
     args = parser.parse_args()
 
     dataset = pd.read_csv(args.data_path)
@@ -143,9 +146,9 @@ if __name__ == "__main__":
                 d = d.strip()
 
             if 'gpt-3.5' in args.model:
-                correct, response = chatgpt_eval(PROMPTS['DEFINITION_PROMPT'], clue, definition_label)
+                correct, response = chatgpt_eval(PROMPTS[args.prompt], clue, definition_label)
             else:
-                correct, response = eval_llama(PROMPTS['DEFINITION_PROMPT'], clue, definition_label, model, tokenizer)
+                correct, response = eval_llama(PROMPTS[args.prompt], clue, definition_label, model, tokenizer)
             
             definition_acc += correct
 
@@ -161,9 +164,9 @@ if __name__ == "__main__":
 
             ###### Wordplay extraction ######
             if 'gpt-3.5' in args.model:
-                correct, response = chatgpt_eval(PROMPTS['WORDPLAY_PROMPT'], clue, wordplay_label)
+                correct, response = chatgpt_eval(PROMPTS[args.prompt], clue, wordplay_label,row['Answer'])
             else:
-                correct, response = eval_llama(PROMPTS['WORDPLAY_PROMPT'], clue, wordplay_label, model, tokenizer)
+                correct, response = eval_llama(PROMPTS[args.prompt], clue, wordplay_label, model, tokenizer,row['Answer'])
 
             wordplay_acc += correct
             if correct == 1:   
@@ -177,8 +180,9 @@ if __name__ == "__main__":
 
     with open(args.output_file, 'w') as f:
         f.write(f'Evaluation of {args.model}\n\n')
-        definition = PROMPTS['DEFINITION_PROMPT']
-        wordplay = PROMPTS['WORDPLAY_PROMPT']
+
+        definition = PROMPTS[args.prompt]
+        wordplay = PROMPTS[args.prompt]
         f.write(f'Prompts: \n Definition_prompt: {definition} \n Wordplay_prompt:{wordplay  }\n\n')
         f.write(f'Definition Accuracy: {definition_acc/len(dataset)}\n')
         f.write(f'Wordplay Accuracy: {wordplay_acc/len(dataset)}\n')
