@@ -1,8 +1,20 @@
 
 
-def llama3_inference (model, tokenizer, data,do_sample= True,temp = 0.6, max_new_tokens = 64,top_p = 0.9 ):
+def llama3_inference (model, tokenizer, data,do_sample= True,temp = 0.6, max_new_tokens = 1024,top_p = 0.9 ):
 
-    inputs = tokenizer(data,return_tensors="pt", padding=True).to(model.device)
+
+    batch_after_temp = []
+
+    for example in data:
+        example = {"role": "user", "content": example}
+        example = tokenizer.apply_chat_template(
+                        [example], 
+                        tokenize=False, 
+                        add_generation_prompt=True
+                )
+        batch_after_temp.append(example)
+
+    inputs = tokenizer(batch_after_temp,return_tensors="pt", padding=True).to(model.device)
 
     terminators = [
     tokenizer.eos_token_id,

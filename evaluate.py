@@ -60,7 +60,10 @@ if __name__ == "__main__":
         dataset = dataset.select(range(data_args.num_examples))
  
 
-    val_dataloader = DataLoader(dataset, batch_size=Seq2SeqTrainingArguments.per_device_eval_batch_size)
+    val_dataloader = DataLoader(dataset,
+                                
+                                #  batch_size=Seq2SeqTrainingArguments.per_device_eval_batch_size)
+                                 batch_size=32)
 
     ## Bits and Bytes config
     bnb_config = BitsAndBytesConfig(
@@ -122,14 +125,27 @@ if __name__ == "__main__":
         
         ### only take the first line of the output
         for x in batch_predictions:
-            ans = x.split('\n')[0]
-            ans = ans.replace('answer:', '').strip().lower()
-            raw_predictions.append(ans)
+            batch_answers = []
+            ans = x.lower()
+            # print(ans)
+            for l in ans.split('\n'):
+                if 'answer:' in l:
+                    ans = l.split('answer:')[1].strip().replace(',','').replace('.','').replace('?','').replace('!','').strip()
+            
+            # print(ans)
         
-        cleaned_predictions.extend(crop_predictions(clues=clues, predictions=batch_predictions))
+            batch_answers.append(ans)
+            raw_predictions.append(ans)
+            
+
+        cleaned_predictions.extend(crop_predictions(clues=clues, predictions=batch_answers))
         labels.extend(batch_labels)
         all_clues.extend(clues)
+    print(f'len(raw_predictions): {len(raw_predictions)}, len cleaned_predictions: {len(cleaned_predictions)}' )
 
+    #############33 
+    cleaned_predictions = raw_predictions
+    assert len(raw_predictions) == len(labels) == len(cleaned_predictions) == len(all_clues)
     
     if data_args.save_model_predicitons:
         out = []

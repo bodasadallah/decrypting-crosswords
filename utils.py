@@ -37,12 +37,17 @@ def get_ans_words_chard(clue):
     # Regular expression to match strings inside parentheses
     # pattern = r'\((.*?)\)'
     # Find all matches
-    pattern = r'\((\d+(?:,\s*\d+)*)\)'  
-    matches = re.findall(pattern, clue)[-1]
+    pattern = r'\((\d+(?:,\s*\d+)*)\)'
 
-    numbers = matches.split(',')
-    numbers = [int(n) for n in numbers]
-    return len(numbers), numbers
+    matches = re.findall(pattern, clue)
+
+    if len(matches) == 0:
+        return 0, []
+    else:
+        matches = matches[-1]
+        numbers = matches.split(',')
+        numbers = [int(n) for n in numbers]
+        return len(numbers), numbers
 
 
 

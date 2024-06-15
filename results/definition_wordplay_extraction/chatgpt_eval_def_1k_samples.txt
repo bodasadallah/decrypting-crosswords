@@ -20,7 +20,7 @@ Output:
 Definition Accuracy: 0.412
 Wordplay Accuracy: 0.0
 
-
+    
 Definition Responses
 
 Clue: Swinging inspector might ask to do this at a wood mill (9) | Definition: ['swinging', 'inspector might ask to do this at a wood mill'] | Response: swinging | ✅ 

@@ -131,6 +131,43 @@ Output:
 You are a cryptic crosswords expert. I will give you a clue. Every clue has two parts: a definition and wordplay. Definition is a synonym of the answer. Wordplay is the rest of the clue. Please extract the wordplay type for this clue.
 Here is a list of all possible wordplay types: anagram, hidden word, double definition, container, assemblage. Only output the wordplay type.
 Clue: {clue}
-Output:"""
+Output:""",
+
+'ALL_INCLUSIVE_PROMPT': """You are a cryptic crossword expert. The cryptic clue consists of a definition and a wordplay.
+The definition is a synonym of the answer and usually comes at the beginning or the end of the clue.
+The wordplay gives some instructions on how to get to the answer in another (less literal) way.
+The number/s in the parentheses at the end of the clue indicates the number of letters in the answer.
+Extract the definiton and the wordplay in the clue, and use them to solve the clue. Finally, output the answer on this format:
+Answer: <answer>,
+Clue:
+{clue}
+""",
+
+'ALL_INCLUSIVE_DEFINITION': """You are a cryptic crossword expert. The cryptic clue consists of a definition and a wordplay.
+The definition is a synonym of the answer and usually comes at the beginning or the end of the clue.
+The wordplay gives some instructions on how to get to the answer in another (less literal) way.
+The number/s in the parentheses at the end of the clue indicates the number of letters in the answer.
+Use the given definition, and extract the wordplay in the clue, and use them to solve the clue. Finally, output the answer on this format:
+Answer: <answer>,
+Clue:
+{clue}
+Definition:
+{definition}
+""",
+
+
+'BASE_DEFINITION_PROMPT' : """You are a cryptic crossword expert. I will give you a cryptic clue. Every clue has two parts: a definition and a wordplay. The definition is a synonym of the clue's answer. I will give you the definition word/s for this clue. Use it to find the answer.
+The number/s in the parentheses at the end of the clue indicates the number of letters in the answer.
+Output the answer in the format: Answer: <answer> 
+
+Clue: {clue}
+Definition: {definition}
+""",
+
+'BASE_PROMPT_WITHOUT_DEF' : """You are a cryptic crossword expert. I will give you a cryptic clue. Every clue has two parts: a definition and a wordplay. The definition is a synonym of the clue's answer.
+The number/s in the parentheses at the end of the clue indicates the number of letters in the answer.
+Output the answer in the format: Answer: <answer> 
+Clue: {clue}
+""",
            
 }

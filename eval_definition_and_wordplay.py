@@ -8,7 +8,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 from inference import llama3_inference
 import re
-
+from calc_scores import calc_and_save_acc
+from utils import crop_predictions
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -34,10 +35,10 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 
 
-def chatgpt_eval(prompt, clue, target, ans=''):
+def chatgpt_eval(prompt, clue, target, ans='', definition = ' '):
 
     correct = 0
-    clue_message = {"role": "user", "content": prompt.format(clue=clue, ans=ans)}
+    clue_message = {"role": "user", "content": prompt.format(clue=clue, ans=ans,  definition=definition)}
     completion = client.chat.completions.create(
     model=args.model,
     messages=[
@@ -46,9 +47,12 @@ def chatgpt_eval(prompt, clue, target, ans=''):
     # temperature=0.0,
     )
     response = completion.choices[0].message.content.lower().strip()
-
+    for l in response.split('\n'):
+            if 'answer:' in l:
+                response = l.split('answer:')[1].strip().replace(',','').replace('.','').replace('?','').replace('!','').strip()
+    
     for d in target:
-        if d.strip().lower() == response:
+        if str(d).strip().lower() == response:
             correct = 1
             break
         else:
@@ -57,19 +61,22 @@ def chatgpt_eval(prompt, clue, target, ans=''):
     return correct, response
 
 
-def eval_llama(prompt, clue, target, model, tokenizer, ans=''):
+def eval_llama(prompt, clue, target, model, tokenizer, ans='',  definition = ' '):
     correct = 0
     
     messages = [
-    {"role": "user", "content": prompt.format(clue=clue, ans=ans)},
+    {"role": "user", "content": prompt.format(clue=clue, ans=ans, definition=definition)},
 ]
     prompt = tokenizer.apply_chat_template(
         messages, 
         tokenize=False, 
         add_generation_prompt=True
 )
+    
     response = llama3_inference (model, tokenizer, [prompt],do_sample= False,temp=0.1, top_p=0.1 )[0].lower()
-
+    for l in response.split('\n'):
+            if 'answer:' in l:
+                response = l.split('answer:')[1].strip().replace(',','').replace('.','').replace('?','').replace('!','').strip()
 
     if re.findall('"([^"]*)"', response):
         response = re.findall('"([^"]*)"', response)[0]
@@ -83,7 +90,7 @@ def eval_llama(prompt, clue, target, model, tokenizer, ans=''):
 
     # response = response.split('\n')[0]
     for d in target:
-        if d.strip() == response.strip():
+        if str(d).strip() == response.strip():
             correct = 1
             break
         else:
@@ -100,6 +107,8 @@ if __name__ == "__main__":
     parser.add_argument('--output_file')
     parser.add_argument('--eval_definition', action='store_true')
     parser.add_argument('--eval_wordplay', action='store_true')
+    parser.add_argument('--eval_clue', action='store_true')
+
     parser.add_argument('--data_path')
     parser.add_argument('--prompt')
     args = parser.parse_args()
@@ -128,13 +137,57 @@ if __name__ == "__main__":
         model.config.pad_token_id = model.config.bos_token_id
 
 
+    # dataset = dataset[-10:]
+
+    clues = []
+    correct_answers = []
+    outputs = []
+
+    print(f'one sample: {dataset.iloc[0]}')
     for i, row in tqdm(dataset.iterrows(),total=dataset.shape[0]):
 
 
-        clue = row['Clue']
+        clue = str(row['Clue'])
+        ans = str(row['Answer'])
+        if '(' not in clue:
+            length = len(ans)
+            clue  = clue + f'({length})'
+        clues.append(clue)
+        correct_answers.append(ans)
+
+        if args.eval_clue:
+            definition_label = row['Definition']
+            answer = ans
+
+            definition_label = str(row['Definition']).lower()
+            if '/' in definition_label:
+                definition_label = definition_label.split('/')
+            else:
+                definition_label = [definition_label]
+
+            for d in definition_label:
+                d = d.strip()
+            definition_label =  ' '.join(definition_label)
+
+
+            if 'gpt-3.5' in args.model:
+                correct, response = chatgpt_eval(
+                    prompt = PROMPTS[args.prompt],
+                    clue =  clue,
+                    target = [answer],
+                    definition= definition_label)
+            else:
+                correct, response = eval_llama( prompt = PROMPTS[args.prompt],
+                    clue =  clue,
+                    target = [answer],
+                    definition= definition_label,
+                    model= model,
+                    tokenizer= tokenizer,)
+                
+            outputs.append(response)
 
         ###### Definition extraction ######
-        if args.eval_definition:
+        elif args.eval_definition:
 
             definition_label = str(row['Definition']).lower()
             if '/' in definition_label:
@@ -176,24 +229,50 @@ if __name__ == "__main__":
             
             wordplay_responses.append(write)      
 
+            
+
+    if args.eval_clue:
+        import pandas as pd
+        data_args = pd.DataFrame({
+            'dataset': args.data_path,
+            'split': 'test',
+            'prompt_key': 'prompt',
+            'prompt_head': PROMPTS[args.prompt],
+            'n_shots': 0,
+        },index=[0])
+        model_args = pd.DataFrame({
+            'model_name_or_path': args.model,
+        },index=[0])
+        cleaned_outputs = crop_predictions(clues, outputs)
+        calc_and_save_acc(
+            outputs, 
+            correct_answers, 
+            cleaned_predictions= cleaned_outputs, 
+            save_file = args.output_file, 
+            write_outputs = True,
+            model_args = model_args,
+            data_args= data_args,)
+        
+
+    else:
 
 
-    with open(args.output_file, 'w') as f:
-        f.write(f'Evaluation of {args.model}\n\n')
+        with open(args.output_file, 'w') as f:
+            f.write(f'Evaluation of {args.model}\n\n')
 
-        definition = PROMPTS[args.prompt]
-        wordplay = PROMPTS[args.prompt]
-        f.write(f'Prompts: \n Definition_prompt: {definition} \n Wordplay_prompt:{wordplay  }\n\n')
-        f.write(f'Definition Accuracy: {definition_acc/len(dataset)}\n')
-        f.write(f'Wordplay Accuracy: {wordplay_acc/len(dataset)}\n')
-        f.write('\n\n')
-        f.write('Definition Responses\n\n')
-        for res in definition_responses:
-            f.write(res)
-        f.write('\n\n')
-        f.write('Wordplay Responses\n\n')
-        for res in wordplay_responses:
-            f.write(res)
-        f.write('\n\n') 
-        f.write(f'Total Clues: {len(dataset)}')
+            definition = PROMPTS[args.prompt]
+            wordplay = PROMPTS[args.prompt]
+            f.write(f'Prompts: \n Definition_prompt: {definition} \n Wordplay_prompt:{wordplay  }\n\n')
+            f.write(f'Definition Accuracy: {definition_acc/len(dataset)}\n')
+            f.write(f'Wordplay Accuracy: {wordplay_acc/len(dataset)}\n')
+            f.write('\n\n')
+            f.write('Definition Responses\n\n')
+            for res in definition_responses:
+                f.write(res)
+            f.write('\n\n')
+            f.write('Wordplay Responses\n\n')
+            for res in wordplay_responses:
+                f.write(res)
+            f.write('\n\n') 
+            f.write(f'Total Clues: {len(dataset)}')
 
