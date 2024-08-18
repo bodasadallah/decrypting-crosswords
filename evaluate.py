@@ -24,6 +24,14 @@ from inference import llama3_inference
 from calc_scores import calc_and_save_acc
 import os
 import json
+
+
+import os
+import sys
+os.environ["VLLM_ATTENTION_BACKEND"] = "FLASHINFER"
+
+from vllm import LLM, SamplingParams
+
 if __name__ == "__main__":
 
     parser = HfArgumentParser((ModelArguments, DataArguments,QuantizationArguments, Seq2SeqTrainingArguments))
@@ -65,42 +73,61 @@ if __name__ == "__main__":
                                 #  batch_size=Seq2SeqTrainingArguments.per_device_eval_batch_size)
                                  batch_size=32)
 
-    ## Bits and Bytes config
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=quatization_args.load_in_4bit,
-        bnb_4bit_quant_type=quatization_args.bnb_4bit_quant_type,
-        bnb_4bit_compute_dtype=quatization_args.bnb_4bit_compute_dtype,
-        bnb_4bit_use_double_quant=quatization_args.bnb_4bit_use_double_quant
 
+
+#########################33 commented to att th vllm ###########################
+    # ## Bits and Bytes config
+    # bnb_config = BitsAndBytesConfig(
+    #     load_in_4bit=quatization_args.load_in_4bit,
+    #     bnb_4bit_quant_type=quatization_args.bnb_4bit_quant_type,
+    #     bnb_4bit_compute_dtype=quatization_args.bnb_4bit_compute_dtype,
+    #     bnb_4bit_use_double_quant=quatization_args.bnb_4bit_use_double_quant
+
+    # )
+
+
+    # model = AutoModelForCausalLM.from_pretrained(
+    #     model_args.model_name_or_path,
+    #     attn_implementation= "flash_attention_2" if model_args.use_flash_attention_2 else "eager",
+    #     # quantization_config=bnb_config if quatization_args.quantize else None,
+    #     trust_remote_code=True,
+    #     torch_dtype = torch.bfloat16, #if quatization_args.bnb_4bit_compute_dtype else "auto",
+    #     device_map = 'auto'
+    # )
+
+
+    # if model_args.checkpoint_path:
+    #     print(f'Loading model from {model_args.checkpoint_path}')
+    #     adapter_checkpoint  = model_args.checkpoint_path
+    #     model = PeftModel.from_pretrained(model, adapter_checkpoint)
+
+    # else:
+    #     print(f'Loading Base Model {model_args.model_name_or_path}')
+
+    # model = model.eval()
+
+    # tokenizer = AutoTokenizer.from_pretrained(model_args.tokenizer_name_or_path,padding_side='left')
+    # # Define PAD Token = BOS Token
+    # tokenizer.pad_token = tokenizer.eos_token
+    # tokenizer.pad_token_id = tokenizer.eos_token_id
+
+    # model.config.pad_token_id = model.config.bos_token_id
+
+
+
+#########################33 commented to att th vllm ###########################
+
+    model = LLM(
+        model="google/gemma-2-9b-it",
+        # gpu_memory_utilization=0.9,
+        max_model_len=256
     )
+    tokenizer = model.get_tokenizer()
 
-
-    model = AutoModelForCausalLM.from_pretrained(
-        model_args.model_name_or_path,
-        attn_implementation= "flash_attention_2" if model_args.use_flash_attention_2 else "eager",
-        quantization_config=bnb_config if quatization_args.quantize else None,
-        trust_remote_code=True,
-        torch_dtype = torch.bfloat16 if quatization_args.bnb_4bit_compute_dtype else "auto",
-        device_map = 'auto'
+    sampling_params = SamplingParams(
+        temperature=0.0, top_p=1, max_tokens=256,
+        stop_token_ids=[tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|eot_id|>")]
     )
-
-
-    if model_args.checkpoint_path:
-        print(f'Loading model from {model_args.checkpoint_path}')
-        adapter_checkpoint  = model_args.checkpoint_path
-        model = PeftModel.from_pretrained(model, adapter_checkpoint)
-
-    else:
-        print(f'Loading Base Model {model_args.model_name_or_path}')
-
-    model = model.eval()
-
-    tokenizer = AutoTokenizer.from_pretrained(model_args.tokenizer_name_or_path,padding_side='left')
-    # Define PAD Token = BOS Token
-    tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.pad_token_id = tokenizer.eos_token_id
-
-    model.config.pad_token_id = model.config.bos_token_id
 
 
     raw_predictions = []
@@ -114,19 +141,22 @@ if __name__ == "__main__":
         prompts = batch[data_args.prompt_key]
         clues = batch['input']
         batch_labels  = batch['target']    
-        batch_predictions = llama3_inference(model,
-                                            tokenizer,
-                                            prompts,
-                                            do_sample=model_args.do_sample,
-                                            temp=model_args.temperature,
-                                            max_new_tokens=model_args.max_new_tokens,
-                                            top_p=model_args.top_p)
+        # batch_predictions = llama3_inference(model,
+        #                                     tokenizer,
+        #                                     prompts,
+        #                                     do_sample=model_args.do_sample,
+        #                                     temp=model_args.temperature,
+        #                                     max_new_tokens=model_args.max_new_tokens,
+        #                                     top_p=model_args.top_p)
+        
+        batch_predictions = model.generate(prompts, sampling_params, use_tqdm= False)
         
         
         ### only take the first line of the output
         for x in batch_predictions:
             batch_answers = []
-            ans = x.lower()
+            ans = x.outputs[0].text.lower()
+            ans = ans.replace('*','').strip()
             # print(ans)
             for l in ans.split('\n'):
                 if 'answer:' in l:

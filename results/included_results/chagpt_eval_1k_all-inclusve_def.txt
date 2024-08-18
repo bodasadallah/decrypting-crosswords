@@ -1,0 +1,3016 @@
+Model: 0    gpt-3.5-turbo
+Name: model_name_or_path, dtype: object
+dataset: 0    data/georgo_ho_clues_sampled.csv
+Name: dataset, dtype: object - 0    test
+Name: split, dtype: object split
+Prompt: 0    You are a cryptic crossword expert. The crypti...
+Name: prompt_head, dtype: object 
+Number of Shots: 0    0
+Name: n_shots, dtype: int64 
+Number of Examples 1000
+Cleaned ACCURACY:  0.162
+Orginal ACCURACY:  0.163
+Cleaned Length error:  0.293
+Original Length error:  0.411
+----------------------------------------------------- 
+
+Raw: inspecting | Cleaned: inspectin | Label: seesawing    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rattle | Cleaned: rattle | Label: agitate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: colander | Cleaned: colande | Label: toaster    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: condemn | Cleaned: condemn | Label: deplore    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: player | Cleaned: player | Label: stager    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nevermind | Cleaned: n | Label: e converso    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fair | Cleaned: fair | Label: chaste    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: overtones | Cleaned: overtones | Label: duellists    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sow | Cleaned: sow | Label: shote    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: attendant | Cleaned: attendant | Label: manservant    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bar | Cleaned: bar | Label: cafe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: determination | Cleaned: determination | Label: determination | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: erne | Cleaned: erne | Label: emmy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: beaver | Cleaned: beaver | Label: attach    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: celling | Cleaned: celling | Label: nacelle    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: thorn | Cleaned: thorn | Label: gorse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pursuing | Cleaned: pursuing | Label: ciselure    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: endpoint | Cleaned: endpoin | Label: termini    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fast as lightning | Cleaned: fast as light | Label: life of riley    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: joining | Cleaned: joining | Label: equator    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gas | Cleaned: gas | Label: derv    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pronounce | Cleaned: pronounce | Label: diagnosis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stethoscope | Cleaned: stethoscope | Label: armamentaria    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: round | Cleaned: round | Label: extra    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: empathy | Cleaned: empathy | Label: antenna    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sue | Cleaned: sue | Label: sue | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: staunch | Cleaned: staunc | Label: truest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: entomologist | Cleaned: entomologist | Label: featherweight    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: game | Cleaned: game | Label: dupe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: layer | Cleaned: layer | Label: flake    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rumour | Cleaned: rumour | Label: gatsby    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: token | Cleaned: token | Label: notch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: american | Cleaned: american | Label: american | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: salmon | Cleaned: salmon | Label: salmon | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: dreary | Cleaned: dreary | Label: dreary | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: clear | Cleaned: clear | Label: arhat    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: steak | Cleaned: steak | Label: delhi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sue | Cleaned: sue | Label: sue | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: macaroon | Cleaned: macaroon | Label: garibaldi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ever | Cleaned: ever | Label: onst    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: baby | Cleaned: baby | Label: baby | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: dissolve | Cleaned: dissolv | Label: oftener    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: kin | Cleaned: kin | Label: sis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dream | Cleaned: dream | Label: imago    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: square | Cleaned: square | Label: agonic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ethio | Cleaned: ethio | Label: tutsi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: password | Cleaned: password | Label: out-sentry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rollers | Cleaned: rollers | Label: pugilist    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: carved | Cleaned: carved | Label: graphs    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pub-crawl | Cleaned:  | Label: booze-up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: flop | Cleaned: flop | Label: fiasco    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: amuse | Cleaned: amuse | Label: ancora    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sigh of exasperation | Cleaned: sigh of exa | Label: whats the big idea    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: passenger | Cleaned: passenge | Label: aviatrix    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: amount | Cleaned: amount | Label: tubful    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: paranoia | Cleaned: paranoia | Label: careworn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lap dancer | Cleaned: lap dancer | Label: lap dancer | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: ago | Cleaned: ago | Label: once    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: narrate | Cleaned: narrate | Label: version    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw:  | Cleaned:  | Label: auction    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: radish | Cleaned: radish | Label: origin    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: brave | Cleaned: brave | Label: balls    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bus | Cleaned: bus | Label: taxi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rings | Cleaned: rings | Label: prang    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: contemplated | Cleaned: contemplate | Label: entertained    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rose | Cleaned: rose | Label: avon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: airs ands | Cleaned: air ands | Label: air shot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pass me by | Cleaned: pass me by | Label: count me out    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: slapstick | Cleaned: slapstick | Label: slapstick | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: vip | Cleaned: vip | Label: pasha    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: smartphone | Cleaned: smartphon | Label: appliance    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lithotomy | Cleaned: lithotomy | Label: lithotomy | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: grill | Cleaned: grill | Label: liquor laws    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: necktie | Cleaned: necktie | Label: neckcloth    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: priest | Cleaned: priest | Label: muslim    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: corduroy | Cleaned: corduroy | Label: gabardine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: afar | Cleaned: afar | Label: afar | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: blusher | Cleaned: blusher | Label: sunbonnet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: zero | Cleaned: zero | Label: axis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bus | Cleaned: bus | Label: sub    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ream | Cleaned: ream | Label: saxe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fragile | Cleaned: fragil | Label: foible    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: capri | Cleaned: capri | Label: capri | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: rapid | Cleaned: rapid | Label: presto    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: clear cut | Cleaned: clea cut | Label: home straight    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sorrow | Cleaned: sorrow | Label: salaam    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: orangutan | Cleaned: orangu | Label: simian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spice | Cleaned: spice | Label: gusto    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: saboteur | Cleaned: saboteur | Label: saboteur | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: eat | Cleaned: eat | Label: row    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: creative | Cleaned: creative | Label: plebeian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rhys ap gruffydd | Cleaned: rhys ap | Label: owen tudor    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: charter | Cleaned: charter | Label: grammar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: threat | Cleaned: threat | Label: stitch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: saint | Cleaned: saint | Label: guest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: crossed | Cleaned: crossed | Label: sunburnt    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: extreme | Cleaned: extreme | Label: meanest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tension | Cleaned: tension | Label: lockjaw    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: restraint | Cleaned: restraint | Label: hibernate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lend oneself | Cleaned: lend onesel | Label: give notice    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: esc | Cleaned: esc | Label: run    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: energetic | Cleaned: energeti | Label: friskier    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spinach dip | Cleaned: spin dip | Label: root crop    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: beijing | Cleaned: beijing | Label: palermo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chin-wag | Cleaned:  | Label: tittle-tattle    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: robust | Cleaned: robust | Label: potent    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: diminish | Cleaned: diminish | Label: derogate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mtv (music television) | Cleaned: mtv (musi | Label: bee bread    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: darling | Cleaned: darling | Label: sultana    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: seamen | Cleaned: seamen | Label: limeys    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sit-up | Cleaned:  | Label: lie    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pen name | Cleaned: pen name | Label: pen names    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mailboxes | Cleaned: mailboxes | Label: agreement    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spirit | Cleaned: spirit | Label: grappa    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: indecency | Cleaned: indecency | Label: dirtiness    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: weep | Cleaned: weep | Label: call    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tedious | Cleaned: tedious | Label: perforation    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sorceress | Cleaned: sorceress | Label: sorceress | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: oyster | Cleaned: oyster | Label: cowrie    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: scapegoat | Cleaned: scapegoat | Label: scapegoat | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: amour | Cleaned: amour | Label: damon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: take a breath | Cleaned: take a bre | Label: take time off    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sigma | Cleaned: sigma | Label: aitch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nothing | Cleaned: nothing | Label: nothing | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: rose | Cleaned: rose | Label: iris    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: foremost example | Cleaned: foremost exam | Label: chequered flag    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: alps | Cleaned: alps | Label: tahrs    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: support | Cleaned: support | Label: buttress    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: smug | Cleaned: smug | Label: proud    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: driver | Cleaned: driver | Label: putter    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chocolate | Cleaned: chocola | Label: rarebit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: high-rise | Cleaned:  | Label: high-rise | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: find | Cleaned: find | Label: hunt    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: contemplation | Cleaned: contemplation | Label: woolgathering    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: riddle | Cleaned: ridd | Label: maze    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: avarice | Cleaned: avarice | Label: avarice | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: imagine | Cleaned: imagine | Label: insider    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: invisible | Cleaned: invisible | Label: unnoticed    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hip-replacement | Cleaned: hip-replacem | Label: rabbetingsaw    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: d'artagnan | Cleaned: d'art | Label: athos    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gallery | Cleaned: galle | Label: taste    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stand-up comedy | Cleaned: stan comedy | Label: phil silvers    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: university | Cleaned: university | Label: winchester    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: long in the tooth | Cleaned: long in the tooth | Label: short back and sides    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: foretaste | Cleaned: foretaste | Label: foretaste | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: catalogue | Cleaned: catalogu | Label: register    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: doctor | Cleaned: doctor | Label: galena    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dispose | Cleaned: dispose | Label: economy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fire away | Cleaned: fire away | Label: open fire    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: puritan | Cleaned: puritan | Label: bluenose    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wrestler | Cleaned: wrestler | Label: wrestler | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: ear candy | Cleaned:  | Label: littletoe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: elite | Cleaned: elite | Label: elite | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: scar | Cleaned: scar | Label: scar | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: sea dog | Cleaned: sea do | Label: lie to    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rabbi | Cleaned: rabbi | Label: israeli    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shyest | Cleaned: shyest | Label: crimson    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hand warmer | Cleaned: hand warmer | Label: central heating    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nods | Cleaned: nods | Label: raise    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: piano lessons | Cleaned: piano lessons | Label: sausage bassoon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: psalms | Cleaned: psalms | Label: mantra    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: motor | Cleaned: motor | Label: oomph    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tree | Cleaned: tree | Label: shaw    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: reports | Cleaned: reports | Label: destiny    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: easy | Cleaned: easy | Label: airy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: car | Cleaned: car | Label: bus    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stable | Cleaned: stable | Label: sturdy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: defeat | Cleaned: defeat | Label: k    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: firebomb | Cleaned: firebomb | Label: furnaces    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: margate | Cleaned: margate | Label: morecambe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hater | Cleaned: hater | Label: hater | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: icon | Cleaned: icon | Label: epic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: headway | Cleaned: headway | Label: dogtrot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: grudgingly | Cleaned: grudgingl | Label: presently    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pester | Cleaned: peste | Label: brock    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gluten | Cleaned: gluten | Label: paralyse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stockinette | Cleaned: stockinet | Label: stockinet | correct after cleaning: True ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: christmas day | Cleaned:  | Label: present day    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pacifist | Cleaned: pacifis | Label: harrier    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: plot | Cleaned: plot | Label: tread    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: yield | Cleaned: yield | Label: forego    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nodding | Cleaned: nodding | Label: praised    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: destroyer | Cleaned: destroyer | Label: dreadnought    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: beloved | Cleaned: beloved | Label: knighted    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nap | Cleaned: nap | Label: nap | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: visit | Cleaned: visit | Label: emmet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tabloid | Cleaned: tabloid | Label: tabloid | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: lose steam | Cleaned: lose stea | Label: wear thin    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: leopard | Cleaned: leopar | Label: aboard    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: radicchio | Cleaned: radicch | Label: haricot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: resold | Cleaned: resold | Label: afresh    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: peg leg | Cleaned: pe leg | Label: on end    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sell | Cleaned: sell | Label: itch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: step | Cleaned: step | Label: echo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bach | Cleaned: bach | Label: lehar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: europhobe | Cleaned: europhobe | Label: europhobe | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: portrait | Cleaned: portrai | Label: account    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: foothills | Cleaned: foothill | Label: abattoir    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: elevator operator | Cleaned: elevat operator | Label: public relations    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: christmas tree | Cleaned:  | Label: ghost    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: forest | Cleaned: forest | Label: ramular    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: minister | Cleaned: minister | Label: methodist    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: enter | Cleaned: enter | Label: discuss    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: precise | Cleaned: precise | Label: accurate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: trashiness | Cleaned: trashiness | Label: wastepaper    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: train spot | Cleaned: train spot | Label: kings cross    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: agile | Cleaned: agile | Label: vague    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mingle | Cleaned: mingle | Label: sitcom    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: framed | Cleaned: framed | Label: screwed    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lance | Cleaned: lance | Label: lance | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: pardonable | Cleaned: pardonabl | Label: excusable    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dining | Cleaned: dining | Label: bistro    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: urged | Cleaned: urged | Label: urged | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: uplift | Cleaned: uplift | Label: ennoble    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mobile | Cleaned: mobile | Label: philby    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: see | Cleaned: see | Label: own    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: intolerable | Cleaned: intolerable | Label: pestilential    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lop | Cleaned: lop | Label: oar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: boor | Cleaned: boor | Label: lout    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: performance | Cleaned: performanc | Label: breakdance    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: restarts | Cleaned: restarts | Label: redisplays    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: infertile | Cleaned: infertile | Label: unfruitful    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: meaty dish | Cleaned:  | Label: best-before date    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: crisps | Cleaned: crisps | Label: carpenter    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: concise | Cleaned: concise | Label: larcenous    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: liverpool | Cleaned: liverpool | Label: rotterdam    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chair | Cleaned: chair | Label: rabbi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mad | Cleaned: mad | Label: manic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shotgun wedding | Cleaned: shotgun weddi | Label: burglar alarm    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: won over | Cleaned: won ov | Label: roped in    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pâtissier | Cleaned: pâtissier | Label: chocolatier    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: feeble | Cleaned: feeble | Label: unhardy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: inspector | Cleaned: inspector | Label: diplomats    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: twi-light | Cleaned:  | Label: odd    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hotel | Cleaned: hotel | Label: hotel | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: braces | Cleaned: braces | Label: armrests    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: angel | Cleaned: angel | Label: angel | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: fair comment | Cleaned: fair comment | Label: fair comment | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: atherosclerosis | Cleaned: atherosclerosis | Label: hypercholesterolaemia    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: witty | Cleaned: witty | Label: expert    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sine | Cleaned: sine | Label: sine | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: knot | Cleaned: knot | Label: knar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ice-tong | Cleaned:  | Label: cut-glass    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: absurd | Cleaned: absurd | Label: toreador    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: retread | Cleaned: retread | Label: resolve    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: insurgent | Cleaned: insurg | Label: action    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shrimp cocktail | Cleaned: shrim cocktail | Label: fool    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: amicable | Cleaned: amicable | Label: benevolent    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: enigmatic | Cleaned: enigmatic | Label: enigmatic | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: spurn | Cleaned: spurn | Label: scorn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: inked | Cleaned: inked | Label: inked | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: antique | Cleaned: antique | Label: quarrel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: painter | Cleaned: painter | Label: pavement    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: el dorado | Cleaned: el dorad | Label: in style    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pantry | Cleaned: pantr | Label: halal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dreamy | Cleaned: dreamy | Label: idealist    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: commitment | Cleaned: commitmen | Label: overdrawn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gabbed | Cleaned: gabbed | Label: yapped    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dyes in wool | Cleaned:  | Label: dyed-in-the-wool    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: boll | Cleaned: boll | Label: twig    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: daft | Cleaned: daft | Label: twerp    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stay tuned | Cleaned:  | Label: add up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sells out | Cleaned: sells ou | Label: tells on    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: yeoman | Cleaned: yeoma | Label: churl    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: net | Cleaned: net | Label: rod    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gambler | Cleaned: gambler | Label: chancre    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: egress | Cleaned: egress | Label: energy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: certain | Cleaned: certain | Label: tangible    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: post-haste | Cleaned:  | Label: chop-chop    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: album | Cleaned: album | Label: inept    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: axe | Cleaned: axe | Label: axe | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: aspirin | Cleaned: aspiri | Label: opiate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tan | Cleaned: tan | Label: pie    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: salute | Cleaned: salute | Label: thanks    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: aparting | Cleaned: aparting | Label: quarters    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: board games | Cleaned:  | Label: three-card monte    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lute | Cleaned: lute | Label: harp    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: snap-happy | Cleaned:  | Label: time-lapse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: outrage | Cleaned: outrage | Label: outrage | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: dream team | Cleaned: dream team | Label: dream team | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: sweat | Cleaned: sweat | Label: leapt    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: isle of man | Cleaned: isl of man | Label: the low countries    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: serenity | Cleaned: serenity | Label: carmelite    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wraps | Cleaned: wraps | Label: wound    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: prominence | Cleaned: prominenc | Label: prelation    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: actually true | Cleaned: actually true | Label: strictly speaking    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: password | Cleaned: password | Label: cantonese    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ash | Cleaned: ash | Label: elm    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: upholder | Cleaned: upholder | Label: shunting    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pitcher | Cleaned: pitcher | Label: pitcher | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: launch pad | Cleaned: launch pad | Label: square one    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: brasserie | Cleaned: brasserie | Label: bierkeller    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: soiled | Cleaned: soiled | Label: shabby    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: anemone | Cleaned: anemone | Label: barcelona    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: unkind | Cleaned: unkin | Label: felly    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: optimized | Cleaned: optimized | Label: worthiest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nervousness | Cleaned: nervousnes | Label: sensations    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tangled | Cleaned: tangled | Label: genappe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dissolve | Cleaned: dissolve | Label: exorcise    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: debater | Cleaned: debater | Label: ironise    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chunk | Cleaned: chunk | Label: bigwig    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: expect | Cleaned: expect | Label: expect | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: page | Cleaned: page | Label: page | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: upset | Cleaned: upset | Label: ouster    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: deject | Cleaned: deject | Label: ipecac    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lido | Cleaned: lido | Label: lido | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: marshmallow | Cleaned: marsh | Label: creme caramel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: apple | Cleaned: apple | Label: apple | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: tutu | Cleaned: tutu | Label: plie    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: set in stone | Cleaned: set in sto | Label: out and out    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dolph | Cleaned: dolph | Label: otter    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: election | Cleaned: election | Label: backside    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: disassemble | Cleaned: disassemb | Label: piecemeal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: starving | Cleaned: starving | Label: esurient    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: skeleton | Cleaned: skeleton | Label: doggerel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: network | Cleaned: network | Label: keepnet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mega | Cleaned: mega | Label: mega | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: acute | Cleaned: acute | Label: acidic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ignite | Cleaned: ignite | Label: flambe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: texture | Cleaned: texture | Label: paragon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: desk | Cleaned: desk | Label: agency    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: leeward | Cleaned: leeward | Label: leeward | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: cello | Cleaned: cello | Label: pansy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: forearm | Cleaned: forearm | Label: hipbone    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: earful | Cleaned: earful | Label: earwax    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stripe | Cleaned: stripe | Label: stripe | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: abettors | Cleaned: abettors | Label: partisan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cupboard | Cleaned: cupboard | Label: cupboard | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: fire blanket | Cleaned: fire blanket | Label: fire blanket | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: begin | Cleaned: begin | Label: onset    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: illustrations | Cleaned: illustration | Label: translations    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: salaried | Cleaned: salarie | Label: payment    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: seek out | Cleaned: seek out | Label: bran tub    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: irons | Cleaned: irons | Label: irons | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: elephant seal | Cleaned:  | Label: giant panda    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: caffeinte | Cleaned: caffeinte | Label: americano    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ibiza | Cleaned: ibiza | Label: ibiza | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: seaplane | Cleaned: seaplane | Label: elevator    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: act | Cleaned: act | Label: act | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: bar | Cleaned: bar | Label: bar | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: cutting-edger | Cleaned:  | Label: pre-raphaelite    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: anxiety | Cleaned: anxiety | Label: traitor    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: error | Cleaned: error | Label: taint    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: content | Cleaned: content | Label: gladsome    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: castle | Cleaned: castle | Label: sorbet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: impressively | Cleaned: impressivel | Label: flabbergast    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: highlander | Cleaned: highland | Label: assyrian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ripple | Cleaned: ripple | Label: adriatic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: regent | Cleaned: regent | Label: regent | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: mindless violence | Cleaned:  | Label: parrot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: adjacent | Cleaned: adjace | Label: beside    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sumo | Cleaned: sumo | Label: sumo | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: hate | Cleaned: hate | Label: scorn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: touching | Cleaned: touching | Label: research    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: old-age pension | Cleaned:  | Label: old    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ardent | Cleaned: ardent | Label: el alamein    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: enigmata | Cleaned: enigmata | Label: symmetry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: enrich | Cleaned: enrich | Label: enrich | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: car park | Cleaned: car park | Label: car parks    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: comrades | Cleaned: comrades | Label: moonstone    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: guardian | Cleaned: guardia | Label: mastiff    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: esperanto | Cleaned: esperanto | Label: esperanto | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: rampart | Cleaned: rampart | Label: bastion    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bulgarian | Cleaned: bulgarian | Label: ukrainian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bodice | Cleaned: bodice | Label: gusset    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: intuit | Cleaned: intuit | Label: newman    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: provolones | Cleaned: provolones | Label: mozzarellas    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: share trading | Cleaned:  | Label: love interest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: denigrate | Cleaned: denigrate | Label: proscribe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: last resort | Cleaned: la res | Label: in the last resort    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: vulnerability | Cleaned: vulnerab | Label: achilles heel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: crust | Cleaned: crust | Label: scale    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lovers | Cleaned: lovers | Label: idealist    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sidecar | Cleaned: sideca | Label: scroll saw    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: acted | Cleaned: acted | Label: acted | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: revolver | Cleaned: revolver | Label: winchester    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: projectile | Cleaned: project | Label: bowshot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chairman | Cleaned: chairma | Label: chaplet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rock salt | Cleaned: rock salt | Label: damn well    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lion | Cleaned: lion | Label: step    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: repeat | Cleaned: repeat | Label: ingest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fuge | Cleaned: fuge | Label: rota    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shakespearean english | Cleaned: shakes englis | Label: danish pastry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lax | Cleaned: lax | Label: war    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rockabilly | Cleaned: rockabill | Label: bluegrass    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: din | Cleaned: din | Label: clang    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: reeducated | Cleaned: reeducated | Label: re-educate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: amoral | Cleaned: amoral | Label: fervid    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: kendal | Cleaned: kendal | Label: newark    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: castle | Cleaned: castle | Label: hacker    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: persian | Cleaned: persian | Label: syndicate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: terrapin | Cleaned: terrapi | Label: terrain    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gather | Cleaned: gather | Label: grated    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bacon rind | Cleaned: bacon rind | Label: little hitler    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: marathon | Cleaned: marathon | Label: marathon | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: lambast | Cleaned: lambast | Label: abysmal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: timetable | Cleaned: timetable | Label: programme    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: realigned | Cleaned: realigned | Label: rearrange    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: elevated | Cleaned: elevate | Label: deified    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: compete | Cleaned: compete | Label: flyweight    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: interwoven | Cleaned: interwove | Label: spaghetti    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: eldest | Cleaned: eldest | Label: eldest | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: tulsa | Cleaned: tulsa | Label: tulsa | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: brewer | Cleaned: brewer | Label: brewer | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: forecasting | Cleaned: forecas | Label: weather forecast    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: deafens | Cleaned: deafens | Label: washout    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: overtime | Cleaned: overtime | Label: asterisk    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: containers | Cleaned: containers | Label: stranglehold    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bird law | Cleaned: bird law | Label: criminal law    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: igloo | Cleaned: igloo | Label: igloo | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: alpha | Cleaned: alpha | Label: theta    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: incubating | Cleaned: incubating | Label: intriguing    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: article | Cleaned: article | Label: article | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: sea level | Cleaned: sea level | Label: set aside    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sleuth | Cleaned: sleuth | Label: acidic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bomb | Cleaned: bomb | Label: topi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: eviction | Cleaned: eviction | Label: laxative    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: come down with | Cleaned: come down with | Label: come down with | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: mario | Cleaned: mario | Label: lithe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gnats | Cleaned: gnats | Label: pesto    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: villa | Cleaned: villa | Label: villa | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: promote | Cleaned: promote | Label: scourge    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rest + shower = restrict | Cleaned: rest | Label: restrain    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lock pick | Cleaned: lock pick | Label: salt marsh    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: clear | Cleaned: clear | Label: sweep    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rise | Cleaned: rise | Label: dari    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: attendant | Cleaned: attendan | Label: retainer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: touch | Cleaned: touch | Label: niche    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ole-ole | Cleaned:  | Label: sight    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: effect | Cleaned: effect | Label: impact    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: beanie | Cleaned: beanie | Label: fedora    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: israel | Cleaned: israel | Label: sacred    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fugue | Cleaned: fugue | Label: calypso    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: the in-crowd | Cleaned:  | Label: the in    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sensitive | Cleaned: sensitiv | Label: retiring    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: imitation | Cleaned: imitation | Label: midstream    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spotless | Cleaned: spotles | Label: launder    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ear | Cleaned: ear | Label: ear | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: snorts | Cleaned: snorts | Label: infantry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ransom | Cleaned: ransom | Label: ransom | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: hench | Cleaned: henc | Label: aide    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: railer | Cleaned: railer | Label: isobar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: kidney | Cleaned: kidney | Label: offaly    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bias | Cleaned: bias | Label: bias | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: gnarly | Cleaned: gnarly | Label: granny    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: magazine | Cleaned: magazine | Label: garfield    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: peel-apple | Cleaned:  | Label: star    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: glasgow | Cleaned: glasgow | Label: preston    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: armada | Cleaned: armada | Label: armada | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: paris | Cleaned: paris | Label: arles    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: atop | Cleaned: atop | Label: high    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: funneled | Cleaned: funneled | Label: transire    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tools around | Cleaned: tools aro | Label: peter pan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chisel | Cleaned: chisel | Label: chisel | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: hong | Cleaned: hong | Label: sikh    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: malinger | Cleaned: malinger | Label: malinger | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: deposed | Cleaned: deposed | Label: tumbled    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: demonstrating | Cleaned: demonstrating | Label: demonstration    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: petrol | Cleaned: petrol | Label: dimethyl    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: scornful | Cleaned: scornf | Label: apathy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pushes | Cleaned: pushes | Label: elbows    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: password | Cleaned: password | Label: steaming    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: peak | Cleaned: peak | Label: everest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shorthand | Cleaned: shorthan | Label: reporter    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cambridge blue | Cleaned: cambridge blue | Label: cambridge blue | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: soprano | Cleaned: soprano | Label: filbert    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: register | Cleaned: register | Label: constable    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: imply | Cleaned: imply | Label: simply    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: give up | Cleaned:  | Label: cave-in    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: onyx | Cleaned: onyx | Label: onyx | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: reason | Cleaned: reason | Label: reason | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: fronting | Cleaned: fronting | Label: opposite    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: detected | Cleaned: detected | Label: nutshell    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: intolerant | Cleaned: intoleran | Label: illiberal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: underling | Cleaned: underling | Label: satellite    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: guatemala | Cleaned: guatemala | Label: mogadishu    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: run into | Cleaned: run into | Label: run into | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: army | Cleaned: army | Label: unit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: almond | Cleaned: almond | Label: sultana    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bohemia | Cleaned: bohemia | Label: moravia    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: go too far | Cleaned: go too far | Label: go too far | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: area | Cleaned: area | Label: local    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: actor | Cleaned: acto | Label: turn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: athlete | Cleaned: athlete | Label: athlete | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: taste | Cleaned: taste | Label: taste | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: quiet room | Cleaned: quiet room | Label: grand opera    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: forecast | Cleaned: forecas | Label: bethump    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: conspicuously | Cleaned:  | Label: if you please    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: emu | Cleaned: emu | Label: emu | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: sleet | Cleaned: sleet | Label: steels    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: echo | Cleaned:  | Label: re-echo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: careless | Cleaned: careless | Label: solecism    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: no go | Cleaned: no go | Label: on ice    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: college | Cleaned: colle | Label: aston    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: far fromit | Cleaned: far from | Label: far from it    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: halt | Cleaned: halt | Label: prohibit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sleuth | Cleaned: sleuth | Label: sleuth | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: antipode | Cleaned: antipode | Label: aphelion    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: liar | Cleaned: liar | Label: nero    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pressure | Cleaned: pressure | Label: emphasis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sour | Cleaned: sour | Label: sigh    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: award | Cleaned: award | Label: reward    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ensigns | Cleaned: ensigns | Label: epstein    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tau | Cleaned: tau | Label: tau | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: moos | Cleaned: moos | Label: lows    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rebel | Cleaned: rebel | Label: lenin    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: temperament | Cleaned: temperament | Label: smallholder    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gnu | Cleaned: gnu | Label: nan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: animal | Cleaned: animal | Label: 4.0start    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: refuge | Cleaned: refuge | Label: peterlee    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: glee | Cleaned: glee | Label: glee | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: linger | Cleaned: linger | Label: laggard    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: garage sale | Cleaned: garage sale | Label: service industry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: circumstances | Cleaned: circumstance | Label: narcissistic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: isle | Cleaned: isle | Label: join    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rank | Cleaned: rank | Label: axis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hot toddy | Cleaned:  | Label: pop    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: argue | Cleaned: argue | Label: fracas    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: synopsis | Cleaned: synopsis | Label: mulligan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: uponfurther | Cleaned: up | Label: in the lead    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: conspiracy | Cleaned: conspiracy | Label: relativity    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: backstage | Cleaned: backstage | Label: backstairs    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: colgate | Cleaned: colgate | Label: grinder    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: impel | Cleaned: impel | Label: incite    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gardenias | Cleaned: gardenias | Label: nosheries    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chape | Cleaned: chape | Label: porch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: singular | Cleaned: singular | Label: matchless    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tortoise | Cleaned: tortoise | Label: pangolin    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cheaters | Cleaned: cheaters | Label: aspirators    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: disregard | Cleaned: disregard | Label: disregard | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: odour | Cleaned: odour | Label: godot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ancestor | Cleaned: ancestor | Label: ancestor | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: astray | Cleaned: astray | Label: unmade    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: milkshake | Cleaned: milkshake | Label: breweries    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ex-ply | Cleaned: ex-ply | Label: exmoor    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: permeate | Cleaned: permeate | Label: skewered    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: filter | Cleaned: filter | Label: grille    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: violin | Cleaned: violin | Label: string    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: carpet | Cleaned: carpet | Label: underlay    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: components | Cleaned: components | Label: appendices    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cheap | Cleaned: cheap | Label: cheap | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: gate | Cleaned: gate | Label: awry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: iris | Cleaned: iris | Label: pupil    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chill | Cleaned: chill | Label: cairn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: divv | Cleaned: divv | Label: mete    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: idol | Cleaned: idol | Label: poseidon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: amigo | Cleaned: amigo | Label: pally    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: malawi | Cleaned: malawi | Label: uganda    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: imagine | Cleaned: imagine | Label: portray    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: otter | Cleaned: otter | Label: leveret    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: carabiner | Cleaned: carabiner | Label: carabiner | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: envying | Cleaned: envying | Label: enviable    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: no dessert | Cleaned: no desser | Label: tv dinner    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: torment | Cleaned: tormen | Label: badger    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: university | Cleaned: university | Label: racecourse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: snap | Cleaned: snap | Label: edam    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: obvious | Cleaned: obvious | Label: barefaced    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nearby | Cleaned: nearby | Label: nearing    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: serpent | Cleaned: serpent | Label: vampire    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pleasures | Cleaned: pleasures | Label: diversion    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mouse | Cleaned: mouse | Label: coypu    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: violeta | Cleaned: violeta | Label: gentian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: honking | Cleaned: honking | Label: atishoo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: naivete | Cleaned: naivete | Label: angelic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: manor | Cleaned: manor | Label: chateau    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fretful | Cleaned: fretful | Label: onerous    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stepfather | Cleaned: stepfather | Label: paternally    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: easel | Cleaned: easel | Label: easel | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: optics | Cleaned: optics | Label: optics | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: llandudno | Cleaned: llandudn | Label: caerleon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: on the level | Cleaned: on th leve | Label: on an even keel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sou | Cleaned: sou | Label: sou | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: farewell | Cleaned: farewell | Label: farewell | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: sailor | Cleaned: sailor | Label: remain    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: banter | Cleaned: banter | Label: barned    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: reduced | Cleaned: reduced | Label: reduced | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: chronological | Cleaned: chronolog | Label: hourglass    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: clamcake | Cleaned: clamcak | Label: rissole    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: thames | Cleaned: thame | Label: rhine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gruel | Cleaned: gruel | Label: sisal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: kiss-up | Cleaned:  | Label: brush-up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cow | Cleaned: cow | Label: cut    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gullibility | Cleaned: gullibilit | Label: seersucker    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nourishment | Cleaned: nourishment | Label: greensleeves    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: restore | Cleaned: restore | Label: rematch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: earring | Cleaned: earring | Label: grommet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sat nav | Cleaned: sat nav | Label: map reader    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: naming | Cleaned: naming | Label: evelyn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nurse | Cleaned: nurse | Label: nurse | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: adder | Cleaned: adder | Label: acidhead    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chanteuse | Cleaned: chanteuse | Label: chanteuse | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: physician | Cleaned: physician | Label: motocross    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rice krispies | Cleaned: rice krisp | Label: snowcones    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sorbet | Cleaned: sorbet | Label: sorbet | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw:  | Cleaned:  | Label: tangerine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sedate | Cleaned: sedate | Label: appease    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lighten up | Cleaned: lighten up | Label: lighten up | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: nightcap | Cleaned: nightcap | Label: nightcaps    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: oregon | Cleaned: oregon | Label: alaska    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: brunet | Cleaned: brunet | Label: brunet | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: take up | Cleaned: take up | Label: fess up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: torpedo | Cleaned: torpedo | Label: polaris    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ulna | Cleaned: ulna | Label: nile    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: on edge | Cleaned: on edge | Label: on edge | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: jiggle | Cleaned: jiggle | Label: cancan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: carer | Cleaned: carer | Label: tribe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: performs | Cleaned: performs | Label: inheritrix    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: complete | Cleaned: complete | Label: thorough    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: brainwashing | Cleaned: brainwashing | Label: brainwashing | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: mirror | Cleaned: mirror | Label: logger    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sturgeon | Cleaned: sturge | Label: tarpon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: doughnuts | Cleaned: doughnuts | Label: enchilada    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ring in the new | Cleaned: ring in th | Label: whoop it up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: deluge | Cleaned: delug | Label: swamp    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: treasure chest | Cleaned: treasure chest | Label: treasure chest | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: summer | Cleaned: summer | Label: sleeve    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: peg | Cleaned: peg | Label: leg    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hard-hearted | Cleaned:  | Label: cold    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: squash | Cleaned: squash | Label: density    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: optometrist | Cleaned: optometrist | Label: optometrist | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: exercise | Cleaned: exercise | Label: exercise | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: restraint | Cleaned: restraint | Label: government    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: angel | Cleaned: angel | Label: donna    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: project | Cleaned: project | Label: diagram    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wren | Cleaned: wren | Label: ibis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: france | Cleaned: france | Label: belize    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ghost | Cleaned: ghost | Label: godot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: blend | Cleaned: blend | Label: blend | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: tiger | Cleaned: tiger | Label: baloo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rumor | Cleaned: rumor | Label: on-dit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: carrom | Cleaned: carrom | Label: pachisi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: challenger | Cleaned: challenge | Label: gladiator    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: biceps | Cleaned: biceps | Label: biceps | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: obscure | Cleaned: obscure | Label: intricate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: walk way | Cleaned: walk way | Label: kids stuff    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: scull | Cleaned: scull | Label: scrub    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bobby fischer | Cleaned: bobby fische | Label: hobsons choice    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: umpires | Cleaned: umpires | Label: linesman    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: retain | Cleaned: retain | Label: shanty    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gasping | Cleaned: gasping | Label: grampus    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: standard | Cleaned: standar | Label: earmark    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spade | Cleaned: spade | Label: spade | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: artefact | Cleaned: artefact | Label: sarcophagus    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rises | Cleaned: rises | Label: expand    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cone | Cleaned: cone | Label: etna    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: loose | Cleaned: loose | Label: loose | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: inca | Cleaned: inca | Label: incan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: walt | Cleaned: wal | Label: dis    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: colt | Cleaned: colt | Label: pupa    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: libations | Cleaned: libations | Label: inebriant    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sandwich | Cleaned: sandwic | Label: overact    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: french horn | Cleaned: frenc horn | Label: penny whistle    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: caramelized | Cleaned: caramelized | Label: gingerbread    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: goodwill | Cleaned: goodwill | Label: largesse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lily | Cleaned: lily | Label: ella    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: crack | Cleaned: crack | Label: horse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: converse | Cleaned: converse | Label: expatiate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wolfy | Cleaned: wolfy | Label: hairy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: circular | Cleaned: circula | Label: orbital    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: vibrant | Cleaned: vibran | Label: oompah    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: water board | Cleaned: water boar | Label: stirrup pump    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: self-deception | Cleaned: self-deception | Label: autosuggestion    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stay | Cleaned: stay | Label: stay | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: lay | Cleaned: lay | Label: nan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: disappearing | Cleaned: disappearin | Label: negotiating    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: iron out | Cleaned: iron out | Label: pump iron    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: extreme | Cleaned: extreme | Label: vehement    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cymry | Cleaned: cymry | Label: evans    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: portray | Cleaned: portray | Label: portray | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: to the point | Cleaned: to the point | Label: to the point | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: retail | Cleaned: retail | Label: afloat    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: the sky's the limit | Cleaned: the sky's the | Label: you never know    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wet blanket | Cleaned: wet blanke | Label: nosy parker    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: alleged | Cleaned: alleged | Label: outdoor    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bedtime | Cleaned: bedtime | Label: exploit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: artificer | Cleaned: artificer | Label: donatello    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: undergrowth | Cleaned: undergrowt | Label: cornflower    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: toronto | Cleaned: toronto | Label: toronto | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: ernst | Cleaned: ernst | Label: durer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: trousseau | Cleaned: trousseau | Label: underwear    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bovine | Cleaned: bovine | Label: heifer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: inn | Cleaned: inn | Label: camp    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: adherent | Cleaned: adherent | Label: constant    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: debris | Cleaned: debris | Label: oddment    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: option | Cleaned: optio | Label: ibiza    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: abbreviated | Cleaned: abbreviat | Label: downsized    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: simulated | Cleaned: simulated | Label: trepanned    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: amethyst | Cleaned: amethyst | Label: luxulyanite    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: peel | Cleaned: peel | Label: sleep    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: crimp | Cleaned: crimp | Label: crimp | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: stars and stripes | Cleaned: stars and stri | Label: stars and bars    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: eatout | Cleaned: eatout | Label: absorb    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: permeable | Cleaned: permeable | Label: spongiest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: suffer | Cleaned: suffer | Label: torment    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: legends | Cleaned: legends | Label: lorries    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: novel | Cleaned: novel | Label: esther    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: consequent | Cleaned: consequen | Label: therefore    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lavender | Cleaned: lavender | Label: navelwort    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shame | Cleaned: shame | Label: nixon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cherry blossom | Cleaned: cherr blossom | Label: globe artichoke    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: daughter | Cleaned: daught | Label: pamela    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: othello | Cleaned: othello | Label: agrippa    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ball room | Cleaned: ball roo | Label: mosh pit    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shoemakers | Cleaned: shoemakers | Label: balderdash    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: armchair | Cleaned: armchair | Label: armchair | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: embarkment | Cleaned: embarkment | Label: waterborne    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: competent | Cleaned: competen | Label: hesitant    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: camus | Cleaned: camus | Label: racine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: palsy | Cleaned: palsy | Label: ibsen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: malawi | Cleaned: malawi | Label: malawi | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: gershwin | Cleaned: gershwin | Label: gershwin | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: lire | Cleaned: lire | Label: quid    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: recite | Cleaned: recite | Label: gunshot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fastest | Cleaned: fastes | Label: eskimo dog    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: vote | Cleaned: vote | Label: amen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ghost | Cleaned: ghost | Label: optic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: corinth | Cleaned: corint | Label: sparta    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: criticize | Cleaned: criticiz | Label: execrate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: alley | Cleaned: alley | Label: alley | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: beer | Cleaned: beer | Label: brew    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: drawers | Cleaned: drawers | Label: marimba    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: grieves | Cleaned: grieves | Label: clamour    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: play | Cleaned: play | Label: mumm    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sacred | Cleaned: sacred | Label: sacred | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: colleague | Cleaned: colleague | Label: entourage    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: retaliate | Cleaned: retaliate | Label: breastwork    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: on spec | Cleaned: on spec | Label: ad libber    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ungird | Cleaned: ungird | Label: lanced    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stonehenge | Cleaned: stonehen | Label: standing stone    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cast | Cleaned: cast | Label: cast | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: a lot | Cleaned: a | Label: umpteen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: post | Cleaned: post | Label: post | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: corporal | Cleaned: corporal | Label: commando    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: baedeker | Cleaned: baedeker | Label: dietitian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hunter | Cleaned: hunter | Label: immesh    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: contagious | Cleaned: contagious | Label: neurotoxins    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pat | Cleaned: pat | Label: oik    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hypocrite | Cleaned: hypocrit | Label: previous    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tram | Cleaned: tram | Label: tote    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: smell | Cleaned: smell | Label: nasal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: altered state | Cleaned: altered stat | Label: shearing shed    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: oatmeal | Cleaned: oatmeal | Label: oatmeal | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: tea | Cleaned: tea | Label: rye    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: doubtful | Cleaned: doubtful | Label: agnostic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: light-sensitive | Cleaned:  | Label: photo-sensitive    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rebuilt | Cleaned: rebuilt | Label: battels    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lander | Cleaned: lander | Label: pennant    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mango | Cleaned: mango | Label: mango | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: consolation prize | Cleaned: consol prize | Label: wooden spoon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: soundtrack | Cleaned: soundtrack | Label: montevideo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sugar ray | Cleaned: sugar ray | Label: cigar case    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: barometer | Cleaned: barometer | Label: thermometer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: headstone | Cleaned: headstone | Label: gravestone    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fantastic | Cleaned: fantastic | Label: fantastic | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: reception | Cleaned: reception | Label: deteriorate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: trade secret | Cleaned: trade secr | Label: entre nous    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tom | Cleaned: tom | Label: tom | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: deacon | Cleaned: deacon | Label: deacon | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: rosemary | Cleaned: rosemary | Label: gibberish    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: diana | Cleaned: diana | Label: leila    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: moses | Cleaned: moses | Label: opisthodomoses    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: guest | Cleaned: guest | Label: guest | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: close game | Cleaned: close game | Label: golden goal    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dismantle | Cleaned: dismantl | Label: unpicked    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rugged | Cleaned: rugged | Label: severe    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sixties | Cleaned: sixties | Label: fauvist    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spammer | Cleaned: spamm | Label: troll    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tactics | Cleaned: tactics | Label: tactics | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: cellar | Cleaned: cellar | Label: tasting    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: firetrap | Cleaned: firetra | Label: pudding lane    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: estimate | Cleaned: estimate | Label: estimate | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: outshined | Cleaned: outshined | Label: outdoorsy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lassy | Cleaned: lassy | Label: ethel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: thyme | Cleaned: thym | Label: euro t    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: golfcart | Cleaned: golfcart | Label: partridge    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: chelsea | Cleaned: chelse | Label: poplar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rugged | Cleaned: rugged | Label: vulgar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: her | Cleaned: her | Label: her | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: crater | Cleaned: crater | Label: crater | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: immensely | Cleaned: immensely | Label: tremendously    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: aider | Cleaned: aider | Label: aider | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: handiwork | Cleaned:  | Label: nan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: student | Cleaned: student | Label: forearm    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: headmaster | Cleaned: headmaste | Label: maharishi    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: caspian sea | Cleaned: caspian sea | Label: caspian sea | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: paralyze | Cleaned: paral | Label: clamp    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: vile | Cleaned: vile | Label: vial    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: store | Cleaned: store | Label: equip    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: basketball team | Cleaned: basketbal team | Label: rotherham united    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fantasies | Cleaned: fantasi | Label: musical    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: even | Cleaned: even | Label: knot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: academic | Cleaned: academic | Label: literary    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: poison | Cleaned: poison | Label: curare    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ambo | Cleaned: ambo | Label: ambo | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: snack | Cleaned: snack | Label: ounce    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: edinburgh | Cleaned: edinburgh | Label: inverness    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: earl | Cleaned: earl | Label: neif    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spot | Cleaned: spot | Label: spot | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: tea urn | Cleaned: te urn | Label: in the bag    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ego | Cleaned: ego | Label: ego | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: abandoned | Cleaned: abandone | Label: orphaned    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: stress | Cleaned: stress | Label: colander    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: intermediary | Cleaned: intermediary | Label: intermediary | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: arachnid | Cleaned: arachnid | Label: arthropod    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pelt | Cleaned: pelt | Label: skin    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sonnet | Cleaned: sonnet | Label: erotic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: model | Cleaned: model | Label: model | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: prison | Cleaned: prison | Label: amoeba    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: migraine | Cleaned: migraine | Label: migraine | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: personality | Cleaned: personality | Label: acknowledge    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: benin | Cleaned: benin | Label: liberia    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: elect | Cleaned: elect | Label: elect | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: danish | Cleaned: danish | Label: eclair    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: candidate | Cleaned: candidat | Label: straight    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bounce | Cleaned: bounce | Label: airbag    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: jeer | Cleaned: jeer | Label: sham    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: transactor | Cleaned: transactor | Label: transactor | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: awful | Cleaned: awful | Label: tequila    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wet | Cleaned: wet | Label: dewy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: prediction | Cleaned: predictio | Label: daphnaida    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lamb | Cleaned: lamb | Label: hash    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bamboo | Cleaned: bamboo | Label: bamboo | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: bind | Cleaned: bind | Label: rapt    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dark | Cleaned: dark | Label: mask    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: eye-opener | Cleaned:  | Label: top-secret    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: barber | Cleaned: barber | Label: barber | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: statesmen | Cleaned: statesmen | Label: minnesotan    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: handy | Cleaned: handy | Label: avail    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ornamented | Cleaned: ornamented | Label: bejewelled    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: brie | Cleaned: brie | Label: gouda    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: doctor | Cleaned: doctor | Label: moscow    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lily of the valley | Cleaned: lily of | Label: milk thistle    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: outburst | Cleaned: outburs | Label: tantrum    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ignore | Cleaned: ignore | Label: abjure    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: selection | Cleaned: selection | Label: cinderella    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: strenuous | Cleaned: strenuous | Label: trickiest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: overt | Cleaned: overt | Label: polar    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ego-search | Cleaned:  | Label: ego    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mole | Cleaned: mole | Label: frogman    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: musicians | Cleaned: musicians | Label: bluebirds    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: guarantor | Cleaned: guarantor | Label: superglue    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: crate | Cleaned: crate | Label: crate | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: ego | Cleaned: ego | Label: smug    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: outdated | Cleaned: outdate | Label: outpost    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: airs and graces | Cleaned:  | Label: smarty-pants    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: decanter | Cleaned: decante | Label: courage    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: foolish | Cleaned: foolis | Label: recess    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: slur | Cleaned: slur | Label: ratbag    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cruel | Cleaned: cruel | Label: grimy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gazer | Cleaned: gazer | Label: decor    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: discord | Cleaned: discord | Label: crumble    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: castle | Cleaned:  | Label: cats    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: formality | Cleaned: formality | Label: flexitime    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cleanup | Cleaned: cleanup | Label: mounties    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: decal | Cleaned: decal | Label: downs    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: titian | Cleaned: titian | Label: bottom    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bat | Cleaned: bat | Label: lam    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ballot box | Cleaned: ballot box | Label: working majority    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: samoa | Cleaned: samoa | Label: maori    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: change | Cleaned: change | Label: change | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: advertising | Cleaned: advertising | Label: furtherance    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: shout | Cleaned: shout | Label: screech    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: departed | Cleaned: departed | Label: abandoned    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wavelength | Cleaned: wavelengt | Label: megahertz    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: way off base | Cleaned: way of base | Label: egg on ones face    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: evil twin | Cleaned:  | Label: pay tv    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: proletarian | Cleaned: proletarian | Label: dialectical    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: urge | Cleaned: urge | Label: cheer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: navigator | Cleaned: navigator | Label: shipmaster    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: paris | Cleaned: paris | Label: reims    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sedge | Cleaned: sedge | Label: sedgy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lean-to | Cleaned:  | Label: lean-to | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: maracas | Cleaned: maracas | Label: maestro    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: recall | Cleaned: recal | Label: occur    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: reversed | Cleaned: reverse | Label: trended    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cap | Cleaned: cap | Label: armet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: race | Cleaned: race | Label: trot    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rater | Cleaned: rater | Label: critic    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: germinate | Cleaned: germinate | Label: speedwell    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: controversy | Cleaned: controver | Label: twentieth    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bear hug | Cleaned: bear hug | Label: bear hugs    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: saline | Cleaned: saline | Label: saline | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: send | Cleaned: send | Label: lock    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rural | Cleaned: rural | Label: rurally    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: viewing | Cleaned: viewing | Label: peaking    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lima | Cleaned: lima | Label: ibex    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: whingey | Cleaned: whingey | Label: ettercap    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: scrabble | Cleaned: scrabble | Label: scrabble | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: string | Cleaned: string | Label: incase    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: elating | Cleaned: elating | Label: amiable    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: star of bethlehem | Cleaned:  | Label: forget-me-not    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: weekday | Cleaned: weekday | Label: dripped    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: press release | Cleaned: press release | Label: press cutting    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: wanderer | Cleaned: wandere | Label: vagrant    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: criminal | Cleaned: crimina | Label: rustler    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: key ingredient | Cleaned: key i | Label: vitamin d    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: hair-trigger | Cleaned:  | Label: hair    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: steel drum | Cleaned: steel drum | Label: steel drum | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: hapless | Cleaned: hapless | Label: diciest    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: award | Cleaned: award | Label: treasurer    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: haze | Cleaned: haze | Label: moch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: uncharacteristically | Cleaned: uncharacteristic | Label: uncle toms cabin    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: entry | Cleaned: entry | Label: aisle    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lilac | Cleaned: lilac | Label: loire    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: grace kelly | Cleaned: grace kell | Label: gravy boat    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: vacation | Cleaned: vacation | Label: honeymoon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: poetic | Cleaned: poetic | Label: poppet    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: jingling | Cleaned: jinglin | Label: tolling    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: echo | Cleaned: echo | Label: echo | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: well | Cleaned: well | Label: glen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bookmark | Cleaned: bookmark | Label: bookshelf    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: mistrust | Cleaned: mistrust | Label: mistrust | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: wiles | Cleaned: wiles | Label: flyby    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: papyrus | Cleaned: papyrus | Label: papyrus | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: cherry blossom | Cleaned: cherry blos | Label: easter lily    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dawdles | Cleaned: dawdles | Label: shadowy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: toadstool | Cleaned: toadstool | Label: mousseron    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: alder | Cleaned: alder | Label: schout    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: kolkata | Cleaned: kolkata | Label: chennai    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: pia | Cleaned: pia | Label: ada    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: naive | Cleaned: naive | Label: naive | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: dwell | Cleaned: dwell | Label: inhere    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: exploit | Cleaned: exploit | Label: exploit | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: refined | Cleaned: refi | Label: arty    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: haydn | Cleaned: haydn | Label: smetana    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: big ben | Cleaned: big ben | Label: medicine ball    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: dwell | Cleaned: dwell | Label: truce    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: billiard table | Cleaned: billiar table | Label: abraham lincoln    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: trifling | Cleaned: trifling | Label: smallish    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: obfuscat | Cleaned: obfusca | Label: no dice    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: beauty | Cleaned: beauty | Label: humdinger    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: disraelli | Cleaned: disraelli | Label: churchillian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ape-man | Cleaned:  | Label: aye-aye    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: in due course | Cleaned: in du cours | Label: sooner or later    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: port | Cleaned: port | Label: role    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sodastream football | Cleaned: sodastr football | Label: fantasy football    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: misrepresentation | Cleaned: misrepresenta | Label: erroneousness    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: restrain | Cleaned: restrai | Label: refrain    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: vaguest | Cleaned: vaguest | Label: vaguest | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: trimming | Cleaned: trimming | Label: froufrou    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: besieged | Cleaned: besieged | Label: stagnate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: academese | Cleaned: academese | Label: technobabble    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: moor | Cleaned: moor | Label: moor | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: fizzy | Cleaned: fizzy | Label: alive    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: gory | Cleaned: gory | Label: grim    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: retiree | Cleaned: retiree | Label: retiree | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: haydn | Cleaned: haydn | Label: haydn | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: renown | Cleaned: renown | Label: renown | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: seminary | Cleaned: seminary | Label: seashell    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: meandering | Cleaned: meandering | Label: serpentine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: i do | Cleaned:  | Label: aye-aye    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: perch | Cleaned: perc | Label: tuna    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: blanket | Cleaned: blanket | Label: topsoil    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: clean sweep | Cleaned: c sweep | Label: a clean sweep    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: discarded | Cleaned: discarde | Label: excluded    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: judge | Cleaned: judge | Label: reeve    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ensure | Cleaned: ensure | Label: ensure | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: estimates | Cleaned: estimates | Label: malaysian    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tea pot brew | Cleaned: te pot bre | Label: in the air    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ruckus | Cleaned: ruckus | Label: fracas    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: glasgow | Cleaned: glasgow | Label: laramie    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: fight | Cleaned: fight | Label: repel    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: climber | Cleaned: climber | Label: olivine    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: drop dead | Cleaned: drop dead | Label: lead balloon    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: tack | Cleaned: tack | Label: tack | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: jambier | Cleaned: jambier | Label: memorabilia    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: nurse practitioner | Cleaned: nurse pract | Label: district nurse    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: caesar | Cleaned: caesar | Label: cicero    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: cannon | Cleaned: canno | Label: ruler    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: rinse | Cleaned: rinse | Label: tonga    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: oddity | Cleaned: oddity | Label: screwy    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: asteroid belt | Cleaned: asteroid belt | Label: asteroid belt | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: lose heart | Cleaned: lose heart | Label: lose heart | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: shot put | Cleaned: shot put | Label: shot put | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: edvard | Cleaned: edvar | Label: ibsen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: bedouin | Cleaned: bedouin | Label: saracen    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: landing | Cleaned: landing | Label: recital    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: agent | Cleaned: agent | Label: broke    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: now | Cleaned: now | Label: now | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: bygone | Cleaned: bygone | Label: obiter    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: natasha | Cleaned: natasha | Label: larissa    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: snowfall | Cleaned: snowfall | Label: rashness    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: petting zoo | Cleaned: pet zo | Label: out of hand    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: petit bourgeois | Cleaned: petit bourge | Label: acute accent    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: lone-wolf | Cleaned:  | Label: polo    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: sahara | Cleaned: sahara | Label: aikona    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: melodrama | Cleaned: melodrama | Label: tearjerker    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: baron | Cleaned: baron | Label: baron | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: false id | Cleaned: false id | Label: dress up    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: again | Cleaned: again | Label: dearn    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: entrees | Cleaned: entrees | Label: trotters    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: spender | Cleaned: spender | Label: expense    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: ivory | Cleaned: ivory | Label: ivory | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: prison | Cleaned: prison | Label: inmate    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: calls up | Cleaned: calls up | Label: clarion call    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: charm | Cleaned: charm | Label: witch    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: liverpool | Cleaned: liverpoo | Label: coventry    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: livid | Cleaned: livid | Label: clare    ❌ 
+---------------------------------------------------------------------------------- 
+
+Raw: art | Cleaned: art | Label: art | correct after cleaning: False ✅ 
+---------------------------------------------------------------------------------- 
+
+Raw: genoa | Cleaned: genoa | Label: treviso    ❌ 
+---------------------------------------------------------------------------------- 
+

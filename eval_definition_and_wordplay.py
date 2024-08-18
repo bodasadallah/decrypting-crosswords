@@ -32,6 +32,11 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 # """
 
 
+import os
+import sys
+os.environ["VLLM_ATTENTION_BACKEND"] = "FLASHINFER"
+
+from vllm import LLM, SamplingParams
 
 
 
@@ -73,10 +78,14 @@ def eval_llama(prompt, clue, target, model, tokenizer, ans='',  definition = ' '
         add_generation_prompt=True
 )
     
-    response = llama3_inference (model, tokenizer, [prompt],do_sample= False,temp=0.1, top_p=0.1 )[0].lower()
+    # response = llama3_inference (model, tokenizer, [prompt],do_sample= False,temp=0.1, top_p=0.1 )[0].lower()
+    response = model.generate([prompt], sampling_params, use_tqdm= False)[0].outputs[0].text.strip().lower()
+
+    # print(response)
+
     for l in response.split('\n'):
             if 'answer:' in l:
-                response = l.split('answer:')[1].strip().replace(',','').replace('.','').replace('?','').replace('!','').strip()
+                response = l.split('answer:')[1].strip().replace(',','').replace('.','').replace('?','').replace('!','').replace('*','').strip()
 
     if re.findall('"([^"]*)"', response):
         response = re.findall('"([^"]*)"', response)[0]
@@ -108,12 +117,14 @@ if __name__ == "__main__":
     parser.add_argument('--eval_definition', action='store_true')
     parser.add_argument('--eval_wordplay', action='store_true')
     parser.add_argument('--eval_clue', action='store_true')
-
     parser.add_argument('--data_path')
     parser.add_argument('--prompt')
     args = parser.parse_args()
 
     dataset = pd.read_csv(args.data_path)
+
+    ### REMOVE #########################
+    # dataset = dataset.sample(frac=0.02).reset_index(drop=True)
 
     definition_acc = 0
     wordplay_acc = 0
@@ -121,20 +132,34 @@ if __name__ == "__main__":
     wordplay_responses = []
 
 
-    if 'Llama' in args.model:
-        model = AutoModelForCausalLM.from_pretrained(
-        args.model,
-        attn_implementation= "flash_attention_2",
-        # quantization_config=None,
-        # trust_remote_code=True,
-        torch_dtype = torch.bfloat16,
-        device_map = 'auto'
-    )
-        model = model.eval()
-        tokenizer = AutoTokenizer.from_pretrained(args.model,padding_side='left')
-        tokenizer.pad_token = tokenizer.eos_token
-        tokenizer.pad_token_id = tokenizer.eos_token_id
-        model.config.pad_token_id = model.config.bos_token_id
+    if 'Llama' in args.model or 'gemma' in args.model:
+
+        model = LLM(
+            model="google/gemma-2-9b-it",
+            # gpu_memory_utilization=0.9,
+            max_model_len=1024
+        )
+        tokenizer = model.get_tokenizer()
+
+        sampling_params = SamplingParams(
+            temperature=0.0, top_p=1, max_tokens=256,
+            stop_token_ids=[tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|eot_id|>")]
+        )
+
+
+    #     model = AutoModelForCausalLM.from_pretrained(
+    #     args.model,
+    #     attn_implementation= "flash_attention_2",
+    #     # quantization_config=None,
+    #     # trust_remote_code=True,
+    #     torch_dtype = torch.bfloat16,
+    #     device_map = 'auto'
+    # )
+    #     model = model.eval()
+    #     tokenizer = AutoTokenizer.from_pretrained(args.model) #,padding_side='left')
+    #     tokenizer.pad_token = tokenizer.eos_token
+    #     tokenizer.pad_token_id = tokenizer.eos_token_id
+    #     model.config.pad_token_id = model.config.bos_token_id
 
 
     # dataset = dataset[-10:]

@@ -1,0 +1,199 @@
+Evaluation of meta-llama/Meta-Llama-3-8B-Instruct
+
+Prompts: 
+ Definition_prompt: You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram: An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+    Example: Ms Reagan is upset by the executives (8)
+    The answer: Managers
+
+- hidden word: The answer is found in the clue itself, amongst other words.
+    Example: Confront them in the tobacco store (6)          
+    The answer: Accost
+
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+    Example: Footwear for pack animals (5)
+    The answer: Mules
+
+- container: One word is placed inside another (or outside another) to get the answer.
+    Example: Curse about the Maori jumper (7)
+    The answer: Sweater
+
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
+    Example:  Brash gets a Prime Minister employment, but it’s drudgery (6,4)  
+    The answer: Donkey work
+Only output the wordplay type.
+Clue: {clue}
+The answer: {ans}
+Output:
+ 
+ Wordplay_prompt:You are a cryptic crosswords expert. I will give you a clue. As you know, every clue has two parts: a definition and wordplay. Please extract the wordplay type from this clue.
+Here is a list of all possible wordplay types, and their descriptions:
+- anagram: An anagram is a word (or words) that, when rearranged, forms a different word or phrase.
+    Example: Ms Reagan is upset by the executives (8)
+    The answer: Managers
+
+- hidden word: The answer is found in the clue itself, amongst other words.
+    Example: Confront them in the tobacco store (6)          
+    The answer: Accost
+
+- double definition:  Clues contain two meanings of the same word.  The words may be pronounced differently, but must be spelt the same.
+    Example: Footwear for pack animals (5)
+    The answer: Mules
+
+- container: One word is placed inside another (or outside another) to get the answer.
+    Example: Curse about the Maori jumper (7)
+    The answer: Sweater
+
+- assemblage: The answer is broken up into smaller parts and each syllable or part is given a separate clue.  These separate clues are then put together into one clue.
+    Example:  Brash gets a Prime Minister employment, but it’s drudgery (6,4)  
+    The answer: Donkey work
+Only output the wordplay type.
+Clue: {clue}
+The answer: {ans}
+Output:
+
+
+Definition Accuracy: 0.0
+Wordplay Accuracy: 0.25384615384615383
+
+
+Definition Responses
+
+
+
+Wordplay Responses
+
+Clue: Proposed name I don't change (9) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Tough guys breaking ribs? Sure! (8) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: File in woodland getting lost (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Utopian novel italicised (10) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Agreed toe is deformed somewhat (2,1,6) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Sterile unit fenced off (10) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Tricky problem, brewing artisan beer (5-6) | Wordplay: ['anagram'] | Response:  anagram | ✅ 
+Clue: Promise to fix toilet pan (9) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Smear pan to cook cheese (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Sibling ignoring the second disturbance (6) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: I'm taken aback by anger? That's an illusion (6) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: Leave on Christmas morning, possibly with papa (6) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Magic transport needs fourth of combustion chambers to run like clockwork (10) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Refuse a black mark (7) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: It may get endless representation (5) | Wordplay: ['assemblage'] | Response: anagram | ❌ 
+Clue: Chap gets older but copes (7) | Wordplay: ['assemblage'] | Response: double definition | ❌ 
+Clue: Sound beginning when hummingbird is rapidly returning (5) | Wordplay: ['assemblage'] | Response: anagram | ❌ 
+Clue: Loco caught by travelling icon, always on the move (7) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Everyone in short dash for US city (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: European power limited by genuine revocation (6) | Wordplay: ['container'] | Response: hidden word | ❌ 
+Clue: Cursed, being literally last in bed (7) | Wordplay: ['container'] | Response: hidden word | ❌ 
+Clue: Trap surrounded by enchantment is irresistible (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Standard offer of a choice of ends for Nottingham (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Cuckoo making beastly noise (7) | Wordplay: ['double definition'] | Response: anagram | ❌ 
+Clue: Encouraging sign from sleepy land? (3) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Back in a short while (6) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Wear out an important part of a car (4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Stipulations for academic periods (5) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: My virtue (8) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Sprite seen in hotel foyer (3) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Error concealed by city police (4) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: In Berlin, dainty girl (5) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Singer in first ENO Rigoletto (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Section of Norman arch is thrown into disorder? (9) | Wordplay: ['hidden word'] | Response: anagram | ❌ 
+Clue: Soft cases used by opera violinists (7) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Begin to understand material one doesn't finish (6,2) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Tie up an awkward flower (7) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Uncommon sense in a German city (5) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Encouraging word for Charlie's predecessor (5) | Wordplay: ['double definition'] | Response: double definition | ✅ 
+Clue: Initiation that's suitable is in British Museum (7) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: Family member doesn't start to let loose (5) | Wordplay: ['assemblage'] | Response:  anagram | ❌ 
+Clue: Province in actual centre of Germany (5) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Simple dish — not as snob ate in mess (5,2,5) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Extremely desirable drug store (5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Youngster swallows large part of tooth (4) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Lights finally low, central heating on, kiss and cuddle (6) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Scrub fork clean for a bit of breakfast (9) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Burned remains after emptying secret store (5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Loss of earnings shocking to Mexican (6,3) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue:  Router sends digger round Bath (10) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Smile, darling, although missing a tooth (7) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Saying little boy almost in shape for ice cream? (7) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: See blonde squirming: why is she red in the face? (9) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Portrait of animal so original (4,4) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Speak badly of drug, taken regularly in tiny amount (7) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Palladium, introducing old character, cut back (6) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: A couple of lines crossing everywhere (3,4) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Beatle's back in USSR, playing tricks (5) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: Check a Buddhist at regular intervals (5) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: Worker occasionally draws injured people (10) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Break out with Toad's means of locomotion (10) | Wordplay: ['anagram'] | Response: anagram | ✅ 
+Clue: Trifling child (5) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Begin to deal with notice on deck (7) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: In airport goddess replaces old Christian (8) | Wordplay: ['container'] | Response: hidden word | ❌ 
+Clue: Stand for show again? (9) | Wordplay: ['double definition'] | Response: anagram | ❌ 
+Clue: Stop outside or go (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Letters from schoolmaster never enforcing discipline (5) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Aspic possibly combined with pepper (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Busts are terribly hard to grasp (8) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Introduce American drug, ignoring blood group (5,2) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: No fewer than fifty each in a test (not English) (2,5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Strong feeling about large person fastening flies? (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Financial supporter not available to back hairdressing product (5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Lowest emotional point of commemoration: a dirge (5) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: The aim's to change a lack of belief in god (7) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Reveal temperature in Spanish city (3,2) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Again plan harvest around first of May (5) | Wordplay: ['container'] | Response: anagram | ❌ 
+Clue: Trade show open (4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Unmarried man excited Chloe in pub (8) | Wordplay: ['container'] | Response: hidden word | ❌ 
+Clue: School prize went to son, finally (4) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Place to set free American skunk (7) | Wordplay: ['anagram'] | Response: hidden word | ❌ 
+Clue: Only partially sanguine about money (6) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: One not allowing large headline (6) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: The French dine from feeding trough(6) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Rock walls enable repression(10) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Timmy Thompson’s secret fantasy(4) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Don’t have to leave(10) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: In which to wash pot(4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Provisional licence obtained?(9) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Like part of viewer’s money invested in Madrid team (7) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: English architect and landscape gardener known in Scotland (4) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Hat that’s extremely comfortable crossing northern lake (6) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Arab friend — European gets one for nothing (11) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Scotland’s own Foreign Department (3) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Ridiculous in a suit in the country (7) | Wordplay: ['anagram'] | Response: container | ❌ 
+Clue: Praise silent type, advancing initially into battle (11) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Make altogether disgusting (5) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: In getting up fast, I remedy fault (7) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Prepare vegetables and quickly see to baby (3,3,4) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Traditional accompaniments that are cut off (9) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Boat that leads the way for others? (7) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Useless worker endlessly about to finish cell extension (7) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Man I have heard on the radio (5) | Wordplay: ['double definition'] | Response: anagram | ❌ 
+Clue: Hoofed mammal in Kansas occasionally (3) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Mischievous goddess had some food (3) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Rescue dog losing tail (8) | Wordplay: ['assemblage'] | Response: anagram | ❌ 
+Clue: Fish holding short stick in biannual event (8) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Compound kept by some Westerners (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Trade vehicles (7) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Some prefer a lion that's untamed (5) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: City offering what’s collected in box for down-and-outs (6) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Weapons found in farmstead (4) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: For example, one / sort of anaesthetic (6) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Quieter part of distillery (7) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Sprinter, perhaps, allowed in running heat (7) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Movable chair some used anywhere (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Change designation of item, an error partly reversed (6) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Proudly claim vessel carries spades (5) | Wordplay: ['container'] | Response: container | ✅ 
+Clue: Maybe Tom from Warrington, one with a lingering happy expression (8,3) | Wordplay: ['double definition'] | Response: hidden word | ❌ 
+Clue: Firm multiplied by showing work of Dickens (4,5) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Safe place to jump (5) | Wordplay: ['double definition'] | Response: container | ❌ 
+Clue: Certain about Chile’s capital being somewhere in the Andes (5) | Wordplay: ['container'] | Response: hidden word | ❌ 
+Clue: No tears about disloyalty (7) | Wordplay: ['anagram'] | Response: double definition | ❌ 
+Clue: Trinity right within you (5) | Wordplay: ['assemblage'] | Response: hidden word | ❌ 
+Clue: This country is in ruin — am I biased? (7) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Come gallantly holding final letter (5) | Wordplay: ['hidden word'] | Response: container | ❌ 
+Clue: Dairy product a girl takes in bed (7) | Wordplay: ['container'] | Response: hidden word | ❌ 
+Clue: Put friend in the picture in a relaxed way (10) | Wordplay: ['assemblage'] | Response: container | ❌ 
+Clue: Guy from Egypt he obliges (4) | Wordplay: ['hidden word'] | Response: hidden word | ✅ 
+Clue: Find beer possibly as favour (8) | Wordplay: ['anagram'] | Response: container | ❌ 
+
+
+Total Clues: 130

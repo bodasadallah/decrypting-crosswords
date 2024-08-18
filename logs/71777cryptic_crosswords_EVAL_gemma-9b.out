@@ -1,0 +1,6 @@
+starting Evaluation.......................
+<class 'dict'>
+------------------Loading boda/guardian_naive_random/test, and using ALL_INCLUSIVE_PROMPT, and 0 shot prompt ------------------
+ Dataset sample: {'input': 'Achy shaking stopped by iodine, salt and kaolin (5,4)', 'target': 'china clay', 'prompt': 'You are a cryptic crossword expert. The cryptic clue consists of a definition and a wordplay.\nThe definition is a synonym of the answer and usually comes at the beginning or the end of the clue.\nThe wordplay gives some instructions on how to get to the answer in another (less literal) way.\nThe number/s in the parentheses at the end of the clue indicates the number of letters in the answer.\nExtract the definiton and the wordplay in the clue, and use them to solve the clue. Finally, output the answer on this format:\nAnswer: <answer>,\nClue:\nAchy shaking stopped by iodine, salt and kaolin (5,4)\n'}
+Loading Base Model google/gemma-2-9b-it
+ ending 

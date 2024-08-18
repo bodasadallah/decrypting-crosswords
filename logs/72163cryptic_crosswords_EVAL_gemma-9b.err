@@ -1,0 +1,13 @@
+Map:   0%|          | 0/28476 [00:00<?, ? examples/s]Map:   9%|▉         | 2639/28476 [00:00<00:01, 21633.05 examples/s]Map:  21%|██        | 5857/28476 [00:00<00:00, 27319.03 examples/s]Map:  31%|███       | 8898/28476 [00:00<00:00, 28659.69 examples/s]Map:  42%|████▏     | 12044/28476 [00:00<00:00, 29730.24 examples/s]Map:  53%|█████▎    | 15189/28476 [00:00<00:00, 30335.91 examples/s]Map:  65%|██████▍   | 18444/28476 [00:00<00:00, 31077.84 examples/s]Map:  76%|███████▌  | 21691/28476 [00:00<00:00, 31254.45 examples/s]Map:  88%|████████▊ | 24948/28476 [00:00<00:00, 31664.47 examples/s]Map: 100%|██████████| 28476/28476 [00:00<00:00, 31001.18 examples/s]Map: 100%|██████████| 28476/28476 [00:00<00:00, 30048.57 examples/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:08<00:24,  8.04s/it]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:14<00:13,  6.89s/it]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:22<00:07,  7.47s/it]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:30<00:00,  7.70s/it]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:30<00:00,  7.59s/it]
+
+  0%|          | 0/50 [00:00<?, ?it/s]  0%|          | 0/50 [00:01<?, ?it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/mbzuai/decrypting-crosswords/evaluate.py", line 158, in <module>
+[rank0]:     ans = x.output.outputs[0].text.lower()
+[rank0]: AttributeError: 'RequestOutput' object has no attribute 'output'. Did you mean: 'outputs'?

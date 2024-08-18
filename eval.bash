@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=cryptic_crosswords_EVAL_llama3_word_init_no_samle # Job name
+#SBATCH --job-name=cryptic_crosswords_EVAL_gemma-9b # Job name
 #SBATCH --error=logs/%j%x.err # error file
 #SBATCH --output=logs/%j%x.out # output log file
 #SBATCH --nodes=1                   # Run all processes on a single node    
@@ -8,9 +8,8 @@
 #SBATCH --mem=40G                   # Total RAM to be used
 #SBATCH --cpus-per-task=8          # Number of CPU cores
 #SBATCH --gres=gpu:1                # Number of GPUs (per node)
-#SBATCH -p gpu                      # Use the gpu partition
+#SBATCH -p it-hpc                      # Use the gpu partition
 #SBATCH --time=12:00:00             # Specify the time needed for your experiment
-#SBATCH --qos=gpu-8 
 
 
 # "meta-llama/Meta-Llama-3-8B" \
@@ -22,21 +21,21 @@ echo "starting Evaluation......................."
 
 DATASET="guardian_naive_random"
 # DATASET="guardian_word_initial_disjoint"
-MODEL="Meta-Llama-3-8B-Instruct"
-# MODEL="Meta-Llama-3-8B"
+# MODEL="Meta-Llama-3-8B-Instruct"
+MODEL=""gemma-2-9b-it""
 ###################### RUN LLM Eval ######################
 python evaluate.py \
     --split "test" \
     --dataset "boda/${DATASET}" \
-    --model_name_or_path "meta-llama/${MODEL}" \
-    --tokenizer_name_or_path "meta-llama/${MODEL}" \
-    --wandb_run_name "llama3-base-prompt-${DATASET}-0-shot" \
-    --prompt_head "ALL_INCLUSIVE_PROMPT" \
+    --model_name_or_path "google/${MODEL}" \
+    --tokenizer_name_or_path "google/${MODEL}" \
+    --wandb_run_name "gemma-base-prompt-${DATASET}-0-shot" \
+    --prompt_head "LLAMA3_BASE_PROMPT" \
     --save_model_predicitons "yes" \
-    --save_folder "results/${MODEL}-${DATASET}-all_inclusive" \
+    --save_folder "results/${MODEL}-${DATASET}-base" \
     --quantize False \
     --do_sample False \
-    --per_device_eval_batch_size 32 \
+    --per_device_eval_batch_size 128 \
     --num_examples 0 \
     --wandb_project "cryptic_crosswords" \
     --checkpoint_path "" \
@@ -44,7 +43,7 @@ python evaluate.py \
     --top_p 0.9 \
     --temperature 0.6 \
     --n_shots 0 \
-    --max_new_tokens 1024 \
+    --max_new_tokens 32 \
     --write_outputs_in_results True \
     --logging_dir "logs" \
     --prompt_key "prompt" \

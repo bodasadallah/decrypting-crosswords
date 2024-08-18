@@ -1,0 +1,20 @@
+starting Evaluation.......................
+------------------Loading boda/guardian_naive_random/test, and using LLAMA3_BASE_PROMPT, and 0 shot prompt ------------------
+ Dataset sample: {'input': 'Achy shaking stopped by iodine, salt and kaolin (5,4)', 'target': 'china clay', 'prompt': 'You are a cryptic crossword expert. You are given a clue for a cryptic crossword. Output only the answer. \nclue:\nAchy shaking stopped by iodine, salt and kaolin (5,4)\noutput:\n'}
+Loading Base Model meta-llama/Meta-Llama-3-8B
+Predictions saved to results/llama3-naive_random_predictions.txt
+Running Evaluation
+Number of Examples 28476
+
+ Cleaned ACCURACY:  0.004565247928079786
+
+Orginal ACCURACY:  0.004249192302289647
+
+Length error:  0.8288734372805169
+
+Original Length error:  0.8288734372805169
+
+----------------------------------------------------- 
+
+
+ ending 
