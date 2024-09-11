@@ -14,29 +14,33 @@
 # gpt-3.5-turbo 
 
 # "google/gemma-2-9b-it"
-python eval_definition_and_wordplay.py \
---model  google/gemma-2-9b-it  \
---output_file "results/included_results/gemma_1k_all-inclusve_no_def.txt" \
---data_path "data/georgo_ho_clues_sampled.csv" \
---prompt ALL_INCLUSIVE_PROMPT \
---eval_clue 
-# --eval_definition 
-# WORDPLAY_WITH_DEF_PROMPT
-echo " ending "
+# python eval_definition_and_wordplay.py \
+# --model  google/gemma-2-9b-it  \
+# --output_file "results/included_results/gemma_1k_all-inclusve_no_def.txt" \
+# --data_path "data/georgo_ho_clues_sampled.csv" \
+# --prompt ALL_INCLUSIVE_PROMPT \
+# --eval_clue 
+# # --eval_definition 
+# # WORDPLAY_WITH_DEF_PROMPT
+# echo " ending "
 
 
 # # "google/gemma-2-9b-it"
-# python eval_definition_and_wordplay.py \
-# --model  google/gemma-2-9b-it  \
-# --output_file "results/included_results/gemma_wordplay_ex_130.txt" \
-# --data_path "data/Clues extended.csv" \
-# --prompt WORDPLAY_WITH_DEF_EX_PROMPT \
-# --eval_wordplay
+CUDA_VISIBLE_DEVICES=3
+python eval_definition_and_wordplay.py \
+--model  gpt-3.5-turbo  \
+--output_file "results/included_results/chatgpt_WORDPLAY_PROMPT_200.txt" \
+--data_path "data/200_clues.csv" \
+--prompt WORDPLAY_PROMPT \
+--eval_wordplay
 
+# # google/gemma-2-9b-it
+# gpt-3.5-turbo
+# meta-llama/Meta-Llama-3-8B-Instruct
 # WORDPLAY_WITH_DEF_EX_PROMPT_ANS
 # WORDPLAY_WITH_DEF_EX_PROMPT
 # WORDPLAY_PROMPT
 # --eval_definition 
 # --eval_clue \
 # WORDPLAY_WITH_DEF_PROMPT
-# echo " ending "     
+echo " ending "     

@@ -49,7 +49,8 @@ def chatgpt_eval(prompt, clue, target, ans='', definition = ' '):
     messages=[
         clue_message
     ],
-    # temperature=0.0,
+    temperature=1e-17,
+    top_p= 1e-9
     )
     response = completion.choices[0].message.content.lower().strip()
     for l in response.split('\n'):
@@ -123,8 +124,9 @@ if __name__ == "__main__":
 
     dataset = pd.read_csv(args.data_path)
 
-    ### REMOVE #########################
-    # dataset = dataset.sample(frac=0.02).reset_index(drop=True)
+    print(f'wordplay type statistics: {dataset["Type"].value_counts()}')
+
+
 
     definition_acc = 0
     wordplay_acc = 0
@@ -134,32 +136,32 @@ if __name__ == "__main__":
 
     if 'Llama' in args.model or 'gemma' in args.model:
 
+        # if 'gemma' in args.model:
         model = LLM(
-            model="google/gemma-2-9b-it",
+            model=args.model,
             # gpu_memory_utilization=0.9,
             max_model_len=1024
         )
         tokenizer = model.get_tokenizer()
-
         sampling_params = SamplingParams(
             temperature=0.0, top_p=1, max_tokens=256,
             stop_token_ids=[tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|eot_id|>")]
-        )
+            )
+        # else:
 
-
-    #     model = AutoModelForCausalLM.from_pretrained(
-    #     args.model,
-    #     attn_implementation= "flash_attention_2",
-    #     # quantization_config=None,
-    #     # trust_remote_code=True,
-    #     torch_dtype = torch.bfloat16,
-    #     device_map = 'auto'
-    # )
-    #     model = model.eval()
-    #     tokenizer = AutoTokenizer.from_pretrained(args.model) #,padding_side='left')
-    #     tokenizer.pad_token = tokenizer.eos_token
-    #     tokenizer.pad_token_id = tokenizer.eos_token_id
-    #     model.config.pad_token_id = model.config.bos_token_id
+        #     model = AutoModelForCausalLM.from_pretrained(
+        #     args.model,
+        #     attn_implementation= "flash_attention_2",
+        #     # quantization_config=None,
+        #     # trust_remote_code=True,
+        #     torch_dtype = torch.bfloat16,
+        #     device_map = 'auto'
+        # )
+        #     model = model.eval()
+        #     tokenizer = AutoTokenizer.from_pretrained(args.model) #,padding_side='left')
+        #     tokenizer.pad_token = tokenizer.eos_token
+        #     tokenizer.pad_token_id = tokenizer.eos_token_id
+        #     model.config.pad_token_id = model.config.bos_token_id
 
 
     # dataset = dataset[-10:]
