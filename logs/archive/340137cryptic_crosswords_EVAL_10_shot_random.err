@@ -1,45 +1,0 @@
-2024-02-13 12:54:14.265817: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
-2024-02-13 12:54:14.320240: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2024-02-13 12:54:14.320648: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2024-02-13 12:54:14.321777: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2024-02-13 12:54:14.327613: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-02-13 12:54:15.443750: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.68s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]
-  0%|          | 0/445 [00:00<?, ?it/s]  0%|          | 0/445 [00:04<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/evaluate_llm.py", line 139, in <module>
-    output_text, answer_lengths = inference(prompts=prompts, tokenizer=tokenizer, generation_config=generation_config, model=model)
-  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/evaluate_llm.py", line 45, in inference
-    outputs = model.generate(
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 1719, in generate
-    return self.sample(
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2801, in sample
-    outputs = self(
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/accelerate/hooks.py", line 164, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1034, in forward
-    outputs = self.model(
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/accelerate/hooks.py", line 164, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 922, in forward
-    layer_outputs = decoder_layer(
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/accelerate/hooks.py", line 164, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 672, in forward
-    hidden_states, self_attn_weights, present_key_value = self.self_attn(
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/accelerate/hooks.py", line 164, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/abdelrahman.sadallah/mambaforge/envs/nlp/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 382, in forward
-    key_states = torch.cat([past_key_value[0], key_states], dim=2)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 200.00 MiB (GPU 0; 39.59 GiB total capacity; 32.34 GiB already allocated; 102.62 MiB free; 38.12 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

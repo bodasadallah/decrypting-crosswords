@@ -9,7 +9,7 @@ import torch
 from inference import llama3_inference
 import re
 from calc_scores import calc_and_save_acc
-from utils import crop_predictions
+from utils.utils import crop_predictions
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -164,7 +164,6 @@ if __name__ == "__main__":
         #     model.config.pad_token_id = model.config.bos_token_id
 
 
-    # dataset = dataset[-10:]
 
     clues = []
     correct_answers = []

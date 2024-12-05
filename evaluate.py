@@ -16,7 +16,7 @@ from tqdm import tqdm
 import emoji
 import argparse
 from peft import PeftModel    
-from utils import get_dataset,crop_predictions
+from utils.utils import get_dataset,crop_predictions
 from transformers import HfArgumentParser, Seq2SeqTrainingArguments,EarlyStoppingCallback
 from arguments import ModelArguments, DataArguments, QuantizationArguments
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, AutoTokenizer
@@ -52,9 +52,6 @@ if __name__ == "__main__":
 
     print(type(args))
     with open(f'{save_folder}/args.json', 'w') as f:
-        # json.dump(vars(model_args), f)
-        # json.dump(vars(data_args), f)
-        # json.dump(vars(quatization_args), f)
         json.dump(args, f)
        
 

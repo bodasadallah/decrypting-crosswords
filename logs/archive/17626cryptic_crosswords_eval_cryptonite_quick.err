@@ -1,19 +1,0 @@
-/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/torch/cuda/__init__.py:546: UserWarning: Can't initialize NVML
-  warnings.warn("Can't initialize NVML")
-2024-02-12 12:30:37.924568: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
-2024-02-12 12:30:37.924702: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
-2024-02-12 12:30:38.126633: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
-2024-02-12 12:30:38.543048: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-02-12 12:30:40.489086: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/bitsandbytes/cextension.py:34: UserWarning: The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
-  warn("The installed version of bitsandbytes was compiled without GPU support. "
-Map:   0%|          | 0/1098 [00:00<?, ? examples/s]Map: 100%|██████████| 1098/1098 [00:00<00:00, 11015.86 examples/s]
-Traceback (most recent call last):
-  File "/home/abdelrahman.sadallah/mbzuai/decrypting-crosswords/llms/evaluate_llm.py", line 97, in <module>
-    model = AutoModelForCausalLM.from_pretrained(
-  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 566, in from_pretrained
-    return model_class.from_pretrained(
-  File "/home/abdelrahman.sadallah/.conda/envs/nlp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2714, in from_pretrained
-    raise ImportError(
-ImportError: Using `load_in_8bit=True` requires Accelerate: `pip install accelerate` and the latest version of bitsandbytes `pip install -i https://test.pypi.org/simple/ bitsandbytes` or pip install bitsandbytes` 

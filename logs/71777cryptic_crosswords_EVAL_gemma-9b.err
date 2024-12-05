@@ -1,32 +1,0 @@
-Downloading readme:   0%|          | 0.00/529 [00:00<?, ?B/s]Downloading readme: 100%|██████████| 529/529 [00:00<00:00, 2.63MB/s]
-Downloading data:   0%|          | 0.00/3.98M [00:00<?, ?B/s]Downloading data: 100%|██████████| 3.98M/3.98M [00:00<00:00, 7.06MB/s]Downloading data: 100%|██████████| 3.98M/3.98M [00:00<00:00, 7.02MB/s]
-Downloading data:   0%|          | 0.00/1.33M [00:00<?, ?B/s]Downloading data: 100%|██████████| 1.33M/1.33M [00:00<00:00, 3.08MB/s]Downloading data: 100%|██████████| 1.33M/1.33M [00:00<00:00, 3.08MB/s]
-Downloading data:   0%|          | 0.00/1.33M [00:00<?, ?B/s]Downloading data: 100%|██████████| 1.33M/1.33M [00:00<00:00, 3.31MB/s]Downloading data: 100%|██████████| 1.33M/1.33M [00:00<00:00, 3.30MB/s]
-Generating train split:   0%|          | 0/85428 [00:00<?, ? examples/s]Generating train split:   1%|          | 1000/85428 [00:00<00:19, 4421.84 examples/s]Generating train split: 100%|██████████| 85428/85428 [00:00<00:00, 264325.56 examples/s]
-Generating test split:   0%|          | 0/28476 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 28476/28476 [00:00<00:00, 131166.57 examples/s]Generating test split: 100%|██████████| 28476/28476 [00:00<00:00, 129484.06 examples/s]
-Generating validation split:   0%|          | 0/28476 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 28476/28476 [00:00<00:00, 702541.66 examples/s]
-Map:   0%|          | 0/28476 [00:00<?, ? examples/s]Map:   3%|▎         | 861/28476 [00:00<00:04, 5916.39 examples/s]Map:   7%|▋         | 2072/28476 [00:00<00:06, 4381.76 examples/s]Map:  11%|█         | 3000/28476 [00:00<00:04, 5532.48 examples/s]Map:  14%|█▍        | 4000/28476 [00:00<00:04, 5687.75 examples/s]Map:  18%|█▊        | 5044/28476 [00:00<00:04, 5228.82 examples/s]Map:  21%|██        | 6047/28476 [00:01<00:03, 6018.61 examples/s]Map:  25%|██▍       | 7000/28476 [00:01<00:03, 6624.84 examples/s]Map:  32%|███▏      | 9150/28476 [00:01<00:01, 10158.21 examples/s]Map:  36%|███▋      | 10385/28476 [00:01<00:02, 8866.64 examples/s]Map:  42%|████▏     | 11858/28476 [00:01<00:01, 8837.52 examples/s]Map:  45%|████▌     | 12895/28476 [00:01<00:01, 8079.57 examples/s]Map:  52%|█████▏    | 14723/28476 [00:01<00:01, 10302.39 examples/s]Map:  59%|█████▊    | 16665/28476 [00:02<00:00, 12466.59 examples/s]Map:  66%|██████▌   | 18681/28476 [00:02<00:00, 10476.28 examples/s]Map:  74%|███████▍  | 21059/28476 [00:02<00:00, 11960.51 examples/s]Map:  83%|████████▎ | 23611/28476 [00:02<00:00, 14829.75 examples/s]Map:  91%|█████████▏| 26049/28476 [00:02<00:00, 17046.00 examples/s]Map: 100%|█████████▉| 28393/28476 [00:02<00:00, 18637.14 examples/s]Map: 100%|██████████| 28476/28476 [00:02<00:00, 10371.79 examples/s]
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:29,  9.86s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.72s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:36<00:00,  8.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:36<00:00,  9.14s/it]
-  0%|          | 0/890 [00:00<?, ?it/s]/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-  0%|          | 1/890 [08:30<125:56:44, 510.02s/it]  0%|          | 1/890 [08:31<126:22:43, 511.77s/it]
-Traceback (most recent call last):
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/mbzuai/decrypting-crosswords/evaluate.py", line 117, in <module>
-    batch_predictions = llama3_inference(model,
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/mbzuai/decrypting-crosswords/inference.py", line 26, in llama3_inference
-    outputs = model.generate(**inputs,
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 1989, in generate
-    result = self._sample(
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2932, in _sample
-    outputs = self(**model_inputs, return_dict=True)
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/fsx/homes/Abdelrahman.Sadallah@mbzuai.ac.ae/miniforge3/envs/nlp/lib/python3.10/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 964, in forward
-    logits = logits.float()
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.67 GiB. GPU 

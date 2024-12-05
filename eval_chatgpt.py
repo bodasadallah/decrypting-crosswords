@@ -2,7 +2,7 @@
 from openai import OpenAI, AsyncOpenAI
 import asyncio
 import os
-from utils import get_dataset,get_ans_words_chard
+from utils.utils import get_dataset,get_ans_words_chard
 from datasets import load_dataset
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 from tqdm import tqdm   
@@ -29,7 +29,7 @@ def save_results(temp, file_name):
         
 
 # %%
-from utils import get_dataset,generate_prompt
+from utils.utils import get_dataset,generate_prompt
 import prompts
 
 import numpy as np
@@ -142,7 +142,7 @@ assert len(chatgpt_outputs) == len(correct_answers)
 
 # %%
 from calc_scores import calc_and_save_acc
-from utils import crop_predictions
+from utils.utils import crop_predictions
 import pandas as pd
 
 data_args = pd.DataFrame({

@@ -1,11 +1,12 @@
 #
 experiments/
 # decrypt/
-data/
+datasets/
 experiment_runs/
 *.zip
 wandb/
 .vscode/
+logs/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
