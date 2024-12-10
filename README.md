@@ -1,56 +1,35 @@
 # decrypting-crosswords
 
 ## Abstract
-Cryptic crosswords are puzzles that rely on general knowledge and the ability to manipulate language on different levels. Solving such puzzles is a challenge for modern NLP models.
-In this project, we build on the previous work of Rozner et al. (2021) and attempt to train a machine-learning model that can solve cryptic clues. 
-First, we reproduce the results of Rozner et al. (2021) using T5 model and pre-training on simpler tasks. 
-Second, we use Large Language Models (LLMs) by prompting them to solve the clues. Third, we fine-tune LLMs using QLoRA.
+Cryptic crosswords are puzzles that rely on general knowledge and the solver's ability to manipulate language on different levels, dealing with various types of wordplay. Previous research suggests that solving such puzzles is challenging even for modern NLP models, including Large Language Models (LLMs). However, there is little to no research on the reasons for their poor performance on this task. In this paper, we establish the benchmark results for three popular LLMs: {\tt Gemma2}, {\tt Llama3} and {\tt ChatGPT}, showing that their performance on this task is still significantly below that of humans. We also investigate why these models struggle to achieve superior performance.
 
 
 ## Repo Structure
 
-### decrypt:
-Contains the base code from [Rozner's repository](https://github.com/jsrozner/decrypt), which we added to our experiments. 
-Some parts of the code were broken and we fixed it, so this code differs from the main repo.
+### data:
+Contains our introduced datasets. Including our introduced [Small explanatory dataset](https://huggingface.co/datasets/boda/small_explanatory_dataset) and [Times for the Times dataset]([url](https://huggingface.co/datasets/boda/times_for_the_times_sampled)).  We don't include the original data from [Rozner et al.](https://arxiv.org/abs/2104.08620), but we upload it to [HF](https://huggingface.co/datasets/boda/guardian_naive_random)
 
-### llms
-This contains the scripts for evaluating LLMs, as well as our fine-tuning scripts. 
 
-## Run
-### T5 Baseline
-```bash
-cd decrypt
-```
-#### Training
-customize different training arguments at `run.sh`, then run:
+### Results
+Contains all results for different experiments
 
-```bash
-bash run.sh
-```
+### Outputs
+Contains the raw models' outputs
+### dataset_manipulation
+Contains script for all data processing.
 
-#### Evaluation
+
+### Prompts
+All used prompts are included in `prompts.py` file
+
+### Zero-shot Evaluation
 customize the different training arguments at `eval.sh`, then run:
 
 ```bash
 bash eval.sh
 ```
-
-### LLM Evaluation, and Fine-tuning
+### Definition  extraction and Wordplay detection
 ```bash
-cd llms
-```
-#### Training
-customize the different training arguments at `run.sh`, then run:
-
-```bash
-bash finetune.sh
-```
-
-#### Evaluation
-This can be used to run few-shot evaluation, or evaluating fine-tuned models.
-
-customize the different training arguments at `eval.sh`, then run:
-```bash
-bash run_llm.sh
+bash eval_def_wordplay.bash
 ```
 ### 
